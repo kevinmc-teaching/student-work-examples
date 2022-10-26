@@ -1,0 +1,427 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Sources || CheemArticles</title>
+    <link rel="icon" type="image/png" href="images/logo/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/logo/favicon-16x16.png" sizes="16x16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    
+    <script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+</head>
+<body id="body" class="overlay-close">
+    <div class="notification animated" id="notification">
+        <i class="fa fa-exclamation-triangle" id="noti_icon_error" aria-hidden="true"></i>
+        <i class="fa fa-check-circle" id="noti_icon_success" aria-hidden="true"></i><span id="noti_message"></span>
+    </div>
+    <div class="search-overlay animated" id="search-overlay">
+        <div class="container search-close-container">
+            <span class="search-close"><i class="fa fa-times-circle" id="close-search" onclick="closesearch();" aria-hidden="true"></i></span>
+
+        </div>
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Type and hit enter" /><i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div id="mob_menu" class="mobile-menu-full animated">
+    </div>
+    <div class="header_and_social clearfix">
+        <header id="header">
+            <div class="header-container animated slideInDown clearfix">
+                <div class="container">
+                    <div class="logo-container">
+                        <img src="images/logo/initial_logo.png" class="logo-image" alt="Logo" />
+                    </div>
+                    <nav id="full-menu" class="menu clearfix">
+                        <ul id="main-menu" class="ul-main-menu">
+                            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="home">Home</span></a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#" class="show-submenu" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">Categories</a>
+                                <ul id="submenu" class="submenu animated" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">
+                                    <li><a href="#featured-trick" onclick="close_mob_menu();">Featured</a></li>
+                                    <li><a href="#latest" onclick="close_mob_menu();">Latest</a></li>
+                                    <li><a href="#popularteasers" onclick="close_mob_menu();">Popular</a></li>
+                                    <li><a href="#trending" onclick="close_mob_menu();">Trending</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li id="mobile-menu" class="mobile_menu"><i class="fa fa-bars" id="open-mob-menu" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-search" id="open-search" onclick="opensearch()" aria-hidden="true"></i></li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+        </header>
+        <div class="social-top container">
+            <a href="#"><i class="fa fa-facebook white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram white" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="parallax">
+        <section class="myparallax__sources">
+            <div class="container clearfix">
+                <h2 class="section-title">Sources</h2>
+                <div class="sources">
+                    <div id="filter_btn" class="filter_buttons">
+                    <span id="all" onclick="filtersource('all');">All</span> 
+                    <span id="index" onclick="filtersource('index');">Index Page</span>
+                    <span id="story" onclick="filtersource('story');">Story Page</span>
+                    <span id="contact" onclick="filtersource('contact');">Contact Page</span>
+                    <span id="error" onclick="filtersource('error');">Error Page</span>
+                        </div> 
+                    <table id="source_table" class="clearfix animated fadeIn">
+                        <!--<tr>
+    <th>Content</th>
+    <th>Source</th>
+    <th>Content</th>
+    <th>Source</th>
+  </tr>-->
+                        <tr class="clearfix">
+                            <td class="fadeineffect">
+                                <img src="images/sources/1.jpg" alt="Video background of Index Page" />
+                                <div class="source_description"><a class="source_link" href="https://www.flickr.com/photos/markjsebastian/3727252404/" target="_blank">Flickr.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/2.jpg" alt="7 amazing and Famous tattoo artists of all time" />
+                                <div class="source_description"><a class="source_link" href="https://www.splitshire.com/tattooed-girl-portrait/" target="_blank">Splitshire.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/32.jpg" alt="Step by step instructions to style your vacation looks" />
+                                <div class="source_description"><a class="source_link" href="https://www.goodfreephotos.com/people/sexy-female-model-in-bikini.jpg.php" target="_blank">Goodfreephotos.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/3.jpg" alt="The development of the bearded gentleman" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/necktie-tie-fashion-beard-male-1209416/" target="_blank">Pixabay.com</a></div>
+                            </td>                        
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/4.jpg" alt="The main 3 sets of shoes you require" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/feet-footwear-nike-shoes-sneakers-1840619/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/5.jpg" alt="Latest Background Image" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/fashion-female-fashion-handbag-1271800/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/6.jpg" alt="Winter street trip dressing: Our Style Panel offers tips for voyaging" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/search/photos/blonde?photo=0xDnGYaRq3M" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/7.jpg" alt="20 glasses to combine with night wear since it's thoroughly cool." />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/girl-beauty-studio-seductive-1252995/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                        
+
+
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/8.jpg" alt="Magnificence Fix: How to shroud tan lines while wearing a strapless dress" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/photos/oiVWcl_jKOQ" target="_blank">Unsplash.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/9.jpg" alt="8 watches you should have for your complete formal look" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/@jeremybeadle?photo=qnU-UR0o5X8" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/10.jpg" alt="The most effective style to wear denim shorts: 5 Style Panel tips" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/photos/-yPg8cusGD8" target="_blank">Unsplash.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/11.jpg" alt="Method to style sizzling swimwear: 10 Style Panel tips from desginers" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/@chrisjoelcampbell?photo=wtZgw1nQ3FI" target="_blank">Pixabay.com</a></div>
+                            </td>
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/12.jpg" alt="10 things you need to consider before getting any tattoo on your body" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/hands-tattoos-rings-accessories-1031131/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/13.jpg" alt="The 10 greatest men's prepping trends this year, from men buns to beards" />
+                                <div class="source_description"><a class="source_link" href="https://imagefinder.co/photo/86534/" target="_blank">Imagefinder.co</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/14.jpg" alt="Black for winters: 5 Style Panel tips for wearing one of this magnificence" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/man-roads-forest-male-men-1150058/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/15.jpg" alt="How I quit stressing over my swimming outfit body and figured out how to love" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/bikini-woman-sexy-female-girl-918550/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/16.jpg" alt="Jesse Pinkman: 15 Reasons that why You must Start smoking right away" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/man-glasses-hipster-beard-adult-597179/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/17.jpg" alt="Ways to coordinate your lipstick and redden to steal the party" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/girl-red-hair-makeup-russian-model-1848454/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/18.jpg" alt="Ramjot Manjhu" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/portrait-character-black-and-white-1535266/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/19.jpg" alt="Shakti Singh Cheema" />
+                                <div class="source_description"><a class="source_link" href="https://imagefinder.co/photo/86534/" target="_blank">Imagefinder.co</a></div>
+                            </td>
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/20.jpg" alt="Sonakshi Sinha" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/girl-beauty-studio-seductive-1252995/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/21.jpg" alt="Background Image for Popular Section" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/model-fashion-glamour-girl-female-600238/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/22.jpg" alt="Background Image For Trending Section" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/boy-winter-snow-smoke-girl-white-1275645/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/23.jpg" alt="Background Image For Footer" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/photos/2zbW6zNU6cI" target="_blank">Unsplash.com</a></div>
+                            </td>
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/24.jpg" alt="Instagram Picture Amelia" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/beauty-model-pose-beautiful-female-422700/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/25.jpg" alt="Instagram Picture Lucas" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/boy-person-model-fashion-casual-1031527/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/26.jpg" alt="Instagram Picture Adele" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/fashion-beauty-model-portrait-girl-1063100/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/27.jpg" alt="Instagram Picture Flora" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636868/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                        
+                            <td class="fadeineffect">
+                                <img src="images/sources/28.jpg" alt="Instagram Picture Ivy" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/fashion-woman-beauty-leisure-model-1636872/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/29.jpg" alt="Instagram Picture Noah" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/man-boy-portrait-blonde-style-919045/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/30.jpg" alt="Instagram Picture Heather" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/photos/3XARXIgsoqY" target="_blank">Unsplash.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/31.jpg" alt="Instagram Picture Liam" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/portrait-fashion-man-men-fashion-1287413/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                       
+                            <td class="fadeineffect">
+                                <img src="images/sources/33.jpg" alt="Background Image of Story Page" />
+                                <div class="source_description"><a class="source_link" href="https://www.splitshire.com/beautiful-girl-lying-grass/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/34.jpg" alt="Tattoo Artist Doing Job" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/tattoo-tattoo-artist-body-drawing-1843620/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/35.jpg" alt="Girl with tattoo" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/photos/r6XRxJ8zf7M" target="_blank">Unsplash.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/36.jpg" alt="Girl with tattoo on back" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/tattoo-body-art-move-painted-woman-1205680/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                       
+                            <td class="fadeineffect">
+                                <img src="images/sources/37.jpg" alt="Girl with tattoo on arm and back" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/woman-tattoos-female-model-fashion-1210061/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/38.jpg" alt="Background Image of Error Page" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/sad-girl-girl-crying-sorrow-actress-1382940/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/39.jpg" alt="Background Image of Contact Page" />
+                                <div class="source_description"><a class="source_link" href="https://unsplash.com/photos/yBJw1up4n44" target="_blank">Unsplash.com</a></div>
+                            </td>
+                            <td class="fadeineffect">
+                                <img src="images/sources/40.jpg" alt="Background Image of Sources Page" />
+                                <div class="source_description"><a class="source_link" href="https://pixabay.com/en/lonely-portrait-advertisement-814631/" target="_blank">Pixabay.com</a></div>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Fonts</h2>
+                    <p>
+                        Fonts are used from google fonts 
+                    <a href="https://fonts.google.com/specimen/Roboto+Condensed" target="_blank">Roboto Condensed</a>,
+                    <a href="https://fonts.google.com/specimen/Raleway" target="_blank">Raleway</a> and
+                    <a href="https://fonts.google.com/specimen/Six+Caps" target="_blank">Six Caps</a>
+                    </p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Font icons</h2>
+                    <p>Font icons used from <a href="http://fontawesome.io/" target="_blank">Font Awesome</a></p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Story Content</h2>
+                    <p>
+                        Story content picked from wikipedia 
+                     <a href="https://en.wikipedia.org/wiki/Kat_Von_D" target="_blank">Kat Von D</a>,
+                    <a href="https://en.wikipedia.org/wiki/Paul_Booth_(tattoo_artist)" target="_blank">Paul Booth</a>,
+                        <a href="https://en.wikipedia.org/wiki/Corey_Miller_(tattoo_artist)" target="_blank">Corey Miller</a>,
+                        <a href="https://en.wikipedia.org/wiki/Mister_Cartoon" target="_blank">Mister Cartoon</a>,
+                        <a href="https://en.wikipedia.org/wiki/Don_Ed_Hardy" target="_blank">Don Ed Hardy</a>,
+                        <a href="https://en.wikipedia.org/wiki/Louis_Molloy" target="_blank">Louis Molloy</a> and
+                        <a href="https://en.wikipedia.org/wiki/Chris_Garvers" target="_blank">Chris Garver</a>
+                    </p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Comment Section</h2>
+                    <p>
+                        Comment section embedded from
+                     <a href="https://disqus.com/" target="_blank">Disqus.com</a>
+                    </p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Animations</h2>
+                    <p>
+                        Animations done by 
+                     <a href="https://daneden.github.io/animate.css/" target="_blank">Animate.css</a>
+                    </p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Viewport Checker</h2>
+                    <p>
+                        Viewport checker used in javascript from
+                     <a href="https://github.com/dirkgroenen/jQuery-viewport-checker" target="_blank">Jquery-Viewport-Checker</a>
+                    </p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Contact Form</h2>
+                    <p>
+                        Contact form embedded from 
+                     <a href="https://formspree.io/" target="_blank">Formspree</a>
+                    </p>
+                </div>
+                <div class="other_source fadeineffect">
+                    <h2 class="section-title ">Map</h2>
+                    <p>
+                        Map included from
+                     <a href="https://www.google.ca/maps" target="_blank">Google Maps</a>
+                    </p>
+                </div>
+            </div>
+            <div class="section-end"></div>
+
+        </section>
+
+        <div id="footer" class="myparallax__footer footer">
+            <div class="container clearfix">
+                <div class="footer_1">
+                    <h1 class="fadeineffect">Instagram Gallery</h1>
+                    <div class="instagram-gallery clearfix">
+                        <img src="images/instagram/1.jpg" class="fadeineffect" alt="Instagram Picture Amelia" />
+                        <img src="images/instagram/2.jpg" class="fadeineffect" alt="Instagram Picture Lucas" />
+                        <img src="images/instagram/3.jpg" class="fadeineffect" alt="Instagram Picture Adele" />
+                        <img src="images/instagram/4.jpg" class="fadeineffect" alt="Instagram Picture Flora" />
+                        <img src="images/instagram/5.jpg" class="fadeineffect" alt="Instagram Picture Ivy" />
+                        <img src="images/instagram/6.jpg" class="fadeineffect" alt="Instagram Picture Noah" />
+                        <img src="images/instagram/7.jpg" class="fadeineffect" alt="Instagram Picture Heather" />
+                        <img src="images/instagram/8.jpg" class="fadeineffect" alt="Instagram Picture Liam" />
+                    </div>
+                </div>
+                <div class="footer_2">
+                    <h1 class="fadeineffect">You may Like</h1>
+                    <ul>
+                        <li class="fadeineffect"><a href="story.html">the motivation behind dafso's most recent fine-adornments</a></li>
+                        <li class="fadeineffect"><a href="story.html">20 party dresses which you can wear with style in winter</a></li>
+                        <li class="fadeineffect"><a href="story.html">7 new chanel fragrances to gift your fashion-loving friends</a></li>
+                        <li class="fadeineffect"><a href="story.html">eliza's latest hair colors is our favourite to date</a></li>
+                        <li class="fadeineffect"><a href="story.html">really genuine purposes behind not heading off to the gym</a></li>
+                        <li class="fadeineffect"><a href="story.html">guide to keep up your twists while working out</a></li>
+                        <li class="fadeineffect"><a href="story.html">this is what it was like to tour with cheema in the '20s</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container clearfix">
+
+                <div class="container clearfix">
+                    <div class="subscribe clearfix fadeineffect">
+                        <input class="subscribe_email" type="text" placeholder="Email" />
+                        <div class="subscribe_button">Subscribe</div>
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Who we are?</a></li>
+                            <li><a href="#">Our Authors</a></li>
+                            <li><a href="#">Models</a></li>
+                            <li><a href="story.html">Story</a></li>
+                            <li><a href="404.html">Error</a></li>
+                            <li><a href="sources.html">Sources</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <ul>
+
+                            <li><a href="#featured-trick">Featured</a></li>
+                            <li><a href="#latest">Latest</a></li>
+                            <li><a href="#popularteasers">Popular</a></li>
+                            <li><a href="#trending">Trending</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <img class="logo" src="images/logo/initial_logo.png" alt="CheemArticles Logo" />
+                        <p class="about_brief">
+                            CheemArticles LIVE is polished to bring the world of fashion to common people.
+                          With authors and people who travel to, and live in, the style capitals of the world,
+                          we're out there on the front lines of fashion.
+                        </p>
+                    </div>
+                    <div class="footer_3 social-bottom-container fadeineffect">
+                        <h1>Stay Connected</h1>
+                        <div class="social-top social-bottom">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <p>&copy; 2016 Website designed and developed by <a href="http://shaktisinghcheema.in" target="_blank">Shakti Singh Cheema</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/my.js"></script>
+    <script src="js/viewportchecker.js"></script>
+</body>
+</html>

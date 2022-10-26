@@ -1,0 +1,117 @@
+
+.content_12col{
+	margin-left: 4%;
+	margin-right: 4%;
+	width: 92%;
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_10,
+.col_12 {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.content_12col .col_1{
+	width: 6.33%;
+}
+
+.content_12col .col_2{
+	width: 14.67%;
+}
+
+.content_12col .col_3{
+	width: 23%;
+}
+
+.content_12col .col_4{
+	width: 31.33%;
+}
+
+.content_12col .col_5{
+	width: 39.67%;
+}
+
+.content_12col .col_6{
+	width: 48%;
+}
+
+.content_12col .col_7{
+	width: 56.33%;
+}
+
+.content_12col .col_8{
+	width: 64.67%;
+}
+
+.content_12col .col_10{
+	width: 81.33%;
+}
+
+.content_12col .col_12{
+	width: 98%;
+}
+
+
+/*===============================*/
+
+.content_12col .before_1{
+	padding-left: 8.33%;
+}
+
+.content_12col .before_3{
+	padding-left: 25%;
+}
+
+.content_12col .before_4{
+	padding-left: 33.33%;
+}
+/*================================*/
+
+.content_12col .after_1{
+	padding-right: 8.33%;
+}
+
+.content_12col .after_3{
+	padding-right: 25%;
+}
+
+.content_12col .after_4{
+	padding-right: 33.33%;
+}
+
+
+.content_12col .after_6{
+	padding-right: 50%;
+}
+
+
+/*=====================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

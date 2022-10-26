@@ -1,0 +1,8 @@
+table {
+	text-align: center;
+	border-spacing: 1px;
+	border-bottom: 1px solid #ddd;
+	line-height: 2rem;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2}

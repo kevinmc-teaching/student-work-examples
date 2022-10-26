@@ -1,0 +1,654 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Amatic+SC:400,700|Montserrat|Bungee+Shade');
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+/* ========== LOGO ========== */
+
+.logo {
+	padding-top: 4rem;
+	text-align: center;
+	width: 600px;
+}
+
+
+
+
+
+/* =========== Menus =========== */
+
+
+nav ul li {
+	float: left;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+
+nav a:hover, .bars a:hover, .error a:hover, .story a:hover {
+	color: mediumaquamarine;
+}
+
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+}
+
+
+.topmenu {
+	margin: 2rem 0 2rem 0;
+	overflow: hidden;
+}
+
+.icons {
+	border-top: 2px solid pink; 
+}
+.menu li, .icons li {
+	width: 16%;
+	margin: 1rem 0 1rem 0;
+}
+
+.menu li, .menu2 li, .search {
+	font-family: "Abel", sans-serif;
+	font-size: 1.5rem;
+}
+
+.icons li {
+	font-size: 2rem;
+}
+
+.sub {
+	border: 2px dashed aquamarine;
+	font-family: "Abel", sans-serif;
+	font-size: 1.5rem;
+	padding: 5px;
+}
+
+.bars {
+	display: none;
+}
+
+.fa-search {
+	float: right;
+}
+
+.fa-bars {
+	float: left;
+}
+
+.icons2 {
+	font-size: 2rem;
+	margin: auto;
+	margin-top: 0.5rem;
+	width: 50%;
+}
+
+.menu2 li {
+	width: 20%;
+}
+
+footer {
+	margin-bottom: 2rem;
+}
+
+.connect {
+	border-top: 2px solid aquamarine;
+	border-bottom: 2px solid aquamarine;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+	overflow: hidden;
+	text-align: center;
+	padding-bottom: 2rem;
+}
+
+
+
+
+
+
+
+/* ============= INDEX Content ============= */
+.wrapper {
+	padding: 3rem;
+}
+
+.banner {
+	margin-bottom: 3rem;
+	padding: 0;
+
+	background-image: url(../images/artworks/filter.png), url(../images/artworks/art3.jpg);
+
+	height: 500px; 
+
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	position: relative;
+}
+
+
+.banner h1 {
+	font-size: 5rem;
+	text-transform: uppercase;
+	color: white;
+	font-family: "Monsterrat", sans-serif;	
+
+	margin: 0;
+	position: absolute;
+	right: 50%;
+	transform: translate(50%,0%);
+	top: 30%;
+}
+
+
+h2, h3, h4 {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	font-size: 2.5rem;
+	margin: 0;
+	text-align: left;
+}
+
+.connect p {
+	font-family: 'Amatic SC', cursive;
+	font-weight: 700;
+	margin-bottom: 0;
+	font-size: 2rem;
+	text-align: center;
+}
+
+
+p {
+	font-family: "Abel", sans-serif;
+	font-size: 1.5rem;
+	margin-top: 0.5rem;
+	text-align: left;
+}
+
+
+article {
+	margin-bottom: 6rem;
+}
+
+.feature, .artist {
+	text-align: center;
+}
+
+.video {
+	max-width: 1000px;
+	margin: auto;
+	padding-bottom: 4rem;
+}
+
+.more a {
+	float: right;
+	font-family: "Abel", sans-serif;
+	font-size: 1rem; 
+	padding-right: 2rem;
+}
+
+.category {
+	font-family: "Abel", sans-serif;
+	text-align: left;
+	color: mediumaquamarine;
+	border-top: 1px dotted black;
+	word-spacing: 10px;
+}
+
+.category a:hover, .more a:hover {
+	color: pink;
+}
+
+.date {
+	font-size: 1rem;
+	color: grey;
+}
+
+.gem, .horse {
+	text-align: left;
+}
+
+
+
+/* ========== IMAGES ========= */
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.feature img, .artist img {
+	border-radius: 50%;
+	border: 3px dashed pink;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+img:hover {
+	opacity: 0.8;
+}
+
+
+
+/* =============== 404 ============== */
+
+.error {
+	max-width: 1500px;
+	margin: auto;
+	margin-top: 4rem;
+	margin-bottom: 4rem; 
+	position: relative;
+	text-align: center;
+}
+
+.error img:hover {
+	opacity: 0.9;
+}
+
+.error img {
+	opacity: 0.9;
+}
+
+.error h1 {
+	font-family: 'Bungee Shade', cursive;
+	font-size: 10rem;
+	margin: 0;
+
+	position:  absolute;
+	top: 30%;
+	left: 7%;
+}
+
+
+.panic {
+	display: block;
+}
+
+.towel {
+	position: absolute;
+	top: 30%;
+	right: 10%;
+	width: 35%;
+}
+
+.towel p {
+	margin: 0;
+	text-align: center;
+	line-height: 1.5;
+
+}
+
+.towel a {
+	line-height: 2;
+	border-bottom: 2px dashed pink;
+}
+
+.help {
+	margin: 2rem 0 2rem 0;
+}
+
+
+
+
+
+
+/* ============== CONTACT =============== */
+
+.contact {
+	margin: 4rem;
+	border: 2px dotted grey;
+}
+
+.contact h1 {
+	font-family: "abel", sans-serif;
+	font-size: 3rem;
+	text-align: center;
+}
+
+.contact form {
+	padding: 2% 0;
+	width: 50%;
+	margin: auto;
+}
+
+.contact label, .contact input, .contact textarea {
+	display: block;
+}
+
+.contact input, .contact textarea {
+	margin-bottom: 1rem;
+	width: 100%;
+
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:solid 1px grey;
+	padding:5px;
+
+	font-family: "abel", sans-serif;
+}
+
+.contact label {
+	font-family: "abel", sans-serif;
+	font-size: 1.5rem;
+	padding-left: 0.5rem;
+}
+
+
+.contact textarea {
+	min-height: 9rem;
+	resize: none;
+}
+
+.submit input {
+	font-family: "Amatic SC", cursive;
+	font-weight: 700;
+	font-size: 2rem;
+	line-height: 1;
+	background-color: black;
+	color: white; 
+}
+
+.note p {
+	font-size: 1.25rem;
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+
+/* ================== STORY ================== */
+
+.story h1 {
+	display:none;
+}
+
+.story p {
+	font-size: 1.5rem;
+}
+
+.story img:hover {
+	opacity: 10;
+}
+
+.para {
+	margin-top: 6rem;
+}
+
+.share a {
+	font-size: 1.5rem;
+}
+
+.share {
+	border-top: 2px dotted grey;
+	line-height: 1.5;
+}
+
+.picture {
+	margin: 2rem 0 2rem 0;
+}
+
+
+/* ================ Sources ================= */
+
+.sources {
+	width: 85%;
+	margin:auto;
+	margin-top: 6rem;
+	margin-bottom: 6rem;
+	overflow: hidden;
+}
+.sources img {
+	width: 500px;
+}
+
+table {
+	width: 100%;
+}
+
+table, th, td {
+    border: 1px solid lightgrey;
+    border-collapse: collapse;
+}
+
+th, td {
+	padding: 0.5rem;
+	text-align: center;
+}
+
+table tr:nth-child(even) {
+    background-color: #eee;
+}
+
+table tr:nth-child(odd) {
+   background-color: mistyrose;
+}
+
+table th {
+    background-color: #444;
+    color: white;
+    font-family: "Monsterrat", sans-serif;
+}
+
+
+.sources img {
+	width: 500px;
+}
+
+.sources a {
+	text-transform: lowercase;
+}
+
+
+
+/* ============= CLEARS ============ */
+
+.clearfix:before
+.clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearboth {
+	clear: both;
+}
+
+
+
+
+/* ============== Tablet & Desktop ========= */
+
+@media only screen and (min-width: 900px) {
+
+	.input[type=text] {
+		width: 130px;
+		-webkit-transition: width 0.4s ease-in-out;
+		transition: width 0.4s ease-in-out;
+	}
+
+	.search {
+		position: relative;
+	}
+
+	.search input {
+		font-size: 60%;
+	}
+
+	.menu2 {
+		padding: 2rem 0 2rem 0;
+	}
+
+	.icons2 li {
+		width: 20%;
+	}
+
+	.para {
+		margin: auto;
+		text-align: center;
+		width: 50%;
+	}
+
+}
+
+@media only screen and (max-width: 1500px) {
+
+	.error h1 {
+		font-size: 10vw;
+	}
+
+	.towel {
+		width: 35%;
+		right: 10%;
+		top: 15%; 
+	}
+
+
+}
+
+@media only screen and (min-width: 1500px) {
+
+	.para {
+		width: 45%;
+	}
+
+	.contact form {
+		width: 40%;
+	}
+
+	.note {
+		width: 40%;
+		margin: auto;
+	}
+}
+
+
+
+/* ============== MOBILE ==================*/
+
+@media only screen and (max-width: 900px) {
+
+	nav {
+		margin-top: 5%;
+	}
+
+
+	.menu, .banner, .search, .sub {
+		display:none;
+	}
+
+
+	.menu2 li {
+		font-size: 1rem;
+		margin-top: 2rem;
+	}
+
+
+	.icons li, .icons2 li {
+		width: 20%;
+	}
+
+
+	.bars {
+		display: block;
+		font-size: 2.5rem;
+		margin: 1rem;
+	}
+
+
+	.feature {
+		padding-top: 2rem;
+	}
+
+
+	.horse h3, .horse p {
+		padding-left: 0.5rem;
+	}
+
+	.error img {
+		display: none;
+	}
+
+
+
+	.error h1 {
+		margin: 2rem 0 2rem 0;
+		font-size: 5rem;
+		position: static;
+	}
+
+	.towel {
+		position: static;
+		width: 100%;
+		margin: auto;
+		padding-bottom: 1rem;
+		border-bottom: 1px dotted grey;
+	}
+
+	.contact {
+		margin: auto;
+		padding:2rem;
+		overflow: hidden;
+		border-style: none;	
+	}
+
+	.contact form {
+		width:100%;
+	}
+
+	.contact h1 {
+		font-size: 2rem;
+	}
+
+
+	.contact label {
+		font-size: 1rem;
+	}
+
+	.story h1 {
+		display:block;
+		margin-top: 4rem;
+		margin-bottom: 0;
+	}
+
+	.story img {
+		margin-bottom:1rem;
+	}
+
+	.para {
+		text-align: center;
+		width: 95%;
+		margin: auto;
+	}
+
+	.sources {
+		width: 100%;
+		margin: 0;
+		margin-top: 4rem;
+		margin-bottom:4rem;
+	}
+
+}
+
+
+
+
+
+
+

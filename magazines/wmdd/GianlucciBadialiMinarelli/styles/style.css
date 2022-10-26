@@ -1,0 +1,458 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: .9rem;
+  line-height: 1.3;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+main, .top-nav > div, .bottom-wrapper, .header-wrapper > div {
+  max-width: 1200px;
+  margin: auto;
+}
+
+main {
+  padding: 0 5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.only-desktop {
+  display: none;
+}
+
+.only-mobile {
+  display: block;
+}
+
+/* HEADER AND FOOTER */
+
+h1 {
+  text-align: center;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 2.5rem;
+  margin: 6rem 0;
+}
+
+h1 span {
+  font-family: 'Roboto', sans-serif;
+  margin-top: .6rem;
+  display: block;
+}
+
+.header-wrapper {
+  background-color: #003366;
+  padding: .5rem 1rem;
+}
+
+.social-wrapper, .search-wrapper {
+  width: 100%;
+  margin: .5rem 0;
+}
+
+.search-wrapper > form > input {
+  height: 33.3668px;
+  margin: 1px 0;
+  display: inline-block;
+}
+
+.social-wrapper li {
+  display: inline-block;
+  font-size: 1.7rem;
+  margin: 0 5%;
+}
+
+.social-wrapper a, .search-wrapper form {
+  color: #fff;
+  /* Transitions */
+  transition: color 1s ease-out;
+}
+
+.social-wrapper li > a:hover {
+  color: #000;
+}
+
+.social-wrapper, .search-wrapper, .top-nav li, .bottom-nav li {
+  float: left;
+}
+
+.search-wrapper, .social-wrapper {
+  text-align: center;
+}
+
+.top-nav, .bottom-nav {
+  background-color: #000;
+}
+
+.top-nav li, .bottom-nav li {
+  box-sizing: border-box;
+  width: 50%;
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.top-nav li > a, .bottom-nav li > a {
+  display: block;
+  padding: .8rem;
+  color: #fff;
+  /* Transitions */
+  transition: background-color 500ms ease-out, color 500ms ease-out;
+}
+
+.top-nav li a:hover, .bottom-nav li a:hover {
+  background-color: #C0C0C0;
+  color: #000;
+}
+
+.copyright {
+  padding: 1rem 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* MAIN */
+
+h2 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.7rem;
+}
+
+main h2 {
+  border-bottom: 1px solid #000;
+  text-align: center;
+  margin: 25px 0 57px;
+}
+
+main h2 span {
+  position: relative;
+  top: 16px;
+  padding: 0 2rem;
+  background-color: #fff;
+}
+
+h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+}
+
+main > section > div > article {
+  float: left;
+  width: 100%;
+}
+
+article {
+  position: relative;
+}
+
+article div.only-mobile {
+  padding-bottom: 1rem;
+}
+
+.overlay {
+  position: absolute;
+  color: #fff;
+  padding: .2rem 2%;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  /* It took me a while to figure it out I should use min-height here... I tried using "top" and "height", but both required me to have a numerical starting point (can't just "auto" it and change it to something else later).*/
+  min-height: 100%;
+  max-height: 100%;
+  background-color: rgba(0,0,0,.6);
+  z-index: 10;
+  box-sizing: border-box;
+  overflow-y: auto;
+  /* Transitions */
+  transition: background-color 1s ease-out, min-height 1s ease-out;
+}
+
+article > a:hover > div.overlay {
+  background-color: rgba(0,0,0,.9);
+  min-height: 100%;
+}
+
+/* STORY */
+
+.aes {
+  margin-bottom: 2rem;
+}
+
+.aes a {
+  color: #003366;
+  font-weight: bold;
+}
+
+.aes .image-wrapper {
+  margin: auto;
+}
+
+.aes p, .aes-features ul {
+  line-height: 1.7;
+  margin: 2.3rem 0;
+}
+
+.aes ul > li {
+  margin: 1rem 0;
+  font-size: .9em;
+}
+
+.aes .aes-features ul {
+  list-style-type: disc;
+  margin-left: 5%;
+}
+
+.aes .aes-features ul li span {
+  font-weight: bold;
+}
+
+/* CONTACT */
+
+.contact form {
+  width: 90%;
+  margin: 3rem auto;
+  max-width: 650px;
+}
+
+.contact label, input, textarea {
+  display: block;
+}
+
+.contact input, textarea {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.contact label {
+  margin-bottom: .15rem;
+}
+
+.contact input[type="submit"] {
+  padding: .2rem 5%;
+}
+
+.contact textarea {
+  height: 6rem;
+  resize: none;
+}
+
+/* THANKS */
+
+.thanks > section {
+  width: 90%;
+  max-width: 650px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.thanks h2 {
+  font-size: 1.2rem;
+  border: none;
+  margin-bottom: 1rem;
+}
+
+/* SOURCES */
+
+.sources table {
+  width: 100%;
+  /*box-sizing: border-box;*/
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.sources td {
+  width: 50%;
+  border: 1px solid #C0C0C0;
+  padding: 1%;
+}
+
+.sources tr:first-child td {
+  padding: .75rem 1%;
+}
+
+.sources th {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.2rem;
+  padding: 1.5rem 0;
+}
+
+.sources .resource-wrapper, .sources .link-wrapper {
+  text-align: center;
+  font-size: 1rem;
+}
+
+.sources .link-wrapper a {
+  display: inline-block;
+}
+
+.sources .link-wrapper a:hover {
+  color: #003366;
+}
+
+/* 404 */
+
+.error404 h2 {
+  font-size: 6rem;
+  font-variant: small-caps;
+  border: none;
+}
+
+.error404 h2 span {
+  display: inline-block;
+  position: static;
+  padding: 0;
+}
+
+.error404 h2 span:first-child {
+  display: block;
+  font-weight: normal;
+  text-transform: lowercase;
+  font-size: 4.5rem;
+}
+
+.error404 section {
+  width: 90%;
+  max-width: 650px;
+  margin: 5rem auto;
+  text-align: center;
+}
+
+.error404 p {
+  font-size: 1rem;
+}
+
+.error404 a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.error404 p span {
+  text-decoration: line-through;
+}
+
+/* ANIMATION */
+/* Jordan showed us how this works last class, I just payed with it a little bit. */
+
+.flow-down
+{
+  animation-name: flow-down;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+
+}
+
+@keyframes flow-down
+{
+  0%{
+    transform:translateY(-5%);
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    transform:translateY(50%);
+    opacity: 0;
+  }
+}
+
+/* CLEARFIX */
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 500px) {
+  .top-nav li, .bottom-nav li {
+    width: 25%;
+  }
+
+  .search-wrapper {
+    text-align: right;
+    width: 50%;
+  }
+
+  .social-wrapper {
+    text-align: left;
+    width: 50%;
+  }
+
+  .social-wrapper li {
+    margin: 0 .2rem;
+  }
+
+  h1 span {
+    display: inline;
+  }
+
+  .aes p, .aes-features ul, .aes .image-wrapper {
+    font-size: 1.1rem;
+    padding: 0 13%;
+  }
+
+  .sources .resource-wrapper, .sources .link-wrapper {
+    font-size: 1.15rem;
+  }
+
+  .error404 h2 span:first-child {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  main > section > div > article {
+    width: 50%;
+  }
+
+  .only-desktop {
+    display: block;
+  }
+
+  .only-mobile {
+    display: none;
+  }
+
+  .overlay {
+    min-height: 0%;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  article p {
+    font-size: .9rem;
+  }
+
+  .aes p, .aes-features ul, .aes .image-wrapper {
+    font-size: 1.3rem;
+    padding: 0 17%;
+  }
+
+  .sources .resource-wrapper, .sources .link-wrapper {
+    font-size: 1.25rem;
+  }
+}

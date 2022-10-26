@@ -1,0 +1,197 @@
+/*  Typography  */
+
+html {
+    font-family: mr-eaves-modern, helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #7f624e;
+}
+
+h1, h2 {
+    font-family: baskerville-display-pt, georgia, serif; 
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+}
+
+h3 {
+    color: #adaca5;
+}
+
+h3, p, a {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.6rem;
+}
+
+h4 {
+    text-transform: uppercase;
+    letter-spacing: .15rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.social-platform a{
+    text-decoration: none;
+    color: #7f624e;
+}
+
+.social-platform {
+    padding-bottom: 1rem;
+}
+
+.social-platform a:hover {
+    border-bottom: 1px solid #7f624e;
+    
+}
+
+/*  Layout  */
+
+.wrapper {
+    margin: 1rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    padding-top: 2.5rem;
+}
+
+.listing {
+    padding-bottom: 0.1rem;
+    max-width: 350px;
+}
+
+/*  Footer  */
+
+#arrow {
+    background: url('../images/arrow_light.svg');
+    background-repeat: no-repeat;
+    width: 25px; 
+    height: 25px;
+    position: absolute;
+    right: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+#arrow:hover {
+    background: url('../images/arrow_dark.svg');
+    background-repeat: no-repeat;
+    height: 25px;
+}
+
+
+/*  Media Queries  */
+
+@media screen and (min-width: 750px) {
+
+    header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+    }
+
+    header p {
+        text-align: right;
+        justify-self: right;
+    }
+
+    .intro {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    }
+
+    h2 {
+        grid-column: span 6;
+    }
+
+    .education, .experience, .focus, .skills, .connect {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .listing, .social-media {
+        grid-column: 7 / span 6;
+    }
+
+    .social-media {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3.75rem;
+        padding-top: 1rem;
+    }
+
+    h3 {
+        grid-column-start: 4;
+    }
+
+    .wrapper {
+        margin: 1rem auto;
+        padding: 0 2.5rem;
+    }
+}
+
+/* end media query min 750px */
+
+
+@media screen and (min-width: 1200px) {
+
+    h2 {
+        grid-column: span 5;
+        font-size: 2rem;
+        line-height: 2.75rem;
+    }
+
+    .listing, .social-media, #education-listing-one, #experience-listing-one, #experience-listing-three {
+        grid-column: 5 / span 4; 
+    }
+    #education-listing-two, #experience-listing-two, #experience-listing-four {
+        grid-column: 9 / span 4;
+    }
+
+    h3 {
+        grid-column-start: 3;
+    }
+
+}
+
+/* end media query min 1200px */
+
+@media screen and (min-width: 1900px) {
+    
+    main {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .intro {
+        grid-column: span 4;
+    }
+
+    .content {
+        grid-column-start: 5;
+        grid-column-end: 13;
+    }
+
+    h2 {
+        grid-column: span 8;
+        line-height: 3rem;
+    }
+}
+
+/* end media query min 1900px */
+
+
+@media screen and (min-width: 2200px) {
+    h2 {
+        font-size: 2.75rem;
+        line-height: 3.75rem;
+    }
+}
+

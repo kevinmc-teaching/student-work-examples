@@ -1,0 +1,106 @@
+img {
+  margin: auto;
+}
+
+.oops404 {
+  background-color: white;
+  padding: 5%;
+  text-align: center;
+}
+
+main {
+  padding: 5%;
+}
+.oops404 img {
+  max-width: 60%;
+  text-align: center;
+}
+
+.search-404 {
+  margin: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.search-404 input {
+  font-size: .75rem;
+  line-height: 1.5;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  padding: 2px;
+}
+p {
+  letter-spacing: .25px;
+}
+
+.see404 {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+.search-404 a {
+  display: inline-block;
+  background-color: #777;
+  color: white;
+  font-family: "playfair display", serif;
+  text-transform: lowercase;
+  font-style: italic;
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  padding: 2px 10px;
+  margin-top: .5rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: background-color .5s ease;
+}
+.search-404 a:hover {
+  background-color: #444;
+  color: white;
+}
+
+.input-404 {
+  /* transition: all .5s; */
+  /* display: block; */
+  width: 160px;
+  border: 1px solid #bbb;
+  /* margin-bottom: 0; */
+  background-color: white;
+}
+
+/* MEDIA QUERIES LOL  */
+@media screen and (min-width:620px) {
+  main {
+    padding: 5% 10%;
+  }
+}
+@media screen and (min-width:1000px) {
+  main {
+    padding: 8% 10%;
+  }
+  .oops404 {
+    display: flex;
+  }
+  .img404 {
+    flex-basis: 60%;
+  }
+  .text404 {
+    flex-basis: 40%;
+    align-self: center;
+  }
+}
+@media screen and (min-width:1200px) {
+  main {
+    padding: 5rem 15%;
+  }
+}
+@media screen and (min-width:1320px) {
+  .oops404 {
+    max-width: 815px;
+    margin: auto;
+  }
+}
+@media screen and (min-width:1450px) {
+  main {
+    padding: 5rem 20%;
+  }
+}

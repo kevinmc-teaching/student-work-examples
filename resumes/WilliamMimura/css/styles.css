@@ -1,0 +1,146 @@
+@import 'https://fonts.googleapis.com/css?family=Abhaya+Libre';
+
+body {
+    margin: 5% 15%;
+
+    font-family: "Abhaya Libre", serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.myPicture {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+.myName {
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+.myName span {
+    background-color: white;
+    padding: 0 15px;
+    position: relative;
+    top: 0.5em;
+}
+.myName span span {
+    top: 0em;
+}
+
+.myEmail {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.cvBody h3 {
+    font-size: 1.5rem;
+    border-bottom: 2px solid black;
+    margin: 25px 0;
+}
+.cvBody h3 span {
+    background-color: white;
+    padding: 0 10px;
+    position: relative;
+    top: 0.5em;
+}
+.cvBody p, .cvBody li {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+#experience h4,
+#education h4{
+    font-size: 1.3rem;
+}
+#experience p, #experience ul,
+#education p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.socialNetworkName {
+    text-align: right;
+}
+.socialNetworkName p, .socialNetworkLink p,
+#experience h4, #education h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+
+.dotMiddleName {
+    display: none;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+
+
+@media screen and (max-width: 1100px) {
+    body {
+        margin: 5% 10%;
+    }
+
+    .myPicture {
+        width: 25%;
+    }
+
+} /* end min 1100 query */
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 5% 5%;
+    }
+    
+    .myPicture {
+        width: 30%;
+    }
+
+    .myName {
+        border-bottom: none;
+    }
+    .myName span {
+        position: relative;
+        top: 0;
+    }
+
+    .cvBody h3 {
+        text-align: center;
+    }
+
+    .linkedin800, .facebook800, .github800, .middleName {
+        display: none;
+    }
+    .dotMiddleName {
+        display: inline;
+    }
+
+    .container_12 .prefix_2 {
+        padding-left: 0;
+    }
+
+    .container_12 .grid_2 {
+        width:23%;
+    }
+    .container_12 .grid_5 {
+        width:48%;
+    }
+    .container_12 .grid_8 {
+        width:73%;
+    }
+    .container_12 .grid_10 {
+        width:98%;
+    }
+
+} /* end min 800 query */
+

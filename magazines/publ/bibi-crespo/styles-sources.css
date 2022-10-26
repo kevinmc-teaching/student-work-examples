@@ -1,0 +1,252 @@
+
+
+
+body  {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  margin-bottom: 0;
+  margin-top: .5rem;
+}
+
+article {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding: .3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: .9rem;
+  text-transform: lowercase;
+}
+
+
+h1 {
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: -.5rem;
+}
+
+
+h3 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.8rem;
+  font-weight: lighter;
+  text-transform: lowercase;
+  border-bottom: 1px solid black;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  padding-top: 0rem;
+}
+
+h3 span {
+  background-color: white;
+  position: relative;
+
+  top: 1.3rem;
+  padding-right: .4rem;
+}
+
+h4 {
+  text-align: Left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 3rem;
+  margin-bottom: .2rem;
+  text-transform: lowercase;
+}
+
+h5 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  margin-top: 1rem;
+  margin-bottom: .5rem;
+}
+
+
+footer {
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+
+}
+
+header {
+  margin-bottom: 4rem;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+/* CLASSES ================ */
+
+.source-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+
+.source-links a {
+  color: black;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  text-transform: lowercase;
+}
+
+.source-links h5:hover {
+  text-decoration: line-through;
+}
+
+.contact-section {
+  margin-bottom: 2rem;
+}
+
+.menu {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.menu-1 {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.menu-1 a:hover {
+  background-color: hsl(3,50%,90%);
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+.menu-social-search a {
+  font-size: 1.2rem;
+}
+
+.contact-menu a {
+  text-decoration: underline;
+  color: black;
+  font-family: 'helvetica', sans-serif;
+  font-size: .8rem;
+}
+
+.contact-menu  li {
+  display: inline-block;
+  padding-left: .8rem;
+}
+
+.contact-menu ul {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: .8rem;
+}
+
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
+@media screen and (min-width: 700px) {
+
+
+  article {
+      margin-right: 20%;
+      margin-left: 20%;
+  }
+
+}
+
+
+
+@media screen and (min-width: 1500px) {
+
+  article {
+      margin-right: 31%;
+      margin-left: 31%;
+  }
+
+}
+
+@media screen and (min-width: 1900px) {
+
+  article {
+      margin-right: 30%;
+      margin-left: 30%;
+  }
+
+  .source-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+  footer {
+    padding-top: 5rem;
+      }
+
+}
+
+@media screen and (min-width: 2200px) {
+
+  article {
+      margin-right: 30%;
+      margin-left: 30%;
+  }
+
+
+    .source-links {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 2rem;
+    }
+
+  footer {
+    padding-top: 7rem;
+  }
+
+
+}

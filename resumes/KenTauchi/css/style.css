@@ -1,0 +1,389 @@
+/* LAYOUT ========================== */
+
+.wrapper {
+    padding: 0;
+    margin: 0;
+}
+
+.top {
+    text-align: center;   
+}
+
+header {
+    background-color: #F0F0F0;
+}
+
+header img {
+    max-width: 60%;
+    height: auto;
+    margin-top: 3rem;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 0 auto 1rem auto;
+}
+
+/* Typography======================= */
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+nav {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: gray;
+}
+
+.top p{
+    margin: auto 1.2rem;
+    line-height: 2rem;
+    font-family: serif;
+}
+
+.proverb {
+    font-family: serif;
+    font-style: italic;
+    font-size: 1rem;
+    margin-top: 0;
+}
+
+
+/* MENU LINK ========================= */
+
+
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: .5rem;
+
+}
+
+nav li {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    font-family: sans-serif;
+}
+
+nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.work-edu, .skill-interest {
+    display: none;
+}
+
+/* MAIN CONTENT ================ */
+
+h2 {
+    font-size: 2rem;
+    line-height: 4rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+h3 {
+    line-height: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-bottom: .5rem;
+}
+
+main p {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0.3rem auto;
+}
+
+.company {
+    text-decoration: none;
+}
+
+.job-position {
+    margin-bottom: 2rem;
+}
+
+.job-position li {
+    font-family: 'Quicksand', sans-serif;
+    text-align: left;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.au {
+    margin-bottom: .5rem;
+    text-decoration: none;
+}
+.rits {
+    margin-top: 0;
+}
+
+.work, .education, .skill, .experience, .interest{
+    padding: 2rem;
+    text-align: center;
+}
+
+.skill, .interest {
+    padding-bottom: 0;
+}
+
+.top, .education, .skill {
+    background-color:#F0F0F0;
+}
+
+.hitachi, .au-rits, .skill-list, .interest-list {
+    margin: 3rem 0 1rem 0;
+}
+
+.skill-list, .interest-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem auto;
+}
+
+.interest-list {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.skill div, .interest div {
+    margin-bottom: 1rem;
+}
+
+.skill h3, .interest h3 {
+    font-size: 1rem;
+}
+
+/* FOOOTER =========================== */
+footer {
+    padding: 1rem;
+    background-color: black;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+footer div {
+    margin-bottom: 1rem;
+}
+
+footer h4 {
+    display: none;
+}
+
+footer i, footer span, footer a {
+    color: white;
+}
+
+
+
+/* TBALET LAYOUT ==================================== */
+
+@media screen and (min-width: 768px) {
+
+    header img {
+        max-width: 22%;
+        height: auto;
+        margin-top: 5rem;
+    }
+
+    nav {
+        top: 0;
+        bottom: auto;
+    }
+
+    nav ul {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .work-menu, .edu-menu, .skill-menu, .interest-menu {
+        display: none;
+    }
+
+    .work-edu, .skill-interest {
+        display: inline;
+    }
+    
+    .top-two, .bottom-two {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 3rem;
+    }
+
+    .top-two span {
+        display: none;
+    }
+
+    .work, .education, .skill, .interest {
+        padding: 0 1rem;
+    }
+
+    .work, .skill {
+    border-right: 1px solid black;
+    }
+
+    .education, .skill {
+        background-color: white;
+    }
+
+    .experience {
+        background-color:#F0F0F0;
+        margin-bottom: 3rem;
+    }
+
+    .experience ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 1rem;
+        list-style-type: none;
+        letter-spacing: .8px;
+        line-height: 1.3rem;
+    }
+
+    .bottom-two span {
+        display: none;
+    }
+
+    .skill-list, .interest-list {
+        grid-template-columns: 1fr 1fr;
+        margin-bottom: 0;
+    }
+
+    .third-row {
+        margin-bottom: 0;
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-bottom: 0;
+    }
+
+    footer h4 {
+        display: grid;
+        color: white;
+        margin: 0;
+    }
+
+    footer span {
+        display: none;
+    }
+}
+
+
+/* DESKTOP LAYOUT ======================================== */
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        padding-left: 9rem;
+        margin-bottom: 5rem;
+    }
+
+    header {
+        background-color:#F0F0F0;
+    }
+    
+    .top {
+        display: grid;
+        grid-template-columns: 3fr 7fr;
+        margin-bottom: 1rem;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        margin-top: 5rem;
+    }
+
+    .top p {
+        font-size: 1.3rem;
+    }
+
+    .proverb {
+        font-size: 1.2rem;
+    }
+
+    header img {
+        max-width: 80%;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 10rem;
+    }
+
+    .skill{
+        background-color: rgb(85, 80, 80);
+        color: white;
+        
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: auto;
+
+        border-right: none;
+    }
+
+    .skill h3 {
+        margin-bottom: 1rem;
+        margin-top: 0;
+    }
+
+    .skill-list, .job-position ul {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .skill-list div {
+        margin-bottom: 2.5rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .last-menu {
+        display: none;
+    }
+
+    .interest {
+   margin-bottom: 7rem;
+    }
+
+    .experience-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .bottom-two {
+        display: block;
+    }
+
+    .interest-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 0;
+    }
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        right: 0;
+        left: 9.2rem;
+        top: auto;
+
+        padding: .5rem;
+    }
+
+    footer div {
+        margin: 0;
+    }
+}

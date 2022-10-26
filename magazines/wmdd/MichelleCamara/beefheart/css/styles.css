@@ -1,0 +1,64 @@
+
+
+article{
+	font-family: georgia, times;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 15px;	
+	width: 800px;
+	margin: 100px;
+	margin-right: auto;
+	margin-left: auto;
+
+
+}
+
+h1 {
+	font-family: helvetica, arial;
+	color: black;
+	font-size: 22px;
+	font-weight: normal;
+	margin-bottom: -10px;
+	
+
+}
+
+h2 {
+	font-family: georgia, times;
+	font-size:15px;
+	
+}
+
+
+div{
+
+}
+
+.floatleft {
+	float: left;
+	margin-right: 10px;
+	margin-top: 20px;
+	
+
+}
+
+.floatright {
+	margin-right: 20px;
+	margin-top: 330px;
+	float: right;
+
+}
+
+.text{
+	float: left;
+	width: 430px;
+	overflow-x: 50%;
+}
+
+
+
+
+
+
+
+

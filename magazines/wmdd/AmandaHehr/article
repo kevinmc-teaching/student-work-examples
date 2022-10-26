@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Infinity and Beyond Magazine</title>
+    <link href= "css/normalize.css" rel= "stylesheet">
+    <!--[if lte IE 8]>
+    <link rel="stylesheet" href="css/fluid_grid.css">
+	<![endif]-->
+	<link href="css/fluid_grid.css" media="screen and (min-width: 800px)" rel="stylesheet">
+	<link href= "css/styles.css"  rel = "stylesheet">
+    
+  </head>
+  <body>
+
+    <header class="cf">
+
+      <div class="banner">
+        <img src="images/andromeda-galaxy-banner.jpg">
+
+        <form action="/search" class="search-form">
+          <label for="search-field"><span class="visuallyHidden">Search</span></label>
+          <input type="search" id="search-field" placeholder="search">
+        </form>
+
+        <div class="hamburger"><span class="fa fa-bars"></span></div>
+
+        <div class="socialIcons">
+          <a href="http://facebook.com"><span class="fa fa-facebook"><span class="visuallyHidden">Facebook</span></a>
+          <a href="http://twitter.com"><span class="fa fa-twitter"><span class="visuallyHidden">Twitter</span></a>
+          <a href="http://youtube.com"><span class="fa fa-youtube"><span class="visuallyHidden">Youtube</span></a>
+          <a href="http://instagram.com"><span class="fa fa-instagram"><span class="visuallyHidden">Instagram</span></a>
+        </div>
+
+      </div>
+
+      <h1>
+        <span class="infinity">Infinity</span><span class="beyond">&amp;Beyond</span> 
+        <br /><span class="magazine">Magazine</span>
+      </h1>
+
+      <div class="menu container_12">
+        <ul>
+          <li class="grid_3"><a href="#">Featured</a></li>
+          <li class="grid_3"><a href="#">News</a></li>
+          <li class="grid_3"><a href="#">Photography</a></li>
+          <li class="grid_3"><a href="#">Observing</a></li>
+        </ul>
+      </div>
+
+    </header>
+
+    <section id="article">
+      <div class="articleHeadline grid_4">
+        <h2>Article Headline</h2>
+        <h3>Nov 9, 2016 | Amanda Hehr</h3>
+      </div>
+      <div class="articleContent grid_8">
+        <div class="floatLeft"><img src="http://placekitten.com/400/400"></div>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <div class="floatRight"><img src="http://placekitten.com/400/400"></div>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+      </div>
+      
+    </section>
+
+    <footer class="container_12">
+      <ul>
+        <li class="grid_3"><a href="#">Past Issues</a></li>
+        <li class="grid_3"><a href="#">About</a></li>
+        <li class="grid_3"><a href="#">Our Team</a></li>
+        <li class="grid_3"><a href="#">Contact</a></li>
+      </ul>
+    </footer>
+
+
+
+   </div>
+  </body>
+</html>

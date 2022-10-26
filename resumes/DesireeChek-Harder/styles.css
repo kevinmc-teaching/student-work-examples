@@ -1,0 +1,155 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    color: rgba(44, 43, 43, 0.933);
+}
+
+.wrapper{
+    padding: 2rem 2%;
+    max-width: 700px;
+    margin: auto;
+}
+
+.vl {
+    border-left: 2px solid rgba(196, 196, 196, 0.933);;
+    /* height: 100%; */
+    padding-left: 20px;
+}
+
+/* TYPOGRAPHY */
+
+li{
+    
+    font-size: 1rem;
+    line-height: 1.5;
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+  padding-top: 5px;  
+}
+
+h2{
+    color: rgb(30, 150, 170);
+}
+
+h3{
+    color: rgb(30, 150, 170);
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 1.00rem;
+    padding: 20px 0 5px 0;
+}
+
+h4{
+    margin: 0;
+    font-size: 1.2rem;
+    padding: 10px 0 5px 0;
+}
+
+h5{
+    margin: 0;
+    font-weight:600;
+    font-size: 1rem;
+    padding: 10px 0 5px 0;
+}
+
+p{
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+.date{
+    font-size: .75rem;
+    color:rgba(109, 107, 107, 0.933);
+}
+
+/* HEADER */
+img{
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
+
+  .contact-info ul{
+    list-style-type: none;
+    padding:0;
+}
+
+  .social li{
+    display: inline-block;
+    font-size: 1.75rem;
+  }
+
+  .instagram{
+      padding: 0 30px 0 30px;
+  }
+
+  nav .fab{
+    color: rgb(30, 150, 170);
+    }
+
+    header{
+        text-align: center;
+        padding-bottom: 50px;
+    }
+/* MAIN */
+
+section{
+    padding-bottom: 30px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+
+    .wrapper{
+        
+        max-width: 1000px;
+       
+    }
+
+
+    header{
+        display: grid;
+        grid-template-columns: 180px auto 200px;
+        text-align: left;
+    }
+
+    .contact-info{
+        text-align: right;
+} 
+
+.sidebar{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+
+}
+/* END MEDIA QUERY 800px */
+
+@media screen and (min-width: 1200px){
+
+   .main-sidebar-wrapper{
+       display: grid;
+       grid-template-columns: 1fr 300px;
+       grid-gap: 150px;
+   } 
+   
+   .sidebar{
+       display: inline;
+   }
+   
+}

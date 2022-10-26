@@ -1,0 +1,197 @@
+
+
+/* Layout ====================== */
+
+body {
+    margin: 2rem;
+    background-color: #f5e9df;
+    color: #5f736c;
+}
+
+hr {
+    border-top: 1px solid #bfac65;
+    margin-bottom: 0;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+.article-title {
+    margin-bottom: 0;
+}
+
+.article-category {
+    margin-top: 40px;
+}
+
+.article-dates {
+    margin-top: .1rem;
+}
+
+.article-info {
+    margin-bottom: 2rem;
+}
+/* Header ============================== */
+
+.site-branding {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.site-title {
+    grid-column-start: 1;
+    grid-row: span 2;
+}
+
+.site-info {
+    grid-column-start: 2;
+    text-align: right;
+    margin-top: 1.75rem;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Typography ==================== */
+
+main, 
+.site-email,
+.site-number,
+footer {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h1 {
+    font-family: serif
+}
+
+.site-title {
+    font-size: 25px;
+    color: #5f736c;
+}
+
+h2 {
+    font-size: 15px;
+    color: #bfac65;
+}
+
+h3 {
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 1.5rem;
+    font-size: 13px;
+}
+
+.article-dates,
+.article-title {
+    text-transform: uppercase;
+}
+
+.article-dates {
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #919A98;
+}
+
+.site-email,
+.site-number {
+    font-size: 14px;
+}
+
+/* Links =========================== */
+
+i {
+    color: #bfac65;
+    letter-spacing: 2rem;
+}
+
+
+/* Footer ====================*/
+
+footer {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-contact,
+h3.footer-head {
+    text-align: center;
+}
+
+.backtotop {
+    text-align: right;
+}
+
+/* Media Queries */
+
+@media screen and (min-width: 800px) {
+
+
+    .education,
+    .projects,
+    .work,
+    .skills,
+    .interests {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+    .art-education,
+    .art-projects,
+    .art-work,
+    .art-skills,
+    .art-interests {
+        grid-column: 2/4;
+    }
+
+    .article-info {
+        max-width: 600px;
+    }
+
+    
+} /* end 800px query */
+
+@media screen and (min-width: 1200px) {
+
+    .education,
+    .projects,
+    .work,
+    .skills,
+    .interests {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+
+    .art-education:first-child,
+    .art-projects:first-child,
+    .art-skills:first-child,
+    .art-work:first-child,
+    .art-work:last-child,
+    .art-work:nth-child(3),
+    .art-interests:first-child {
+        grid-column: 2/3;
+    }
+
+    .art-education:last-child,
+    .art-projects:last-child,
+    .art-skills:last-child,
+    .art-work:nth-child(2),
+    .art-work:nth-child(4),
+    .art-interests:last-child {
+        grid-column: 3/4;
+    }
+
+    .article-info,
+    .article-title {
+        max-width: 400px;
+    }
+
+} /* end 1200px query */
+

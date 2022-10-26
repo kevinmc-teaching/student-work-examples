@@ -1,0 +1,601 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto|Oswald:700,400);
+
+html {
+	max-width: 1600px;
+	margin: 0 auto;
+	padding: 0;
+	font-family: Oswald, Trebuchet, sans-serif;
+}
+
+body {
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font-weight: 400;
+	line-height: 1.45;
+}
+
+.black-bg {
+	background: black;
+}
+
+.top-border {
+	background-color: #FF4C0C;
+	padding-top: 5px;
+}
+
+.bottom-border {
+	background-color: #FF4C0C;
+	padding-bottom: 5px;
+}
+
+.menu {
+	padding: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.menu-item {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+
+	width: 14.667%;
+	padding-top: 12px;
+	padding-bottom: 8px;
+	border-bottom: 4px solid black;
+}
+
+.menu-item:hover {
+	border-bottom: 4px solid #FF4C0C;
+}
+
+.logo {
+	display: block;
+}
+
+
+.logo-small {
+    display: none;
+    visibility: hidden;
+}
+
+.container {
+	width: 92%;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.icons {
+	float: left;
+	margin-left: 1%;
+}
+
+.search-box {
+	float: right;
+	margin-right: 1%;
+}
+
+.search-box input {
+	background-color: black;
+	border: none;
+	border-bottom: 2px solid white;
+	color: white;
+	margin-top: 20px;
+	width: 220px;
+}
+
+.search-box input::-webkit-input-placeholder,
+.search-box input:-moz-placeholder,
+.search-box input:-ms-input-placeholder {
+	color: white;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+ul {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+ol:first-child {
+	margin-top: 18px;
+}
+
+ol:last-child {
+	margin-bottom: 18px;
+}
+
+ol li:nth-child(odd) {
+	background: #DDD;
+}
+
+li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+header li, footer li {
+	display: inline-block;
+	margin: 0 3px;
+	text-align: center;
+}
+
+a {
+	color: #EEE;
+	text-align: center;
+	text-decoration: none;
+}
+
+.link {
+	color: black;
+	text-align: left;
+}
+
+.featured-margin {
+	margin-top: 22px;
+}
+
+.featured-big, .featured-small, .post img, .post-text {
+	display:inline;
+	float: left;
+	position: relative;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+
+.featured-big {
+	width:64.667%;
+}
+
+.featured-small {
+	width:31.333%;
+}
+
+.post img {
+	width: 23.0%;
+}
+
+figure {
+	margin: 0;
+}
+
+.post {
+	margin-right: 1%;
+	margin-left: 1%;
+	padding: 10px;
+}
+
+.post img {
+	margin: 12px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.featured-margin img {
+	border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+figcaption { 
+	position: absolute;
+	left: 0;
+	bottom: 4px;
+	background-color: rgba(0, 0, 0, 0.75);
+	padding: 2%;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+figcaption h1 {
+	font-size: 1.75rem;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 2%;
+	color: white;
+	line-height: 1;
+}
+
+figcaption p {
+	font-size: 1rem;
+	margin: 0;
+	padding-top: 0;
+	padding-bottom: 0;
+	color: white;
+	font-weight: 300;
+	line-height: 1.75;
+}
+
+.post-text {
+	margin-top: 4px;
+	width:64.667%;
+}
+
+p {
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.visuallyHidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+.designed-by {
+	float: right;
+	margin-right: 1%;
+	color: white;
+	margin-top: 24px;
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+	font-size: 0.75rem;
+}
+
+.article {
+	text-align: center;
+}
+
+.article h1 {
+	font-size: 3rem;
+}
+
+.article h2 {
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
+.article h3 {
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+	font-size: 1rem;
+}
+
+.article img {
+	max-width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.article p {
+	text-align: left;
+}
+
+.article-text {
+	max-width: 600px;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-left: 10px;
+}
+
+table {
+	font-family: 'Roboto', sans-serif;
+	border-collapse: collapse;
+	vertical-align: center;
+	text-align: center;
+	margin: 20px auto;
+}
+
+.sources {
+	width: 60%;
+	margin: 0 20%;
+}
+
+.contact, .thankyou {
+	width: 30%;
+	margin: 0 35% 20px 35%;
+}
+
+.error-page {
+	width: 60%;
+	margin: 0 20% 20px 20%;
+	text-align: center;
+}
+
+.error-page h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+.sources h1, .contact h1, .thankyou h1 {
+	font-size: 3.5rem;
+	text-align: center;
+}
+
+.thankyou h2 {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+.error-page h1 {
+	font-size: 3rem;
+}
+
+td, th {
+	border: 1px solid #777;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color: #DDD;
+}
+
+table img {
+	max-width: 40%;
+}
+
+th, td {
+	text-align: center;
+	width: 20%;
+}
+
+td a {
+	color: black;
+}
+
+.contact input, label, textarea {
+	font-family: 'Roboto', sans-serif;
+	display: block;
+	margin: 2px auto;
+	width: 100%;
+}
+
+input, textarea {
+	margin-bottom: 8px;
+}
+
+textarea {
+	height: 120px;
+}
+
+.send-btn {
+	margin-top: 16px;
+	height: 40px;
+}
+
+/* Clear Floated Elements
+----------------------------------------------------------------------------------------------------*/
+
+/* http://sonspring.com/journal/clearing-floats */
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+/* http://perishablepress.com/press/2008/02/05/lessons-learned-concerning-the-clearfix-css-hack */
+
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.clearfix {
+	display: inline-block;
+}
+
+* html .clearfix {
+	height: 1%;
+}
+
+.clearfix {
+	display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+@media screen and (max-width: 800px) {
+	img {
+		display: block;
+		margin: auto;
+	}
+
+	h2, h3, p {
+		text-align: center;
+	}
+
+	.sources, .contact, .thankyou, .error-page {
+		width: 92%;
+		margin: 0 4%;
+	}
+
+	.sources h1, .contact h1, .thankyou h1, .error-page h1 {
+		font-size: 3rem;
+	}
+
+	figcaption h1 {
+		font-size: 1rem;
+	}
+
+	figcaption p {
+		font-size: 0.6rem;
+	}
+
+	.post img {
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 0;
+
+		width: 33.0%;
+	}
+
+	.post-text {
+		width: 54.667%;
+	}
+
+	.post-text h1 {
+		font-size: 0.9rem;
+		text-align: left;
+	}
+
+	.post-text p {
+		font-size: 0.7rem;
+		text-align: left;
+	}
+
+	.article h1 {
+		font-size: 2.5rem;
+	}
+
+	.article h2 {
+		font-size: 1.2rem;
+	}
+
+	.article h3 {
+		font-size: 0.8rem;
+	}
+
+	.article img {
+		max-width: 80%;
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+
+	.article-text {
+		width: 75%;
+		margin-left: 12.5%;
+		margin-right: 12.5%;
+		padding-left: 0;
+	}
+
+	form {
+		margin-bottom: 16px;
+	}
+
+	.error-page img {
+		margin-bottom: 22px;
+	}
+
+} /* END 800px QUERY */	
+
+
+@media screen and (max-width: 520px) {
+	.icons, .search-box, .designed-by {
+		display: block;
+		clear: both;
+	}
+
+	.icons {
+		margin: 10px auto 0 auto;
+	}
+
+	.designed-by {
+		float: left;
+		margin-top: 6px;
+		margin-bottom: 8px;
+		margin-left: 3px;
+		font-size: 0.7rem;
+	}
+
+	.search-box {
+		float: left;
+		margin-top: 0;
+		margin-bottom: 6px;
+		width: 98%;
+	}
+
+	.search-box input {
+		width: 50%;
+	}
+
+	.sources h1, .contact h1, .thankyou h1, .error-page h1 {
+		font-size: 2.2rem;
+	}
+
+	.thankyou h2, .error-page h2 {
+		font-size: 1rem;
+	}
+
+	.featured-big, .featured-small {
+		display: block;
+		width: 98%;
+	}
+
+	.post img {
+		display: block;
+		width: 98%;
+	}
+
+	.post-text {
+		display: block;
+		width: 98%;
+	}
+
+	.post-text p {
+		margin-bottom: 0;
+	}
+
+	.article h1 {
+		font-size: 1.8rem;
+	}
+
+	.article h2 {
+		font-size: 1rem;
+	}
+
+	.article img {
+		max-width: 92%;
+		margin-left: 4%;
+		margin-right: 4%;
+	}
+
+	.article-text {
+		width: 90%;
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.menu {
+		padding-bottom: 16px;
+	}
+
+	.menu-item {
+		display: block;
+
+		width: 100%;
+		border-bottom: 4px solid #555;
+	}
+
+	.logo {
+    	display: none;
+    	visibility: hidden;
+	}
+
+	.logo-small {
+		margin: 5%;
+		display: block;
+		visibility: visible;
+	}
+
+} /* END 400px QUERY */	

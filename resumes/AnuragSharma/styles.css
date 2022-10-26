@@ -1,0 +1,266 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.rotate {
+  background-color: transparent;
+  width: 350px;
+  height: 350px;
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+.in {
+  width: 100%;
+  height: 100%;
+-webkit-transition: transform 0.8s;
+  transition: transform 0.8s;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.rotate:hover .in {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.front, .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 50%;
+}
+
+.back {
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.reach {
+  background-color: transparent;
+  width: 60px;
+  height: 60px;
+}
+
+.con a {
+  color: lightpink;
+}
+
+.con a:hover {
+  color: lightblue;
+}
+
+.fas, .fab {
+  color: white;
+}
+
+header {
+  background-image: linear-gradient(to top, rgba(255,0,0,0), black);
+  padding-top: 50px;
+}
+
+footer {
+  background-image: linear-gradient(to bottom, rgba(255,0,0,0), black);
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+body {
+  text-align: center;
+  margin: 5%;
+  font-family: Montserrat, avenir, "times new roman", arial;
+  font-weight: 300;
+  color: black;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0px;
+  background: url("images/mountain3.jpg") no-repeat top left fixed;
+  background-size: cover;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+  color: lightpink;
+  font-family: Sacramento;
+  font-size: 40px;
+}
+
+h1 {
+  margin-top: 0px;
+  color: lightblue;
+  font-family: Sacramento;
+  font-size: 50px;
+}
+
+h2 {
+  color: lightblue;
+}
+
+.color, h4, h5 {
+  color: lightblue;
+  font-size: 18px;
+}
+
+.pro p {
+  margin-top: 0px;
+}
+
+.exp ul, h4 {
+  margin-top: 0px;
+
+}
+
+.exb ul, .edu ul, .awd p, .etc ul, .etc p, .con ul {
+  margin-top: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+
+nav li {
+  margin: 10px;
+  border: 2px solid white;
+  border-style: dotted;
+}
+
+nav a {
+  display: block;
+  padding: 6px;
+  transition: background-color .35s;
+  color: black;
+  background-color: lightpink;
+}
+
+nav a:hover{
+  background-color: lightblue;
+}
+
+
+.profile {
+  border-radius: 50%;
+  width: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+
+.exp ul, .exb ul, .edu ul, .awd ul, .etc ul, .con ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.exp h4, .exb h4, .edu h4 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.exp h5 {
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.exp p, .exb p, .edu p {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.awd li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.social img {
+  width: 70px;
+}
+
+.social li {
+  display: inline-block;
+  margin: 10px;
+}
+
+.social {
+  padding-left: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
+}
+
+small {
+  padding-bottom: 10px;
+  color: lightblue;
+}
+
+main {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+@media screen and (min-width: 700px) {
+  main {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  header nav {
+    max-width: 90%;
+    margin: auto;
+  }
+
+  header li {
+    display: inline-block;
+    width: 15%;
+  }
+
+}
+
+@media screen and (min-width: 1355px) {
+  main {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  header nav {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  header li {
+    display: inline-block;
+    width: 10%;
+  }
+
+
+
+  .exps {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+  .etc ul li {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}

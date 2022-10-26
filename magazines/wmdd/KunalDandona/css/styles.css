@@ -1,0 +1,730 @@
+/* Fonts to be imported for the magazine */
+@import url('https://fonts.googleapis.com/css?family=Oswald|Raleway|Work+Sans');
+
+/* Body and HTML design properties */
+body, html {
+	margin: .0em;
+	padding: .0em;
+	height: 100%;
+	line-height: 26px;
+	font-family: 'Work Sans', sans-serif;
+	color: #eee;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+html {
+	overflow-y: scroll;
+}
+
+/* Grids used in the website */
+.column-1,.column-2,.column-3,.column-4,.column-5,.column-6,.column-7,.column-8,.column-9,.column-10,.column-11,.column-12 {
+	box-sizing: border-box;
+	float: left;
+	width:100%;
+	padding: 0 1%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Wrapper or Container of the body */
+.wrapper {
+	max-width: 1400px;
+	width:95%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+/* Header Properties */
+.header-top{
+	position: relative;
+}
+
+.header-black{
+	position: relative;
+	background-color: rgba(34,34,34,1);
+	z-index: 111;
+	line-height: 33px;
+	height: 33px;
+	padding: 0;
+}
+
+.header-white{
+	max-height: 120px;
+	z-index: 999;
+	width: 100%;
+	padding-top: 17px;
+	background: none;
+	overflow: hidden;
+	opacity: 1;
+	border-bottom: 1px solid gainsboro;
+}
+
+.left{
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 400;
+	letter-spacing: -0.4px;
+	text-transform: none;
+	font-family: 'Work Sans', sans-serif;
+}
+
+.left p {
+	font-size: 0.8rem;
+	line-height: 3;
+	margin: 0;
+}
+
+.right{
+	display: -webkit-box;
+}
+
+.right ul{
+	float: none;
+	list-style-type: none;
+	background: 0 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: baseline;
+	outline: 0;
+}
+
+.right ul li{
+	float: left;
+	min-width: 35px;
+}
+
+.right a{
+	color: white;
+
+}
+
+.right a:hover, .read-more a:hover, .trending-box h4 a:hover{
+	color: #ed145b;
+}
+
+.logo {
+	float: left;
+	display: block;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.mobile-toggle {
+	cursor: pointer;
+	font-size: 20px;
+	position: absolute;
+	right: 25px;
+	top: 110px;
+	width: 30px;
+}
+
+.scree{
+	top: 40px;
+}
+
+.open-nav {
+	max-height: 400px;
+}
+.open-nav .mobile-toggle {
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+}
+
+.sticky {
+	position: fixed;
+	background-color: rgba(255, 255, 255, 0.93);
+	opacity: 1;
+	top: 0px;
+	border-bottom: 1px solid gainsboro;
+}
+
+.mobile-toggle span {
+	width: 30px;
+	height: 4px;
+	margin-bottom: 6px;
+	border-radius: 1000px;
+	background: #8f8f8f;
+	display: block;
+}
+
+
+nav {
+	font-family: 'Oswald', sans-serif;
+	float: right;
+	width: 60%;
+}
+
+nav ul{
+	float: right;
+	list-style-type: none;
+	overflow: hidden;
+	text-align: right;
+	margin-top: 6px;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-left: 35px;
+	line-height: 3;
+	vertical-align: middle;
+}
+header nav{
+	float: right;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+nav ul a {
+	color: #888888;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+/* Header Search*/
+.search {
+	position: relative;
+	color: #aaa;
+	font-size: 16px;
+}
+
+.search input {
+	width: 250px;
+	height: 30px;
+	border: 1px solid #aaa;
+	border-radius: 5px;
+
+}
+
+.search input { text-indent: 32px;}
+.search .fa-search { 
+	position: absolute;
+	top: 18px;
+	left: 10px;
+}
+
+
+/* Parallax Image Section*/
+.parallax-image {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../images/bg-spencer.jpg");
+	min-height: 60%;
+}
+
+.container {
+	position: absolute;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 40%;
+	background-color: white;
+	opacity: 0.9;
+	padding: 15px;
+	max-width: 350px;
+}
+
+.welcome {
+	font-weight: 800;
+	color: transparent;
+	font-size: 40px;
+	background: url("../images/bg-spencer.jpg") repeat;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 40% 50%;
+	-webkit-background-clip: text;
+	position: relative;
+	text-align: center;
+	line-height: 80px;
+	letter-spacing: -2px;
+}
+
+.welcome-main {
+	display: block;
+	font-size: 100px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Main Body Section*/
+.main-body{
+	background-color: #fbf9f8;
+}
+
+.main-body h2{
+	margin: 0;
+	color: #484848;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 35px;
+	line-height: 35px;
+	font-weight: 600;
+	letter-spacing: -1.4px;
+	text-transform: none;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+
+}
+
+.main-body h3{
+
+	color: #222222;
+	font-size: 38px;
+	line-height: 47px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -0.8px;
+	text-transform: none;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.main-body h4{
+	color: #222222;
+	font-size: 22px;
+	line-height: 25px;
+	font-style: normal;
+	font-weight: 600;
+	letter-spacing: -0.7px;
+	text-transform: none;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+/* Main Body Trending Part*/
+.trending, .trending a{
+	color: #000;
+	padding: 3rem 0;
+}
+
+.trending h2{
+	text-align: center;
+}
+
+.read-more{
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+.trending-box{
+	background-color: #fff;
+	padding:2rem;
+	border-bottom: 1rem;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.trending .column-4{
+	margin-bottom: 1rem;
+}
+
+/* Categories Section CSS Code*/
+.category{
+	background-image: url("../images/circles-light.png");
+	padding: 3em 0;
+	margin-top: 1em;
+	margin-bottom: 3em;
+	text-align: center;
+}
+
+.center{
+	text-align:center;
+}
+
+.noborder{
+	border:none !important;
+}
+
+.category-container{
+	position: relative;
+	text-align: center;
+	color: white;
+	width: 50%;
+	float: left;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 1rem;
+	text-transform: uppercase;
+	background-color: #1e1e1e;
+	padding: 1em;
+}
+
+
+.category-container:hover img, .trending-box img:hover{
+	-webkit-filter: grayscale(100%);
+}
+
+/* Post Section CSS*/
+.post-item{
+	background-color: #fff;
+	color: #000;
+	padding: 2rem;
+	box-shadow: 1px 1px 1px grey;
+}
+
+.time-post{
+	background-color: #ffed7f;
+	padding: 2px 7px;
+	color: #161414;
+	font-weight: 500;
+	letter-spacing: 2px;
+	display: inline-block;
+}
+
+.post-item a{
+	color: black;
+}
+
+.post-item a:hover{
+	color: black;
+}
+.continue-reading a{
+	padding: 1em;
+}
+
+/* Border Fade- CodePen by*/
+.continue-reading a {
+	display: inline-block;
+	transition-duration: 0.3s;
+	transition-property: box-shadow;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	transform: translateZ(0);
+	box-shadow: inset 0 0 0 4px #ececec, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.continue-reading a:hover {
+	box-shadow: inset 0 0 0 4px #666, 0 0 1px rgba(0, 0, 0, 0);
+}
+
+
+/* Seperator CSS*/
+.shadow-separator {
+	height: 20px;
+	margin: 40px auto;
+	overflow: hidden;
+	max-width: 250px;
+}
+
+.shadow-separator:after {
+	border-radius: 100%;
+	-webkit-box-shadow: 0 0 10px #333333;
+	box-shadow: 0 0 10px #333333;
+	content: "";
+	display: block;
+	height: inherit;
+	position: relative;
+	top: 100%;
+}
+
+
+/* Elemets used on page Article,404,Sources & Contact*/
+.article-post{
+	margin: 1em;
+}
+.share-now{
+	background: url(../images/833.jpg);
+	background-color: #fff;
+	color: #000;
+	padding: 2rem;
+	text-align: center;
+	letter-spacing: -0.8px;
+	background-size: contain;
+	box-shadow: 3px 3px 2px grey;
+}
+
+.share-now ul{
+	float: none;
+	list-style-type: none;
+	background: 0 0;
+	border: 0;
+	margin: 0;
+	padding: 0;
+
+}
+.share-now li{
+	float: left;
+	min-width: 80px;
+}
+
+.share-now a{
+	text-decoration: none;
+	color: #1c1c1c;
+}
+.icons-word{
+	display: inline-block;
+}
+
+.share-now h2{
+	padding: 0;
+}
+
+.image-insta{
+	width: 50%;
+	float: left;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+hr{
+	border: 1px dotted #a9a9a9;
+	border-style: none none dotted;
+
+}
+.instagram-feed{
+	margin-bottom: 2em;
+
+}
+.btns{
+	text-align: center;
+	display: block;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.bda{
+	border: 1px dotted #a9a9a9;
+
+}
+
+.newsletter-article{
+	margin-bottom: 2rem;
+}
+
+.not-found{
+	background-color: #ffed7f;
+	font-size: 3rem;
+	padding: 25px 7px;
+	line-height: 2;
+	color: #161414;
+	font-weight: 500;
+	letter-spacing: -5px;
+	display: block;
+}
+.page_not_found{
+	margin-top: 2rem;
+}
+
+.button-post{
+	display: inline-block;
+	font-size: 15px;
+	line-height: 41px;
+	height: 41px;
+	font-style: normal;
+	font-weight: 600;
+	background-color: #ffed7e;
+	border-radius: 0px;
+	letter-spacing: -0.3px;
+	text-transform: none;
+	border-width: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.news_container .button-post {
+	display: inline-block;
+	font-size: 15px;
+	line-height: 41px;
+	height: 45px;
+	font-style: normal;
+	font-weight: 600;
+	background-color: #ffed7e;
+	border-radius: 0px;
+	letter-spacing: -0.3px;
+	text-transform: none;
+	border-width: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: -90px;
+}
+
+
+.article-post form input, textarea{
+	display: block;
+	width: 90%;
+	margin: 10% auto;
+	font-weight: 500;
+	font-size: 1rem;
+	padding: 4%;
+}
+
+.article-post  textarea{
+	height: 200px;
+}
+
+.send{
+	border: none;
+	background-color:#ed145b;
+	color: white;
+}
+
+.sources-container{
+	padding-top: 2rem;
+	padding-bottom: 1rem; 
+}
+
+
+.sources-container .column-3:nth-child(4){
+border:none;
+}
+
+/* Footer Code CSS*/
+.footer-top
+{
+	background: url(../images/footer-bg.png);
+	background-repeat: repeat-x;
+	background-size: auto;
+	background-color: #1c1c1c;
+	position: relative;
+	background-position: center;
+	padding: 10px;
+} 
+
+.footer-top h3{
+	font-size: 22px;
+	letter-spacing: -0.7px;
+	line-height: 26px;
+	font-weight: 600;
+	text-transform: none;
+	color: #ffffff;
+	font-style: normal;
+}
+
+.footer-bottom{
+	background-color:#1a1a1a ;
+}
+
+.credits{
+	text-align: center;
+	color: #454545;
+	margin: 25px;
+	font-size: 14px;
+	line-height: 22px;
+}
+
+
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+
+.form-field {
+	width: 250px;
+	background: #fff;
+	color: #a3a3a3;
+	padding: 22px 18px;
+	
+}
+
+.newsletter h3, .newsletter p, .sitemap h3, .sitemap a, .latest-post h3, .latest-post p, .latest-post h4{
+	color: #ffffff;
+}
+
+.sitemap ul{
+	border: 0;
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.sitemap li{
+	margin: 0;
+	line-height: 22px;
+	padding: 3px 0 19px;
+}
+
+.sitemap a:hover, .latest-post a:hover{
+	color: #ed145b;
+	letter-spacing: -0.6px;
+}
+
+nav a:hover{
+	color: #ed145b;
+
+}
+
+/*.bottom-post:hover{
+	border: 1px solid #ed145b;
+	padding: 5px;
+
+}*/
+.latest-post p{
+	margin-bottom: 5px;
+	margin-top: 0;
+}
+.bottom-post{
+	margin-bottom: 10px;
+}
+
+.time p{
+	margin-bottom: 1.25rem;
+}
+
+/* Common code for clearfix, image responsive and scroll effect*/
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+ .cf:before,
+ .cf:after {
+ 	content: " "; /* 1 */
+ 	display: table; /* 2 */
+ }
+
+ .cf:after {
+ 	clear: both;
+ }
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+ .cf {
+ 	*zoom: 1;
+ }
+
+
+ img{
+ 	max-width: 100%;
+ 	height: auto;
+ }
+
+
+/* Google Maps Responsive  https://css-tricks.com/NetMag/FluidWidthVideo/Article-FluidWidthVideo.php */
+
+.google {
+	position: relative;
+	padding-bottom: 56.25%; 
+	padding-top: 25px;
+	height: 0;
+}
+.google iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}

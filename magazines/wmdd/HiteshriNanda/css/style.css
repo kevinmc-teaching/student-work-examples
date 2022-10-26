@@ -1,0 +1,1509 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* ////////////////////////
+
+============ HOMEPAGE/INDEX=====================
+
+/////////////////////// 
+
+
+
+/* HEADER ===================== */
+
+body {
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+
+h1 {
+    font-family: 'abril fatface', serif, arial;
+    font-size: 1.5rem;
+    color: #202020;
+    text-align: center;
+}
+
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a,
+nav a:visited {
+    text-decoration: none;
+    color: black;
+    padding: .5rem;
+    display: inline-block;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: #202020;
+}
+
+/* BODY ========================= */
+
+
+.where-next {
+    font-family: 'abril fatface', serif, arial;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    display: block;
+    top: -3.1rem;
+    margin-bottom: 0;
+}
+
+.where-next span {
+    background-color: white;
+    padding: 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr;
+    margin: 0.5rem 0;
+    box-shadow: 1px 7px 9px #eee;
+}
+
+h1 {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+header .social-media {
+    grid-column: 1;
+    align-self: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 0 2rem;
+    max-width: 50px;
+}
+
+header .social-media ul {
+    text-align: center;
+}
+
+.social-media {
+    display: block;
+}
+
+header .social-media ul li{
+    display: none;
+}
+
+header .social-media ul li.hamburger {
+    display: inline-block;
+}
+
+.menu {
+    display: none;
+}
+
+.search {
+    grid-column: 3;
+    align-self: center;
+    text-align: center;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    margin: 0 2rem;
+    max-width: 50px;
+}
+
+.input-search {
+    display: none;
+}
+
+.search i {
+    border-left: none;
+}
+
+
+/* FAV DESTINATIONS ========================= */
+
+.top-destinations {
+    margin: 0 2rem;
+}
+
+.top-destinations h3 , .travel-tips h3 {
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0rem;
+    border-bottom: 1px solid #000;
+}
+
+.top-destinations h3 {
+    margin-bottom: 2rem;
+}
+
+.top-destinations span , .travel-tips h3 span {
+    position: relative;
+    padding: 0.75rem;
+    top: 0.7rem;
+    background-color: #fff;
+}
+
+.single-td:nth-of-type(1) {
+    padding-top: 2rem;
+}
+
+.single-td h4 {
+    text-transform: uppercase;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.single-td:nth-child(n+4){
+    display: none;
+}
+
+.single-td p {
+text-align: center;
+font-family: 'open sans', Arial, Helvetica, sans-serif;
+font-size: .8rem;
+line-height: 1.2rem;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+padding-bottom: 2rem;
+}
+
+.single-td:hover {
+    box-shadow: 1px 7px 9px #eee;
+}
+
+.more {
+    text-align: center;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+}
+
+.more:hover{
+    font-weight: 900;
+}
+
+/* TRAVEL TIPS ========================= */
+
+.travel-tips h3 {
+    margin: 0 2rem;
+}
+
+.tt-images {
+    margin: 0 auto;
+    max-width: 300px;
+    position: relative;
+    padding: 1rem;
+}
+
+.tt-images-back {
+    position: relative;
+    max-width: 70%;
+    top: 0;
+    left: 0;
+}
+
+.tt-images-front {
+    position: absolute;
+    max-width: 70%;
+    left: 25%;
+    top: 30%;
+}
+
+.travel-tips h4 {
+    font-family: "abril fatface", serif, arial, georgia;
+    font-size: 1.8rem;
+    padding: 2.5rem;
+    line-height: 2rem;
+    margin: 0;
+    letter-spacing: .05rem;
+}
+
+.travel-tips p {
+    padding: 2.5rem;
+    padding-top: 6rem;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.01rem;
+}
+
+strong {
+    display: inline;
+    font-weight: 900;
+    font-size: 0.9rem;
+}
+
+p.more-numbers {
+    text-align: center;
+    font-family: "abril fatface", serif, arial, georgia;
+    letter-spacing: 1rem;
+    padding-top: 0;
+}
+
+/* BLOGS ========================= */
+
+div.vertical-line {
+    width: 1px; 
+    background-color: black;
+    float: left;
+    margin-left: 4rem;
+    position: absolute;
+    top: 0;
+    height: 150px;
+}
+
+.section-blogs {
+    background-color: #f4f4f4;
+}
+
+.blogs {
+    max-width: 900px;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.indv-blog {
+    margin: 2rem;
+}
+
+.blogs h3 {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    font-family: "abril fatface", serif, arial, georgia;
+    letter-spacing: .2rem;
+    margin-bottom: 4.33rem;
+    text-align: left;
+    border: 0;
+}
+
+.dates {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.indv-blog h4 {
+    font-family: "abril fatface", serif, arial, georgia;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 0;
+    letter-spacing: .05rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.indv-blog p {
+    margin-top: 0;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.indv-blog:nth-of-type(1n+4){
+    display: none;
+}
+
+
+/* FOOTER ==================================== */
+
+footer {
+    margin: 2rem;
+}
+
+.visually-hidden { 
+    position: absolute !important;
+    height: 1px; 
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /* added line */
+}
+
+li {
+list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+footer h1 {
+        font-family: 'abril fatface', serif, arial;
+        font-size: 1.5rem;
+        color: #202020;
+        text-align: center;
+}
+
+.table ul {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.table ul li {
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.table ul li a {
+    padding: 1rem;
+    display: block;
+    font-size: 1rem;
+}
+
+.table ul li a:hover {
+    background-color: #2ebfb8;
+}
+
+footer .social-media ul li {
+    display: inline-block;
+}
+
+.table ul li a:hover {
+    color: white;
+}
+
+.hello {
+    font-family: 'abril fatface', serif, arial;
+        font-size: 1.5rem;
+        color: #202020;
+    border: 1px solid black;
+    padding: 1rem;
+    text-align: center;
+}
+
+.credits , .back-to-top {
+    text-align: center;
+    font-family: 'open-sans', sans-serif, Georgia, 'Times New Roman';
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2rem;
+    color: #202020;
+    text-decoration: none;
+    font-size: .8rem;
+   
+}
+
+.back-to-top {
+    display: block;
+}
+
+footer .social-media {
+    margin-top: 2rem;
+}
+
+
+
+
+/* MEDIA QUERIESSS ============================ */
+
+
+@media screen and (min-width: 650px) {
+
+h1 {
+    font-size: 2rem;
+}
+
+header {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+header .social-media {
+    padding-left: 1rem;
+    max-width: 100%;
+}
+
+header .social-media ul {
+    text-align: left;
+}
+
+header .menu a{
+    position: relative;
+}
+  
+header .menu a:after{
+    display: block;
+    content: '';
+    position: absolute;
+    width: 0; 
+    height: 8px;
+    margin-top: -8px;
+    opacity: 0.5;
+    right: 0;
+    background: #2ebfb8;
+    transition: width 0.4s ease;
+}
+   
+header .menu a:hover:after{
+    width: 100%;
+    left: 0;
+    background: #2ebfb8;
+}
+
+.search {
+    text-align: right;
+    padding-right: 1rem;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.input-search {
+    display: block;
+    width: 100%;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding-left: 1rem;
+}
+
+.search i {
+    padding-left: 0.8rem;
+    border-left: 1px solid #000;
+}
+
+header .social-media ul li.hamburger {
+    display: none;
+}
+
+header .social-media ul li {
+    display: inline-block;
+}
+
+.menu {
+    display: block;
+    grid-column: span 3;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+nav a {
+    font-weight: 600;
+    letter-spacing: 0.05rem;
+}
+
+.where-next {
+    font-size: 2.5rem;
+    top: -3.9rem;
+}
+
+.top-destinations {
+    margin: 0 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.top-destinations h3 {
+    grid-column: span 2;
+}
+
+.single-td {
+    padding-bottom: 1rem;
+}
+
+.top-destinations h3 , .travel-tips h3 {
+    font-size: 1.2rem;
+}
+
+.single-td:nth-child(n+4){
+    display: block;
+}
+
+.single-td:nth-child(n+6){
+    display: none;
+}
+
+.single-td:nth-of-type(1) {
+    padding-top: 0;
+}
+
+.single-td h4 {
+    font-size: 1rem;
+}
+
+.single-td p {
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.travel-tips h4 {
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.travel-tips p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+strong {
+    display: inline;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+.indv-blog p {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+
+}
+
+/* ==============================*/
+
+@media screen and (min-width: 950px) {
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.top-destinations {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+
+.top-destinations h3 {
+    grid-column: span 4;
+}
+
+.single-td:nth-of-type(1) {
+    padding-top: 0;
+}
+
+.single-td:nth-child(n+4){
+    display: block;
+}
+
+.section-blogs {
+    padding: 0rem 5rem;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2rem;
+}
+
+.indv-blog:nth-of-type(1n+4) {
+    display: block;
+
+}
+
+.blogs h3 {
+    grid-column: span 2;
+}
+}
+
+
+/* ////////////////////////
+/* ////////////////////////
+
+============ SINGLE ARTICLE!!!!!!!!=====================
+
+/* /////////////////////// 
+/* /////////////////////// */
+
+.article-index-h2, .article-page-icons, .bali-article-copy, .bali-article-copy-2, .article-share, .featured-blogs h3, .featured-blog-single, .comment-section {
+    max-width: 700px;
+    margin: 0 2.5rem;
+}
+
+.article-page-icons ul li a {
+    padding-left: 0;
+    padding-bottom: 0;
+}
+
+.hr-line-caption {
+    height: 1px; 
+    background-color: black;
+    width: 150px;
+    margin-bottom: 2.5rem;
+}
+
+.article-page-h2 {
+    font-family: "abril fatface", serif, arial, georgia;
+    font-size: 1.86rem;
+    line-height: 2.5rem;
+    letter-spacing: .05rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    display: block;
+    max-width: 321px;
+}
+
+.article-page-subh2 {
+    text-align: center;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    padding-bottom: 1rem;
+    text-align: left;
+    display: block;
+}
+
+.para-header {
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+}
+
+.article-page-icons li {
+    text-align: left;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.8rem;
+    display: block;
+    font-size: 0.7rem;
+    letter-spacing: 0.1rem;
+}
+
+.article-page-img1 {
+    padding-top: 2rem;
+}
+
+.bali-article-copy, .bali-article-copy-2 {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding-bottom: 1.5rem;
+}
+
+.bali-ad , .bali-note {
+    display: none;
+}
+
+.article-share a {
+    color: black;
+}
+
+.article-share {
+    font-size: 0.7rem;
+    display: block;
+    text-align: center;
+    padding: 2rem 0;
+    letter-spacing: 0.1rem;
+}
+
+.share-likes li {
+    padding: 0 0.5rem;
+}
+
+.share-likes a {
+    padding: 1rem;
+    padding-left: 0;
+}
+
+.comment-section p {
+    margin-bottom: 5rem;
+}
+
+.article-comment-button {
+    display: block;
+    color: white;
+    padding: 1rem;
+    background-color: #1fc1c1;
+    text-align: center;
+}
+
+.article-comment {
+    display: none;
+}
+
+.featured-blogs {
+    margin-bottom: 5rem;
+}
+
+.featured-blogs h3 {
+    font-family: 'open sans', sans-serif, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+    border-bottom: 1px solid #000;
+    margin-bottom: 1.5rem;
+}
+
+.featured-blogs span {
+    position: relative;
+    padding: 0.75rem;
+    top: 0.6rem;
+    background-color: #fff;
+}
+
+.featured-blog-single h5 {
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.featured-blog-single p {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.featured-blog-single img {
+    padding-top: 2rem;
+}
+
+.featured-blog-single:nth-child(n+3){
+    display: none;
+}
+
+.featured-blog-single:hover {
+    box-shadow: 1px 7px 9px #eee;
+}
+
+.hr-line-caption {
+    display: none;
+}
+
+.zoom-images{
+    overflow: hidden;
+}
+
+.zoom-images img{
+	transform: scale(1);
+	transition: .4s ease-in-out;
+}
+
+.zoom-images:hover img{
+	transform: scale(1.1);
+}
+
+
+/* =======MEDIA QUERIES=========================== */
+
+
+@media screen and (min-width: 700px) {
+.article-index-h2, .article-page-icons, .bali-article-copy, .bali-article-copy-2, .article-share, .featured-blogs h3, .featured-blog-single, .comment-section {
+    max-width: 700px;
+    margin: 0 9rem;
+}
+
+.featured-blogs h3 {
+    margin-bottom: 2rem;
+}
+
+.web-article-header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+    margin-bottom: 4rem;
+}
+
+.hr-line-caption {
+    display: block;
+    margin-bottom: 0;
+    margin-top: 2.5rem;
+}
+
+.web-article-header h2 {
+    grid-column: span 11;
+    margin: 0;
+}
+}
+
+@media screen and (min-width: 800px) {
+
+.article-index-h2, .article-page-icons, .bali-article-copy, .bali-article-copy-2, .article-share, .featured-blogs h3, .featured-blog-single, .comment-section {
+    margin: 0 auto;
+}
+
+.article-page-webview {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+}
+
+.article-page-icons {
+    grid-column: 2 / span 2;
+    margin-top: 1.19rem;
+}
+
+.article-page-img1 {
+    order: 2;
+    grid-column: span 3;
+}
+
+.bali-article-copy {
+    order: 1;
+    grid-column: span 6;
+}
+
+.article-pg-ad {
+    display: grid;
+    grid-template-columns: 2.5fr 1fr;
+    grid-gap: 2.5rem;
+    align-items: end;
+}
+
+.bali-ad {
+    display: block;
+    border-bottom: 1px solid #000;
+    border-top: 1px solid #000;
+}
+
+.bali-ad p {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+}
+
+.ad-header {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.bali-article-part-2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 2rem;
+}
+
+.bali-note {
+    display: block;
+    font-style: italic;
+    font-weight: 900;
+    border-top: 1px solid #000;
+    padding: 2rem;
+    padding-top: 1rem;
+    margin-top: 4.5rem;
+    grid-column: span 3;
+}
+
+.bali-article-copy-2 {
+    grid-column: span 6;
+}
+
+.comment-section {
+    max-width: 375px;
+}
+
+.article-comment {
+    min-width: 341px;
+    display: block;
+    padding: 1rem;
+    font-size: 0.8rem;
+}
+
+.comment-section p {
+    text-align: right;
+}
+
+.article-comment-button {
+    display: inline-block;
+    font-size: 0.75rem;
+    letter-spacing: 0.1rem;
+    padding: 0.5rem;
+}
+
+.featured-blog-single:nth-child(n+3){
+    display: block;
+}
+
+.featured-blogs {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-gap: 1rem;
+    margin-bottom: 10rem;
+}
+
+.featured-blog-1 {
+    grid-column: 2 / span 3;
+}
+
+.featured-blog-2 {
+    grid-column: 5 / span 3;
+}
+
+.featured-blog-3 {
+    grid-column: 8 / span 3;
+}
+
+.featured-blogs h3 {
+    grid-column: span 11;
+    width: 100%;
+    max-width: 90%;
+    margin-bottom: 2rem;
+}
+
+
+
+}
+
+
+
+
+
+/* ////////////////////////
+/* ////////////////////////
+
+============ CONTACT FORMM!!=====================
+
+/////////////////////// 
+/* /////////////////////// */
+
+
+
+.contact-form-bg {
+    background-color: #c0e2e1;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.full-form {
+    background-color: white;
+    opacity: 80%;
+}
+
+.form-vl {
+    margin: 0 auto;
+    width: 0.05rem;
+    background-color: #202020;
+    height: 70px;
+}
+
+.form-vl1 {
+    margin-bottom: 2rem;
+}
+
+.form-vl2 {
+    margin-top: 2rem;
+}
+
+.form-vl3 {
+    margin-top: 2rem;
+}
+
+.intro {
+    max-width: 50%;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.intro2 {
+    font-family: 'open-sans' , arial, helvetica, georgia;
+    font-weight: 400;
+    font-size: .8rem;
+    text-align: center;
+    letter-spacing: .2rem;
+    padding: 0;
+    margin: 0;
+}
+
+.intro3 {
+    font-family: 'open-sans' , arial, helvetica, georgia;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1rem;
+    text-align: center;
+    margin: .3rem;
+}
+
+.full-form {
+    margin: 0 1rem;
+    max-width: 700px;
+    padding-bottom: 1rem;
+}
+
+.form-header {
+    font-family: "abril fatface", serif, arial, georgia;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.full-form label, .full-form input, .full-form textarea {
+    display: block;
+} 
+
+.full-form input[type="text"], .full-form input[type="email"], .full-form textarea {
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+form div {
+    margin: 1rem;
+    margin-bottom: 2rem;
+}
+
+.full-form input[type="submit"] {
+    width: 100%;
+    background: #888;
+    border: none;
+    padding: 1rem 3rem;
+    color: #fff;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.full-form input[type="submit"]:hover {
+    background: #2ebfb8;
+    cursor: pointer;
+}
+
+
+
+
+
+/* ////////////////////////
+
+============ SOURCES =====================
+
+/////////////////////// 
+/* /////////////////////// */
+
+
+.sources-body {
+    margin: 0;
+}
+
+.sources-header {
+    margin: 0 auto;
+    margin: 2rem;
+    font-family: "abril fatface", serif, arial;
+    font-size: 1.8rem;
+    letter-spacing: .1rem;
+    line-height: 2.2rem;
+    max-width: 350px;
+    text-align: left;
+}
+
+
+.all-images {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 0;
+}
+
+.all-images a {
+    display: grid;
+}
+
+.bottom-text {
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'open-sans', sans-serif, Georgia, 'Times New Roman';
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5rem;
+    color: #202020;
+}
+
+.footer-sources a {
+    text-align: right;
+    text-decoration: none;
+    margin: 1rem 0;
+    color: #202020;
+}
+
+.credits {
+    text-align: center;
+    font-size: 0.7rem;
+    line-height: 1rem;
+}
+
+
+
+/* MEDIA QUERIES =========================== */
+
+
+@media screen and (min-width: 550px) {
+
+    .sources-header {
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-family: "abril fatface", serif, arial;
+        font-size: 3.5rem;
+        letter-spacing: .1rem;
+        line-height: 3.5rem;
+        max-width: 400px;
+    }
+
+    form div {
+        margin: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 700px) {
+
+    .sources-header {
+        margin: 0 auto;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        font-family: "abril fatface", serif, arial;
+        font-size: 3.5rem;
+        letter-spacing: .1rem;
+        line-height: 3.5rem;
+        max-width: 550px;
+    }
+
+    .full-form {
+        margin: 0 auto;
+    }
+
+    form div {
+        margin: 3rem 6rem;
+    }
+
+}
+
+
+
+@media screen and (min-width: 850px) {
+
+.sources-body {
+    margin: 5rem;
+}
+
+.sources-header {
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    font-family: "abril fatface", serif, arial;
+    font-size: 6rem;
+    letter-spacing: .3rem;
+    line-height: 6rem;
+    max-width: 680px;
+}
+
+.all-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 0;
+}
+
+
+
+.bottom-text {
+    margin-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-family: 'open-sans', sans-serif, Georgia, 'Times New Roman';
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.5rem;
+    margin-bottom: 4rem;
+}
+
+.footer-sources a {
+    text-align: right;
+    text-decoration: none;
+    margin: 1rem 0;
+    color: #202020;
+}
+
+.top {
+    text-align: right;
+}
+
+.credits {
+    text-align: center;
+}
+
+}
+
+
+@media screen and (min-width: 1000px) {
+
+.sources-body {
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+}
+
+
+
+
+/* ============ 404 PAGE NOT FOUNDD====================
+
+///////////////////////  */
+/* ///////YOU"RE//////////////// 
+/* /////////////LOSTTTTT////////// 
+/* /////////////////////// */
+
+.lost-part1 {
+    background-color: #c9e2de;
+    text-align: center;
+}
+
+.lost-part1 h2 {
+    font-family: "abril fatface", serif, arial;
+    font-size: 2rem;
+    color: #202020;
+    margin: 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    letter-spacing: .08rem;
+}
+
+.lost-part1 p {
+    font-family: 'open-sans', sans-serif, Georgia, 'Times New Roman';
+    font-size: .8rem;
+    color: #202020;
+    padding-bottom: 2rem;
+    padding-top: 0;
+    line-height: 1.2rem;
+    letter-spacing: 0.05rem;
+    margin-top: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.lost-blogs-all h3 , .lost-travel-insp {
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 600;
+    padding-bottom: 0rem;   
+}
+
+.lost-blogs-all h3 {
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #000;
+}
+
+.lost-blogs-all h3 span {
+    position: relative;
+    padding: 0.75rem;
+    top: 0.6rem;
+    background-color: #fff;
+    font-size: 1rem;
+}
+
+.lost-indv-blog , .travel-insp-single {
+    margin-top: 4rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+}
+
+.lost-travel-insp {
+    margin-bottom: 6rem;
+    background-color: #f4f4f4;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.lost-blogs-all {
+    margin-top: 4rem;
+}
+
+.blogs h3 {
+    margin-left: 6rem;
+    font-size: 1.5rem;
+    font-family: "abril fatface", serif, arial, georgia;
+    letter-spacing: .2rem;
+    margin-bottom: 4.33rem;
+    text-align: left;
+    border: 0;
+}
+
+.lost-dates {
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    letter-spacing: .1rem;
+    font-size: .8rem;
+    font-weight: 300;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: .5rem;
+}
+
+.lost-indv-blog h4 {
+    font-family: "abril fatface", serif, arial, georgia;
+    font-size: 1.8rem;
+    line-height: 2rem;
+    margin: 0;
+    letter-spacing: .05rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.lost-indv-blog p {
+    margin-top: 0;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.lost-more {
+    text-align: center;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    padding-top: .8rem;
+    }
+
+.lost-more:hover {
+    font-weight: 900;
+}
+
+.travel-insp-single h4 {
+    text-transform: uppercase;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.travel-insp-single p {
+text-align: center;
+font-family: 'open sans', Arial, Helvetica, sans-serif;
+font-size: .8rem;
+line-height: 1.2rem;
+padding-left: 1.5rem;
+padding-right: 1.5rem;
+padding-bottom: 2rem;
+}
+
+
+    /* ========================== MEDIA QUERIES =========================== */
+
+
+@media screen and (min-width: 900px) {
+
+.lost-blogs-all {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+}
+
+.lost-part1 h2 {
+    font-size: 4rem;
+}
+
+.lost-part1 p {
+    font-size: 1.2rem;
+    padding-top: 2rem;
+}
+
+
+.lost-blogs-all h3 {
+    grid-column: span 2;
+    margin-bottom: .5rem;
+}
+
+.lost-indv-blog {
+    margin-top: 4rem;
+}
+
+
+/* ========== travel insp ================== */
+
+
+.lost-travel-insp {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
+
+.lost-travel-insp  h3 {
+    grid-column: span 3;
+}
+
+.lost-travel-insp h3 {
+    font-family: 'open sans', sans-serif, Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-bottom: 0rem;
+}
+
+.travel-insp-single {
+    margin-top: 0;
+}
+
+.travel-insp-single:hover {
+    box-shadow: 1px 7px 9px #ddd;
+}
+
+.travel-insp-single h4 {
+    text-transform: uppercase;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: .1rem;
+}
+
+.travel-insp-single p {
+    text-align: center;
+    font-family: 'open sans', Arial, Helvetica, sans-serif;
+    font-size: .8rem;
+    line-height: 1.2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+
+}

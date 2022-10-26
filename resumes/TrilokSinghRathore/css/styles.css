@@ -1,0 +1,305 @@
+header {
+  background-color: #1f1f1f ;
+  padding-top: 30px;
+}
+
+.profile_pic {
+  display: block;
+  border-radius: 50%;
+  width: 175px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+}
+
+.pi {
+  margin-top: 10px;
+}
+
+.name {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+}
+
+.profession {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: .5px;
+  color: #b8b8b8;
+  text-align: center;
+}
+
+.contact {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #b8b8b8;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.social-icon {
+  width: 25px;
+  padding: 7px;
+}
+
+hr {
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.h2 {
+  color: white;
+  margin-top: 30px;
+  }
+
+.aboutme {
+  background-color: #1f1f1f;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+main {
+    background-color: #f7f8f8;
+}
+
+.abouttext {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #b8b8b8;
+  text-align: center;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.work-education {
+  padding-bottom: 10px;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+li {
+  list-style-type: none;
+}
+
+.work_edu {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.head1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.line1 {
+  margin-top: 15px;
+}
+
+.position {
+  font-family: 'Merriweather', serif;
+  font-weight: 400;
+  margin-bottom: 5px;
+  font-size: 12px;
+}
+
+.college {
+  margin-bottom: 0px;
+}
+
+.year {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+.year1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.ce {
+  font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+.res {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.skills {
+
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.software {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.skl {
+  text-align: left;
+  margin: 0;
+  padding: 0;
+  margin-left: 10px;
+}
+
+.hobby {
+  background-color: #1f1f1f;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 60px;
+  color: #b8b8b8;
+}
+
+.things {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.hobby_list {
+  margin-top: 10px !important;
+  margin: 0;
+  padding: 0;
+}
+
+.hobby_list li {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 11px;
+  margin-top: 5px;
+  float: left;
+  width:50%;
+  text-align: center;
+}
+
+.wrapper {
+  margin: 0% 5% !important;
+}
+
+/*========== media query========= */
+
+
+@media only screen and (min-width: 550px) {
+  .hobby_list li:nth-of-type(1) {
+    width:20%;
+  }
+
+  .hobby_list li:nth-of-type(2) {
+    width:20%;
+  }
+
+  .hobby_list li:nth-of-type(3) {
+    width:30%;
+  }
+
+  .hobby_list li:nth-of-type(4) {
+    width:30%;
+  }
+
+  .hobby {
+    padding-bottom: 45px;
+  }
+}
+
+
+
+@media only screen and (min-width: 900px) {
+  .hobby {
+    padding-bottom: 30px;
+  }
+
+  .wrapper {
+    margin: 0% 20% !important;
+  }
+}
+
+
+@media only screen and (min-width: 1200px) {
+
+.left {
+  width: 70%;
+  float:left;
+
+}
+
+.hobby {
+  padding-bottom: 15px;
+}
+
+.right {
+  width: 30%;
+  float:left;
+
+}
+
+.abouttext {
+  margin: 0% 10%;
+}
+
+
+.head1 {
+  text-align: left;
+}
+
+.work_edu {
+  width: 80%;
+}
+
+
+
+.skl {
+  text-align: left;
+}
+
+
+@media only screen and (min-width: 1500px) {
+
+
+  .wrapper {
+    margin: 0% 25% !important;
+  }
+}
+/*========= end of media query ===========*/
+
+
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}

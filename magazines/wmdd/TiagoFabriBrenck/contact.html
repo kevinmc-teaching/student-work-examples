@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    
+    <script src="https://use.fontawesome.com/55f7b320d3.js"></script>
+    
+    <title>Winter Magazine</title>
+</head>
+<body>
+	<div id="overlay"></div>
+    <h2 id="loading">
+        <img src="images/loading.gif" alt="Loading..." />
+        Loading... 
+    </h2>
+	<div class="content">
+		<header class="clearfix">
+			<h1><img class="logo" src="images/logo.svg" alt="winter magazine logo"></h1>
+		</header>
+		<nav class="clearfix">
+			<ul class="clearfix">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#">Activities</a></li>
+				<li><a href="#">Travel</a></li>
+				<li><a href="#">Food</a></li>
+				<li><a href="#">Photos</a></li>
+				<li><a href="#">Tips</a></li>
+				<li class="search-menu">
+					<input class="search-input" type="text" name="seach" placeholder="  Search...">
+					<a class="search-icon" href="#"><span class="fa fa-search"></span></a>
+				</li>
+			</ul>
+		</nav>
+	
+		<div class="clearfix">
+			<div class="contact">
+				<h1>Contact Us</h1>
+				<h2>Send us a message and we will get back you as soon as we can.</h2>
+				
+				<form id="contactForm" action="https://formspree.io/tiagobrenck@gmail.com" method="POST">
+
+				  	<label for="name">Name</label>
+				  	<input type="text" name="username" id="name">
+
+				  	<label for="email">Email</label>
+				  	<input type="email" name="useremail" id="email">
+					
+					<label for="subject">Subject</label>
+				  	<input type="text" name="msgsubject" id="subject">
+
+				  	<label for="comments">Comments</label>
+				  	<textarea name="usercomments" id="comments"></textarea>
+
+				  	<input type="text" name="_gotcha" style="display:none" />
+
+				  	<input id="submitForm" type="submit" value="Send">
+
+				</form>
+			</div>
+
+		</div>	
+		<footer>
+			<nav>
+				<ul class="clearfix">
+					<li><a href="#">Magazine Team</a></li>
+					<li><a href="#">Site Map</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li class="icon-fonts"> 
+						<a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i> </a>
+						<a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+						<a href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+					</li>
+					
+				</ul>
+			</nav>
+		</footer>
+		<script src="script/jquery-3.1.1.min.js"></script>
+		<script src="script/contact.js"></script>
+	</div>
+</body>
+</html>

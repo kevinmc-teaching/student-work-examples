@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PetZine</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<header class="dog">
+		<div class="container cf">
+			<div class="menu cf">
+				<a class="push" href="#">
+					<span class="icon-menu"></span>
+					<span class="visually-hidden">Menu</span>
+				</a>
+			</div>
+			<div class="logo cf">
+				<a class="push" href="index.html">
+					<h1 class="visually-hidden">PetZine</h1>
+					<img src="imgs/petzine_logo.png" alt="PetZine Logo">
+				</a>
+			</div>
+			<ul class="socialMedia cf">
+				<li>
+					<a class="push" href="#">
+						<span class="icon-instagram"></span>
+						<span class="visually-hidden">Instagram</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#"> 
+						<span class="icon-pinterest"></span>
+						<span class="visually-hidden">Pinterest</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#">
+						<span class="icon-facebook2"></span>
+						<span class="visually-hidden">Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#search">
+						<span class="icon-search"></span>
+						<span class="visually-hidden">Search</span>
+					</a>
+				</li>
+			</ul>
+
+			<!-- Search Form -->
+			<div id="search"> 
+				<span class="close">X</span>
+				<form role="search" id="searchform" action="/search" method="get">
+					<input value="" name="q" type="search" placeholder="type to search"/>
+				</form>
+			</div>
+
+			<div class="boxHl bounceInLeft cf">
+				<div class="highlight">
+					<div class="info cf">
+						<div class="inline">
+							<div class="lineRight">
+								<span class="inlineMargin icon-calendar"></span>
+								21.03
+							</div> 
+						</div>
+						<div class="inline">
+							<span class="inlineMargin icon-user"></span>
+							<i>Livia Bandeira</i>
+						</div>
+					</div>
+					<h3>Weimaraner,<br>the beauty and the beast</h3>
+					<p>The benefits and challenges of the breed</p>
+					<button class="bounceRight">Read More</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main>
+		<div class="container cf">
+			
+			<h2><span>Featured Articles</span></h2>
+			
+			<article class="col_4 dogs">
+				<img src="imgs/petzine_img-01.jpg" alt="PetZine Dog Image Post">
+				<div class="legend">– Dogs –</div>
+				<h4>Lazy Owner, Lazy Dog</h4>
+				<p>Many studies show that dogs are adaptive animals. Meaning: your level of laziness might influence your dog. Sharing a nice time in front of the TV is something that your dog will love...</p>
+				
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnDogs">Read More</button>
+			</article>
+
+			<article class="col_4 cats">
+				<img src="imgs/petzine_img-02.jpg" alt="PetZine Cat Image Post">
+				<div class="legend">– Cats –</div>
+				<h4>Apartment Pets</h4>
+				<p>Cutes? Independents? Adorable? Low maintenance? Sweets? Clean? Cats are all this and much, much more. It is possible to provide all the love, food, and entertainment required...</p>
+				
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnCats">Read More</button>
+			</article>
+			<article class="col_4 birds">
+				<img src="imgs/petzine_img-03.jpg" alt="PetZine Bird Image Post">
+				<div class="legend">– Birds –</div>
+				<h4>Starting a Conversation</h4>
+				<p>Birds are extremely intelligent animals. Some species are capable of not only learning a vast number of words but even memorizing and...</p>
+				
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnBirds">Read More</button>
+			</article>
+		</div>
+		
+		<div class="container cf">
+			
+			<h2><span>Latest in PetZine</span></h2>
+
+			<article class="col_4 guinea_pigs">
+				<img src="imgs/petzine_img-04.jpg" alt="PetZine Guinea Pig Image Post">
+				<div class="legend">– Guinea Pigs –</div>
+				<h4>Slim Diet</h4>
+				<p>Guinea pigs are cute little companions who could eat as much as their own size. When raising a guinea pig it is important to keep in mind that they do need to follow a strict diet...</p>
+
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnGuineaPigs">Read More</button>
+			</article>
+
+			<article class="col_4 turtles">
+				<img src="imgs/petzine_img-05.jpg" alt="PetZine Tortoise Image Post">
+				<div class="legend">– Tortoises –</div>
+				<h4>Pace of Life</h4>
+				<p>It is well-known that tortoises are slow animals. However, this could be as wrong as believing that they would lose the race against the hare. Even though...</p>
+
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnTurtles">Read More</button>
+			</article>
+			<article class="col_4 hedgehog">
+				<img src="imgs/petzine_img-06.jpg" alt="PetZine Hedgehog Image Post">
+				<div class="legend">– Hedgehog –</div>
+				<h4>Pain and Love</h4>
+				<p>It is possible to notice that recently more and more humans are having their hearts stolen by this little, cute and very sensitive animal: the hedgehog...</p>
+
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnHedgehog">Read More</button>
+			</article>
+		</div>
+		
+		<div class="container cf">
+
+			<h2><span>Popular Posts</span></h2>
+
+			<article class="col_4 rabbits">
+				<img src="imgs/petzine_img-07.jpg" alt="PetZine Rabbit Image Post">
+				<div class="legend">– Rabbits –</div>
+				<h4>Come to Me</h4>
+				<p>Rabbits are so soft that instead of brothers and sisters, kids now want rabbits! Once the rabbit gains trust in their humans, its behavior changes completely...</p>
+
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnRabbits">Read More</button>
+			</article>
+
+			<article class="col_4 cats">
+				<img src="imgs/petzine_img-08.jpg" alt="PetZine Cats Image Post">
+				<div class="legend">– Cats –</div>
+				<h4>Bathing Time</h4>
+				<p>Cats are super clean and hygienic animals. Their habit of liking their bodies are known as their bath and this behavior gave the cats an amazing reputation...</p>
+
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnCats">Read More</button>
+			</article>
+			<article class="col_4 dogs">
+				<img src="imgs/petzine_img-09.jpg" alt="PetZine Dog Image Post">
+				<div class="legend">– Dogs –</div>
+				<h4>Jump into the Water</h4>
+				<p>There are some breeds of dogs who just LOVE water. Their connection is historical, as for some dogs it was common to jump into lakes to hunt small birds or even some fish...</p>
+
+				<div class="info articleInfo cf">
+					<div class="inline">
+						<div class="lineRight">
+							<span class="inlineMargin icon-calendar"></span>
+							21.03
+						</div> 
+					</div>
+					<div class="inline">
+						<span class="inlineMargin icon-user"></span>
+						<i>Livia Bandeira</i>
+					</div>
+				</div>
+				<button class=" bounceRight btnDogs">Read More</button>
+			</article>
+		</div>
+	</main>
+
+	<section id="about">
+		<h2><span>About PetZine</span></h2>
+		<div class="contentAbout cf">
+			<div class="box2">
+				<div class="boxText">
+					<p>PETZINE IS AN ONLINE MAGAZINE ABOUT PETS FROM THE MOST DIFFERENT KINDS AND THEIR UNIQUE CHARACTERISTICS.<br><br>
+					IF YOU ARE AN ANIMAL LOVER, OR IF YOU WANT TO LEARN MORE INFORMATION ABOUT A SPECIFIC KIND OF PET, YOU ARE IN THE WRITE WEBSITE, AS OUR GOAL IS TO PROVIDE OUR READERS WITH INFORMATION AND THE NEWEST TRENDS ABOUT PETS.<br><br>
+					PETZINE WISHES YOU A WONDERFUL READING AND WE HOPE THAT YOU WILL ENJOY TO SHARE SOME TIME WITH US.</p>
+				</div>
+			</div>
+			<div class="box1">
+				<img src="imgs/petzine_img-10.jpg" alt="PetZine Imgs Posts">
+			</div>
+		</div>
+	</section>
+
+	<section id="trends">
+		<h2><span>Trends</span></h2>
+		<div class="fullWidth main cf">
+			<div class="view view-first">
+				<img class="imgTrends" src="imgs/petzine_img-11.jpg" alt="PetZine Cat Image Post">
+				<div class="mask maskCat">
+					<h2>BEAUTY</h2>
+					<p>DO CATS NEED TO BE BRUSHED DAILY OR MONTHLY? SHARING THE BRUSH WITH MY CAT?</p>
+					<a href="#" class="bounceRight info">Read More</a>
+				</div>
+			</div>
+			<div class="view view-first">
+				<img class="imgTrends" src="imgs/petzine_img-12.jpg" alt="PetZine Dog Image Post">
+				<div class="mask maskDog">
+					<h2>COLD</h2>
+					<p>WARM CLOTHES AND WINTER SHOES, WHEN IS IT TIME TO PROTECT YOUR PET?</p>
+					<a href="#" class="bounceRight info">Read More</a>
+				</div>
+			</div>
+			<div class="view view-first">
+				<img class="imgTrends" src="imgs/petzine_img-13.jpg" alt="PetZine Tortoise Image Post">
+				<div class="mask maskTurtle">
+					<h2>HUNGER</h2>
+					<p>DOES LETTUCE WINS AGAINST A SWEET AND FRESH STRAWBERRY?</p>
+					<a href="#" class="bounceRight info">Read More</a>
+				</div>
+			</div>
+			<div class="view view-first">
+				<img class="imgTrends" src="imgs/petzine_img-14.jpg" alt="PetZine Cat Image Post">
+				<div class="mask maskCat">
+					<h2>SUNNY</h2>
+					<p>SUNSHINE BENEFITS OR COULD IT DAMAGE MY CAT'S SKIN?</p>
+					<a href="#" class="bounceRight info">Read More</a>
+				</div>
+			</div>
+			<div class="view view-first">
+				<img class="imgTrends" src="imgs/petzine_img-15.jpg" alt="PetZine Dog Image Post">
+				<div class="mask maskDog">
+					<h2>PREJUDICE</h2>
+					<p>DO PEOPLE CONSCIOUSLY PICK OTHER DOG COLOURS OF ADOPTION?</p>
+					<a href="#" class="bounceRight info">Read More</a>
+				</div>
+			</div>
+		</div>
+		<div class="line"></div>
+	</section>
+
+	<section>
+		<div id="light-blue"></div>
+		<div id="subscribe" class="container cf footerCat">
+			<div class="col_8 blueBox">
+				<form class="cf" action="post">
+					<input type="email" name="subscribe" placeholder="EMAIL">
+					<button class="bounceRight">Subscribe</button> 
+				</form>
+			</div>
+			<div class="col_2">
+				<p>be part of this animal world.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container cf">
+		<div class="col_4 shortAbout cf">
+			<img src="imgs/footer_logo.png" alt="PetZine Logo">
+			<p>Petzine is an online magazine about pets and its different types and kinds.</p>
+		</div>
+		<div class="col_2 footerMenu cf">
+			<ul>
+				<li><a class="push" href="">Home</a></li>
+				<li><a class="push" href="">About</a></li>
+				<li><a class="push" href="">Contact</a></li>
+				<li><a class="push" href="">Categories</a></li>
+			</ul>
+		</div>
+		<div class="col_3 social cf">
+			<h4>Stay Connected</h4>
+			<ul>
+				<li>
+					<a class="push" href="#">
+						<span class="icon-facebook2"></span>
+						<span class="visually-hidden">Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#"> 
+						<span class="icon-pinterest"></span>
+						<span class="visually-hidden">Pinterest</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#">
+						<span class="icon-instagram"></span>
+						<span class="visually-hidden">Instagram</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="copyrights" class="col_10">
+			<p>copyright © 2017</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

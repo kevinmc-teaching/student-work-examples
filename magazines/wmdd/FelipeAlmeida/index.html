@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee Harbour - Everything for coffee lovers</title>
+  <link rel="stylesheet" href="style/style.css">
+  <!-- FONTS ==========-->
+  <!-- font - open sans -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+  <!-- font - oswald -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+
+  <!-- FONT AWESOME ==========-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+<!-- SEARCH INPUT -->
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><p><i class="fas fa-times"></i></p></span>
+    <div class="overlay-content">
+      <form action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search float_right"></i></button>
+      </form>
+    </div>
+  </div>
+
+
+<script>
+// Open the full screen search box
+function openSearch() {
+document.getElementById("myOverlay").style.display = "block";
+}
+
+// Close the full screen search box
+function closeSearch() {
+document.getElementById("myOverlay").style.display = "none";
+}
+</script>
+
+
+
+  <header>
+    <div class="header_wrapper">
+      <!-- <h2>BEST COFFEE PLACES &middot; COFFEE BREWING GUIDE &middot; INTERVIEWS</h2> -->
+      <h2>BEST COFFEE PLACES &middot; COFFEE BREWING GUIDE &middot; INTERVIEWS</h2>
+      <h1>COME ABOARD AND <span class="span_header"><a href="#">JOIN US</a></span></h1>
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li></li>
+      <li><a href="#">
+        <i class="fas fa-coffee"></i>
+        <span class="disappear_name">COFFEE PLACES</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-book"></i>
+        <span class="disappear_name">BREWING GUIDES</span>
+      </a>
+    </li>
+
+    <li class="logo_nav">
+      <a href="#">
+        <img src="images/coffee_harbour_logo_mini.png" alt="logo_coffee_harbour">
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-comment"></i>
+        <span class="disappear_name">INTERVIEWS</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="contact.html">
+        <i class="fas fa-envelope-open"></i>
+        <span class="disappear_name">CONTACT</span>
+      </a>
+    </li>
+
+    <li>
+      <a onclick="openSearch()">
+        <i class="fas fa-search"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<section class="latest_article cf">
+  <h1>LATEST ARTICLE</h1>
+  <article class="article_standard cf">
+    <a href="#"><img src="images/article_image01.jpg" alt="Coffee Shop from inside"></a>
+    <h2>MALIBU COFFEE DREAM HOUSE</h2>
+    <div class="article_category">
+      <div class="circle orange"><a href="#"><i class="fas fa-coffee"></i></div>
+      <h3 class="orange_text">COFFEE PLACES</h3></a>
+    </div>
+    <p>A coffeehouse, coffee shop or café (sometimes spelt cafe) is an establishment which primarily serves hot coffee, related coffee beverages (café latte, cappuccino, espresso), tea, and other hot beverages. Some coffeehouses also serve cold beverages such as iced coffee and iced tea. Many cafés also serve some type of food, such as light snacks, muffins or pastries.</p>
+    <p class="article_detail">Mar 12, 2018  •  23 Likes  • 2.1K Views</p>
+    <a class="continue_reading" href="#">CONTINUE READING</a>
+  </article>
+
+  <article class="article_standard cf">
+    <a href="#"><img src="images/article_image02.jpg" alt="Skilled man serving four coffees at the same time"></a>
+    <h2>ALAN GRAVES - BEST TECHNIQUES TO SERVE COFFEE</h2>
+    <div class="article_category">
+      <div class="circle yellow"><a href="#"><i class="fas fa-comment"></i></div>
+      <h3 class="yellow_text">INTERVIEWS</h3></a>
+    </div>
+    <p>Coffee beans must be ground and brewed to create a beverage. The criteria for choosing a method include flavor and economy. Almost all methods of preparing coffee require that the beans be ground and then mixed with hot water long enough to allow the flavor to emerge but not so long as to draw out bitter compounds. </p>
+    <p class="article_detail">Feb 7, 2018  •  19 Likes  • 1K Views</p>
+    <a class="continue_reading" href="#">CONTINUE READING</a>
+  </article>
+
+  <article class="article_standard cf">
+    <a href="#"><img src="images/article_image03.jpg" alt="Coffee powder in a metal recipient"></a>
+    <h2>5 STEPS TO KEEP THE FLAVOUR</h2>
+    <div class="article_category">
+      <div class="circle blue"><a href="#"><i class="fas fa-book"></i></div>
+      <h3 class="blue_text">BREWING GUIDE</h3></a>
+    </div>
+    <p>A number of products are sold for the convenience of consumers who do not want to prepare their own coffee or who do not have access to coffeemaking equipment. Instant coffee is dried into soluble powder or freeze-dried into granules that can be quickly dissolved in hot water. Originally invented in 1907.</p>
+    <p class="article_detail">Fev 1, 2018  •  44 Likes  • 3.4K Views</p>
+    <a class="continue_reading" href="#">CONTINUE READING</a>
+  </article>
+
+  <article class="article_standard cf">
+    <a href="#"><img src="images/article_image04.jpg" alt="Coffee machine in a large coffee shop"></a>
+    <h2>SKY IS THE LIMIT - AIRSHIP COFFEE POST</h2>
+    <div class="article_category">
+      <div class="circle orange"><a href="#"><i class="fas fa-coffee"></i></div>
+      <h3 class="orange_text">COFFEE PLACES</h3></a>
+    </div>
+    <p>The patrons of the first coffeehouse in England, The Angel, which opened in Oxford in 1650, and the mass of London coffee houses that flourished over the next three centuries were far removed from those of modern Britain. Haunts for teenagers in particular, Italian-run espresso bars and their formica-topped tables were a feature of 1950s.</p>
+    <p class="article_detail">Jan 22, 2018  •  56 Likes  • 3.7K Views</p>
+    <a class="continue_reading" href="#">CONTINUE READING</a>
+  </article>
+</section>
+
+
+<section class="weeks_popular cf">
+  <h1 class="inverted_color_title querie_color">WEEK'S POPULAR</h1>
+  <article class="article_standard weeks_wrapper cf">
+    <a href="#"><img src="images/article_image05.jpg" alt="top view of three hands holding coffee cups"></a>
+    <h2 class="inverted_color">COLD BREW: THE NEW TREND</h2>
+    <div class="article_category">
+      <div class="circle yellow"><a href="#"><i class="fas fa-comment"></i></div>
+      <h3 class="yellow_text">INTERVIEWS</h3></a>
+    </div>
+    <p class="inverted_color">The Cold brewing, also called cold water extraction or cold pressing, is the process of steeping coffee grounds in water at cool temperatures for an extended period. Coarse-ground beans are soaked in water for a prolonged period of time, usually 12 hours or more. The water is normally kept at room temperature, but chilled water is also used.The grounds are filtered out of the water after they have been steeped using a paper coffee filter, a fine metal sieve, a French press, or felt, in the case of the "Toddy" rewing system. The result is a coffee concentrate that is often diluted with water or milk...</p>
+    <p class="article_detail inverted_color_title querie_color02">Dez 18, 2018  •  89 Likes  • 6.2K Views </p>
+    <a class="continue_reading_inverted" href="story.html">CONTINUE READING</a>
+  </article>
+
+</section>
+
+<section class="instagram_followers cf">
+  <h4><span class="span_instagram">SHARE YOU LOVE FOR COFFEE WITH US</span> INSTAGRAM @COFFEEHARBOUR</h4>
+  <a href="#"><img src="images/insta01.jpg" alt="Top view of coffee beans in a square shape" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta02.jpg" alt="top view man holding a coffee cup" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta03.jpg" alt="Coffee shop from the inside with people" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta04.jpg" alt="Brewing coffee" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta05.jpg" alt="Old man sitting in a coffee shop from behind" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta06.jpg" alt="man drinkng coffee in a coffee shop" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta07.jpg" alt="hand holding a black coffee mug" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta08.jpg" alt="girl in the street" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta09.jpg" alt="man with sunglasses drinking" class="instagram_photos"></a>
+  <a href="#"><img src="images/insta10.jpg" alt="girl smiling while preparing coffee " class="instagram_photos disappear"></a>
+</section>
+
+<footer>
+  <ul>
+    <li></li>
+    <li>
+      <a href="#"><i class="fas fa-coffee"></i>
+        <span class="disappear_name">COFFEE PLACES</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#"><i class="fas fa-book"></i>
+        <span class="disappear_name">BREWING GUIDES</span>
+      </a>
+    </li>
+
+    <li class="logo_nav">
+      <a href="#">
+        <img src="images/coffee_harbour_logo_mini_dark.png" alt="logo_dark_version">
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-comment"></i>
+        <span class="disappear_name">INTERVIEWS</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="contact.html">
+        <i class="fas fa-envelope-open"></i>
+        <span class="disappear_name">CONTACT</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+      </a>
+    </li>
+  </ul>
+
+  <ul class="social_icons cf">
+    <li><a href="#"><i class="fab fa-facebook-f"></i> FACEBOOK</a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i> TWITTER</a></li>
+    <li><a href="#"><i class="fab fa-pinterest-p"></i> PINTEREST</a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i> INSTAGRAM</a></li>
+  </ul>
+  <p class="copyright">Coffee Harbour© Copyright 2018. All rights reserved.</p>
+
+</footer>
+
+
+</body>
+</html>

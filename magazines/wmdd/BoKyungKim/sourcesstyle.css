@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Lato:400,700|Raleway:400,700');
+
+
+html {
+	font-size: 16px;
+}
+
+
+body {
+	margin: 0;
+
+/*	border: 100px solid #2E8B57;*/
+	font-family: Lato,"Josefin Sans", Raleway,"arial";
+	font-size: 1rem;
+	text-align: center;
+	/* background-color: rgba(32,178,170, 0.5);*/
+
+}
+
+table {
+	border: 1px solid grey;
+	box-sizing: border-box;
+	width: 46%;
+	margin: 2%;
+	float: left;
+	
+}
+tr {width: 48%;
+	margin:1%;
+	height: auto;
+	box-sizing: border-box;
+
+}
+
+th {width: 48%;
+	margin:1%;
+	height: 50px;
+		text-align: center;
+	border-bottom: 1px solid grey;
+	box-sizing: border-box;
+
+
+}
+td {
+	width: 48%;
+	margin:1%;
+	border-bottom: 1px solid grey;
+	text-align: left;
+	padding-left: 1%;
+	box-sizing: border-box;
+
+}
+
+th img {width: 200px;
+	height: auto;
+
+}
+.contact img { 
+width: 100px;
+height: auto;
+ }
+
+
+
+h1 { 
+	font-size: 3rem;
+ margin: 2%;
+ text-align: center;
+
+}
+.content{
+	font-weight: lighter;
+     font-size: 1rem;
+     padding: 1%;
+ 
+}
+.contenturl{
+	font-weight: lighter;
+     font-size: .8rem;
+     padding: 1%;
+  
+}
+/*  clearfix   */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+ 
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+/*----------------------media quary ----------*/
+
+
+@media screen and (max-width: 840px) {
+
+table { 
+	width: 98%;
+	margin: 1%;
+	box-sizing: border-box;
+	
+	
+}
+
+th {
+	width: 47%;
+	margin: 1%;
+	box-sizing: border-box;
+
+}
+ 
+
+td { 
+	width: 47%;
+	margin: 1%;
+	font-size: .8rem;
+	box-sizing: border-box;
+	
+
+}
+.content {
+	font-size: 1rem;
+
+}
+
+}

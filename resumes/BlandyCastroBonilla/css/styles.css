@@ -1,0 +1,379 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family:  georgia,"times new roman",serif;
+  letter-spacing: 1px;
+}
+
+body p{
+  font-size: 1.4rem;
+}
+
+main{
+  margin: 1rem;
+}
+
+.header{
+  background-color: #0A86C4;
+  padding: 0;
+  color: white;
+  padding-top: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  font-family:  helvetica,arial,sans-serif;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: .5rem;
+  padding: 0;
+  text-align: center;
+}
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  color: white;
+  padding: 0.2rem;
+  display: inline;
+  width: 100%;
+  font-size: 0.9rem;
+}
+
+.section-aboutme img{
+  border-radius: 50%;
+}
+
+.image{
+  text-align: center;
+}
+.subtitle{
+  margin-top: 3rem;
+  line-height: 1.6;
+}
+
+.subtitle span{
+  font-style: italic;
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.title
+{
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-top: 2.5rem;
+  font-family:  helvetica,arial,sans-serif;
+}
+.title span{
+  background-color: #0A86C4;
+  padding: .25rem .5rem;
+}
+
+.section-skills ul, .section-languages ul{
+  list-style: none;
+}
+.section-skills ul li::before, .section-languages ul li::before{
+  content: "\25B8";
+  color: #0A86C4;
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem;
+  margin-left: -1em;
+}
+.section ul{
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+footer{
+  background-color: #0A86C4;
+  padding: 0;
+  color: white;
+  padding-top: 0;
+  text-align: center;
+  font-size: 0.9rem;
+  letter-spacing: 2px;
+  margin-top: 2.5rem;
+  font-family:  helvetica,arial,sans-serif;
+}
+
+.section-aboutme {
+  background-color: #D3D3D3;
+  text-align: center;
+  margin: 1rem;
+  padding: 1rem;
+}
+.section-aboutme p{
+  text-align: left;
+  line-height: 1.6;
+}
+.section-aboutme span{
+  font-family:  helvetica,arial,sans-serif;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.contact{
+  font-size: 1.2rem;
+}
+
+.contact li{
+  display: block;
+}
+
+.section-languages li{
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+.section-skills li{
+  font-size: 1.4rem;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+.div-references{
+  line-height: 1.6;
+  background-color: #D3D3D3;
+  text-align: center;
+  margin: 1rem;
+}
+.section{
+  margin: 1rem;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+.name{
+  font-size: 1.4rem;
+}
+footer{
+  padding: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (min-width: 900px)
+{
+  body{
+    letter-spacing: 0px;
+    font-family:  georgia,"times new roman",serif;
+  }
+  body p{
+    font-size: 1.2rem;
+  }
+  .section-languages li{
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .section-skills li{
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  .section-aboutme{
+    display: inline;
+    margin: 1rem 1%;
+    width: 27.333%;
+    float: left;
+  }
+  .section, .section-languages, .section-skills{
+    display: inline;
+    margin: 1rem 1%;
+    width: 31.333%;
+    float: left;
+  }
+  .title span {
+    display: block;
+    text-align: left;
+  }
+  .title, .subtitle{
+    margin-top: 0;
+  }
+  .div-references{
+    margin: 0;
+    padding: 0;
+  }
+  .half-info{
+    margin-top: 42rem;
+  }
+  .name{
+    margin: 1rem 1%;
+    float: left;
+    display: inline;
+    width: 24.333%;
+    margin-right: 0;
+    text-align: left;
+    margin-left: 2rem;
+    font-size: 1.7rem;
+  }
+
+  .contact{
+    margin: 1rem 1%;
+    float: right;
+    display: inline;
+    width: 68.666%;
+    margin-left: 0;
+    text-align: left;
+    font-size: 1.6rem;
+    margin-top: 1.5rem;
+  }
+  .contact li{
+    line-height: 1.6;
+    font-size: 1.5rem;
+  }
+  header nav{
+    margin: 1rem 1%;
+    float: right;
+    display: inline;
+    width: 68.666%;
+  }
+  header nav ul{
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+  header nav a{
+    font-size: 1.1rem;
+  }
+  footer{
+    padding: 0.5rem;
+    padding-bottom: 15rem;
+  }
+  footer nav{
+    margin: 1rem 1%;
+    float: right;
+    display: inline;
+    width: 68.666%;
+  }
+  footer nav ul{
+    text-align: left;
+    margin-left: 2.5rem;
+  }
+
+  footer nav a{
+    font-size: 1.1rem;
+  }
+  footer .contact{
+    margin-top: 0;
+  }
+
+  @media screen and (min-width: 1200px)
+  {
+    .name{
+      margin: 1rem 1%;
+      float: left;
+      display: inline;
+      width: 24.333%;
+      margin-right: 0;
+      text-align: left;
+      margin-left: 2rem;
+      font-size: 1.7rem;
+    }
+
+    .contact{
+      margin: 1rem 1%;
+      float: right;
+      display: inline;
+      width: 68.666%;
+      margin-left: 0;
+      text-align: left;
+      font-size: 1.6rem;
+      margin-top: 1.5rem;
+    }
+    .contact li{
+      line-height: 1.6;
+      font-size: 1.5rem;
+    }
+    header nav{
+      margin: 1rem 1%;
+      float: right;
+      display: inline;
+      width: 68.666%;
+    }
+    header nav ul{
+      text-align: left;
+      margin-left: 2.5rem;
+    }
+    header nav a{
+      font-size: 1.1rem;
+    }
+    footer{
+      padding: 0.5rem;
+      padding-bottom: 15rem;
+    }
+    footer nav{
+      margin: 1rem 1%;
+      float: right;
+      display: inline;
+      width: 68.666%;
+    }
+    footer nav ul{
+      text-align: left;
+      margin-left: 2.5rem;
+    }
+
+    footer nav a{
+      font-size: 1.1rem;
+    }
+    footer .contact{
+      margin-top: 0;
+    }
+
+    body{
+      letter-spacing: 1px;
+      font-family:  georgia,"times new roman",serif;
+    }
+    body p{
+      font-size: 1.5rem;
+    }
+
+    .section-languages li{
+      font-size: 1.4rem;
+      letter-spacing: 1px;
+    }
+    .section-skills li{
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+    .half-info .section-languages ,.half-info .section{
+      margin-left:  32.333%;
+    }
+    .section, .section-languages, .section-skills{
+      display: inline;
+      margin: 1rem 1%;
+      width: 64.666%;
+      float: left;
+    }
+
+    .title span {
+      display: block;
+      text-align: left;
+    }
+
+    .div-references{
+      text-align: left;
+      margin-top:  1%;
+      margin-bottom: 1%;
+      padding-left: 0.4rem;
+    }
+
+  }
+}

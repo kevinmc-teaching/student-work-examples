@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,500,700');
+
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.wrapper{
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+div.info-pic{
+  margin-bottom: 1rem;
+}
+
+section{
+  margin-top: .5rem;
+  margin-bottom: .5em;
+  padding: 1.25rem;
+}
+
+/* LINE TO SEPARATED EACH SECTION */
+.education, .employment, .skills, .interests{
+  border-top: 3px solid gray;
+  box-sizing: border-box;
+}
+
+.info{
+  background-color: black;
+  color: white;
+  box-sizing: border-box;
+  text-align: left; /*text on left for laptop*/
+}
+
+h1{
+  font-weight: 700;
+  font-size: 1.75rem;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2{
+  font-weight: 500;
+  font-size: 1.45rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+
+h3{
+  font-weight: 400;
+  font-size: 1.25rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+  line-height: 1.6rem;
+}
+
+p{
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+
+/* 2017 DEMOREEL LINK */
+.education a{
+  text-decoration: none;
+  color: black;
+}
+
+.education a:hover{
+  text-decoration: underline;
+  color: gray;
+}
+
+/* EMAIL LINK */
+.info a{
+  text-decoration: none;
+  color: white;
+}
+
+ul{
+  font-size: 1.15rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+ul.pre-job-des{
+  line-height: 1.6rem;
+}
+
+ul.inline{
+  margin-top: 0.25rem;
+}
+
+.inline li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 1rem;
+}
+
+h1.name{
+  font-size: 2rem;
+}
+
+h2.job {
+  font-size: 1.75rem;
+  margin-top: 0.25rem;
+}
+
+p.located {
+  font-size: 1.25rem;
+}
+
+p.contact{
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  margin-top:  1rem;
+  margin-bottom: 0.5rem;
+}
+
+.interests p{
+  font-weight: 400;
+  font-size: 1.15rem;
+  line-height: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.skills p{
+  font-weight: 400;
+  font-size: 1.15rem;
+}
+
+/*  CLEARFIX ====== */
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+  /*CLEARFIX ====== */
+
+
+/* BG color of some sections CHANGE for tablet and mobile */
+@media screen and (max-width: 768px){
+
+.employment, .interests{
+    background-color: #F0F0F0;
+  }
+
+.info{
+  text-align: center; /*text on right for tablet amd mobile*/
+}
+
+}

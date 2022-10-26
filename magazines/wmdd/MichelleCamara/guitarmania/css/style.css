@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|PT+Mono');
+
+
+/* ==========My css===================== */
+
+
+body {
+	width: 95%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 0;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+
+
+header h1 {
+	font-family: Oswald, sans-serif;
+	font-size: 2rem;
+	padding-top: 2em;
+	margin-top: 0;
+	margin-bottom:25px;
+	font-weight: normal;
+	background: black;
+	color: white;
+	text-transform: uppercase;	
+	text-align: center;
+	border-bottom-right-radius: 16px;
+	border-bottom-left-radius: 16px;
+}
+
+h2 {
+	font-size: 3em;
+	font-weight: normal;
+	font-family: Oswald, sans-serif;
+	line-height: 1em;
+	text-transform: uppercase;
+    border-top: 1px solid #ccc;
+    margin-top: 0;
+	padding-top: .3em;
+}
+
+h3 {
+	font-size: .9em;
+	font-weight: normal;
+	font-family: "PT Mono", monotype;
+	margin-top: .3em;
+}
+
+h4 {
+	font-size: .9em;
+	font-weight: normal;
+	font-family: Oswald, sans-serif;
+	margin-top: 0;
+}
+
+p {
+	font-size: .9em;
+}
+
+
+header nav ul {
+	background: black;
+	color: white;
+	font-size: .75em;
+	font-family: Oswald, sans-serif;
+	font-weight: normal;
+	padding: 0;
+	margin-bottom:10px;
+	margin-top: 0;
+}
+
+
+
+section {
+	margin-bottom: 2em;
+}
+
+
+
+label {
+	display: block;
+	font-size: .8em;
+}
+
+input, textarea, submit {
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		color: white;
+		display: block;
+	}
+
+
+input {
+	margin-bottom: 4px;;
+	
+}
+
+textarea {
+	margin-bottom: 9px;
+	min-height: 7em;
+}
+
+
+input[type="submit"] {
+	font-size: 2rem;
+	
+background: #939799;
+  background-image: -webkit-linear-gradient(top, #939799, #050505);
+  background-image: -moz-linear-gradient(top, #939799, #050505);
+  background-image: -ms-linear-gradient(top, #939799, #050505);
+  background-image: -o-linear-gradient(top, #939799, #050505);
+  background-image: linear-gradient(to bottom, #939799, #050505);
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 21px;
+  padding: 10px 40px 10px 40px;
+  border: solid #000000 1px;
+  text-decoration: none;
+
+	
+
+/* === Classes ========= */
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearboth {
+	clear: both;
+}
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+/* === End classes ======= */
+
+
+
+/* === Queries ===============*/
+
+
+
+
+@media screen and (max-width: 799px){
+
+    header nav ul {
+        font-size: 1em;
+        line-height: 2em;
+    }
+
+    h2 {
+        font-size: 1em;
+        line-height: 1.5em;
+        background: black;
+        color: white;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    section {
+        position: relative;
+    }
+
+    section h3 {
+        position: absolute;
+        right: 1em;
+        top: 1em;
+    }
+
+    nav ul li.grid_2 {
+        width: 50%;
+        margin-bottom: 1em;
+        font-size: 1em;
+        color: black;
+        text-align: center;
+        float: left;
+    }
+
+    header nav ul{
+        background: white;
+    }
+
+} /* End Queries */
+
+

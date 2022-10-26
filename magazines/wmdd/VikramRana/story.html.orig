@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+	<title>Explore Vancity : Story Page</title>
+</head>
+<body>
+
+	<header class="story-header">
+		<div class="menu">
+			<div class="row"> 
+				<nav class="clearfix">
+								
+					<a href="index.html"><img class="logo" src="images/logo.svg" alt="vancity logo"></a>
+					
+					<ul class="main-nav ">
+						<li>
+							<div class="bar bar-header item-input-inset">
+						  		<label class="item-input-wrapper">
+						  		  <i class="icon ion-ios-search placeholder-icon"></i>
+						  		  <input type="search" >
+						  		</label>
+							</div>
+						</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="story.html">Article</a></li>
+						<li><a href="404.html">404</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="sources.html">Sources</a></li>	
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="main-text-box">
+			<h2>Story of</h2>
+			<h1>Vancouver's Life</h1>
+		</div>
+
+	</header>
+	<section>
+		<article class="story">
+				<div class="row beginning">
+					
+					<div class="col grid2">
+						<h1>The Beginning</h1>
+					</div>
+					<div class="col grid2">
+						<p>The original settlement, named Gastown, grew up on clearcuts on the west edge of the Hastings Mill logging sawmill's property, where a makeshift tavern had been set up on a plank between two stumps and the proprietor, Gassy Jack, persuaded the curious millworkers to build him a tavern, on 1 July 1867. From that first enterprise, other stores and some hotels quickly appeared along the waterfront to the west. Gastown became formally laid out as a registered townsite dubbed Granville, B.I. ("B.I" standing for "Burrard Inlet"). As part of the land and political deal whereby the area of the townsite was made the railhead of the CPR, it was renamed "Vancouver" and incorporated shortly thereafter as a city, in 1886. By 1887, the transcontinental railway was extended to the city to take advantage of its large natural seaport, which soon became a vital link in a trade route between the Orient, Eastern Canada, and Europe. As of 2009, Port Metro Vancouver is the busiest and largest port in Canada, and the most diversified port in North America. While forestry remains its largest industry, Vancouver is well known as an urban centre surrounded by nature, making tourism its second-largest industry. Major film production studios in Vancouver and Burnabyhave turned Greater Vancouver and nearby areas into one of the largest film production centres in North America, earning it the film industry nickname, Hollywood North.</p>
+					</div>
+				</div>
+
+				<div class="row history">
+					
+					<div class="col grid3">
+						<img src="images/history.jpg">
+					</div>
+
+					<div class="col grid23">
+						<h1>History</h1>
+						<p>The City of Vancouver was incorporated on 6 April 1886, the same year that the first transcontinental train arrived. CPR president William Van Hornearrived in Port Moody to establish the CPR terminus recommended by Henry John Cambie, and gave the city its name in honour of George Vancouver. The Great Vancouver Fire on 13 June 1886, razed the entire city. The Vancouver Fire Department was established that year and the city quickly rebuilt. Vancouver's population grew from a settlement of 1,000 people in 1881 to over 20,000 by the turn of the century and 100,000 by 1911.</p>
+
+						<p>Vancouver merchants outfitted prospectors bound for the Klondike Gold Rush in 1898. One of those merchants, Charles Woodward, had opened the first Woodward's store at Abbott and Cordova Streets in 1892 and, along with Spencer's and the Hudson's Bay department stores, formed the core of the city's retail sector for decades. </p>
+						<p>The economy of early Vancouver was dominated by large companies such as the CPR, which fuelled economic activity and led to the rapid development of the new city; in fact the CPR was the main real estate owner and housing developer in the city. While some manufacturing did develop, including the establishment of the British Columbia Sugar Refinery by Benjamin Tingley Rogers in 1890, natural resources became the basis for Vancouver's economy.  </p>
+					</div>
+				</div>
+
+				<div class="ecologyBG"></div>
+
+				<div class="row ecology">
+					
+					<div class="col grid3">
+						<h1>Ecology</h1>
+					</div>
+
+					<div class="col grid23">
+						
+						<p>The vegetation in the Vancouver area was originally temperate rain forest, consisting of conifers with scattered pockets of maple and alder, and large areas of swampland (even in upland areas, due to poor drainage). The conifers were a typical coastal British Columbia mix of Douglas fir, Western red cedar and Western Hemlock. The area is thought to have had the largest trees of these species on the British Columbia Coast. Only in Elliott Bay, Seattle did the size of trees rival those of Burrard Inlet andEnglish Bay. The largest trees in Vancouver's old-growth forest were in the Gastown area, where the first logging occurred, and on the southern slopes of False Creek and English Bay, especially around Jericho Beach. The forest in Stanley Park was logged between the 1860s and 1880s, and evidence of old-fashioned logging techniques such as springboard notches can still be seen there. </p>
+					</div>
+				</div>
+
+				<div class="row architecture-story">
+					
+					<div class="col grid2">
+						<img src="images/modernarchitecture.jpg">
+					</div>
+
+					<div class="col grid2">
+						<h1>Architecture</h1>
+						<p>A collection of Edwardian buildings in the city's old downtown core were, in their day, the tallest commercial buildings in the British Empire. These were, in succession, the Carter-Cotton Building (former home of The Vancouver Provincenewspaper), the Dominion Building (1907) and the Sun Tower (1911), the former two at Cambie and Hastings Streets and the latter at Beatty and Pender Streets. The Sun Tower's cupola was finally exceeded as the Empire's tallest commercial building by the elaborate Art Deco Marine Building in the 1920s. The Marine Building is known for its elaborate ceramic tile facings and brass-gilt doors and elevators, which make it a favourite location for movie shoots. Topping the list of tallest buildings in Vancouver is Living Shangri-La at 201 metres (659 feet) and 62 storeys. The second-tallest building in Vancouver is the Private Residences at Hotel Georgia, at 156 metres (512 feet). Third is One Wall Centre at 150 metres (490 feet) and 48 storeys, followed closely by the Shaw Tower at 149 metres (489 feet).</p>
+					</div>
+
+				</div>
+
+				<div class="row demographics">
+					
+					<div class="col grid23">
+						<h1>Demographics</h1>
+						<p>Vancouver has been called a "city of neighbourhoods", each with a distinct character and ethnic mix. People of English, Scottish, and Irish origins were historically the largest ethnic groups in the city, and elements of British society and culture are still visible in some areas, particularly South Granville and Kerrisdale. Germans are the next-largest European ethnic group in Vancouver and were a leading force in the city's society and economy until the rise of anti-German sentiment with the outbreak of World War I in 1914. Today the Chinese are the largest visible ethnic group in the city, with a diverse Chinese-speaking community, and several languages, including Cantonese and Mandarin. Neighbourhoods with distinct ethnic commercial areas include the Chinatown, Punjabi Market, Little Italy, Greektown, and (formerly) Japantown.</p>
+					</div>
+
+					<div class="col grid3">
+						<img src="images/demographics.jpg" alt="">
+					</div>
+
+				</div>
+
+				<div class="stadiumBG">
+					<img src="images/stadiumBG.jpg" alt="">
+				</div>
+				<div class="row sports">
+					<div class="col grid2">
+						<h1>Sports & Recreation</h1>
+					</div>
+
+					<div class="col grid2">
+						<p>The mild climate of the city and proximity to ocean, mountains, rivers and lakes make the area a popular destination for outdoor recreation. Vancouver has over 1,298 hectares (3,210 acres) of parks, of which,Stanley Park, at 404 hectares (1,000 acres), is the largest. The city has several large beaches, many adjacent to one another, extending from the shoreline of Stanley Park around False Creek to the south side of English Bay, from Kitsilano to the University Endowment Lands, (which also has beaches that are not part of the city proper). The 18 kilometres (11 mi) of beaches include Second and Third Beaches in Stanley Park, English Bay (First Beach), Sunset, Kitsilano Beach, Jericho, Locarno, Spanish Banks, Spanish Banks Extension, Spanish Banks West, and Wreck Beach. There is also a freshwater beach at Trout Lake in John Hendry Park. The coastline provides for many types of water sport, and the city is a popular destination for boating enthusiasts.</p>
+						<p>Within a 20- to 30-minute drive from downtown Vancouver are the North Shore Mountains, with three ski areas: Cypress Mountain, Grouse Mountain, and Mount Seymour. Mountain bikers have created world-renowned trails across the North Shore. The Capilano River, Lynn Creek and Seymour River, also on the North Shore, provide opportunities to whitewater enthusiasts during periods of rain and spring melt, though the canyons of those rivers are more utilized for hiking and swimming than whitewater.</p>
+				</div>
+			</div>
+			
+		</article>
+	</section>
+
+
+		<section class="author">
+			<div class="row">
+					<div class="col grid3">
+						<ul>
+							<li><img class="authorImage" src="images/authorImage.png"></li>
+							<li>Vikram Rana</li>
+							<li>@twitter</li>
+						</ul>
+
+					</div>
+					<div class="col grid3 about">
+						<h4>About the author : </h4>
+						<p>He has been writing articles for quite a long time now, but still doesn't know anything about them. He tries to learn but keeps failing, everything else is pretty simple about this guy. If you need help do ask him.</p>
+					</div>
+
+					<div class="col grid3 share">
+						<h2>Share the article:</h2>
+						<div class="share-icons">
+							<a href="#"><i class="ion-social-facebook"></i></a>
+							<a href="#"><i class="ion-social-twitter"></i></a>
+							<a href="#"><i class="ion-social-pinterest"></i></a>
+						</div>
+
+					</div>
+
+				</div>
+		</section>
+
+		<section class="articles-author">
+			<div class="row">
+				<div class="col grid1">
+					<h1>Articles by the author:</h1>
+				</div>
+			</div>
+			
+			<div class="row">
+				<div class="grid">
+							<div class="grid-sizer"></div>
+				<article>
+					<div class="grid-item">
+						<a href="story.html">
+						<figure>
+							<img src="images/gastown.jpg" alt="">
+						</figure></a>
+						<h3>History of Gastown</h3>
+
+						<div class="read-more">
+							<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+						</div>
+					</div>
+				</article>
+				<article>
+					<div class="grid-item">
+						<a href="story.html">
+						<figure>
+							<img src="images/rogersarena.jpg" alt="">
+						</figure></a>
+						<h3>Rogers Arena</h3>
+
+						<div class="read-more">
+							<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+						</div>
+					</div>
+				</article>
+				<article>
+					<div class="grid-item">
+						<a href="story.html">
+						<figure>
+							<img src="images/terryfox.jpg" alt="">
+						</figure></a>
+						<h3>Terry Fox Memorial</h3>
+
+						<div class="read-more">
+							<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+						</div>
+					</div>
+				</article>
+				</div>
+			</div>
+		</section>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="imagesloaded.pkgd.min.js"></script>
+		<script src="script.js"></script>
+
+
+	
+	
+</body>
+</html>

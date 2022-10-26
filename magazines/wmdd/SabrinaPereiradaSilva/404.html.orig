@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Real Food</title>
+	<link rel="stylesheet" href= "css/normalize.css">
+	<link rel="stylesheet" href= "css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	 <script src="script.js"></script>
+</head>
+	<body>
+	<div class="wraper_12">
+	<header class="wraper_12">
+		
+		<div class="box_6">
+			<h1><a href="index.html">.real food</a></h1>
+		</div>
+
+		<div class="box_6" id="menuright">
+		<div id="subtitle">November 2015 | If it is food, it must be true.</div>
+
+		<ul>
+			<li><a href="story.html">article</a></li>
+			<li><a href="404.html">subscribe</a></li>
+			<li><a href="404.html">recipes</a></li>
+			<li><a href="contact.html">contact</a></li>
+			<li><input type="text" value="search" id="search"/></li>
+		</ul>
+		</div>
+	
+</header>
+		
+		<div class="box_12 clearfix">
+		<div id="error">
+		<h2 class="positionNameError">Sorry, <br> we got <br> confused!<br><span><a href="index.html">Go to home page</a></span></h2>
+		
+		<img src="images/food-kitchen-cutting-board-cooking.jpg">
+		</div>	
+		</div>
+	
+
+
+		<div id="news" class="wraper_12 clearfix"> 
+	
+	<div id="news1" class="box_3">
+		<img src="images/food-salad-healthy-lunch.jpg">
+		<div id="legend">
+				<h2>Organic meat production</h2>
+				<h3>Organic meat certification in the United States authenticates that the farm animals meet USDA.</h3>
+		</div>
+		
+	</div>
+
+	<div id="news1" class="box_3">
+		<img src="images/food-healthy-red-summer.jpg">
+		<div id="legend">
+				<h2>Real food production</h2>
+				<h3>Organic meat certification in the United States authenticates that the farm animals meet USDA.</h3>
+		</div>
+		
+	</div>
+
+	<div id="news1" class="box_3">
+		<img src="images/bread-breakfast-knife-large.jpg">
+		<div id="legend">
+				<h2>Organic meat production</h2>
+				<h3>Organic meat certification in the United States authenticates that the farm animals meet USDA.</h3>
+		</div>
+		
+	</div>
+
+
+
+	<div id="footer" class="box_12">
+		<h4>Follow us:</h4>
+		<ul>
+			<li><i class="fa fa-facebook-official"></i></li>
+			<li><i class="fa fa-pinterest-square"></i></li>
+			<li><i class="fa fa-twitter-square"></i></li>
+			<li><i class="fa fa-instagram"></i>
+		</ul>
+	<div class="floatright"><a href="#top">Back to the top</a></div>
+	</div>
+	</div>
+	</body>
+</html>
+

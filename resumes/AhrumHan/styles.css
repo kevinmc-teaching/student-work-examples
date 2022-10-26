@@ -1,0 +1,181 @@
+@import 'https://fonts.googleapis.com/css?family=Nova+Flat|Righteous|Unica+One';
+
+header {
+	background-color: #f3c179;
+	color: white;
+	padding-top: 1em;
+	margin-top: 0;
+	font-family: 'Righteous', cursive;
+	line-height: .5;
+}
+
+h1 {
+	font-size: 5rem;
+	text-align: center;
+	margin-bottom: 0;
+	letter-spacing: 8px;
+}
+
+/*body {
+	margin-left: 7em;
+	margin-right: 7em;
+}*/
+
+
+body {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.grid_4 ul {
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
+	font-family: 'Nova Flat', cursive;
+	line-height: 1.5;
+	text-align: left; 
+	font-size: 1rem;
+	list-style-image: url(http://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/24/bolt-icon.png);
+}
+
+.phone {
+	list-style-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/24/apple-icon.png);
+
+}
+
+.email {
+	list-style-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/24/mail-icon.png);
+}
+
+.location {
+	list-style-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/24/home-icon.png);
+}
+
+.office {
+	list-style-image: url(http://icons.iconarchive.com/icons/mp03095/microsoft-office-yosemite/24/Excel-Circle-icon.png);
+}
+
+.adobe {
+	list-style-image: url(http://icons.iconarchive.com/icons/benou/adobe-cs/24/Adobe-Ai-icon.png);
+}
+
+.language {
+	list-style-image: url(http://icons.iconarchive.com/icons/custom-icon-design/2014-world-cup-flags/24/South-Korea-icon.png);
+}
+
+.travel {
+	list-style-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/24/browser-icon.png);
+}
+
+.fashion {
+	list-style-image: url(http://icons.iconarchive.com/icons/elegantthemes/beautiful-flat/24/fashion-icon.png);
+}
+
+
+.movie {
+	list-style-image: url(http://icons.iconarchive.com/icons/graphicloads/100-flat/24/movie-icon.png);
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+	margin-bottom: 2em;
+}
+
+img.ahrum {
+	display: block;
+	margin: auto;
+}
+
+h3 {
+	border-bottom: 1px solid orange;
+	font-family: 'Unica One', cursive;
+	font-size: 1.5rem;
+	text-align: left;
+	/*color: orange;*/
+}
+
+dl {
+	font-family: 'Nova Flat', cursive;
+	line-height: 1.5;
+	font-size: 1.2rem;
+	text-align: left;
+}
+
+dt {
+	color: #EA8A2A;
+	font-family: 'Nova Flat', cursive;
+
+}
+
+p {
+	font-family: 'Nova Flat', cursive;
+}
+
+.grid_4 {
+	padding-top: 3rem;
+}
+
+
+.grid_6 {
+	padding-top: 5rem;
+}
+
+.work {
+	list-style-position: inside;
+	line-height: 1.5;
+	font-size: 1rem;
+	list-style-type: circle;
+}
+
+.grid_12 {
+	padding-top: 5rem;
+	text-align: center;
+}
+
+.reference {
+	text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearboth {
+	clear: both;
+}
+
+
+
+@media screen and (max-width: 800px){
+ 
+
+
+
+
+ 
+body {
+	max-width: 80%;
+	position: relative;
+}
+
+
+h1 {
+	line-height: 1;
+	font-size: 3rem;
+	padding-top: 0;
+	margin-top: 0;
+}
+
+ 
+
+}

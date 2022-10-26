@@ -1,0 +1,575 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+.top-logo {        
+    display: block;
+    margin: 2rem auto;
+}
+.top-image {
+    width: 100%;
+}
+.small-logo {
+    font-family:'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: left;
+    margin: 20px 0 20px 0;
+    text-transform: uppercase;
+    color: rgb(204, 0, 0);
+}
+.bottom-line {
+    font-family:'Quicksand', sans-serif; 
+    line-height: 1rem;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+body {
+    font-family:'Quicksand', sans-serif; 
+    line-height: 1.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    /* margin-bottom: 20px; */
+}
+/* Typography ==================================*/
+h1 {
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+}
+h2 {
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: left;
+    color: rgb(70, 70, 70);
+    margin: 2rem 0 2rem 0;
+    text-transform: uppercase;
+}
+h3 {
+    font-family:'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+    text-align: center;
+}
+p {
+    font-family:'Quicksand', sans-serif; 
+    line-height: 1.75rem;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0 0 1.75rem 0;
+}
+
+/* hidding=============*/
+.visually-hidden {
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    white-space: nowrap; /*add line */
+}
+/* =======================================================MENUS STYLING==*/
+/* MENU HEADER  =========================================================*/
+nav ul {
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav li {
+    display: inline-block;
+}
+.menu-main ul {
+    font-size: 1.25rem;
+    margin: auto auto auto auto;
+}
+.menu-main li {
+    display: block;
+}
+.menu-secondary ul {
+    font-size: 2rem;
+    margin: auto auto auto auto;
+}
+nav a,
+nav a:visited {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    padding: 1rem;
+}
+nav a:hover {
+    background-color: rgb(236, 236, 236);
+    color: rgb(204, 0, 0);
+}
+/*===========================================================MENU FOOTER==*/
+.one-third,
+.two-third,
+.three-third {
+    text-align: center;
+    margin: 10px;
+}
+.menu-main-footer li {
+    display: block;
+}
+.copy,
+.address {
+    font-size: .8rem;
+    color: rgb(100, 100, 100);
+    margin-top: 3rem;
+}
+
+/*==========================================================INDEX  STYLE==*/
+/* INDEX - 01 - TOP SECTION  =============*/
+.section-top {
+    text-align: center;
+    margin: auto;
+    padding: 1rem;
+
+}
+/*  =================================================INDEX - 02 - POPULAR==*/
+.popular-post {
+    display: grid;
+    background-color: rgb(250, 250, 250);
+    margin: 1rem 0 1rem 0;
+    padding: .5rem;
+    box-shadow: 1px 1px 1px 1px rgb(185, 185, 185);
+}
+.popular-text {
+    display: grid;
+    align-self: end;
+}
+.post-bottom-area {
+    display: grid;
+    align-self: end;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .5rem;
+}
+.post-views {
+    font-family:'Quicksand', sans-serif; 
+    font-weight: 400;
+    font-size: .8rem;
+    color: rgb(153, 153, 153);
+    margin-top: 1rem;
+}
+.post-read-more {
+    text-decoration: none;
+    text-align: center;
+    background-color:rgb(204, 0, 0);
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 0.75rem;
+}
+.post-read-more:hover {
+    background-color: rgb(158, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.post-title {
+    max-width: 300px;
+    margin: 0 auto -2rem auto;
+    padding: 1rem;
+    background-color:   rgb(250, 250, 250);
+    position: relative;
+    top: -3.5rem;
+}
+/*  ========================================INDEX - 03 - TRENDS SECTION==*/
+
+.trend-box a {
+    color: rgb(204, 0, 0);
+    text-decoration: none;
+}
+.trend-hover a:hover {
+    background-color:  rgb(236, 236, 236);
+    color: rgb(255, 255, 255);
+}
+/* =================================================INDEX - 04 - ABOUT==*/
+.section-about {
+    margin: 2rem 0 2rem 0;
+}
+.about-image {
+    display: none;
+}
+.about-content {
+    margin: 0 .5rem 0 .5rem;
+    padding: 0;
+    padding-left: 2rem;
+}
+
+/* ===============================================INDEX - 05 - SUBSCRIBE==*/
+.subscribe-section {
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 25rem;
+    background-image: url('Images/photos/miti-MRb1aJIwCJs-unsplash.jpg');
+    display: grid;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-attachment: fixed;/* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.subscribe-box {
+    grid-row-start: 2;
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.7);
+    align-self: center;
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+}
+.subscribe-box input,
+.subscribe-box button,
+.contact-form button {
+    height: 3rem;
+    padding: 0;
+    border: none;
+    font-size: 1rem;
+    width: 100%;    
+}
+.subscribe-box input {
+    background-color:  rgb(233, 233, 233);
+    padding-left: 0.5rem;
+}
+.subscribe-box button,
+.contact-form button {
+    outline: none;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color:rgb(204, 0, 0);
+    min-width: 120px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.subscribe-box button:hover,
+.contact-form button:hover {
+    background-color: rgb(158, 0, 0);
+}
+/*  ===================================================PAGE - ARTICLE==*/
+.top-content-article {
+    max-width: 660px;
+    margin: auto;
+    padding: 1rem;
+    background-color: white;
+    position: relative;
+    top: -6rem;
+}
+.section-article {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.article-call { 
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(236, 236, 236);
+}
+.article-break { 
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: .5rem 2rem .5rem 2rem;
+}
+.article-break-image {
+    padding: 0;
+    margin: 0;
+}
+.block-text {
+    padding: .5rem .5rem 0 1rem;
+    margin: 0;
+
+}
+/*======================================================PAGE SOURCES ==*/
+.table-header {
+    padding: 2rem;
+    margin: 2rem;
+
+}
+.resources {
+    border-collapse: collapse;
+    border-spacing: 0;
+    /* width: 80%; */
+    margin: 0 auto;
+}
+.resources t
+.resources th {
+    font-family:'Cormorant Garamond', serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: left;
+    padding: 2%;
+    text-transform: uppercase;
+}
+.resources td {
+    padding: .5rem;
+}
+.resources a {
+    color: rgb(204, 0, 0);
+    text-decoration: none;
+}
+.resources td:first-child {
+    width: 50%;
+}
+/* ============================================PAGE 404 - ERROR SECTION ==*/
+.error-section {
+    background-image: url('Images/photos/jc-dela-cuesta-MgG-w0Dg_Ek-unsplash.jpg');
+    padding: 5rem;
+    margin: 2rem 0 2rem 0 ;
+    background-attachment: fixed;/* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.red-message {
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: rgb(204, 0, 0);
+}
+
+.error-section .subscribe-box {
+    white-space: normal;
+    text-align: center;
+}
+
+.error-section .subscribe-box div {
+    grid-column-start: span 2;
+}
+
+/*=========================================================PAGE CONTACT==*/
+.contact-section {
+    background-image: url('Images/photos/glen-mccallum-FqnkBeq1wGg-unsplash.jpg');
+    padding: 1rem;
+    background-attachment: fixed;/* Create the parallax scrolling effect */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contact-message {
+    padding: 3rem;
+    background-color: rgba(255, 255, 255, 0.781);
+    margin: 1rem;
+    text-align: center;
+}
+/* CONTACT AREA is going to divide later=================================*/
+/* contact section------------------------------*/
+.form-box {
+    background-color:  rgb(255, 255, 255);
+}
+.contact-area iframe {
+    width:100%;
+    height: 400px;
+    border: 1px solid rgb(196, 196, 196);
+
+}
+.contact-form {
+    margin: 2px;
+    background-color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size:.75rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.contact-form label {
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin-top: 1rem;
+    color:rgb(204, 0, 0);
+    font-size: 1rem;
+}
+.contact-form input {
+    height: 2rem;
+    width: 100%;
+    text-align: left;
+    padding: 3px;
+    color:rgb(87, 87, 87);
+    text-decoration: white;
+    border: .2px solidc;
+    background-color:  rgb(248, 248, 248);
+    box-sizing: border-box;
+}
+.contact-form textarea {
+    width: 100%;
+    height: 100px;
+    border: .1px solid rgb(185, 185, 185);
+    background-color:  rgb(248, 248, 248);
+    color:rgb(87, 87, 87);
+    box-sizing: border-box;
+}
+.button {
+    text-decoration: none;
+    width: 30%;
+    height: 3px;
+    text-align: center;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+    background-color:rgb(204, 0, 0);
+}
+
+/* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*//* media queries  =========================================================================================*/
+@media screen and (min-width: 700px) {
+/* MENU HEADER  =================================*/
+    .menu-main li {
+        display: inline-block;
+    }
+    .site-header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: .5rem;
+        padding: 1rem;
+    }
+    .site-header a{
+        justify-self: start;
+    }
+    .top-logo {
+        text-align: left;
+        padding: 1rem;
+        margin: 0;
+    }
+    .menu-main {
+        text-align: right;
+        padding: 0;
+        margin: 0;
+    }
+
+    .section-popular,
+    .section-trends,
+    .section-about,
+    .section-table {
+        max-width: 1000px;
+        margin: 2rem auto 2rem auto;
+    }
+
+    /* INDEX - 06 - SUBSCRIBE SECTION ==========*/
+    .subscribe-box {
+        margin: 0;
+        padding: 3rem;
+    }
+    .subscribe-section {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+    /* INDEX - 01 - TOP SECTION ==========*/
+    .top {
+        text-align: center;
+    }
+    .top-image {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .top-content {
+        max-width: 660px;
+        margin: auto;
+        padding: 1rem;
+        background-color: white;
+        position: relative;
+        top: -4rem;
+    }
+    /* INDEX - 05 - TRENDS SECTION =============*/
+    .trend-box {
+        position: relative;
+        height: 194px;
+        overflow: hidden;
+    }
+    
+    .trend-box img {
+        object-fit: cover;
+        height: 195px;
+    }
+    
+    .trend-hover {
+        font-family: 'Cormorant Garamond', serif;
+        text-align: center;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 25%;
+        padding: 1rem;
+        width: 100%;
+        left: 0%;
+        box-sizing: border-box;
+        visibility: hidden;
+        opacity: 0;
+        color: rgb(255, 255, 255) !important;
+        transition: opacity .1s, visibility .1s;
+    }
+    
+    .trend-box:hover .trend-hover{
+        visibility: visible;
+        opacity: 3;
+    }
+    
+    .trend-box:hover img {
+        -webkit-filter: brightness(50%);
+        /** Tempo de transição do preteamento da imagem **/
+        transition: all .5s;
+        transform: scale(1.1);
+    }
+    /* INDEX - 02 - POPULAR SECTION ==========*/
+    .gallery-popular-posts-index {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: .5rem;
+    }
+    .gallery-popular-posts {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: .5rem;
+        margin: 1rem .5rem 1rem .5rem;
+    }
+    /* INDEX - 03 - TRENDS SECTION =============*/
+    .gallery-trends{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 0;
+        margin-top: 1rem;
+    }
+    /* INDEX - 04 - ABOUT SECTION ==============*/
+    .section-about{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 0;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    .about-content h3 {
+        margin-top: 0;
+    }
+    .about-image {
+        display: block;
+    }
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap:.5rem;
+    }
+    .menu-main-footer li {
+        display: inline-block;
+    }
+/* PAGE 2 - ARTICLE SECTION ==================================================================*/
+    .article-break-image {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:0;
+    }
+/* PAGE - CONTACT ==================================================================*/
+    .contact-form {
+        padding-top: 0;
+    }
+    .contact-area {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap:.5rem;
+        margin: 2rem 0 2rem 0;
+    }
+    .contact-section {
+        padding: 5rem 15rem;
+    }
+
+}

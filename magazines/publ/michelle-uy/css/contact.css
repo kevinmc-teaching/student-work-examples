@@ -1,0 +1,168 @@
+img {
+  margin: auto;
+}
+
+main {
+  text-align: center;
+  padding: 0 5% 3rem;
+}
+
+h2 {
+  /* margin: 1.5rem 0; */
+  margin: 1.5rem auto;
+  padding-top: 2.5rem;
+  margin-bottom: 3rem;
+  width: 375px;
+}
+
+.sub-active .sub-fill form {
+  background-color: hsla(27,100%,97%,.1);
+  display: inline-block;
+  padding: 0;
+}
+
+form {
+  background-color: white;
+  padding-bottom: 1rem;
+  display: inline-block;
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
+.container input,
+.container label {
+  display: block;
+  margin: auto;
+}
+.container label {
+  font-family: 'playfair display', serif;
+  font-style: italic;
+  padding-top: 1rem;
+  padding-bottom: 5px;
+  letter-spacing: 1px;
+  color: #777;
+  text-align: center;
+}
+.container input {
+  line-height: 1.5;
+  font-size: .85rem;
+  color: #222;
+  width: 270px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  width: 270px;
+  font-size: .85rem;
+  padding: 5px;
+  border-color: #ccc;
+}
+input[type='submit'] {
+  padding: 3px;
+  margin-top: 5px;
+  border-radius: 0;
+  width: 282px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  color: #999;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+input[type='submit']:hover {
+  color: #333;
+}
+h3 {
+  text-transform: none;
+  font-style: italic;
+  font-size: 1.65rem;
+  margin-top: 1rem;
+}
+
+@media screen and (max-width:400px) {
+  form {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  main {
+    padding: 0 1rem 3rem;
+  }
+  h2 {
+    width:auto;
+  }
+  h3 {
+    font-size: 1.25rem;
+  }
+  .container input {
+    width: 220px;
+  }
+
+  textarea {
+    width: 220px;
+  }
+  input[type='submit'] {
+    width: 232px;
+  }
+}
+
+@media screen and (min-width:760px) {
+  main {
+    min-height: 55vh;
+  }
+}
+
+
+@media screen and (min-width:869px) {
+  .container {
+    max-width: 815px;
+    margin: auto;
+  }
+  form {
+    padding-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    padding-bottom: 2rem;
+  }
+  input[type='submit'] {
+    grid-column: 2;
+  }
+  textarea {
+    width: 370px;
+  }
+  .container input[type='submit'] {
+    width: 382px;
+    text-align: center;
+  }
+  h2 {
+    width: 810px;
+  }
+  h3 {
+    grid-column: span 2;
+    text-transform: none;
+    font-style: italic;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .container label {
+    text-align: left;
+    padding-left: 1rem;
+  }
+  .container input {
+    text-align: left;
+  }
+  .container label[for='message'] {
+    padding-left: 1rem;
+  }
+}
+
+@media screen and (min-width:1300px) {
+  h2 {
+    text-align: center;
+  }
+  .section-heading {
+    padding-left: 1rem;
+  }
+}

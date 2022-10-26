@@ -1,0 +1,210 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i';
+
+body {
+  width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0;
+  color: #122332;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.contact ul {
+   list-style: none; 
+   margin-left: 0;
+   padding-left: 0;
+   margin-top: 15%;
+   margin-bottom: 15%;
+   }
+
+.contact  li {
+	line-height: 1.5rem;
+	vertical-align: middle;
+	margin-bottom: 2%;
+	list-style: none; 
+   }
+
+.contact li img {
+	margin-right: 2%;
+	display: inline-block;
+	vertical-align: middle;
+   }
+
+#top {
+	background-color:#122332;
+	padding: 3%;
+	box-sizing: border-box;
+	color: #ffffff;
+}
+
+#profile-pic {
+	text-align: center;
+	margin: 0 auto;
+	padding-bottom: 5%; 
+
+}
+
+#top h2 {
+	color: #99cdbc;
+	font-weight: 600;
+	text-transform: uppercase;
+	text-align: left;
+	border-bottom: 1px solid #293b4c;
+	padding-top: 5%;
+	padding-bottom: 2%;
+}
+
+#top h1 {
+	text-transform: uppercase;
+	text-align: center;
+	margin: 0;
+	padding: 1%;
+	font-weight: 800;
+}
+
+.job-position {
+	font-size: 0.9rem;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 2px;
+	margin: 0;
+	padding: 0;
+	font-weight: 300;
+	color: #99cdbc;
+
+}
+
+#history h1 {
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 800;
+	border-bottom: 3px solid #293b4c;
+	margin-top: 5%;
+}
+
+
+#history h2 {
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	text-align: left;
+	letter-spacing: 2px;
+	margin-top: 4%;
+	padding: 0;
+	margin-bottom: 0;
+	font-weight: 600;
+	color: #99cdbc;
+
+}
+
+#history h3 {
+	font-size: 1rem;
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 700;
+	margin: 0;
+	padding: 0;
+
+}
+
+#history p {
+	font-size: 0.9rem;
+	text-align: left;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+
+}
+
+#skills h1 {
+	text-transform: uppercase;
+	text-align: left;
+	font-weight: 800;
+	border-bottom: 3px solid #293b4c;
+	margin-top: 10%;
+	margin-bottom: 8%;
+}
+
+.interests {
+	font-size: .85rem;
+	text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 2px;
+	margin-left: 0;
+	padding-left: 0;
+	background-color:#122332;
+	list-style: none; 
+}
+
+.interests li {
+	width: 45%;
+	text-align: center;
+	padding: 5%;
+	box-sizing: border-box;
+	margin-left: 0;
+	padding-left: 0;
+	display: inline-block;
+	
+}
+
+.interests ul {
+   list-style: none; 
+   margin-left: 0;
+   padding-left: 0;
+	
+}
+
+.interests img {
+	padding-bottom: 2%;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+#skills p {
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: .9rem;
+	line-height: 1.6rem;
+}
+
+#skills img {
+	margin-right: 2%;
+	vertical-align: middle;
+
+}
+
+.stars {
+	margin-left: 5%;
+	vertical-align: middle;
+}
+
+
+
+

@@ -1,0 +1,719 @@
+@import url(https://fonts.googleapis.com/css?family=Ultra);
+@import url(https://fonts.googleapis.com/css?family=Quattrocento);
+
+body{
+	font-family: 'Quattrocento', serif;
+	font-weight: 400;
+	margin: 0%;
+	padding-top: 130px;
+}
+
+/*grid*/
+@media screen and (min-width: 770px) {
+.wraper_12 {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+.box_3,
+.box_6,
+.box_9,
+.box_12 {
+	display:inline;
+	box-sizing: border-box;
+	float: left;
+	padding: 0%;	
+}
+
+.box_3 {
+	width: 33.33%;
+}
+
+
+.box_6 {
+	width: 50%;
+}
+
+
+.box_9 {
+	width: 66.66%;
+}
+
+.box_12 {
+	width: 100%;
+}
+
+}
+
+/*grid.end*/
+
+
+/*clearfix*/
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+ 
+.floatright {
+	float: right;
+	margin-left: 0px;
+}
+.floatleft {
+	float: left;
+	margin-right: 0px;
+}
+/*clearfix end*/
+
+
+/*images*/
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*pagetop*/
+
+header {
+	position: fixed;
+ 	height: 130px;
+    top: 0;
+    z-index: 9999; 
+    background-color: #EDEBE2;
+/*    border-bottom: solid black 1px;	*/
+}
+
+header.smaller {
+    height: 70px;
+}
+
+
+header.smaller #subtitle {
+ 	display: none;   
+}
+	
+#menuright {
+	text-align: left;
+	padding-top: 30px;
+	font-weight: 700;
+
+}
+
+#menuright ul {
+	margin: 0;
+	padding: 0;
+}
+
+#menuright ul li {
+	display: inline;
+	float: left;
+	list-style: none;
+	text-decoration: none;
+	width: 20%;
+	box-sizing: border-box;
+	padding:0px;
+	margin-bottom: 0;
+
+}
+
+#menuright ul li a {
+		text-decoration: none;
+		color: black;
+}
+
+#subtitle  {
+	letter-spacing: 0.2rem;
+	margin-bottom: 15px;
+}
+
+p {
+	line-height: 1.5rem;
+}
+
+header h1 {
+	font-family: "Ultra";
+	font-size: 5rem;
+	height: 130px;
+	line-height: 130px;
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+header h1 a{
+	text-decoration: none;
+	color: black;
+}
+
+header.smaller h1 {
+	line-height: 70px;
+	height: 70px;
+	font-size: 2.5rem;
+}
+
+#search {
+	background-color: gray;
+	box-sizing: border-box;
+	border: none;
+	color: white;
+	padding: 4px;
+	font-family: 'Quattrocento', serif;
+	font-size: 1rem;
+	width: 100%;
+}
+
+/*FEATURED*/
+
+#featured {
+/*	margin-top: 130px;
+*/	border-bottom: solid black 1px;
+	color: white;
+	height: 500px;
+
+}
+
+.feature_left, .feature_right {
+	height: 100%;
+}
+
+
+
+#featured1 {
+	/*background-image: url("../images/food-blueberries-blueberry.jpg");
+	background-size: 100%;*/
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+#featured2 {
+	/*background: red;*/
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+#featured3 {
+	/*background: blue;*/
+	height: 50%;
+	overflow: hidden;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+#featured h2 {
+	font-family: "Quattrocento";
+	font-weight: 700;
+	font-size: 4rem;
+}
+
+
+#featured h2 span {
+	font-size: 2rem;
+	background-color: #FFCB6B;
+	padding: 4px;
+	color: black;
+}
+
+.positionName1 {
+	    position: absolute;
+	    text-align: center;
+	    margin-top: 20%;
+	    width: 100%;
+}
+
+
+.positionName2 {
+	    position: absolute;
+	    text-align: center;
+	    margin-top: 15%;
+	    width: 100%;
+	}
+
+body {
+	background-color: #EDEBE2;
+}
+
+/*DIV ARTICLE*/
+
+#article {
+	margin: 100px;
+	height: 500px;
+}
+
+#articletxt {
+	padding-right: 60px;
+	text-align: right;
+	height: auto;
+}
+
+#articletxt h2{
+	font-size: 3.5rem;
+}
+
+#articletxt p span{
+font-size: 2rem;
+	background-color: #FFCB6B;
+	padding: 4px;
+	color: black;}
+
+/*DIV ARTICLE2*/
+#article2 {
+	margin: 100px;
+	height: 500px;
+}
+
+#articletxt2 {
+	padding-left: 60px;
+	text-align: left;
+}
+
+#articletxt2 h2{
+	font-size: 3.5rem;
+}
+
+#articletxt2 p span{
+font-size: 2rem;
+	background-color: #FFCB6B;
+	padding: 4px;
+	color: black;}
+
+/*div news*/
+
+#news {
+	margin-right: 0%;
+	margin-top: 3%;	
+
+}
+
+#news1 {
+	/*margin-top: 3%;*/
+	background-color: #3D3D3D;
+}
+
+
+#legend {
+	margin-top: 2px;
+	margin-bottom: 2px;
+	font-size: 0.7rem;
+	color: #EDEBE2;
+	padding: 3%;
+}
+
+#legend h2, h3{
+	margin-top: 0;
+	margin-bottom: 0;
+	
+}
+
+#legend h2{
+	font-weight: 700;
+	font-size: 2rem;
+	padding-bottom: 3%;	
+}
+
+#legend h3{
+	font-weight: 400;
+	font-size: 1rem;	
+}
+
+/*FOOTER*/
+
+#footer {
+	padding: 30px;
+	font-size: 2rem;
+	border-top: 1px solid black;
+}
+
+#footer div a {
+	font-size: 1rem;
+	text-decoration: none;
+	color: black;
+}
+
+#footer ul li{
+	list-style: none;
+	display: inline;
+	float: left;
+	width: 5%;
+	margin:0;
+	padding: 0;
+}
+
+#footer h4{
+	font-size: 1.2rem;
+	margin-bottom: 2px;
+	margin-right: 0;
+	margin-left: 0;
+	padding: 0;
+}
+
+#footer ul {
+	margin:0;
+	padding: 0;
+}
+
+
+/*ARTICLE PAGE*/
+
+#imagetop {
+/*	background-color: red;
+*/}
+
+#title,
+#txt {
+	margin-top: 30px;
+	
+}
+
+#title {
+	padding-right: 30px;
+}
+
+#title h2 {
+	font-family: "Quattrocento";
+	font-weight: 700;
+	font-size: 4rem;
+	text-align: right;
+	margin:0;
+}
+
+#title p{
+	font-size: 1rem;
+	text-align: right;
+}
+#title a{
+	text-decoration: none;
+	color: black;
+}
+
+
+/*CONTACT PAGE*/
+
+#contact {
+	height: 400px;
+	margin-bottom: 30px;
+}
+
+#form {
+	padding-left: 15px;
+}
+
+.input {
+	height: 200px;
+	width: 80%;
+}
+
+
+/*ERROR*/
+
+#error h2{
+	color: white;
+	font-size: 3rem;
+
+}
+#error h2 span {
+	font-size: 1.5rem;
+	background-color: #FFCB6B;
+	padding: 4px;
+	color: black;
+}
+
+#error h2 span a {
+	text-decoration: none;
+	color: black;
+}
+
+
+.positionNameError {
+	    position: absolute;
+	    text-align: left;
+	    margin-top: 20%;
+	    margin-left: 15%;
+	    width: 100%;
+}
+
+/*SOURCES*/
+#table {
+	margin-left: 10%;
+	margin-top: 100px;
+}
+
+#table img {
+	max-width: 50%;
+	margin: 0;
+	padding: 0;
+}
+
+table tr td {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+	width: 50%;
+}
+
+
+/*MEDIA QUERIES*/
+
+/* Extra Small Devices */
+@media screen and (max-width: 767px) {
+
+	.feature_left img, 
+	.feature_right img {
+	height: auto;
+	max-width: 100%;
+}
+
+	#featured{
+		margin-top: 80px;
+		height: auto;
+	}
+
+
+	#featured1, 
+	#featured2, 
+	#featured3 {
+		height: auto;
+		margin-top: 0px;
+	}
+
+	header h1 {
+		font-size: 3rem;
+		text-align: center;
+		/*background-color: red;*/
+	}
+
+div #subtitle {
+	display: none;
+}
+
+header {
+	text-align: center;
+ 	height: 200px;
+ 	width: 100%;
+    
+}
+
+header.smaller {
+    height: 80px;
+    width: 100%;
+
+}
+
+header.smaller ul {
+ 	display: none;   
+}
+
+#menuright {
+	padding: 0;
+	text-align: center;
+}
+
+#menuright ul li {
+	display: block;
+	width: 25%;
+	padding:10px;
+		
+}
+
+#article,
+#article2 {
+	margin: 50px;
+
+}
+
+
+#articletxt,
+#articletxt2 {
+	padding-right: 0;
+	text-align: right;
+	
+}
+
+#articletxt h2,
+#articletxt2 h2{
+	font-size: 3rem;
+}
+
+#articletxt p span,
+#articletxt2 p span{
+	font-size: 1.5rem;
+	padding: 4px;
+	}
+
+#news {
+	margin-top: 200px;
+
+}
+
+#contact {
+	margin-top: 100px;
+	float: left;
+	height: auto;
+}
+
+#error {
+	margin-top: 100px;
+}
+
+#error h2{
+	font-size: 2.5rem;
+
+}
+#error h2 span {
+	font-size: 1rem;
+
+}
+.positionNameError {
+	    margin-top: 10%;
+	    margin-left: 10%;	    
+}
+
+#imagetop {
+	margin-top: 100px;
+}
+
+#title,
+#txt {
+	margin: 30px;
+	
+}
+
+#title {
+	padding-right: 30px;
+}
+
+#title h2 {
+	font-family: "Quattrocento";
+	font-weight: 700;
+	font-size: 3rem;
+	text-align: right;
+	margin:0;
+}
+
+#footer ul li {
+	width: 15%;
+}
+
+}
+
+/* Small Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+	.feature_left img, 
+	.feature_right img {
+	height: auto;
+	max-width: 100%;
+}
+
+#featured{
+		margin-top: 0px;
+		height: auto;
+	}
+
+	#featured, 
+	#featured1, 
+	#featured2, 
+	#featured3 {
+		height: auto;
+	}
+
+#featured2 h2,
+#featured3 h2 {
+	font-size: 2.5rem;
+}
+
+#featured2 h2 span,
+#featured3 h2 span {
+	font-size: 1.5rem;
+}
+
+	header h1 {
+		font-size: 3.5rem;
+		text-align: center;
+		/*background-color: yellow;*/
+	}
+div #subtitle {
+	display: none;
+}
+
+
+
+#article,
+#article2 {
+	margin: 40px;
+	height: 400px;
+}
+
+#articletxt{
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: right;
+}
+
+
+#articletxt2 {
+	padding-right: 15px;
+	padding-left: 15px;
+	text-align: left;
+}
+
+#articletxt h2,
+#articletxt2 h2{
+	font-size: 2rem;
+	margin-top: 0;
+}
+
+#articletxt p span,
+#articletxt2 p span{
+	font-size: 1.5rem;
+	padding: 4px;
+	}
+
+#legend h2{
+	font-size: 1.4rem;
+		
+}
+
+#imagetop {
+	margin-top: 60px;
+}
+
+}
+
+
+/* Medium Devices */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+header h1 {
+		font-size: 4rem;
+		text-align: center;
+		/*background-color: yellow;*/
+	}
+}
+
+
+
+/* Large Devices */
+@media (min-width: 1200px) {
+.wraper_12 {
+	width: 1200px;
+	margin: 0 auto;
+}
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Real Food</title>
+	<link rel="stylesheet" href= "css/normalize.css">
+	<link rel="stylesheet" href= "css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	 <script src="script.js"></script>
+</head>
+	<body>
+	<div class="wraper_12">
+	<header class="wraper_12">
+		
+		<div class="box_6">
+			<h1><a href="index.html">.real food</a></h1>
+		</div>
+
+		<div class="box_6" id="menuright">
+		<div id="subtitle">November 2015 | If it is food, it must be true.</div>
+
+		<ul>
+			<li><a href="story.html">article</a></li>
+			<li><a href="404.html">subscribe</a></li>
+			<li><a href="404.html">recipes</a></li>
+			<li><a href="contact.html">contact</a></li>
+			<li><input type="text" value="search" id="search"/></li>
+		</ul>
+		</div>
+	
+</header>
+		
+
+<div id="table">
+	<h4>Sources</h4>
+	<table style="width:100%">
+  <tr>
+    <td><img src="images/bread-breakfast-knife-large.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/bread-breakfast-knife-sliced-8366/">Pexels</a></td> 
+  </tr>
+  <tr>
+    <td><img src="images/bread-food-healthy-breakfast.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/bread-food-healthy-breakfast-2436/">Pexels</a></td>  
+  </tr>
+  <tr>
+    <td><img src="images/food-blueberries-blueberry.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/food-blueberries-berries-8688/">Pexels</a></td>  
+  </tr>
+  <tr>
+    <td><img src="images/food-healthy-red-summer.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/food-raspberries-fruits-7329/">Pexels</a></td>  
+  </tr>
+  <tr>
+    <td><img src="images/food-kitchen-cutting-board-cooking.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/food-kitchen-cutting-board-cooking-3329/">Pexels</a></td> 
+  </tr>
+  <tr>
+    <td><img src="images/food-salad-healthy-lunch.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/spinach-chicken-pomegranate-salad-5938/">Pexels</a></td> 
+  </tr>
+  <tr>
+    <td><img src="images/food-salad-healthy-vegetables.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/lunch-table-salad-5876/">Pexels</a></td>  
+  </tr>
+  <tr>
+    <td><img src="images/food-salad-restaurant-person.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/food-salad-restaurant-person-5317/">Pexels</a></td> 
+  </tr>
+  <tr>
+    <td><img src="images/muffin.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/muffin-sweet-bakery-treat-8279/">Pexels</a></td>  
+  </tr>
+  <tr>
+    <td><img src="images/pexels-photo.jpeg"></td>
+    <td><a href="https://www.pexels.com/photo/lemons-bouquet-cookies-food-8989/">Pexels</a></td>  
+  </tr>
+  <tr>
+    <td><img src="images/salad-healthy-diet-spinach.jpg"></td>
+    <td><a href="https://www.pexels.com/photo/spinach-and-beetroot-salad-5928/">Pexels</a></td>  
+  </tr>
+	<tr>
+		<td>Texts on index and story page</td>
+		<td><a href="https://en.wikipedia.org/wiki/Organic_food">Wikipedia</a></td>
+	</tr>
+	<tr>
+		<td>Font Icons</td>
+		<td><a href="http://fortawesome.github.io/Font-Awesome/">Font Awsome</a></td>	
+	</tr>
+	<tr>
+		<td>Form</td>
+		<td><a href="https://formspree.io/">Formspree</a></td>
+	</tr>
+</table>
+</div>
+
+
+	</div>
+	</body>
+</html>
+

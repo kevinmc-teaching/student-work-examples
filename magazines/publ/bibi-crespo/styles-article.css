@@ -1,0 +1,371 @@
+body  {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+article {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+h1 {
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: -.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding: .3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: .9rem;
+  text-transform: lowercase;
+
+}
+
+h3 {
+  text-align: center;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  text-transform: lowercase;
+  border-bottom: 1px solid black;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  padding-top: 0rem;
+}
+
+h3 span {
+  background-color: white;
+  position: relative;
+
+  top: .8rem;
+  padding-right: .4rem;
+  padding-left: .4rem;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: .2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h5 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.4rem;
+  font-weight: lighter;
+  text-transform: none;
+  margin-top: 1.5rem;
+  margin-bottom: .7rem;
+  padding-top: 0;
+  line-height: 1.7rem;
+}
+
+p {
+  font-family: 'georgia', 'times new roman', serif;
+  font-size: .9rem;
+  margin-top: 0;
+  line-height: 1.1rem;
+}
+
+footer {
+  background-color: lightgrey;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+/* CLASSES ================ */
+
+
+.editor-section {
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.editor-section img {
+  max-width: 50%;
+  margin-bottom: .5rem;
+}
+
+.editor-section h6 {
+  text-transform: uppercase;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1rem;
+  font-weight: lighter;
+  margin-bottom: .3rem;
+  text-decoration: underline;
+}
+
+.editor-section a {
+  color: black;
+  }
+
+  .editor-section a:hover {
+text-decoration: underline;
+   }
+
+
+.article-title h4 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+article a {
+  text-decoration: none;
+  color: black;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+.article-subtitle p {
+  font-size: 1.1rem;
+  margin-top: .3rem;
+  line-height: 1.3rem;
+  margin-bottom: .5rem;
+}
+
+.article-date p {
+  color: grey;
+}
+
+.read-time p {
+  margin-bottom: .1rem;
+  margin-top: 1rem;
+
+  color: grey;
+  text-align: center;
+  font-size: .8rem;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+
+}
+
+.article-image {
+  margin-bottom: 1rem;
+}
+
+.inspo-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.menu {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.menu-1 {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.menu-1 a:hover {
+  background-color: hsl(3,50%,90%);
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+.menu-social-search a {
+  font-size: 1.2rem;
+}
+
+.contact-menu a {
+  text-decoration: underline;
+  color: black;
+  font-family: helvetica;
+  font-size: .8rem;
+}
+
+.contact-menu  li {
+  display: inline-block;
+  padding-left: .8rem;
+}
+
+.contact-menu ul {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: .8rem;
+}
+
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+
+@media screen and (min-width: 650px) {
+
+
+.inspo-section {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+}
+
+.related-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+article {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60%;
+}
+
+.editor-section img {
+  max-width: 30%;
+}
+
+
+}
+
+@media screen and (min-width: 1000px) {
+
+  .related-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+  }
+
+
+article {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 50%;
+}
+
+
+
+
+}
+
+@media screen and (min-width: 1280px) {
+
+article {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: 60% 25%;
+  grid-gap: 7rem;
+}
+
+.related-section {
+  display: block;
+}
+
+.inspo-section {
+  display: block;
+}
+
+.inspo-section img {
+  margin-bottom: 1rem;
+}
+
+
+
+}
+
+@media screen and (min-width: 1700px) {
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 60% 25%;
+    grid-gap: 7rem;
+  }
+
+
+  .related-section {
+    display: block;
+  }
+
+  .inspo-section {
+    display: block;
+  }
+
+  .inspo-section img {
+    margin-bottom: 1rem;
+  }
+
+
+}
+
+@media screen and (min-width: 2070px) {
+
+  article {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+    display: grid;
+    grid-template-columns: 55% 25%;
+    grid-gap: 15rem;
+  }
+
+
+  .related-section {
+    display: block;
+  }
+
+
+
+}

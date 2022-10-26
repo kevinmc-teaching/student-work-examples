@@ -1,0 +1,7 @@
+if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("small").style.display = "none";
+    document.getElementById("large").style.display = "block";
+} else {
+    document.getElementById("large").style.display = "none";
+    document.getElementById("small").style.display = "block";
+}

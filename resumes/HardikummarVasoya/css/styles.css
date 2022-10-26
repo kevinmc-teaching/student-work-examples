@@ -1,0 +1,432 @@
+/* 3779c4 */
+
+/* ----- Typography  ----- */
+body {
+    margin: 1rem;
+    line-height: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 1.6rem;
+}
+
+h2 {
+    font-size: 1.1rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+/* ----- Links and Menus ----- */
+.wrapper {
+    margin-bottom: 150px;
+}
+.header {
+    max-width: 1300px;
+    margin: 0 auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #3779c4;
+    box-shadow: 0px 0px 10px 0px #224164;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    font-size: 0.8rem;
+}
+
+nav ul li {
+    border: 1px solid #4987cc;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0.5rem;
+    opacity: 0.9;
+}
+
+nav li i {
+    font-size: 16px;
+}
+
+nav a span {
+    display: block;
+    margin-top: 0.4rem;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 30px;
+    color: #3779c4;
+    padding: 0.5rem;
+}
+
+/* ----- Layout ----- */
+.section {
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.full-name {
+    line-height: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0.8rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.designation {
+    color: #555;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.section-title {
+    margin-bottom: 1rem;
+    border-left: 2px solid #3779c4;
+    padding-left: 0.5rem;
+}
+
+#education .section-title {
+    margin-bottom: 0;
+}
+
+#professional-experience .section-title {
+    margin-bottom: 0;
+}
+
+#profile {
+    text-align: center;
+    padding-top: 0;
+}
+
+#profile p {
+    text-align: left;
+    font-size: 0.9rem;
+}
+
+.profile-picture {
+    width: 190px;
+    border-radius: 50%;
+}
+
+.inner-div {
+    margin-left: 1rem;
+}
+
+.company-info {
+    margin-left: 1rem;
+}
+
+.duration {
+    display: inline-block;
+    background-color: #3779c4;
+    padding: 0.3rem 1rem;
+    margin-bottom: 0.8rem;
+    margin-top: 1rem;
+    color: #fff;
+    font-size: 0.8rem;
+}
+
+.position {
+    margin-bottom: 0.2rem;
+}
+
+.place {
+    font-size: 0.75rem;
+    color: #666;
+    margin-bottom: 0.8rem;
+}
+
+.responsibilitites {
+    font-size: 0.8rem;
+}
+
+.responsibilitites li {
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.responsibilitites li:last-of-type {
+    margin-bottom: 0;
+}
+
+.skills-interest {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+
+.skills-interest li i {
+    font-size: 4rem;
+    color: #3779c4;
+}
+
+.skills-interest li span {
+    display: block;
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.web-projects {
+    text-align: center;
+    margin-left: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem;
+}
+
+.web-projects li {
+    font-size: 0.9rem;
+}
+
+.web-projects li a {
+    background-color: #3779c4;
+    border: 1px solid #3779c4;
+    color: #ebf1f9;
+    padding: 0.2rem;
+    display: block;
+}
+
+/* ----- Footer ----- */
+footer {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#contact h2 {
+    border-left: 2px solid #3779c4;
+    border-right: 2px solid #3779c4;
+    display: inline-block;
+    padding: 0rem 0.8rem;
+}
+
+.contact-me {
+    margin-bottom: 3rem;
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.contact-me a {
+    color: #333;
+}
+
+.email, .tel {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+.desktop-footer {
+    display: none;
+}
+
+ /* ----- Media Queries ----- */
+@media print {
+    .ad {
+        display: none;
+    }
+
+    P {
+        font-size: 11pt;
+        line-height: 14pt;
+        margin-left: .125in;
+        margin-right: .125in;
+    }
+ } /* ----- End Print Styles ----- */
+
+@media screen and (min-width: 568px) {
+    .wrapper {
+        margin-bottom: 100px;
+    }
+
+    #profile {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-gap: 0.5rem;
+    }
+
+    .image {
+        grid-column: span 5;
+    }
+
+    .profile-picture {
+        width: 150px;
+    }
+
+    .profile-info {
+        grid-column: span 7;
+        text-align: left;
+    }
+
+    .about-me {
+        grid-column: span 12;
+    }
+
+    nav ul {
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .skills-interest {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skills-interest li:last-of-type {
+        grid-column: span 4;
+    }
+
+    .web-projects {
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 1rem;
+    }
+}  /*  End 568px Query */
+
+@media screen and (min-width: 700px) {
+    .section {
+        margin-bottom: 10px;
+    }
+
+    .work-education,
+    .skill-portfolio {
+        display: grid;
+        grid-template-columns: repeat(2, 6fr);
+        grid-gap: 0.5rem;
+    }
+
+    #professional-experience,
+    #education,
+    #skill-set,
+    #portfolio {
+        padding-right: 10px;
+        border: 1px dashed #3779c4;
+        padding-bottom: 1rem;
+    }
+    
+    .skills-interest {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .skills-interest li:last-of-type {
+        grid-column: unset;
+    }
+
+    .web-projects {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .section-title {
+        border-left: 5px solid #3779c4;
+    }
+}  /*  End 700px Query */
+
+@media screen and (min-width: 800px) {
+    .image {
+        grid-column: span 3;
+    }
+
+    .profile-info {
+        grid-column: span 4;
+    }
+
+    .profile-picture {
+        width: 190px;
+    }
+
+    .about-me {
+        grid-column: span 5;
+    }
+
+    #profile p {
+        font-size: 0.8rem;
+    }
+} /*  End 800px Query */
+
+@media screen and (min-width: 1000px) {
+    body {
+        max-width: 1100px;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
+    
+    .wrapper {
+        margin-bottom: 0;
+    }
+    
+    .header {
+        display: none;
+    }
+
+    .contact-me {
+        margin-bottom: 1rem;
+    }
+
+    #profile p {
+        font-size: 0.9rem;
+    }
+
+    .mobile-footer {
+        display: none;
+    }
+
+    .desktop-footer {
+        display: block;
+        background-color: #3779c4;
+        color: #fff;
+        padding: 0.5rem 0rem;
+        font-size: 0.8rem;
+    }
+} /*  End 1000px Query */
+
+@media screen and (min-width: 1300px) {
+
+    .skills-interest {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .skills-interest li:last-of-type {
+        grid-column: span 4;
+    }
+
+    .web-projects {
+        grid-template-columns: repeat(3,1fr);
+    }
+
+}  /*  End 1200px Query */
+
+/* ----- Responsive Images ----- */
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,545 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Playfair+Display');
+
+/* ===== GENERAL - BEGIN ===== */
+body {
+	font-family: Montserrat, "Open Sans", "Helvetica Neue", Arial;
+	margin: 2%;
+	color: #5A5A5A;
+	text-align: center;
+	min-width: 300px;
+	max-width: 1000px;
+	line-height: 1.5;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	font-family: "Open Sans", "Helvetica Neue", Arial;
+	font-size: 1.2rem;
+}
+
+a {
+	text-decoration: none;
+	color: #5A5A5A;
+}
+
+.link{
+	opacity: 1;
+	-moz-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #F9D39C;
+	text-transform: uppercase;
+}
+.link:hover {
+	opacity: 0.75;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+/* ===== GENERAL - END ===== */
+
+/* ===== HEADER - BEGIN ===== */
+/* = LOGO = */
+.logo-text, .logo-img {
+	float: left;
+}
+.logo-img {
+	width: 75px;
+}
+.logo-text {
+	padding-top: 20px;
+	font-family: 'Playfair Display', serif;
+	font-size: 1.5rem;
+}
+.pos-number {
+	position: relative;
+	bottom: 4px;
+}
+
+/* = NAVIGATION TOP = */
+.login, .language, .header-top-link, .hamburguer {
+	float: right;
+	margin-right: 15px;
+	text-transform: uppercase;
+	font-size: 0.85rem;
+}
+.login, .language {
+	padding: 30px 0;
+	font-weight: lighter;
+	font-family: "Open Sans", "Helvetica Neue", Arial;
+}
+.login:hover, .language:hover {
+	text-decoration: underline;
+}
+.hamburguer{
+	border: 1px solid grey;
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 10px;
+	margin-right: 0;
+}
+.header-top-link {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.header-top-link, .language, .login {
+	display: none;
+}
+
+/* = SEARCH = */
+.breed-search {
+	position: relative;
+	clear: both;
+	margin: 2% 0;
+}
+.txt-breed {
+	border-radius: 5px;
+	height: 38px;
+	width: calc(100% - 10px);
+	padding-left: 5px;
+	border: 1px solid grey;
+}
+.breed-search-icon {
+	font-size: 30px	;
+	position: absolute;
+	top: -2px;
+	right: 8px;
+}
+
+/* = NAVIGATION MAIN = */
+.header-nav-main {
+	clear: both;
+	background-color: #62525A;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	display: none;
+}
+.header-nav-main ul {
+	margin: 20px 0;
+}
+.header-nav-main li {
+	float: left;
+	width: 25%;
+}
+.header-nav-main a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.teaser, .main-not-found, .main-contact, .main-story, .main-sources{
+	border-top: 2px solid #62525A;
+	margin-bottom: 2%;
+}
+.teaser, .breeds, .main-not-found, .main-contact, .main-story, .main-sources {
+	border-bottom: 2px solid #62525A;
+}
+/* ===== HEADER - END ===== */
+
+/* ===== MAIN - BEGIN ===== */
+main {
+	clear: both;
+}
+main article h2 span, .breeds h2 {
+	text-transform: uppercase;
+}
+
+/* = TEASER SECTION = */
+.teaser-box, .box-not-found, .main-contact {
+	padding: 10%;
+	text-align: left;
+}
+.teaser-box:nth-child(odd), .box-not-found, .main-contact {
+	background-color: #F0E9E9;
+}
+.teaser-img {
+	width: 70%;
+	margin: auto;
+}
+.teaser-box p {
+	margin-bottom: 35px;
+}
+.teaser-box .link {
+	display: inline;
+}
+.teaser-food {
+	text-align: center;
+}
+.teaser-food img{
+	width: 100%;
+}
+
+.color-number {
+	color: #B0773C;
+}
+
+figure {
+	margin-top: 7%;
+}
+figure img {
+	width: 35%;
+}
+.breed-name {
+	font-style: italic;
+	/*color: #9C9C9C;*/
+}
+figcaption p {
+	margin-top: 0;
+}
+h3 {
+	margin-bottom: 10px;
+}
+
+/* = BREEDS SECTION = */
+.breeds {
+	padding-bottom: 5%;
+}
+.breeds figure {
+	background-color: #F0E9E9;
+	/*margin: 5% 0;*/
+	margin: 0 0 5% 0;
+	padding: 5% 0;
+}
+.breeds figcaption {
+	margin-top: 20px;
+}
+
+.learn-more {
+	margin: 7% 0;
+}
+
+/* = NOT FOUND SECTION = */
+.box-not-found {
+	padding: 5% 10%;
+}
+.box50-1 {
+	width: 60%;
+	padding: 4% 0;
+}
+
+.not-found-links li {
+	float: left;
+	width: 50%;
+	margin: 2% 0;
+	text-align: center;
+}
+.not-found-links a {
+	font-size: 1.2rem;
+	text-transform: capitalize;;
+}
+
+/* = CONTACT SECTION = */
+.main-contact form {
+	width: 100%;
+}
+.main-contact form label {
+	display: block;
+	margin-bottom: 2%;
+}
+.main-contact form input, .main-contact form textarea {
+	width: 100%;
+	height: 25px;
+	border-radius: 5px;
+	border: 1px solid grey;
+	margin-bottom: 5%;
+}
+.main-contact form textarea {
+	height: 70px;
+}
+/*.main-contact form button {
+	display: block;
+	width: 30%;
+}*/
+
+/* = STORY SECTION = */
+.main-story {
+	padding: 0 5%;
+}
+.main-story h2 {
+	margin-top: 5%;
+}
+
+.main-story-container {
+	border: 1px solid grey;
+	border-radius: 5px;
+}
+.main-story-container td{
+	font-size: 1.2rem;
+	text-align: left;
+}
+.main-story-box30, .main-story-box70, .main-story-box50 {
+	width: 70%;
+	margin: 5% auto;
+}
+
+.main-story-img {
+	width: 30%;
+	margin: 5% auto;
+}
+
+.no-border {
+	border: none;
+}
+
+/* = SOURCES SECTION = */
+.main-sources table{
+	margin: 5% 10%;
+	text-align: center;
+}
+.main-sources table, .main-sources tr, .main-sources th, .main-sources td {
+	border: 1px solid grey;
+}
+.main-sources td {
+	padding: 5%;
+	width: 50%;
+}
+.main-sources img {
+	width: 80%;
+}
+
+/* ===== MAIN - END ===== */
+
+/* ===== FOOTER - BEGIN ===== */
+footer {
+	text-align: left;
+}
+footer nav {
+	clear: both;
+}
+h4 {
+	margin-bottom: 0;
+	font-size: 1.2rem;
+}
+footer li {
+	padding-left: 5%;
+}
+footer li:first-child {
+	padding: 0;
+}
+/* ===== FOOTER - END ===== */
+
+/* ===== MEDIA QUERIES - BEGIN ===== */
+@media screen and (min-width:470px) {
+	.header-top-link {
+		display: block;
+	}
+	.main-story-container td{
+		font-size: 1.5rem;
+	}
+
+}
+
+@media screen and (min-width:575px) {
+	.language {
+		display: block;
+	}
+	.main-contact form {
+		width: 80%;
+	}
+	.main-contact form input, .main-contact form textarea {
+		width: 60%;
+	}
+	.main-story-container td{
+		font-size: 1.7rem;
+	}
+
+}
+
+@media screen and (min-width:635px) {
+	body {
+		margin: 2% 5%;
+	}
+	.login, .header-nav-main {
+		display: block;
+	}
+
+	.teaser-box {
+		padding: 7% 10%;
+	}
+
+	.breeds figure {
+		font-size: 1.3rem;
+	}
+
+	.main-contact form {
+		width: 80%;
+	}
+
+	.main-story {
+		text-align: left;
+		padding: 0 10%;
+	}
+
+	.main-story-box30, .main-story-box50, .main-story-box70 {
+		float: left;
+		margin: 0 2%;
+		padding: 5% 0;
+	}
+	.main-story-box30 {
+		margin-left: 10%;
+		width: 31%;
+	}
+	.main-story-box50 {
+		width: 46%;
+	}
+	.main-story-box70 {
+		width: 51%;
+		padding-top: 6%;
+	}
+	.main-story-container td{
+		font-size: 1.3rem;
+	}
+
+
+}
+
+@media screen and (min-width:980px) {
+	/* ===== GENERAL - BEGIN ===== */
+	body {
+		margin: 2% 10%;
+	}
+	/* ===== GENERAL - END ===== */
+
+	/* ===== HEADER - BEGIN ===== */
+	.login, .header-nav-main {
+		display: block;
+	}
+	/* ===== HEADER - END ===== */
+
+	/* ===== MAIN - BEGIN ===== */
+	.teaser-box {
+		padding: 5% 5%;
+	}
+
+	.teaser-img, .teaser-article {
+		float: left;
+		margin: 0 2%;
+	}
+	.teaser-img {
+		width: 26%;
+	}
+	.teaser-img img {
+
+	}
+	.teaser-article {
+		float: left;
+		width: 66%;
+	}
+	.teaser-article a {
+		float: right;
+	}
+
+	.teaser-food, .teaser-ban {
+		padding-top: 7%;
+	}
+
+	/*.teaser-article figure, .breeds figure {
+		float: left;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	.teaser-article figure {
+		width: 29.333%;
+	}
+	.teaser-article figure div {
+		width: 60%;
+		margin: auto;
+		height: 180px;
+	}*/
+	.breeds figure {
+		float: left;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+	figure img {
+		width: 100%;
+	}
+	.breeds, .breeds div{
+		clear: both;
+	}
+	.breeds figure {
+		width: 46%;
+		font-size: 1.3rem;
+	}
+	.breeds-img {
+		width: 50%;
+		height: 230px;
+		margin: auto;
+	}
+
+	.learn-more {
+		margin-bottom: 0;
+	}
+
+	/* = NOT FOUND SECTION = */
+	.box50-1, .box50-2 {
+		float: left;
+	}
+	.box50-1 {
+		width: 30%;
+	}
+	.box50-2 {
+		width: 60%;
+		padding-left: 10%;
+	}
+
+	.husky, .mastiff {
+		width: 45%;
+	}
+	.labrador {
+		width: 45%;
+	}
+	.shepherd {
+		width: 70%;
+	}
+
+	.main-story-box70 {
+		padding-top: 8%;
+	}
+	.main-story-container td{
+		font-size: 1.7rem;
+	}
+
+	/* ===== MAIN - END ===== */
+
+	/* ===== FOOTER - BEGIN ===== */
+	.footer-navigation {
+		float: left;
+		width: 25%;
+		text-align: center;
+	}
+	footer li {
+		padding-left: 0;
+	}
+	/* ===== FOOTER - END ===== */
+
+}
+
+@media screen and (min-width:1200px) {
+	body {
+		margin: 2% auto;
+	}
+	.main-story-box70 {
+		padding-top: 9%;
+	}
+}
+/* ===== MEDIA QUERIES - END ===== */

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee Harbour | Sources</title>
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- FONTS ==========-->
+  <!-- font - open sans -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+  <!-- font - oswald -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+
+  <!-- FONT AWESOME ==========-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- SEARCH INPUT -->
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><p><i class="fas fa-times"></i></p></span>
+    <div class="overlay-content">
+      <form action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search float_right"></i></button>
+      </form>
+    </div>
+  </div>
+
+
+  <script>
+  // Open the full screen search box
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+
+  // Close the full screen search box
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  </script>
+
+
+
+  <header class="header_thanks">
+    <div class="header_wrapper">
+
+      <div class="article_category_story cf">
+</div>
+      <h1 class="h1_story">Thanks for send us a message!</h1>
+      <h2 class="h2_story">We going to read carefully and answer as soon as possible.</h2>
+      <a href="index.html" class="button_404">Let's back to the lovely world of coffee</a>
+    </div>
+
+  </header>
+  <nav>
+    <ul>
+      <li></li>
+      <li><a href="#">
+        <i class="fas fa-coffee"></i>
+        <span class="disappear_name">COFFEE PLACES</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-book"></i>
+        <span class="disappear_name">BREWING GUIDES</span>
+      </a>
+    </li>
+
+    <li class="logo_nav">
+      <a href="index.html">
+        <img src="images/coffee_harbour_logo_mini.png" alt="coffee harbour logo">
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-comment"></i>
+        <span class="disappear_name">INTERVIEWS</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-envelope-open"></i>
+        <span class="disappear_name">CONTACT</span>
+      </a>
+    </li>
+
+    <li>
+      <a onclick="openSearch()">
+        <i class="fas fa-search"></i>
+      </a>
+    </li>
+  </ul>
+</nav>

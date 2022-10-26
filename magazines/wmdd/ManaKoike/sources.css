@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600|Pavanam|Raleway:400,500');
+
+
+body {
+	max-width: 1400px;
+		font-family: sans-serif;
+
+	
+}
+
+main {
+	text-align: center;
+	
+}
+h1 {
+	text-align: center;
+	margin-top: 70px;
+	font-family: 'Nunito', sans-serif;
+}
+
+
+a {
+	text-decoration: none;
+  color: black;
+   cursor: pointer; 
+}
+
+table {
+        width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+table img {
+	width: 70%;
+	height: auto;
+}
+table p{
+	width: 30%;
+}
+
+
+td, th {
+    border: 1px solid #dddddd;
+    padding: 8px;
+}
+
+th {
+	font-size: 1.4rem;
+	text-align: center;
+	margin-top: 20px;
+	    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #dce3ef;
+	
+}
+
+.logo{
+  width: 70%;
+  float: left;
+  padding-left: -10px;
+}
+
+header .menu-icon a {
+  padding-right: 13px;
+  width: 40px;
+  height: auto;
+  font-size: 1.6rem;
+
+} 
+
+
+
+.search {
+  margin: 10px 0 50px;
+  font-size: 14px;
+  
+}
+
+
+
+#bottom {
+	margin-bottom: 50px;
+}
+
+h4 {
+	padding-bottom: 70px;
+	font-size: 1.5rem;
+	font-family: 'Pavanam';
+}
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+
+
+@media screen and (max-width: 710px){
+  body {
+        width: 90%;
+    text-align: center;
+    
+  }
+
+td {
+	width: 100%;
+}
+  header .menu-icon, .search{
+  width: 100%;
+    
+}
+
+table {
+	width: 100%;
+}
+table img {
+	width: 100%;
+}
+
+.logo {
+  width: 100%;
+  margin: 40px auto;
+}
+
+.photosource{
+	width: 100%;
+}
+}
+
+
+
+
+

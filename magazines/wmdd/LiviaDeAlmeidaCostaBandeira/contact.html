@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PetZine | Contact</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+	<header class="talk">
+		<div class="container cf">
+			<div class="menu cf">
+				<a class="push" href="#">
+					<span class="icon-menu"></span>
+					<span class="visually-hidden">Menu</span>
+				</a>
+			</div>
+			<div class="logo cf">
+				<a class="push" href="index.html">
+					<h1 class="visually-hidden">PetZine</h1>
+					<img src="imgs/petzine_logo.png" alt="PetZine Logo">
+				</a>
+			</div>
+			<ul class="socialMedia cf">
+				<li>
+					<a class="push" href="#">
+						<span class="icon-instagram"></span>
+						<span class="visually-hidden">Instagram</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#"> 
+						<span class="icon-pinterest"></span>
+						<span class="visually-hidden">Pinterest</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#">
+						<span class="icon-facebook2"></span>
+						<span class="visually-hidden">Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#search">
+						<span class="icon-search"></span>
+						<span class="visually-hidden">Search</span>
+					</a>
+				</li>
+			</ul>
+
+			<!-- Search Form -->
+			<div id="search"> 
+				<span class="close">X</span>
+				<form role="search" id="searchform" action="/search" method="get">
+					<input value="" name="q" type="search" placeholder="type to search"/>
+				</form>
+			</div>
+
+			<div class="boxHl cf">
+				<div class="highlight">
+					<div class="info cf">
+						<div class="inline">
+							<div class="lineRight">
+								<span class="inlineMargin icon-calendar"></span>
+								21.03
+							</div> 
+						</div>
+						<div class="inline">
+							<span class="inlineMargin icon-user"></span>
+							<i>Livia Bandeira</i>
+						</div>
+					</div>
+					<h3>Dogs comunication</h3>
+					<p>The contact that dogs make between each other</p>
+					<button class="bounceRight">Read More</button>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<main class="cf">
+		<h2><span>Contact</span></h2>
+		<div class="col_6 contactForm">
+			<form action="https://formspree.io/bandeira.liv@gmail.com"
+      method="POST">
+			    <div>
+			        <input type="text" id="name" name="user_name" placeholder="Name">
+			    </div>
+			    <div>
+			        <input type="email" id="email" name="_replyto" placeholder="Email">
+			    </div>
+			    <div>
+			        <input type="text" id="subject" name="user_subject" placeholder="Subject">
+			    </div>
+			    <div>
+			        <textarea id="msg" name="user_message" rows="1" placeholder="Message"></textarea>
+			    </div>
+			    <div class="send">
+			    	<button class="bounceRight">Send</button>
+			    </div>
+			</form>
+		</div>
+		<div class="col_4 bookInfo">
+			<h4>Infos:</h4>
+			<div class="address">
+				<span class="icon-location"></span>
+				<p>5288 Melbourne Street<br>Joyce Collingwood - Vancouver<br>BC – Canada - V5R 6e6</p>
+			</div>
+			<div class="phone">
+				<span class="icon-phone"></span>
+				<p>+1 (604) 355-3424</p>
+			</div>
+			<div class="email">
+				<span class="icon-envelop"></span>
+				<p> contact@petzine.ca</p>
+			</div>
+		</div>
+	</main>	
+	<section>
+		<div id="light-yellow"></div>
+		<div id="subscribe" class="container cf footerRabbit">
+			<div class="col_8 yellowBox">
+				<form class="cf" action="post">
+					<input type="email" name="subscribe" placeholder="EMAIL">
+					<button class="bounceRight">Subscribe</button>
+				</form>
+			</div>
+			<div class="col_2">
+				<p>be part of this animal world.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container cf">
+		<div class="col_4 shortAbout cf">
+			<img src="imgs/footer_logo.png" alt="PetZine Logo">
+			<p>Petzine is an online magazine about pets and its different types and kinds.</p>
+		</div>
+		<div class="col_2 footerMenu cf">
+			<ul>
+				<li><a class="push" href="">Home</a></li>
+				<li><a class="push" href="">About</a></li>
+				<li><a class="push" href="">Contact</a></li>
+				<li><a class="push" href="">Categories</a></li>
+			</ul>
+		</div>
+		<div class="col_3 social cf">
+			<h4>Stay Connected</h4>
+			<ul>
+				<li>
+					<a class="push" href="#">
+						<span class="icon-facebook2"></span>
+						<span class="visually-hidden">Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#"> 
+						<span class="icon-pinterest"></span>
+						<span class="visually-hidden">Pinterest</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#">
+						<span class="icon-instagram"></span>
+						<span class="visually-hidden">Instagram</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="copyrights" class="col_10">
+			<p>copyright © 2017</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

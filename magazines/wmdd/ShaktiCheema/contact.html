@@ -1,0 +1,201 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>Contact Us || CheemArticles</title>
+    <link rel="icon" type="image/png" href="images/logo/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/logo/favicon-16x16.png" sizes="16x16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body id="body" class="overlay-close">
+    <div class="notification animated" id="notification">
+        <i class="fa fa-exclamation-triangle" id="noti_icon_error" aria-hidden="true"></i>
+        <i class="fa fa-check-circle" id="noti_icon_success" aria-hidden="true"></i><span id="noti_message"></span>
+    </div>
+    <div class="search-overlay animated" id="search-overlay">
+        <div class="container search-close-container">
+            <span class="search-close"><i class="fa fa-times-circle" id="close-search" onclick="closesearch();" aria-hidden="true"></i></span>
+
+        </div>
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Type and hit enter" /><i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div id="mob_menu" class="mobile-menu-full animated">
+    </div>
+    <div class="header_and_social clearfix">
+        <header id="header">
+            <div class="header-container animated slideInDown clearfix">
+                <div class="container">
+                    <div class="logo-container">
+                        <img src="images/logo/initial_logo.png" class="logo-image" alt="Logo" />
+                    </div>
+                    <nav id="full-menu" class="menu clearfix">
+                        <ul id="main-menu" class="ul-main-menu">
+                            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="home">Home</span></a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#" class="show-submenu" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">Categories</a>
+                                <ul id="submenu" class="submenu animated" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">
+                                    <li><a href="#featured-trick" onclick="close_mob_menu();">Featured</a></li>
+                                    <li><a href="#latest" onclick="close_mob_menu();">Latest</a></li>
+                                    <li><a href="#popularteasers" onclick="close_mob_menu();">Popular</a></li>
+                                    <li><a href="#trending" onclick="close_mob_menu();">Trending</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li id="mobile-menu" class="mobile_menu"><i class="fa fa-bars" id="open-mob-menu" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-search" id="open-search" onclick="opensearch()" aria-hidden="true"></i></li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+        </header>
+        <div class="social-top container">
+            <a href="#"><i class="fa fa-facebook white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus white" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram white" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div class="parallax">
+        <section class="myparallax__contact">
+            <div class="container clearfix">
+                <h2 class="section-title">Contact Us</h2>
+                <div class="contact_form">
+                    <label>Name</label>
+                    <input id="messageName" type="text" name="Name" placeholder="Name">
+                    <label>Email</label>
+                    <input id="messageEmail" type="email" name="Email" placeholder="Email">
+                    <input type="hidden" name="_subject" value="New contact us submission from CheemArticles Live!" />
+                    <label>Message</label>
+                    <textarea id="message" name="Message" placeholder="Message"></textarea>
+                    <input id="send_message" class="send" type="submit" value="Send">
+                </div>
+                <div class="google_map_container">
+                    <h2 class="section-title">Find Us</h2>
+                    <div class="google_map" id="map"></div>
+
+                </div>
+            </div>
+            <div class="section-end"></div>
+
+        </section>
+
+        <div id="footer" class="myparallax__footer footer">
+            <div class="container clearfix">
+                <div class="footer_1">
+                    <h1 class="fadeineffect">Instagram Gallery</h1>
+                    <div class="instagram-gallery clearfix">
+                        <img src="images/instagram/1.jpg" class="fadeineffect" alt="Instagram Picture Amelia" />
+                        <img src="images/instagram/2.jpg" class="fadeineffect" alt="Instagram Picture Lucas" />
+                        <img src="images/instagram/3.jpg" class="fadeineffect" alt="Instagram Picture Adele" />
+                        <img src="images/instagram/4.jpg" class="fadeineffect" alt="Instagram Picture Flora" />
+                        <img src="images/instagram/5.jpg" class="fadeineffect" alt="Instagram Picture Ivy" />
+                        <img src="images/instagram/6.jpg" class="fadeineffect" alt="Instagram Picture Noah" />
+                        <img src="images/instagram/7.jpg" class="fadeineffect" alt="Instagram Picture Heather" />
+                        <img src="images/instagram/8.jpg" class="fadeineffect" alt="Instagram Picture Liam" />
+                    </div>
+                </div>
+                <div class="footer_2">
+                    <h1 class="fadeineffect">You may Like</h1>
+                    <ul>
+                        <li class="fadeineffect"><a href="story.html">the motivation behind dafso's most recent fine-adornments</a></li>
+                        <li class="fadeineffect"><a href="story.html">20 party dresses which you can wear with style in winter</a></li>
+                        <li class="fadeineffect"><a href="story.html">7 new chanel fragrances to gift your fashion-loving friends</a></li>
+                        <li class="fadeineffect"><a href="story.html">eliza's latest hair colors is our favourite to date</a></li>
+                        <li class="fadeineffect"><a href="story.html">really genuine purposes behind not heading off to the gym</a></li>
+                        <li class="fadeineffect"><a href="story.html">guide to keep up your twists while working out</a></li>
+                        <li class="fadeineffect"><a href="story.html">this is what it was like to tour with cheema in the '20s</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container clearfix">
+
+                <div class="container clearfix">
+                    <div class="subscribe clearfix fadeineffect">
+                        <input class="subscribe_email" type="text" placeholder="Email" />
+                        <div class="subscribe_button">Subscribe</div>
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Who we are?</a></li>
+                            <li><a href="#">Our Authors</a></li>
+                            <li><a href="#">Models</a></li>
+                            <li><a href="story.html">Story</a></li>
+                            <li><a href="404.html">Error</a></li>
+                            <li><a href="sources.html">Sources</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <ul>
+
+                            <li><a href="#featured-trick">Featured</a></li>
+                            <li><a href="#latest">Latest</a></li>
+                            <li><a href="#popularteasers">Popular</a></li>
+                            <li><a href="#trending">Trending</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <img class="logo" src="images/logo/initial_logo.png" alt="CheemArticles Logo" />
+                        <p class="about_brief">
+                            CheemArticles LIVE is polished to bring the world of fashion to common people.
+                          With authors and people who travel to, and live in, the style capitals of the world,
+                          we're out there on the front lines of fashion.
+                        </p>
+                    </div>
+                    <div class="footer_3 social-bottom-container fadeineffect">
+                        <h1>Stay Connected</h1>
+                        <div class="social-top social-bottom">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <p>&copy; 2016 Website designed and developed by <a href="http://shaktisinghcheema.in" target="_blank">Shakti Singh Cheema</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/my.js"></script>
+    <script src="js/viewportchecker.js"></script>
+    <script>
+        function initMap() {
+            var uluru = { lat: 49.224575, lng: -123.108426 };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCo_9879saOo_B9Wwh02eVHTfIpKlWQFQI&callback=initMap">
+    </script>
+</body>
+</html>

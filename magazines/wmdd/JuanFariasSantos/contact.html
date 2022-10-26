@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="mockup/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:400,500,600,700|Poppins:300,400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Classy Magazine</title>
+  </head>
+  <body>
+    <div class="burguerNav">
+      <ul class="burguerMenu">
+        <li class="burguerListItem"><a href="#">news</a></li>
+        <li class="burguerListItem"><a href="index.html">editorial</a></li>
+        <li class="burguerListItem"><a href="sources.html">sources</a></li>
+        <li class="burguerListItem">
+          <a href="contact.html" class="bottomA">contact</a>
+        </li>
+        <li class="burguerListItem"><a href="#" class="bottomA">about</a></li>
+        <li class="burguerListItem"><a href="#" class="bottomA">terms</a></li>
+        <li class="burguerListItem">
+          <a href="#" class="bottomA">contributors</a>
+        </li>
+      </ul>
+    </div>
+
+    <input type="checkbox" id="burguerTrigger" class="burguerTrigger " />
+    <label for="burguerTrigger"><span class="hidden_nav"></span></label>
+
+    <div class="wrapper">
+      <div class="leftContentContact">
+        <a href="index.html"
+          ><h1>classy<span>magazine.com</span></h1></a
+        >
+      </div>
+      <div class="rightColumn">
+        <div class="rightContentStory">
+          <div class="articlesHeader">
+            <h5 class="headerArticle">contact</h5>
+
+            <h3>Get in Touch</h3>
+
+            <p>
+              Send us your questions, thoughts and inquiries or keep in touch by
+              following our social media.
+            </p>
+          </div>
+          <div class="formContainer">
+            <form action="#" method="POST">
+              <label for="name">Your Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your Name"
+              />
+
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="E-mail"
+              />
+
+              <label for="country">Country:</label>
+              <select id="country" name="country">
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Write something.."
+              ></textarea>
+
+              <input type="submit" value="Submit" />
+            </form>
+          </div>
+        </div>
+        <footer>
+          <div class="footer">
+            <div class="footNav">
+              <nav>
+                <ul>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">6</a></li>
+                </ul>
+              </nav>
+            </div>
+            <div class="searchBar">
+              <form class="searchBarForm" action="#">
+                <input type="text" placeholder="Search..." name="search" />
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+            <div class="social">
+              <nav>
+                <ul>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-twitter"></i><span>Twitter</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-facebook-f"></i><span>Facebook</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-pinterest-p"></i
+                      ><span>Pinterest</span></a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fab fa-instagram"></i><span>Instagram</span></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

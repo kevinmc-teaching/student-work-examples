@@ -1,0 +1,268 @@
+
+
+body {
+    font-family: "Montserrat", helvetica, sans-serif;
+    background-color: #fffef2;
+}
+
+/* PAGE LAYOUT ================================== */
+footer {
+    margin-top: auto;
+}
+
+
+/* TEXT FORMATTING ============================== */
+
+.resume-content {
+    padding-bottom: .5rem;
+}
+
+.column-1 {
+    padding-bottom: 15px;
+}
+
+.column-2 {
+    padding-bottom: 3rem;
+}
+
+/* TYPE ========================================= */
+.wrapper {
+    margin: 1rem auto;
+    padding: 0 2rem;
+}
+p {
+    line-height: 1.4;
+    display: inline-block;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: black;
+}
+
+a:hover {
+    color: pink;
+}
+
+.intro-text {
+    font-family: 'Montserrat', helvetica, sans-serif;
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: 'Eczar', serif;
+    font-weight: 800;
+    line-height:48px;
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Eczar', serif;
+    margin-bottom: 0;
+}
+
+
+h3 {
+    margin-top: 0px;
+}
+
+h4 {
+    margin-top: 0;
+}
+
+h3,
+h4 {
+    font-family: "Montserrat", helvetica, sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 1rem;
+
+}
+
+img {
+    max-width: 100%;
+    max-height: auto;
+}
+
+li {
+    font-family: 'Montserrat', helvetica, sans-serif;
+    font-size: .8rem;
+    list-style-type:disc;
+    margin-left: 16px;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.main {
+    padding-bottom: 1rem;
+}
+
+/* MENUS ================================ */
+
+/* .header-menu {
+    grid-column: 6;
+    text-align: right;
+} */
+nav li {
+    display: inline;
+}
+.top-menu {
+    display: flex;
+    grid-template-columns: repeat(6,1fr);
+}
+.right1 {
+    padding-right: 15px;
+}
+
+.header-menu {
+    text-align: right;
+}
+
+.icons {
+    font-size: 2.5rem;
+    display: inline;
+    margin-left: 0;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.icons-main {
+    text-align: right;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.contact-info {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+ul {
+    /* margin-bottom: 0; */
+    line-height: 1.1rem;
+}
+
+/* VISUAL ELEMENTS ========================= */
+
+.line {
+    height: 2px;
+    background-color: rgb(80, 80, 80);
+    margin-bottom: 3rem;
+}
+
+hr {
+    border: none;
+    background-color: #fffef2;
+    margin-bottom: 20px;
+    height: 2px;
+}
+
+.resume-content {
+    min-width: 260px;
+    max-width: 350px;
+    margin-right: 0;
+}
+
+.top-menu {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+
+/* MEDIA QUERIES START */
+
+@media screen and (min-width: 800px) {
+    .wrapper {
+        margin: 1rem auto;
+        padding: 0 2.5rem;
+        max-width: 1300px;
+    }
+    h1 {
+        padding-bottom: 10px;
+    }
+    .intro-resume {
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+    }
+    .intro-text {
+        grid-column: span 7;
+    }
+    .intro-text-2 {
+        grid-column: span 7;
+    }
+    .content {
+        display: grid;
+        grid-template-columns: 1fr 350px;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .content-1200 {
+        display: grid;
+        grid-template-columns: 1fr 350px;
+        grid-column-gap: 3rem;
+    }
+    .content {
+        grid-template-columns: 1fr;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .intro-text {
+        margin-top: 5px;
+    }
+    .first-title {
+        margin-top: 0px;
+    }
+    .intro-text,
+    .intro-text-2 {
+        grid-column: span 8;
+    }
+    .intro-resume {
+        border-right: 2px solid rgb(80, 80, 80);
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .line {
+        height: 0px;
+    }
+    .content-1200 {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-column-gap: 4rem;
+    }
+    .content {
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    .first-title,
+    .second-title {
+        margin-top: 0px;
+    }
+    .column-2,
+    .column-1 {
+        padding-bottom: 0;
+    }
+}

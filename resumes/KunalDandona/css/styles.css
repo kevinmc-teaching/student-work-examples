@@ -1,0 +1,347 @@
+/* :before :after code to apply after class to apply certain properties.*/
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+/*Basic HTML elements properties====================*/
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #fff;
+  color: #666;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1, h2, h3 {
+  font-weight: 400;
+}
+
+a {
+  color: #3d6dbe;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #6594e0;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  border-top: 1px solid #e1e1e1;
+  border-bottom: none;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+/*Header properties====================*/
+header{
+  width: 100%;
+  background-color: #666;
+  margin:0;
+  position: fixed;
+  z-index: 2;
+
+}
+header ul{
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+  color: #fff;
+  display: inline;
+  list-style-type: none;
+}
+header ul li{
+  float: left;
+  text-align: center;
+  width: 20%;
+  margin: 1% 2.5%;
+}
+
+header ul a{
+  color: #fff;
+}
+/* End of header====================*/
+
+section h1 {
+  font-size: 1.8rem;
+  line-height: 1;
+  margin-bottom: .6rem;
+}
+
+section ul li, section ol li {
+  font-size: 1rem;
+  margin-left: -10px;
+  line-height: 1.8;
+}
+
+footer {
+
+  padding: 1rem 0;
+  margin-top: 1rem;
+  color: #fff;
+  background-color: #666;
+}
+
+footer hr {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.welcome{
+  width: 80%;
+  margin: auto;
+}
+.center {
+  text-align: center;
+}
+
+
+/* Parallax Effect Properties====================*/
+
+.parallax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../images/bg.png");
+  min-height: 60%;
+  margin-bottom: 3rem;
+}
+
+.name-parallax img{
+  border: 10px solid #000;
+  width: 200px;
+  opacity: 1.0;
+}
+.name-parallax img:hover {
+  -webkit-filter: grayscale(100%);
+}
+
+.name-parallax {
+  position: absolute;
+  top: 15%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.name-parallax span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 22px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  opacity: 0.65;
+}
+
+.name-parallax h1 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #fe714c;
+  font-weight: 600;
+  opacity: 0.65;
+
+}
+
+/*End of Parallax Properties====================*/
+
+/* Classes Properties====================*/
+
+.wrapper {
+  max-width: 900px;
+  width:93%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/*Clearfix code for each row, takes the properties from first line of code*/
+.row:before,
+.row:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.row:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ */
+ .row {
+  *zoom: 1;
+}
+
+/* Basic properties of all the columns designed for full strech mobile version */
+.column-1,.column-2,.column-3,.column-4,.column-5,.column-6 {
+  float: left;
+  width:100%;
+  padding: 0 1%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Interest class properties */
+.interest {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.interest img {
+  height: 4em;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 40px;
+}
+
+.interest p {
+  font-style: italic;
+  color: #888;
+  margin-top:  -15px;
+}
+
+/* Information class properties */
+.info {
+  background-image: url("../images/bg.png");
+  padding: 3em 1em;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.info img {
+  width: 60%;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.info h1 {
+  color: #fe714c;
+  text-align: center;
+}
+
+.info p {
+  color: #6d5e53;
+  font-size: 1.1em;
+}
+
+.info ul{
+  list-style-type: none;
+  padding-left: 10px;
+}
+.info ul li{
+  text-align: center;
+}
+
+.button{
+  margin: 10% auto;
+  width: 100%;
+
+}
+.button a {
+  background-color: transparent;
+  border: 3px solid #fe714c;
+  padding: 7px 30px;
+  border-radius: 3px;
+  color: #fe714c;
+  font-size: 1.1em;
+  opacity: .8;
+  margin-bottom: 10px;
+
+}
+
+.button a:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+/* Timeline class properties */
+.time-intro {
+  line-height: 1.5;
+  margin-bottom: 0;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.time-intro h1{
+  color: #fe714c;
+  padding-top: 3%;
+}
+
+.timeline [class*="row"] {
+  border-bottom: dotted 1px #ccc;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.timeline h2 {
+  margin-bottom: 0;
+}
+
+.timeline h2, .timeline p {
+  text-align: center;
+}
+
+.timeline [class*="row"]:last-of-type {
+  border: none;
+}
+
+/* Progress Bar w3c */
+
+.meter_bg {
+
+  background: #f5f5f5;
+  margin-right: 45px;
+  height: 25px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.26);
+  position: relative;
+  border-radius:5px;
+}
+.meter_indicator {
+  height: 25px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.26);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  background-image: url('../images/progress.png');
+}
+.meter_value {
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  color: #0e0e0e;
+  font-weight: 700;
+}
+
+.marginright_correction {
+  margin-right:47px;
+}
+.skills-meter {
+  width:80%;
+  background-color:#fe704b;
+}
+.attribute-meter {
+  background-color:#fe704b;
+  width:90%;
+}
+
+
+
+
+

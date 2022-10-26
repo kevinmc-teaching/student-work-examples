@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai:400,700|Laila:400,500,600');
+
+/* Header ==================== */
+
+header {
+    margin-top: 5%;
+}
+
+.position1 {
+    position: relative;
+}
+
+.profiles a{
+    background: url("../image/profiles.png") no-repeat 0 0;
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin-top: 15px;
+    padding-left: 15px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.instagram {
+    background-position: 0 0;
+}
+.profiles .tumblr {
+    background-position: 0px -60px;
+}
+.profiles .linkedin {
+    background-position: 0px -120px;
+}
+.profiles .behance {
+    background-position: 0px -180px;
+}
+
+.instagram:hover, .instagram:focus {
+    background-position: 0 -30px;
+}
+
+.tumblr:hover, .instagram:focus{
+    background-position: 0 -90px;
+}
+.linkedin:hover, .intagram:focus {
+    background-position: 0 -150px;
+}
+
+.behance:hover, .intagram:focus {
+    background-position: 0 -210px;
+}
+
+
+/* Body ====================== */
+
+body {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+main {
+	margin-left: 200px;
+	margin-top: 200px;
+    margin-bottom: 0;
+}
+.position {
+    position: relative;
+    top: -34rem;
+    padding: 0;
+}
+
+.container_macro{
+	position: absolute;
+}
+
+/* Type ====================== */
+
+ h1 {
+
+ }
+ h2 {
+     font-family: "arima madurai";
+     font-weight: 600;
+     text-transform: uppercase;
+     font-size: 25px;
+     color: #318f54;
+     
+ }
+ h3 {
+     font-family: "arima madurai";
+     text-transform: uppercase;
+     font-size: 20px;
+     color: #318f54;
+ }
+ h4 {
+     font-family: "arima madurai";
+     text-transform: uppercase;
+     font-size: 11px;
+     font-weight: 700;
+     padding-top: 0;
+     color: #7fbb6c;
+     letter-spacing: 1px;
+     
+ }
+ p{
+     font-family: "laila", serif;
+     text-align: justify;
+     font-size: 13px;
+     color: #195731;
+ }
+
+li {
+    font-family: "laila", serif;
+    font-size: 13px;
+    list-style: none;
+    color: #195731;
+    border-left: 1px solid #318f54;
+    padding-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #318f54;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+span {
+    position: relative;
+    top: -1rem;
+}
+
+/* Left Side ===================== */
+
+.sidebar {
+    padding: 30px 30px 0 30px;
+    background-image: url("../image/congruent_pentagon.png");
+    background-position: top left;
+    background-repeat: repeat;
+    margin: 0;
+}
+.icon1, .icon2{
+    display: block;
+    margin-bottom: 10px;
+}
+.info {
+    float: right;
+    display: block;
+    position: relative;
+    top: -5rem;
+}
+
+
+/* Right Side ===================== */
+
+.rightbar {
+     background-color: #f2ffe1;
+     padding: 30px 30px 35.3% 30px;
+    margin: 0;
+}
+
+
+
+/* Image ========================= */
+
+img {
+    max-width: 100%;
+}
+
+ /* Footer list menu ============= */
+
+.grid_12 {
+    background-color: #dcfbd2;
+    padding-bottom: 10px;
+}
+ .menu li {
+ 	list-style-type: none;
+ 	display: block;
+ 	float: left;
+    text-align: center;
+    padding-right: 6.5%;
+    border-left: none;
+    font-size: 12px;
+ 	
+ }
+.menu a:hover {
+    color: #a8c39d;
+}
+
+ /* Clearfix ================= */
+
+ .clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+ 
+.clearfix:after {
+    clear: both;
+}
+ 
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+/* END OF CLEARFIX ============ */
+
+/*
+@media screen and (max-width: 1200px){
+    header > img{
+        width: 150px;
+    }
+}
+*/
+
+@media screen and (max-width: 800px){
+
+    .menu {
+        background-color: #dcfbd2;
+        align-content: center;
+        max-width: 100%;
+        padding-left: 35px;
+        padding-top: 10px;
+    }
+    .menu ul li {
+        width: 50%;
+        margin-bottom: 1em;
+        font-size: 1em;
+        text-align: center;
+        float: left;
+        background-color: #dcfbd2;
+    }
+    
+    header {
+        margin-left: 20px;
+        margin-top: 10px;
+        margin-bottom: 35rem;
+        width: 200px;
+        display: block;
+    }
+    .profiles a {
+        padding-left: 15px;
+        align-content: center;
+        max-width: 100%;
+    }
+    body {
+        top: -50rem;
+    }
+
+    main {
+        margin-left: 0;
+    }
+    
+    
+/*
+    .profiles a {
+        display: block;
+        width: 30px;
+        padding-right: 0;
+        margin-left: 10px;
+    }
+*/
+  
+}/* END 800px QUERY */

@@ -1,0 +1,545 @@
+/* GENERAL ==================================================*/
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 6rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.presentation {
+  background: #05121b;
+  float: left;
+  width:100%;
+  padding: 0;
+}
+.presentation2 {
+  background: #05121b;
+  float: left;
+  width:100%;
+  padding: 0;
+}
+.centered_content_top {
+  width: 80%;
+  padding: 0 10%;
+  float: left;
+}
+.centered_content {
+  width: 80%;
+  padding: 0 10%;
+  float: left;
+}
+/* education part */
+.education {
+  background: #05121b;
+  float: left;
+  width:100%;
+  padding: 0;
+}
+/* spaces */
+.space1 {
+  width: 100%;
+  height: 10rem;
+  float: left;
+}
+.space2 {
+  width: 100%;
+  height: 5rem;
+}
+.space3 {
+  width: 100%;
+  height: 2rem;
+}
+.space_work_exp {
+  width: 100%;
+  height: 5rem;
+}
+/* skills part */
+.technical_skills {
+  background: #05121b;
+  float: left;
+  width:100%;
+  padding: 0;
+  margin: 0;
+}
+.skills_text {
+  width: 36%;
+  float:left;
+  clear: both;
+  margin: 0 2% 0 0;
+}
+.skills_bars {
+  width: 60%;
+  float:right;
+  margin: 0 0 0 2%;
+}
+.skills_container {
+  margin: 1.6rem 0 0 0;
+  padding: 0;
+}
+/* timeline part */
+.timeline_left {
+  width: 100%;
+  padding: 0;
+  float: left;
+  border-left: .2rem solid #9aacba;
+}
+.bullet {
+  width: 14px;
+  height: 14px;
+  border-radius: 10px;
+  background-color: #9aacba;
+  margin-left: -38px;
+  margin-bottom: -20px;
+}
+.work_experience {
+  float: left;
+  width:100%;
+  padding:0;
+}
+.work_item {
+  padding-left: 30px;
+}
+/* portfolio part */
+.portfolio {
+  width: 100%;
+  padding:0;
+  float: left;
+}
+/* bottom part */
+.bottom_bar {
+  width: 100%;
+  height:6rem;
+  float: left;
+  background-color: #05121b;
+}
+.contact {
+  width: 100%;
+  padding: 0;
+  float: left;
+}
+
+
+/* IMAGES ==================================================*/
+
+img {
+  margin:0;
+  padding: 0;
+  max-width: 100%;
+}
+.main_image img {
+  max-width: 80%;
+  height: auto;
+  padding: 0 10%;
+}
+.social_icons_top img {
+  width: 2rem;
+}
+.social_icons_top img:hover {
+  opacity: .6;
+}
+.social_icons_bot img {
+  width: 2rem;
+}
+.social_icons_bot img:hover {
+  opacity: .6;
+}
+
+
+/* NAV ==================================================*/
+.main_image {
+  float:left;
+  width: 100%;
+  font-size: 0;
+}
+
+/* this part below was extracted from this link
+https://www.w3schools.com/howto/howto_css_fixed_menu.asp */
+nav {
+  overflow: hidden;
+  background-color: #fff;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 100;
+}
+
+
+
+
+
+
+/* MENU ==================================================*/
+.main_menu {
+  margin: 0;
+  padding: 0;
+}
+.main_menu li {
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  width: 25%;
+  padding: 2rem 0;
+}
+.main_menu a {
+  text-decoration: none;
+  color: #666;
+}
+.title_nav {
+  padding: 2rem 0;
+  float: right;
+  display: none;
+}
+
+/* Bars ===================================================*/
+
+.conteiner_bar {
+  width:100%;
+  height:.7rem;
+  background-color: #314453;
+  border-radius: 2rem;
+  margin-top:.8rem;
+}
+
+.photoshop {width:90%; height:.7rem; background-color: white; border-radius: 1rem;}
+.illustrator {width:90%; height:.7rem; background-color: white; border-radius: 1rem;}
+.after {width:90%; height:.7rem; background-color: white; border-radius: 1rem;}
+.premiere {width:70%; height:.7rem; background-color: white; border-radius: 1rem;}
+.cinema {width:40%; height:.7rem; background-color: white; border-radius: 1rem;}
+.unity {width:40%; height:.7rem; background-color: white; border-radius: 1rem;}
+.html {width:30%; height:.7rem; background-color: white; border-radius: 1rem;}
+.css {width:30%; height:.7rem; background-color: white; border-radius: 1rem;}
+.javascript {width:20%; height:.7rem; background-color: white; border-radius: 1rem;}
+
+
+
+
+
+/* LISTS ==================================================*/
+
+.social_icons_top {
+  margin: 0;
+  padding: 0;
+}
+.social_icons_top li {
+  list-style-type: none;
+  float: left;
+}
+.social_icons_bot {
+  margin: 0;
+  padding: 0;
+}
+.social_icons_bot li {
+  list-style-type: none;
+  float: left;
+}
+.presentation li {
+  padding: 1rem 2rem 0 0;
+}
+.contact li {
+  padding: 0 2rem 4rem 0 ;
+  margin-top: -.5rem;
+}
+
+/* TEXTS ==================================================*/
+h1 {
+  color: #45707f;
+  border-left: .2rem solid #45707f;
+  padding-left: .5rem;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+}
+
+h2 {
+  font-weight: normal;
+  color: #ddd;
+  font-size: 1.3rem;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-weight: bold;
+  color: #45707f;
+  font-size: 1.3rem;
+}
+h4 {
+  font-weight: normal;
+  color: #ddd;
+  font-size: 1.1rem;
+}
+.presentation_title {
+  font-weight: normal;
+  color: #ddd;
+  font-size: 1.3rem;
+  margin: 4rem 0 2rem 0;
+}
+.diploma_type {
+  font-weight: lighter;
+  color: #45707f;
+  font-size: 1.1rem;
+  margin: .3rem 0 1rem 0;
+  padding: 0;
+}
+.study_place {
+  margin: .3rem 0 -.5rem 0;
+  line-height: 1.5rem;
+  padding: 0;
+}
+.city_place {
+  margin-bottom: .3rem;
+  padding: 0;
+}
+.tech_skills_text {
+  margin: 0;
+  padding: 0;
+}
+.tech_skills_text li {
+  list-style-type: none;
+  text-align: right;
+  padding: 1rem 0;
+  color: #ddd;
+}
+.white_text {
+  color: #9aacba;
+  border-left: .2rem solid #9aacba;
+  padding-left: .5rem;
+  font-size: 2.2rem;
+  line-height: 2.2rem;
+  margin-bottom: 4rem;
+}
+.white_h2 {
+  color: #314453;
+}
+.white_h3 {
+  font-weight: normal;
+  font-size: 1rem;
+  color: #9aacba;
+  margin: .3rem 0;
+  padding: 0;
+}
+.white_h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #314453;
+}
+p {
+  color: #ddd;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1.2rem;
+}
+.skills_text p {
+  color: #ddd;
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  font-size: 1.1rem;
+}
+.span_dark {
+  border-bottom: 2px solid #ddd;
+  padding-bottom: .5rem;
+}
+.span_white {
+  border-top: 2px solid #314453;
+  padding-top: .3rem;
+}
+
+
+/* CLEARFIX ==================================================*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/* MEDIA ========================================*/
+
+@media screen and (min-width: 800px) {
+  .centered_content {
+    width: 60%;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  .education {
+    float: left;
+    width:30%;
+    padding-left: 14%;
+  }
+  .technical_skills {
+    background: #05121b;
+    float: left;
+    width:45%;
+    padding-right: 0%;
+
+  }
+  .darker_background {
+    background-color: #05121b;
+    width: 100%;
+    height:auto;
+    clear: both;
+  }
+  /* IMAGES ==============================*/
+  .main_image img {
+    max-width: 100%;
+    height: auto;
+    margin-left: -20%;
+    float: left;
+  }
+  .social_icons_top img {
+    width: 2.5vw;
+    min-width: 2rem;
+
+  }
+  .main_image {
+    width: 50%;
+    height: auto;
+
+  }
+
+  /* MENU BIG SCREEN ==============================*/
+  .main_menu {
+    margin: 0 5%;
+    padding: 0;
+    float: right;
+    width: 50%;
+  }
+  .main_menu li {
+    list-style-type: none;
+    text-align: right;
+    padding: 2rem 0;
+    display: inline;
+  }
+  .main_menu a {
+    text-decoration: none;
+    color: #666;
+    font-size: 1.2rem;
+    transition: 0.3s
+  }
+  .main_menu a:hover {
+    color: #b9babb;
+    transition: 0.3s
+  }
+
+  /* PRESENTATION AND SOCIAL LINKS ================*/
+  .presentation {
+    background: #fff;
+    float: left;
+    width:50%;
+    padding-top:12%;
+    padding-left: 0%;
+    display: flex;
+  }
+  .presentation_title {
+    font-weight: lighter;
+    color: #05121b;
+    font-size: 3vw;
+    margin: 4rem 0 2rem 0;
+    text-align: right;
+  }
+  .social_icons_top li {
+    list-style-type: none;
+    fill:#ddd;
+  }
+  .icons_color_top {
+     filter: brightness(0.2);
+   }
+   .social_icons_top {
+     float:right;
+   }
+   .title_nav {
+     padding: 2rem 0;
+     margin-left: 5rem;
+     float: left;
+     display: block;
+   }
+   .title_nav a {
+     text-decoration: none;
+     color: #05121b;
+     font-weight: bold;
+     transition: 0.3s
+   }
+   .title_nav a:hover {
+     color: #b9babb;
+     transition: 0.3s
+   }
+
+
+
+
+
+   /* TIMELINE =================================*/
+
+   .timeline_left {
+     width: 100%;
+     padding: 0;
+     float: left;
+     border-left: .0rem solid #9aacba;
+   }
+   .timeline_spacer {
+     width: 48%;
+     height: 8rem;
+     float: left;
+     display: flex;
+   }
+   .timeline_center {
+     width: 3%;
+     height: 10rem;
+     float: left;
+     border-left: .2rem solid #9aacba;
+   }
+   .work_item {
+     padding-left: 0px;
+     width: 48%;
+     float: left;
+   }
+   .work_line1 {
+     clear: both;
+     width: 100%;
+     height: 9rem;
+   }
+   .space_work_exp {
+     width: 0%;
+     height: 0rem;
+   }
+   .align_right {
+     text-align: right;
+     margin-right: 6%;
+   }
+   .bullet {
+     opacity: 0;
+   }
+   .bullet_center {
+     width: 14px;
+     height: 14px;
+     border-radius: 10px;
+     background-color: #9aacba;
+     margin-left: -.5rem;
+     margin-bottom: -20px;
+   }
+   .portfolio_content {
+     width: 60%;
+     padding: 0;
+     margin: 0 auto;
+     float: none;
+   }
+   .portfolio_content img {
+     width: 49%;
+     height: auto;
+     transition: 0.3s;
+   }
+   .portfolio_content img:hover {
+    filter: brightness(1.1) grayscale(100%) ;
+    transition: 0.3s;
+    transform: scale(0.97);
+   }
+}
+@media screen and (min-width: 1240px) {
+
+  .portfolio_content img {
+    width: 33%;
+    height: auto;
+  }
+}

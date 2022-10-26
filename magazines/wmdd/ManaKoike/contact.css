@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,600|Pavanam|Raleway:400,500');
+
+
+body {
+	max-width: 1400px;
+	font-family: sans-serif;
+
+}
+
+h1 {
+	margin-top: 50px;
+	text-align: center;
+	font-family: 'Nunito', sans-serif;
+	color: #ec657d;
+
+}
+	
+ul li {
+	list-style-type: none;
+	
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+header {
+	width: 100%;
+	margin: 0 auto;
+
+	
+}
+
+
+
+.logo{
+	width: 70%;
+	float: left;
+	padding-left: -10px;
+}
+
+header .menu-icon a {
+	padding-right: 13px;
+	width: 40px;
+	height: auto;
+	font-size: 1.6rem;
+
+} 
+
+
+
+form {
+  border: 1px solid #c6c7cc;
+  border-radius: 5px;
+  font: 19px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  overflow: hidden;
+  width: 480px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+
+p{
+	margin-bottom: 5px;
+}
+
+input, textarea {
+	padding-top: 0px;
+	border-radius: 5px;
+  font: 17px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  width: 400px;
+}
+
+.search {
+	margin: 10px 0 50px;
+	font-size: 14px;
+	
+}
+
+.search input {
+	border-radius: 0px;
+}
+
+i {
+	width: 40px;
+	height: auto;
+	font-size: 1.6rem;
+}
+
+
+input {
+	height: 45px;
+}
+
+
+#writecomment {
+	height: 95px;
+	margin-bottom: 10px;
+}
+
+#comment {
+	background-color: #ebf18b;
+	border: none;
+}
+
+
+@media screen and (max-width: 710px){
+  body {
+    width: 90%;
+    text-align: center;
+    
+  }
+
+
+  header .menu-icon, .search{
+  width: 100%;
+    
+}
+
+.logo {
+  width: 100%;
+  margin: 40px auto;
+}
+
+form {
+  border: none;
+  width: 90%;
+	
+}
+
+input,textarea {
+	width: 90%;
+
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Music Injection</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <script src="https://use.fontawesome.com/3797efd651.js"></script>
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+    <div class="header-img">
+    <img src="assets/images/logo-white.jpg" alt="Music Injection" class="logo">
+    </div>
+    <div class="social">
+      <input type="search" value="" placeholder="search"><br>
+      <a href="https://facebook.com/MusicInjectionAustralia" target="_blank"><span class="fa fa-facebook-square"></span></a>
+      <a href="http://twitter.com/Music_Injection" target="_blank"><span class="fa fa-twitter-square"></span></a>
+      <a href="http://instagram.com/musicinjectionaus" target="_blank"><span class="fa fa-instagram"></span></a>
+    </div>
+
+<div class="nav-small">
+  <nav>
+  <ul>
+    <div class="toggle"><li><span class="fa fa-bars"></span></li></div>
+    <li>HOME</li>
+    <li><a href="#">INTERVIEWS</a></li>
+    <li><a href="#">NEWS</a></li>
+    <li><a href="#">REVIEWS</a></li>
+    <li><a href="#">MAGAZINE</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li><a href="contact.html">CONTACT</a></li>
+    <input type="search" value="" placeholder="search">
+  </ul>
+</nav>
+</div>
+</div>
+</header>
+
+  <div class="main-bg">
+
+    <main>
+
+<article class="story">
+  <h1>FEATURED</h1>
+  <div class="feature">
+  <div class="image-box"><a href="story.html"><img src="assets/images/far-away-stables.jpg" alt="Far Away Stables" class="image-main"></a></div>
+  <div class="description-main"><a href="story.html"><h2>FAR AWAY STABLES CHAT WITH US ABOUT THEIR UPCOMING AUSTRALIA TOUR</h2></a>
+  <p>Far Away Stables are set to embark on their biggest tour to date this September & October, with four all-ages performances across the East Coast & Adelaide, in support of the digital re-release of <i>Atlantis</i> and the new single <i>Victim</i>. I have seen them a few times now and have followed their career. I am immensely proud of [...]</p></div>
+  </div>
+</article>
+
+<article class="story">
+  <h1>INTERVIEWS</h1>
+  <a href="#"><img src="assets/images/osaka-punch.jpg" alt="Osaka Punch" class="images"></a>
+  <div class="description"><a href="#"><h2>INTERVIEW WITH DANE FROM OSAKA PUNCH</h2></a>
+  <p>Osaka Punch have a reputation as being a set-fire-to-the-stage-and-hope-the-next-act-can-still-use-it band — AKA you don’t want to miss a chance to see these guys live! Luckily for you, they have some shows in August! [...]</p></div>
+</article>
+
+<article class="story">
+  <h1>NEWS</h1>
+  <a href="#"><img src="assets/images/touche-amore.jpg" alt="Touche Amore" class="images"></a>
+  <div class="description"><a href="#"><h2>TOUCHÉ AMORÉ ANNOUNCE JULY AUSTRALIAN TOUR</h2></a>
+  <p>Los Angeles’ very own Touché Amoré will be hitting Australian shores this July in support of their incredible new album <i>Stage Four</i>. Every artist destined for greatness have that one defining album and for [...]</p></div>
+</article>
+
+<article class="story">
+  <h1>REVIEWS</h1>
+  <a href="#"><img src="assets/images/i-prevail.jpg" alt="I Prevail" class="images"></a>
+  <div class="description"><a href="#"><h2>I PREVAIL "LIFELINES" ALBUM REVIEW</h2></a>
+  <p>Detroit-based hardcore band I Prevail have just unleashed their latest album <i>Lifelines</i>. I Prevail are renowned for their ability to fuse jagged, pointy metalcore elements with pop sensibilities, and this [...]</p></div>
+</article>
+
+<article class="story">
+  <h1>MAGAZINE</h1>
+  <a href="#"><img src="assets/images/magazine.jpg" alt="Music Injection Magazine" class="images"></a>
+  <div class="description"><a href="#"><h2>ISSUE #1 JUNE 2017 NOW AVAILABLE EVERYWHERE</h2></a>
+  <p>Pick up your copy of Music Injection from your nearest newsstand and discover Australia's finest underground music groups and read the latest on your favourite international bands and artists. In this month's issue [...]</p></div>
+</article>
+
+<div class="footer-content">
+<div class="nav-small">
+  <nav>
+    <ul>
+      <div class="toggle"><li><span class="fa fa-bars"></span></li></div>
+      <li>HOME</li>
+      <li><a href="#">INTERVIEWS</a></li>
+      <li><a href="#">NEWS</a></li>
+      <li><a href="#">REVIEWS</a></li>
+      <li><a href="#">MAGAZINE</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <input type="search" value="" placeholder="search">
+    </ul>
+</nav>
+</div>
+</div>
+
+<footer>
+  <a href="https://facebook.com/MusicInjectionAustralia" target="_blank"><span class="fa fa-facebook-square"></span></a>
+  <a href="http://twitter.com/Music_Injection" target="_blank"><span class="fa fa-twitter-square"></span></a>
+  <a href="http://instagram.com/musicinjectionaus" target="_blank"><span class="fa fa-instagram"></span></a>
+  <h6>© 2017 Music Injection Australia</h6>
+</footer>
+
+</main>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".toggle").click(function(){
+    $(".nav-small").toggleClass("clicked");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  if($(window).width() > 750 ) {
+   $('header img').attr('src','assets/images/logo-white.jpg');
+}
+if($(window).width() < 750 ) {
+   $('header img').attr('src','assets/images/logo-black.png');
+}
+  $(".nav-small").tap(function(){
+    $(this).toggleClass("tapped");
+  });
+});
+</script>
+
+<script>
+$(window).resize(function() {
+  if($(window).width() > 750 ) {
+   $('header img').attr('src','assets/images/logo-white.jpg');
+}
+if($(window).width() < 750 ) {
+   $('header img').attr('src','assets/images/logo-black.png');
+}
+});
+</script>
+</body>
+</html>

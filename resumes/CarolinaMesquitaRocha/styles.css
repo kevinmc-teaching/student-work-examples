@@ -1,0 +1,294 @@
+/* TYPOGRAPHY ------------ */
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Fira Sans', times, 'times new roman', serif;
+  margin: auto;
+}
+
+h1 {
+  letter-spacing: .25rem;
+  font-weight: 600;
+  margin-bottom: 0;
+  color: hotpink;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: .25rem;
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.date {
+  margin: 0;
+  font-style: italic;
+}
+
+/* LAYOUT BLOCKS */
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #eee;
+  background: url(images/papyrus.png);
+}
+
+footer {
+  background: url(images/papyrus.png);
+  text-align: center;
+  padding: 2rem;
+}
+
+.titles a {
+  text-decoration: none;
+  font-variant: small-caps;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.titles li {
+  display: inline-block;
+  margin: .5rem;
+  font-weight: 600;
+}
+
+.titles ul {
+  margin-top: .5rem;
+  margin-bottom: .5rem;
+}
+
+header p,
+footer p {
+  font-size: .75rem;
+}
+
+.skills li {
+  padding: .5rem;
+}
+
+section {
+  margin-bottom: 10%;
+  max-width: 800px;
+}
+
+/* MAIN -------- */
+main {
+  font-size: .8rem;
+  margin: .1rem 2%;
+}
+
+main ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+main li {
+  padding: 0 1rem;
+  margin-left: 0;
+}
+
+main p {
+  line-height: 1rem;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: .1rem;
+}
+
+/* SECTIONS ---------- */
+.interests {
+  margin: 0;
+}
+
+.interests ul {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: .25rem;
+}
+
+.interests li {
+  background-color: hotpink;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: center;
+  line-height: 100px;
+}
+
+.skills ul {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  margin-left: 2rem;
+}
+
+.dot {
+  height: 12px;
+  width: 12px;
+  background-color: hotpink;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot2 {
+  height: 12px;
+  width: 12px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.skill-name {
+  text-align: left;
+}
+
+/* MENUS & LINKS */
+nav ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.titles a:hover {
+  color: darkturquoise;
+  transition: .20s;
+}
+
+footer a {
+  color: black;
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+}
+
+footer a:hover {
+  color: darkturquoise;
+  transition: .20s;
+}
+
+/* MEDIA QUERIES ---------- */
+@media screen and (min-width: 700px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: .8rem;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+
+  main p {
+    max-width: 800px;
+  }
+
+  .experience {
+    grid-column: span 2;
+    margin-left: 5%;
+  }
+
+  .education, .skills {
+    grid-row: 2;
+    padding: 0;
+  }
+
+  .education {
+    margin-left: 2.5rem;
+  }
+
+  .interests {
+    grid-column: span 2;
+    margin: auto;
+  }
+
+  .interests ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .skills {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+  /* end 640px */
+  @media screen and (min-width: 1000px) {
+    body {
+      display: grid;
+      grid-template-columns: 300px 500px 1fr;
+    }
+
+    main p {
+      max-width: 800px;
+    }
+
+    .experience {
+      grid-column: 1;
+      grid-row: span 5;
+    }
+
+    header {
+      text-align: left;
+      height: auto;
+      padding-top: 2rem;
+    }
+
+    header ul {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      text-align: left;
+    }
+
+    h1 {
+      margin-bottom: 1rem;
+      font-size: 3rem;
+      letter-spacing: .1rem;
+    }
+
+    .wrapper {
+      grid-column: span 2;
+    }
+
+    main {
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 1rem;
+    }
+
+    .education {
+      grid-column: 2;
+      grid-row: 1;
+    }
+
+    .skills {
+      grid-column: 2;
+      grid-row: 2;
+    }
+
+    footer {
+      margin-top: 200px;
+    }
+
+
+
+    .interests li {
+      padding: 2rem;
+    }
+
+  }
+
+/* RESPONSIVE IMAGES -------- */
+
+img {
+  max-width: 100%;
+  height: auto;
+}

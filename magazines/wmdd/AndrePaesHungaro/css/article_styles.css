@@ -1,0 +1,185 @@
+
+article {
+	font-family: Raleway;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.title {
+	font-family: Oswald;
+	margin-top: 3rem;
+	margin-bottom: .5rem;
+}
+
+.subtitle {
+	font-style: italic;
+	font-size: .9rem;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.image {
+	margin-top: 2rem;
+}
+
+.image span {
+	display: block;
+	font-style: italic;
+	color: grey;
+	margin-top: .5rem;
+	width: 100%;
+	border-bottom: 1px solid grey;
+}
+
+.byline {
+	font-style: italic;
+	font-size: .8rem;
+}
+
+.byline a {
+	font-weight: 700;
+	color: black;
+}
+
+.byline-date,
+.byline-date:visited,
+.byline-author,
+.byline-author:visited {
+	color: black;
+}
+
+.byline a:visited {
+	color: black;
+}
+
+.body-text {
+	margin-top: 2rem;
+	line-height: 1.25rem;
+	letter-spacing: .3px;
+}
+
+.body-text p {
+	margin-top: 2rem;
+	font-size: 1.10rem;
+}
+
+.recommended {
+	font-family: Oswald;
+	margin-top: 5rem;
+	width: 100%;
+}
+
+.recommended-article {
+	font-family: Oswald;
+	width: calc(20% - .5rem);
+	float: left;
+	margin: 1rem .25rem;
+	font-size: .75rem;
+}
+
+.recommended-article .date,
+.recommended-article .author {
+	font-family: Raleway;
+}
+
+.recommended a,
+.recommended a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.author {
+	background-color: black;
+	color: white;
+	float: left;
+}
+
+.date {
+	background-color: black;
+	color:white;
+	float: right;
+}
+
+.share-button {
+	float: right;
+	font-size: 2.5rem;
+	margin-right: .15rem;
+}
+
+.share-facebook a,
+.share-facebook a:visited {
+	color: #3b5998;
+}
+
+.share-twitter a,
+.share-twitter a:visited {
+	color: #00aced;
+}
+
+.share-google-plus a,
+.share-google-plus a:visited {
+	color: #dd4b39;
+}
+
+.share-email a,
+.share-email a:visited {
+	color: black;
+}
+
+.content {
+	margin-bottom: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	article {
+		width: 80%;
+	}
+
+	.recommended-article {
+		width: calc(50% - .5rem);
+		margin-bottom: 3rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+
+	article {
+		width: 100%;
+	}
+
+	.share-container {
+		margin-right: auto;
+		margin-left: auto;
+		text-align: center;
+	}
+
+	.share-button {
+		display: inline;
+		float: initial;
+		margin-right: .25rem;
+		text-align: center;
+	}
+
+	article h1,
+	.byline {
+		text-align: center;
+	}
+
+	.image-source {
+		text-align: center;
+	}
+
+	.body-text,
+	.recommended {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.recommended-article {
+		width: 100%;
+		margin-bottom: 3rem;
+	}
+}

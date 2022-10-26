@@ -1,0 +1,359 @@
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.wrapper {
+    max-width: 800px;
+    margin: 0 2%;
+}
+
+/*.experience-education {
+    margin: auto 2%;
+}*/
+
+/*#######################  HEADER  #####################################*/
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: flex-end;
+    background-color: #ffca91;
+    margin: 0;
+}
+
+.hello {
+    font-weight: 300;
+}
+
+.profile-picture {
+    margin-top: 10px;
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.profile-picture img {
+    max-width: 240px;
+    vertical-align: bottom;
+}
+
+title-description {
+    grid-column: 3/5;
+}
+
+.description {
+    max-width: 300px;
+}
+
+.fa-envelope {
+    padding: 0 5px 0 0
+}
+
+;
+.menu-social ul, .interests ul {
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav .fab {
+    color: #000000;
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 5px 5px 0px;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav ul :hover {
+    color: #ff8778;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+/*##########################  MAIN #####################################*/
+
+.education, .experience, .interests, .menu-technology, .languages, .interests {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    align-items: flex-end;
+}
+
+.education {
+    align-items: flex-end;
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+.experience {
+    align-items: flex-end;
+    padding-bottom: 50px;
+}
+
+.title-education {
+    display: inline-block;
+    grid-column: span 2;
+    text-align: right;
+}
+
+.title-experience {
+    display: inline-block;
+    grid-column: span 2;
+    text-align: right;
+}
+
+.school-name {
+    grid-column: 4/6;
+}
+
+.job-name {
+    grid-column: 4/8;
+}
+
+h3, p {
+    margin-bottom: 0;
+}
+
+.text-school {
+    grid-column: 4/8;
+}
+
+.text-job {
+    grid-column: 4/8;
+}
+
+.school-year {
+    grid-column: 2/3;
+    text-align: right;
+}
+
+.job-year {
+    grid-column: 2/3;
+    text-align: right;
+}
+
+.job-title {
+    grid-column: 4/7;
+}
+
+/*##########################  INTERESTS+ LANGUAGES + FOOTER#####################################*/
+
+/*===**** * * ** *  TECHNOLOGY * ** ** ********** ** ====*/
+
+.menu-technology img {
+    max-width: 150px;
+}
+
+.menu-technology {
+    align-items: flex-end;
+    padding-bottom: 50PX;
+}
+
+.title-technology {
+    display: inline-block;
+    grid-column: span 9;
+    text-align: center;
+}
+
+.title-technology h2 {
+    margin-bottom: 0;
+}
+
+.photoshop, .indesign {
+    grid-column: 2/5;
+    display: inline-block;
+    text-align: center;
+}
+
+.illustrator, .after-effects {
+    grid-column: 5/8;
+    display: inline-block;
+    text-align: center;
+}
+
+/* ** * * * * *  LANGUAGES * * * * *** */
+
+.languages {
+    padding-bottom: 100px;
+}
+
+.title-languages {
+    grid-column: span 9;
+    text-align: center;
+}
+
+.spanish, .english {
+    grid-column: 4/6;
+    text-align: center;
+}
+
+/*** * * * *** INTERESTS *** * ** ** */
+
+.interests {
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.title-interests {
+    grid-column: span 9;
+    text-align: center;
+}
+
+.illustration, .photography {
+    grid-column: 3/5;
+    padding: 20px;
+}
+
+.design, .cats {
+    grid-column: 5/7;
+    padding: 20px;
+}
+
+.interests i {
+    display: block;
+    padding-bottom: 1rem;
+    color: #000000;
+}
+
+/********* * **  FOOTER * *** ** * **/
+
+.top-button {
+    text-align: center;
+}
+
+.top-button i {
+    display: block;
+    padding-top: 1rem;
+}
+
+.top-button a :hover {
+    color: #ffffff;
+}
+
+footer {
+    background-color: #ff8778;
+    padding: 2rem 4rem;
+    text-align: center;
+}
+
+footer .fas {
+    color: #000000;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+/*==================================== MEDIA ==========================================*/
+
+/* =====* * * * * MEDIA 800 * *  ** * *====*/
+
+@media screen and (min-width: 800px) {
+    .education {
+        padding-top: 40px;
+    }
+    .title-education, .title-experience, .title-technology, .title-languages, .title-interests {
+        grid-column: 1/2;
+        text-align: right;
+        vertical-align: bottom;
+    }
+    .title-education h2, .title-experience h2, .title-technology h2, .title-languages h2 {
+        margin: 0;
+    }
+    .photoshop, .indesign {
+        grid-column: 4/6;
+        display: inline-block;
+        text-align: left;
+    }
+    .illustrator, .after-effects {
+        grid-column: 6/8;
+        display: inline-block;
+        text-align: left;
+    }
+    .spanish, .english {
+        grid-column: 4/6;
+        text-align: left;
+    }
+    .illustration, .photography {
+        grid-column: 4/5;
+        padding: 20px;
+    }
+    .design, .cats {
+        grid-column: 6/7;
+        padding: 20px;
+    }
+}
+
+/* =====* * * * * MEDIA 1500 * * *** * *====*/
+
+@media screen and (min-width: 1200px) {
+    .profile-picture {
+        margin-top: 10px;
+        grid-column: 2/3;
+        text-align: center;
+    }
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+    }
+    main {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        /*align-items: flex-start;*/
+    }
+    .menu-technology, 
+    .languages {
+        grid-column: 7/9;
+        display: block;
+    }
+    .menu-technology {
+        grid-row: 2/3;
+    }
+    .languages {
+        grid-row: 1/2;
+        padding-top: 52px;
+    }
+    .title-languages,
+    .title-technology {
+        text-align: left;
+        padding-bottom: 20px;
+        
+
+    }
+    .title-technology {
+        display: block;
+    }
+    .education, .experience, .interests, .interests {
+        grid-column: 1/7;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .photography{
+        grid-area: 1/5/2/6;
+    }
+
+    .cats {
+        grid-area: 1/7/2/8;
+    }
+
+
+}

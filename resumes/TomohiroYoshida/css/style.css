@@ -1,0 +1,634 @@
+/* 
+Colors
+#1b262c
+#0f4c75
+#3282b8
+#bbe1fa
+*/
+
+/* GENERAL ============================== */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    color: #0f4c75;
+    line-height: 1.5;
+}
+
+main {
+    margin: 0 5%;
+    max-width: 800px;
+    text-align: center;
+}
+
+h2 {
+    color: #1b262c;
+    background-color: #bbe1fa;
+}
+
+main a {
+    /* text-decoration: none; */
+    color: inherit;
+    font-weight: 500;
+}
+
+main a:hover {
+    background-color: #3282b8;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+
+/* TOP ===================================== */
+
+#home {
+    background: rgb(15, 62, 87);
+    background: linear-gradient(180deg, rgba(27,38,44,1) 0%, rgba(15,76,117,1) 60%, rgba(255,255,255,1) 100%);
+    height: 100vh;
+    position: relative;
+}
+
+header {
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+}
+
+#top-text {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+h1 {
+    margin-top: 0;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#top-text a {
+    display: inline-block;
+    padding: .5rem;
+    text-decoration: none;
+    color: #FFF;
+    border: #FFF solid 1px;
+    animation:click 1.2s ease-in-out infinite alternate;
+}
+
+/* HEADER NAV =========================== */
+header nav {
+    background-color: #1b262c;
+    /* position: fixed; */
+    width: 100%;
+    /* z-index: 10; */
+    visibility: hidden;
+}
+
+header a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0.3rem 1rem;
+}
+
+nav a:hover {
+    background-color: #3282b8;
+}
+
+header ul {
+    margin: 0;
+    text-align: center;
+    font-size: 0;
+}
+
+header li {
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/* ABOUT ============================= */
+#about img {
+    margin: 0;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 1px #bbe1fa;
+    box-shadow: 10px 10px 26px -12px rgba(0,0,0,0.71);
+}
+
+#about p {
+    text-align: left;
+    padding: 1rem 2rem;
+}
+
+/* EDUCATION ============================= */
+dt {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+/* EMPLOYMENT ============================ */
+#employment span {
+    font-size: .9rem;
+}
+
+
+/* SKILLS ================================ */
+#skills li {
+    display: flex;
+    justify-content: space-around;
+    margin: .5rem 0;
+}
+
+.skill-name {
+    width: 50%;
+}
+
+.bar-max {
+    background-color: gainsboro;
+    width: 50%;
+    border-radius: 6px;
+}
+
+#bar-html {
+    background-color: #3282b8;    border-radius: 6px;
+    width: 40%;
+    height: 100%;
+    color: #FFF;
+    background: repeating-linear-gradient(
+        -45deg, #0f4c75 0, #0f4c75 2px, #3282b8 2px, #3282b8 4px
+    );
+}
+
+#bar-js {
+    background-color: #3282b8;    border-radius: 6px;
+    width: 50%;
+    height: 100%;
+    color: #FFF;
+    background: repeating-linear-gradient(
+        -45deg, #0f4c75 0, #0f4c75 2px, #3282b8 2px, #3282b8 4px
+    );
+}
+
+#bar-php {
+    background-color: #3282b8;    border-radius: 6px;
+    width: 30%;
+    height: 100%;
+    color: #FFF;
+    background: repeating-linear-gradient(
+        -45deg, #0f4c75 0, #0f4c75 2px, #3282b8 2px, #3282b8 4px
+    );
+}
+
+#bar-ill {
+    background-color: #3282b8;    border-radius: 6px;
+    width: 20%;
+    height: 100%;
+    color: #FFF;
+    background: repeating-linear-gradient(
+        -45deg, #0f4c75 0, #0f4c75 2px, #3282b8 2px, #3282b8 4px
+    );
+}
+
+#bar-pho {
+    background-color: #3282b8;    border-radius: 6px;
+    width: 20%;
+    height: 100%;
+    color: #FFF;
+    background: repeating-linear-gradient(
+        -45deg, #0f4c75 0, #0f4c75 2px, #3282b8 2px, #3282b8 4px
+    );
+}
+
+/* LANGUAGE ============================== */
+
+#language li {
+    width: 7rem;
+    margin: 0 auto;
+}
+
+#language li:nth-child(1) {
+    background-image: url("../images/flags/united-kingdom.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#language li:nth-child(2) {
+    background-image: url("../images/flags/japan.png");
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+}
+
+#language a:hover {
+    background-color: initial;
+}
+
+#language p {
+    text-align: right;
+}
+
+/* INTREST SECTION ======================== */
+#traveling h3 {
+    margin: 0;
+}
+
+#traveling p {
+    margin-top: .5rem;
+    border: dotted 1px #0f4c75;
+}
+
+.countries {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    text-align: center;
+}
+
+.countries .icon-credit {
+    display: none;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img {
+    display: none;
+}
+
+.dog-image {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 26px -12px rgba(0,0,0,0.71);
+    border: solid 1px #bbe1fa;
+
+}
+
+/* CONTACT SECTION ======================== */
+#contact {
+    margin-bottom: 5rem;
+}
+
+#contact li {
+    text-align: center;
+    line-height: 2rem;
+    padding-left: 2.5rem;
+    margin: 0 auto;
+}
+
+#contact li:nth-child(1) {
+    background-image: url("../images/icons8-linkedin-64.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 2rem;
+    width: 100px;
+}
+
+#contact li:nth-child(2) {
+    background-image: url("../images/icons8-twitter-64.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 2rem;
+    width: 100px;
+}
+
+#contact li:nth-child(3) {
+    background-image: url("../images/icons8-composing-mail-80.png");
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: 2rem;
+    width: 100px;
+}
+
+.icon-credit {
+    text-align: right;
+}
+
+.icon-credit a{
+    text-decoration: none;
+}
+
+.icon-credit {
+    color: #3282b8;
+    font-size: small;
+}
+
+.icon-credit a:hover{
+    background-color: initial;
+}
+
+/* FOOTER ================================== */
+footer {
+    background-color: #0f4c75;
+    height: 4rem;
+    color: #bbe1fa;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer a {
+    display: block;
+    padding: 0 1rem;
+    text-decoration: none;
+    color: #bbe1fa;
+}
+
+nav a:hover {
+    background-color: #3282b8;
+}
+
+footer ul {
+    margin: 0;
+    padding-top: .5rem;
+    text-align: center;
+    font-size: 0;
+}
+
+footer li {
+    font-size: .75rem;
+    display: inline-block;
+    border-right: solid 1px #bbe1fa;
+}
+
+footer li:nth-last-child(1) {
+    border-right: none;
+}
+
+.go-top {
+    display: inline-block;
+    visibility: hidden;
+}
+
+.go-top:hover {
+    background-color: #3282b8;
+}
+
+/* MEDIA QUERY ======================== */
+@media screen and (max-width: 320px) {
+    footer li {
+        font-size: .6rem;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    h1 {
+        line-height: 4.5rem;
+        font-size: 3rem;
+    }
+
+    footer li {
+        font-size: 1rem;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        margin: 0 5%;
+    }
+    main {
+        margin: 0 auto;
+        text-align: left;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 3rem;
+    }
+
+    header nav {
+        visibility: initial;
+    }
+
+    header a {
+        padding: .3rem .75rem;
+    }
+
+    #top-text {
+        top: 50%;
+    }
+
+    h2 {
+        border-left: #1b262c solid 3px;
+        border-bottom: #1b262c solid 1px;
+        padding-left: .5rem;
+        padding-bottom: .3rem;
+        margin-bottom: 0;
+        background-color: inherit;
+    }
+
+    #about {
+        grid-column: span 2;
+    }
+
+    #education {
+        grid-row: span 3;
+    }
+
+    #interest {
+        grid-column: span 2;
+    }
+
+    #contact {
+        grid-column: span 2;
+    }
+
+    #employment,
+    #skills,
+    #language,
+    #interest {
+    border-top: none;
+}
+/* about ============================ */
+#about {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#about h2 {
+    grid-column: span 2;
+}
+
+#about img {
+    margin: 1rem auto;
+}
+
+#about p {
+    padding: 2rem;
+}
+
+/* EDUCATION =========================== */
+#education dl {
+    margin: 1rem;
+}
+
+dd {
+    margin-left: 1.5rem;
+}
+
+/* EMPLOYMENT ========================== */
+#employment dl {
+    margin: 1rem;
+}
+
+/* SKILLS ============================== */
+#skills ul {
+    margin: 1rem;
+}
+
+.bar-max {
+    font-size: .7rem;
+    height: 18px;
+    text-align: center;
+}
+
+/* LANGUAGR ============================= */
+#language ul {
+    margin: 1rem;
+}
+
+#language li {
+    padding-left: 1.5rem;
+    margin: 0;
+}
+
+
+/* INTERESTS ============================== */
+    #traveling,
+    #dog {
+        text-align: center;
+    }
+
+    #traveling {
+        margin-top: 1rem;
+    }
+
+    .countries {
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+        /* grid-gap: 0.5rem; */
+    }
+
+    .countries div {
+        grid-column: span 8;
+        font-size: small;
+        text-align: right;
+    }
+
+    .countries a {
+        text-decoration: none;
+    }
+
+    .countries .icon-credit {
+    display: initial;
+    }
+
+
+    figure img {
+        display: initial;
+        height: 30px;
+        width: 30px;
+        border: darkgray solid 1px;
+        border-radius: 50%;
+    }
+
+    figcaption {
+    width: 100%;
+    font-size: .75rem;
+}
+
+    .dog-image {
+        width: 30%;
+        height: auto;
+    }
+
+/* CONTACT ================================ */
+    #contact {
+    margin-bottom: 2rem;
+}
+
+    #contact ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+/* FOOTER ================================== */
+
+    footer {
+        position: initial;
+    }
+
+    footer li {
+        font-size: 1rem;
+    }
+
+
+    .go-top {
+        visibility: initial;
+        margin-top: .2rem;
+    }
+
+}
+/* 768px END ======================== */
+
+@media screen and (min-width:1180px) {
+
+    header a {
+    padding: .3rem 1rem;
+    }
+
+
+    /* INTERESTS ====================== */
+    #interest {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        grid-gap: 2rem;
+    }
+
+    #interest h2 {
+        grid-column: span 4;
+    }
+
+    #traveling,
+    #dog {
+        margin: 0 1rem;
+        text-align: center;
+    }
+
+    #dog h3 {
+        margin-top: 0;
+    }
+
+    .dog-image {
+        width: 100%;
+        height: auto;
+    }
+
+}
+/* 1180px END ======================== */
+
+@keyframes click{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

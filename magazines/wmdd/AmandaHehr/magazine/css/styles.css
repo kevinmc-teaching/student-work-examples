@@ -1,0 +1,712 @@
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url('https://fonts.googleapis.com/css?family=Jura:400,600|Open+Sans+Condensed:300,700|Questrial');
+
+
+/* ################# RESPONSIVE IMAGES ############### */
+
+img {
+	height: auto;
+	width: 100%;
+}
+
+
+/* ################# BODY BACKGROUND ############### */
+
+body {
+	margin: 0;
+	background-image: url("../images/starsBG.jpg");
+	background-attachment: fixed;
+	
+}
+
+
+/* ################# COMMON TEXT ############### */
+
+body{
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h2 {
+	font-family: 'Jura', sans-serif;
+	text-transform: uppercase;
+	font-weight: normal;
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-weight: normal;
+	font-family: 'Jura', sans-serif;
+	margin-bottom: 0;
+	font-size: 2rem;
+}
+
+.publish-date, .read-more {
+	font-family: 'Jura', sans-serif;
+	font-weight: normal;
+}
+
+
+/* ############# FLOAT LEFT/RIGHT ############## */
+
+.floatLeft {
+	float: left;
+	margin-right: 1rem;
+}
+
+.floatRight{
+	float: right;
+	margin-left: 1rem;
+}
+
+
+/* ############# CLEAR FIX, VISUALLY HIDDEN ############## */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.clear {
+	clear:both;
+}
+
+.visuallyHidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+
+/* ################# LINKS ############### */
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	color: #5f709c;
+}
+
+
+/* ################# BANNER ############### */
+
+.banner {
+	position: relative;
+}
+
+.socialIcons{
+	font-size: 2.5rem;
+	position: absolute;
+	bottom: 1rem;
+	right: 1rem;
+}
+
+.socialIcons span {
+	margin: 0.5rem;
+}
+
+.banner form {
+	position: absolute;
+	bottom: 1rem;
+	left: 1rem;
+}
+
+
+form.search-form {
+	background-color: black;
+	color: white;
+	border: 0.1px solid white; 
+	padding: 0.3rem;
+} 
+input#search-field {
+	background-color: black;
+	color: white;
+	border: none;
+	width: 200px;
+	font-size: 1.5rem;
+}
+
+.fa-search {
+	font-size: 1.5rem;
+}
+
+.hamburger {
+	display: none;
+}
+
+
+/* ################# HEADER ############### */
+
+header {
+	background-color: black;
+}
+
+h1 {
+	text-align: center;
+	line-height: 1.1;
+}
+
+h1 .infinity {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
+	font-size: 5rem;
+	color: white;
+
+}
+h1 .beyond {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 300;
+	font-size: 5rem;
+	color: lightgrey;
+}
+h1 .magazine {
+	font-family: 'Jura', sans-serif;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: lightgrey;
+}
+
+div.menu {
+	padding-bottom: 2rem;
+	font-size: 1.5rem;
+	max-width: 1600px;
+	margin: auto;
+}
+.menu li {
+	text-align: center;
+
+}
+
+
+/* ################# PICTURE BOXES ############### */
+
+.picturebox {
+	position: relative;
+	margin-bottom: 1.6%;
+	/*margin-right: 0;*/
+}
+.picturebox .pictureContent {
+	position: absolute;
+	bottom: 0rem;
+	right: 0rem;
+	left: 0rem;
+	color: white;
+	margin-bottom: 0.2rem;
+	padding: 0.5rem;
+	background: rgba(0, 0, 0, 0.7);
+	overflow: hidden;
+}
+
+
+/* ################# FOOTER ############### */
+
+footer {
+	text-align: center;
+	margin-bottom: 5rem;
+	font-size: 1.5rem;
+}
+
+footer ul {
+	padding: 0;
+}
+
+div.foot-menu {
+	max-width: 1600px;
+	margin: auto;
+}
+
+
+/* ################# INDEX PAGE ############### */
+
+#featured, #news, #photography, #observing, #article, #contact, #sources {
+	width: 80%;
+	max-width: 1600px;
+	padding: 2rem;
+	margin: auto;
+	margin-top: 2rem;
+	background-color: white;
+	overflow: hidden; 
+}
+
+
+#featured a h2, #news a h2, #photography a h2, #observing a h2{
+	color: black;
+}
+
+ 	
+#featured h2, #news h2, #photography h2, #observing h2 {
+	position: relative;
+	border-bottom: 1px solid black;
+	bottom: 0rem;
+}
+
+
+/* ################# ARTICLE PAGE ############### */
+
+#article {
+	padding: 2rem;
+}
+
+.articleContent p, .articleContent ul{
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+
+.articleHeadline h2 {
+	margin-bottom: 0;
+	margin-top:0;
+}
+
+#article img {
+	width: 400px;
+}
+
+.author {
+	font-weight: 700;
+}
+
+#article h3 {
+	margin-bottom: 1rem;
+	border-bottom: 1px solid black;
+}
+
+#article p {
+	margin-top: 0;
+	padding-top:0;
+}
+
+
+
+/* ################# 404 PAGE ############### */
+
+#fourofour {
+	width: 80%;
+	max-width: 1600px;
+	margin: auto;
+	margin-top: 2rem;
+	padding: 2rem;
+	overflow: hidden; 
+	color: white;
+}
+
+#fourofour h2 {
+	font-size: 3rem;
+}
+
+#fourofour p {
+	font-size: 1.3rem;
+	line-height: 2rem;
+}
+
+#fourofour a {
+	color: white;
+}
+
+.fourofour-menu ul{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+}
+
+#fourofour form {
+	width: 30%;
+}
+
+/* ################# SOURCES PAGE ############### */
+
+table{
+	font-size: 2rem;
+	text-align: center;
+	width: 100%;
+	border: 1px solid black;
+	column-width: 50%;
+}
+
+tr, td {
+	border: 1px solid black;
+	width: 50%;
+}
+
+
+#sources td a{
+	color: black;
+}
+
+#sources td a:hover{
+	color: #5f709c;
+}
+
+/* ################# CONTACT PAGE ############### */
+
+#contact input, textarea {
+	display: block;
+	margin-bottom: 1rem;
+	width: 40%;
+}
+
+textarea {
+	width: 80%;
+}
+
+#contact h2 {
+	margin-bottom: 1rem;
+}
+
+#contact p {
+	margin-bottom: 2rem;
+	font-size: 1.3rem;
+}
+
+.contactForm {
+	border-right: 1px solid black;
+	padding-right: 1.5rem;
+}
+
+#contact a {
+	color: black;
+}
+
+#contact a:hover{
+	color: #5f709c;
+}
+
+#contact input.submit{
+	background: -webkit-linear-gradient(lightgrey, white);
+	border: 1px solid lightgrey;
+	width: 30%;
+}
+
+#contact input.submit:hover{
+	border: 2px solid #5f709c;
+}
+
+/* ################# MEDIA QUERIES ############### */
+
+/* 1101-1399px */
+@media screen and (min-width: 1101px) {
+	/* ########## INDEX PAGE ###########*/
+	.grid_4 {
+		display: none;
+	}
+	.grid_4 .pictureContent h3 {
+		font-size: 1.4rem;
+	}
+	.grid_4 .pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+	.grid_4 .pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	#article .grid_4 {
+		display: block;
+	}
+
+	.grid_5 .pictureContent p {
+		display: none;
+	}
+	.grid_5 .pictureContent h3 {
+		font-size: 1.4rem;
+	}
+	.grid_5 .pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+	.grid_5 .pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	.grid_6 .pictureContent p {
+		font-size: 1.1rem;
+	}
+	.grid_6 .pictureContent h3 {
+		font-size: 1.6rem;
+	}
+	.grid_6 .pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+	.grid_6 .pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	.grid_7 .pictureContent p {
+		font-size: 1.1rem;
+	}
+	.grid_7 .pictureContent h3 {
+		font-size: 1.8rem;
+	}
+	.grid_7 .pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+	.grid_7 .pictureContent div.read-more {
+		font-size: 1rem;
+	}
+}
+
+
+/* Above 1400px */
+@media screen and (min-width: 1400px){
+
+	/* GRID 4 */
+	.grid_4 {
+		display: block;
+	}
+	.grid_4 .pictureContent p {
+		font-size: 1rem;
+	}
+	.grid_4 .pictureContent h3 {
+		font-size: 1.4rem;
+	}
+	.grid_4 .pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+	.grid_4 .pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	/* GRID 5 */
+	.grid_5 .pictureContent p {
+		display: block;
+		font-size: 1rem;
+	}
+	.grid_5 .pictureContent h3 {
+		font-size: 1.4rem;
+	}
+	.grid_5 .pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+	.grid_5 .pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	/* GRID 6 */
+	.grid_6 .pictureContent p {
+		font-size: 1.3rem;
+	}
+	.grid_6 .pictureContent h3 {
+		font-size: 1.8rem;
+	}
+	.grid_6 .pictureContent div.publish-date{
+		font-size: 1rem;
+	}
+	.grid_6 .pictureContent div.read-more {
+		font-size: 1.2rem;
+	}
+
+	/* GRID 7 */
+	.grid_7 .pictureContent p {
+		font-size: 1.3rem;
+	}
+	.grid_7 .pictureContent h3 {
+		font-size: 2rem;
+	}
+	.grid_7 .pictureContent div.publish-date{
+		font-size: 1rem;
+	}
+	.grid_7 .pictureContent div.read-more {
+		font-size: 1.2rem;
+	}
+
+	.socialIcons {
+		font-size: 3rem;
+	}
+}
+
+
+/* 751-1100px */
+@media screen and (max-width: 1100px){
+
+	h1 .infinity {
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 700;
+		font-size: 3.3rem;
+		color: white;
+
+	}
+	h1 .beyond {
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight: 300;
+		font-size: 3.3rem;
+		color: lightgrey;
+	}
+	h1 .magazine {
+		font-family: 'Jura', sans-serif;
+		font-size: 2rem;
+		text-transform: uppercase;
+		color: lightgrey;
+	}
+
+	h2{
+		font-size: 1.7rem;
+	}
+	.menu{
+		display: none;
+	}
+
+	.search-form {
+		display: none;
+	}
+
+	.banner .socialIcons {
+    	right: 50%; 
+		transform: translate(50%, 0%);
+		bottom: 0rem;
+		font-size: 1.8rem;
+	}
+
+	.hamburger {
+		display: block;
+		position: absolute;
+		bottom: 0rem;
+		left: 1rem;
+		font-size: 2rem;
+	}
+
+	.floatLeft {
+		margin-right: 0;
+	}
+
+	.floatRight{
+		margin-left: 0;
+	}
+
+
+	.pictureContent p {
+		font-size: 1.1rem;
+
+	}
+	.pictureContent h3 {
+		font-size: 1.3rem;
+	}
+	.pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+
+	.pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	#sources td{
+		font-size: 1.5rem;
+	}
+
+	.floatRight{
+		margin-left: 1rem;
+
+	}
+
+	.floatLeft{
+		margin-right: 1rem;
+	}
+
+	#article h2 {
+		font-size: 2.5rem;
+	}
+	#article .publish-date{
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+
+	#article .floatLeft, #article .floatRight {
+		float: none;
+	}
+	#article img {
+		width: 100%;
+	}
+
+	.contactForm {
+		border: none;
+		border-bottom: 1px solid black;
+		padding-bottom: 2rem;
+	}
+
+	#contact h2 {
+		font-size: 2rem;
+	}
+
+	#contact h3 {
+		font-size: 1.5rem;
+	}
+
+	#contact .contactInfo {
+		font-size: 1rem;
+	}
+	#contact input{
+		width: 70%;
+	}
+	textarea {
+		width: 100%;
+	}
+
+	#fourofour .search-form {
+		display: block;
+		min-width: 300px;
+	}
+
+
+}
+
+/* Below 750 */
+@media screen and (max-width: 750px){
+	
+	#featured a, #news a, #photography a, #observing a {
+		color: black;
+	}
+
+	#featured a:hover, #news a:hover, #photography a:hover, #observing a:hover {
+		color: #5f709c;
+	}
+
+
+	.picturebox .pictureContent {
+		position: relative;
+		background-color: white;
+		color: black;
+		padding: 0;
+		margin-bottom: 2rem;
+
+	}
+
+	.pictureContent p {
+		font-size: 1.1rem;
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+
+	.pictureContent h3 {
+		font-size: 1.3rem;
+		margin-top: 0.5rem;
+	}
+
+	.pictureContent div.publish-date{
+		font-size: 0.8rem;
+	}
+
+	.pictureContent div.read-more {
+		font-size: 1rem;
+	}
+
+	#sources td{
+		font-size: 1rem;
+	}
+
+	#article h2 {
+		font-size: 2rem;
+	}
+	#article .publish-date{
+		font-size: 1rem;
+		margin-bottom: 2rem;
+	}
+}

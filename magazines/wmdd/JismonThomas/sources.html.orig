@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sources | MENS VAGUE | Jismon Thomas</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+	  <nav class="top_menu clearfix">
+	  	<div class="wrapper_12 clearfix">
+		  	<ul class="push_6 column_6" >
+		  		<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+		  		<li><a href="#">ADVERTISING</a></li>
+		  		<li><a href="#">PRIVACY POLICY</a></li>
+		  		<li><a href="#">COOKIE POLICY</a></li>
+		  	</ul>
+		</div>
+	  </nav>
+
+	  <div class="wrapper_12 clearfix">
+		  <header class="clearfix">
+		  	  <div class="logo column_3">
+	  				<a href="index.html"><img src="images/Logo.png" alt="MensFashionMagazine Logo"></a>
+	  		  </div>
+		  		<div class="column_9 clearfix">
+	  				<div class="top_socialMediaMenu clearfix">
+	  					<div class="social_icons column_9">
+		  					<ul>
+		  						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		  					</ul>
+		  				</div>
+		  				<div class="search column_3">
+		  					<i class="fa fa-search"></i>
+		  					<input type="text" placeholder="Search">
+		  				</div>
+	  				</div>
+	  				<div class="bottom_mainMenu clearfix ">
+	  					<ul class="clearfix">
+	  						<li><a href="#">fashion</a></li>
+	  						<li><a href="story.html">designers</a></li>
+	  						<li><a href="#">style</a></li>
+	  						<li><a href="#">fitness</a></li>
+	  						<li><a href="#">videos</a></li>
+	  						<li><a href="#">editions</a></li>
+	  						<li><a href="contact.html">contact</a></li>
+	  					</ul>
+	  				</div>
+		  		</div>
+		  </header>
+
+		  <div class="column_12 clearfix">
+		  	<div class="header_seperation clearfix"></div>
+		  	<div class="breadcrumbs clearfix">
+			  	<ul>
+				    <li><a href="index.html">Home</a></li>
+				    <li>Sources</li>
+				</ul>
+		  	</div>
+		  </div>
+
+		  <article class="sources clearfix">
+			  <div class="column_12">
+			  	  <h1>Sources</h1>
+				  <table>
+				  	<tr><th>Texts</th><th>Sources</th></tr>
+				  	<tr><td>GIORGIO ARMANI - Biography</td><td><a href="https://en.wikipedia.org/wiki/Giorgio_Armani">View Page</a></td></tr>
+				  	<tr><th>Images</th><th>Sources</th></tr>
+				  	<tr><td><img src="images/photo-1441781748960-cde3a7202d3c.jpeg" alt="Guys Hairstyle"></td><td><a href="https://unsplash.com/photos/6BiF2GjWuBM" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1421986386270-978ed214ec60.jpg" alt="Jeans and Boots"></td><td><a href="https://unsplash.com/photos/yGVNt1Aqpp4" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/IMG_4965.jpg" alt="Stylish Watch"></td><td><a href="http://www.splitshire.com/804/" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1436390195361-c3c86efcf48b.jpg"  alt="Shoes"></td><td><a href="https://unsplash.com/photos/J1EM-LnV-Eg" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1445282804813-123ac28fe498.jpg" alt="Stylish Cap"></td><td><a href="https://unsplash.com/photos/hiZ7wtdX-nI" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1431308305062-f218b6fe520a.jpg" alt="Guitarist"></td><td><a href="https://unsplash.com/photos/08-c5-GxA7M" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1445117627052-274425469152.jpg" alt="Groom In Suit"></td><td><a href="http://realisticshots.com/post/132898997458/000152" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/155.jpg" alt="Stylish Man in Suit"></td><td><a href="http://realisticshots.com/post/133360110863/000155" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1415370303892-4bfee9411b52.jpg" alt="Man In Boots"></td><td><a href="https://unsplash.com/photos/Mxtm1sWZZKo" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1446214814726-e6074845b4ce.jpg" alt="Two stylish Guys In Suit"></td><td><a href="https://unsplash.com/photos/0O6Fv3Ff_XI" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1446902236611-65b30daefc2a.jpg" alt="New Hairstyle"></td><td><a href="https://unsplash.com/photos/F6hVRIUiTwM" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/stylishGuy.jpg" alt="Bearded Guy"></td><td><a href="https://unsplash.com/photos/QPE5988qVoM" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1445098723321-a69084fa7ccf.jpg" alt="Couples In Jacket"></td><td><a href="https://unsplash.com/photos/LZE5N-v4raY" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/iqlYdAAYQiaOCoKnT6jE_kabia.jpg" alt="Stylish Guy Sitting"></td><td><a href="https://unsplash.com/photos/JygLXMC19EU" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1425421669292-0c3da3b8f529.jpg" alt="Man In Suit"></td><td><a href="https://unsplash.com/photos/WdJkXFQ4VHY" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1438763298591-75a0d42b7265.jpg" alt="Man In Leather Jacket"></td><td><a href="https://pixabay.com/en/man-boy-portrait-blonde-style-919045/" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1432656839183-ac6bb3a26caf.jpg" alt="Guy Sitting In Bench"></td><td><a href="https://pixabay.com/en/white-tshirt-vneck-fashion-guy-926838/" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/needle-702242_1280.jpg"  alt="Needle And Thread"></td><td><a href="https://pixabay.com/en/needle-thread-sewing-702242/" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/clothes-rail-918859_19201.jpg"  alt="Cloths In Hanger"></td><td><a href="https://pixabay.com/en/clothes-rail-shirts-clothing-918859/" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1444146644393-241099c1593d.jpg" alt="Old Guy"></td><td><a href="https://unsplash.com/photos/skZplfLeDww" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/www.madebyvadim.com.jpg" alt="Guys Apparels"></td><td><a href="https://unsplash.com/photos/tCICLJ5ktBE" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1439895306562-dc5a0c7ee823.jpg" alt="Guy In Black and White"></td><td><a href="https://unsplash.com/photos/jxWFbUqNEOM" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/photo-1432656878500-70bbc0c37e85.jpg" alt="Beard Guy"></td><td><a href="https://unsplash.com/photos/dfh54HEvEGI" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img class="clearfix style_thumbs" src="images/photo-1436367050586-7c605120bf73.jpg" alt="Guy in Blue Suit"></td><td><a href="https://pixabay.com/en/business-hipster-smart-casual-839788/" target="_blank" >View Page</a></td></tr>
+
+				  	<tr><td><img src="images/3908000856_7c5350b2aa_o.jpg" alt="Giorgio Armani"><p><a href="https://www.flickr.com/photos/br1dotcom/3907226713/in/photostream/" target="_blank">Giorgio Armani - Vogue Fashion's Night Out Sept.10 2009 MILANO</a> by <a href="https://www.flickr.com/photos/br1dotcom/" target="_blank">Bruno Cordioli </a> is licensed under<a href="https://creativecommons.org/licenses/by/2.0/" target="_blank"> CC BY 2.0</a></p></td><td><a href="https://www.flickr.com/photos/br1dotcom/3907226713/in/photostream/" target="_blank">View Page</a></td></tr>
+
+				  	<tr><td><img src="images/GiorgioArmani.jpg" alt="Giorgio Armani"><p><a href="https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg" target="_blank">Deutsch: Bojan Gavric, Moskau, Kaufhaus GUM, Red Night Party</a> by <a href="https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg" target="_blank">Jan Schroeder</a> is licensed under<a href="https://creativecommons.org/licenses/by-sa/3.0/deed.en" target="_blank"> CC BY 3.0</a></p></td><td><a href="https://commons.wikimedia.org/wiki/File:GiorgioArmani.jpg" target="_blank" >View Page</a></td></tr>
+
+				  </table>
+			  </div>
+	  	  </article>
+		</div> <!-- End of wrapper -->
+
+			 <!-- ================================ Footer =========================================-->
+	  <footer class="clearfix">
+			  	<div class="wrapper_12 clearfix">
+			  		<div class="column_12 clearfix">
+			  			<div class="column_4 footer_logo">
+			  				<img src="images/LogoWhite.png" alt="Mens Vague Logo">
+			  			</div>
+			  			<div class="column_4 quick_links">
+			  				<h4>Quick Links</h4>
+			  				<ul>
+			  					<li><a href="#">fashion</a></li>
+		  						<li><a href="story.html">designers</a></li>
+		  						<li><a href="#">style</a></li>
+		  						<li><a href="#">videos</a></li>
+		  						<li><a href="sources.html">sources</a></li>
+		  						<li><a href="contact.html">contact</a></li>
+			  				</ul>
+			  			</div>
+			  			<div class="column_4 address">
+			  				<h4>Address</h4>
+			  				<ul>
+			  					<li><i class="fa fa-phone"></i>212-391-2004</li>
+			  					<li><i class="fa fa-envelope"></i>info@mensfashionmagazine.com</li>
+			  					<li><i class="fa fa-map-marker"></i>15 W 37th Street, New York NY-10018</li>
+			  				</ul>
+			  			</div>
+			  		</div>
+			  	</div>
+			  	<div class="bottom_footer">
+				  	<div class="wrapper_12 clearfix">
+				  		<p>Copyright <i class="fa fa-copyright"></i> 2015 - Jismon Thomas</p>
+				  	</div>
+			  	</div>
+	  </footer>
+
+  </body>
+</html>

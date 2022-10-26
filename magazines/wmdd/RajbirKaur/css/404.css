@@ -1,0 +1,83 @@
+.grid404{
+		width: 90%;
+   
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+	}
+.contentarticle a{
+	text-decoration: underline;
+}
+.grid404 ul#nav404 li{
+	line-height: 1.5rem;
+
+}
+.contentarticle{
+
+    background-color: rgba(41, 171, 226, 0.43);
+}
+main{
+	padding-top: 0;
+}
+.grid404 h1{
+	font-size: 5rem;
+text-align: left;
+ color: rgba(30, 36, 44, 0.68);
+
+}
+@media screen and (min-width: 700px)  {
+	.contentarticle{
+
+    background-color: rgba(41, 171, 226, 0);
+}
+main{
+	padding-top: 1.5rem;
+}
+	.grid404{
+		width: 45%;
+    float: left;
+    margin-left: 5%;
+    text-align: left;
+	}
+.grid404 .o{
+    font-size: 7rem;
+}
+.grid404 h1{
+text-align: left;
+    color: rgba(30, 36, 44, 0.68);
+
+}
+.grid404 .subheading{padding-top: 1rem;
+    font-size: 1.5rem;
+    width: 55%;
+    line-height: 2rem;
+}
+.grid404 ul#nav404 {
+    list-style-type: none;
+        padding: 0;
+       
+}
+.grid404 ul#nav404 a{
+	 color: #f15a24;
+    font-weight: 600;
+}
+.grid808{
+	width:45%;
+	margin-right: 5%;
+	float:right;
+
+}
+.grid808 span.fa.fa-frown-o{
+font-size: 20rem;
+color:#29abe2;;
+
+}
+}
+
+@media screen and (min-width: 1100px)  {
+.grid404 .o {
+    font-size: 10rem;
+}
+}
+
+

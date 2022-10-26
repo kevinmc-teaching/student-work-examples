@@ -1,0 +1,640 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:700,700i,400,300i');
+
+@font-face {
+    font-family: 'Viper Nora';
+    src: url('assets/webfonts/viper-nora/vipernora-webfont.eot');
+    src: url('assets/webfonts/viper-nora/vipernora-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/webfonts/viper-nora/vipernora-webfont.woff2') format('woff2'),
+         url('assets/webfonts/viper-nora/vipernora-webfont.woff') format('woff'),
+         url('assets/webfonts/viper-nora/vipernora-webfont.svg#viper_noraregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* MAIN STUFF ====================================================== */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  background-image: url('assets/images/background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+header {
+  width: 95%;
+  margin: 2rem auto 1rem;
+}
+.logo {
+  width: 100%;
+  height: auto;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+nav li {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: #eee;
+  font-size: 1rem;
+  background-color: #db0000;
+  padding: .5rem;
+  margin: .2rem 0;
+  box-sizing: border-box;
+  text-align: center;
+  transition: color .4s;
+}
+nav a {
+  display: block;
+  transition: color .4s;
+}
+nav li a:hover {
+  color: #000;
+  transition: color .4s;
+}
+nav div li {
+  cursor: pointer;
+  background-color: #000;
+}
+nav div li {
+  color: #db0000;
+  transition: color .4s;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav-small {
+  height: 3.2rem;
+  transition: height .5s;
+  overflow: hidden;
+}
+.clicked {
+  height: 24rem;
+  transition: height .5s ease-in;
+}
+.social {
+  display: none;
+}
+.footer-content {
+  width: 95%;
+  margin: 1rem auto 1rem;
+  clear: both;
+}
+.story, .article {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+nav {
+  text-align: center;
+}
+nav input {
+  width: 40%;
+  text-align: center;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+/* TYPOGRAPHY ===================================================== */
+
+h1 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #eee;
+  background-color: #db0000;
+  width: 100%;
+  padding: .2rem;
+  margin: 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+h2 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #eee;
+  margin: 0 0 .2rem 0;
+  transition:  color .5s;
+}
+h2:hover {
+  color: #aaa;
+  transition: color .5s;
+}
+p {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: .8rem;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #ccc;
+  margin: 0;
+}
+footer a {
+  font-size: 2rem;
+  color: #555;
+  margin: 0 .3rem;
+  transition: color .5s;
+}
+h6 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: .6rem;
+  font-weight: 400;
+  line-height: 0;
+  color: #555;
+  margin: 1rem;
+  text-align: center;
+}
+h3 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 0;
+}
+h4 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: .8rem;
+  font-weight: 300;
+  color: #db0000;
+  font-style: italic;
+}
+.breadcrumb {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: .7rem;
+  font-weight: 300;
+  color: #BBB;
+}
+h5 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: .9rem;
+  line-height: 1.5;
+  font-weight: 300;
+  color: #333;
+  max-width: 60ch;
+}
+h5:nth-of-type(1)::first-letter {
+  font-family: "Bungee Inline", Montserrat, Arial, sans-serif;
+  float: left;
+  font-weight: 700;
+  font-size: 4.3rem;
+  line-height: .8;
+  padding: .25rem .25rem .25rem 0;
+  margin-right: .3rem;
+}
+h5 a {
+  color: #db0000;
+}
+h5 a:hover {
+  text-decoration: underline;
+}
+.bold {
+  font-weight: 700;
+  margin-bottom: -1.2rem;
+}
+.red {
+  color: #bd0000;
+  font-weight: 700;
+}
+.red a {
+  color: #000;
+  margin-left: .3rem;
+  transition: .5s;
+}
+.red a:hover {
+  color: #bd0000;
+  transition: color .5s;
+}
+.contact {
+  font-family: "Viper Nora", Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  color: #eee ;
+  font-weight: 700;
+  line-height: 1.2;
+  display: block;
+  background-color: #db0000;
+  width: 100%;
+  padding: 1.5rem 0 1rem;
+  text-align: center;
+}
+label {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: .1rem;
+}
+.kern1 {
+  letter-spacing: -5px;
+}
+.error1 {
+  font-family: "Viper Nora", Arial, Helvetica, sans-serif;
+  font-size: 4rem;
+  color: #db0000;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  text-shadow: 2px 2px #000;
+  margin-top: 1rem;
+  letter-spacing: 5px;
+}
+.error2 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #000;
+  margin: 1rem 0;
+}
+.error3 {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+  margin-bottom: 2rem;
+}
+.error3 a, .sources-text a {
+  color: #db0000;
+}
+.error3 a:hover, .sources-text a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sources-text {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+  font-weight: 300;
+  color: #333;
+}
+
+
+/* ARTICLES ======================================================= */
+
+.images, .image-main {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin-bottom: -1px;
+}
+.description {
+  width: 100%;
+  height: auto;
+  background-color: #555;
+  margin: 0;
+  padding: .6rem;
+  box-sizing: border-box;
+}
+.description-main {
+  width: 100%;
+  height: auto;
+  background-color: #555;
+  margin: 0;
+  padding: .6rem;
+  box-sizing: border-box;
+}
+.story {
+  margin-bottom: 1.5rem;
+}
+footer {
+  text-align: center;
+  clear: both;
+}
+footer a:hover {
+  color: #db0000;
+  transition: color .5s;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+a img {
+  transition: all .5s;
+}
+a:hover img{
+  opacity: .8;
+}
+
+
+/* STORY PAGE ====================================================== */
+
+.article {
+  background-color: #eee;
+  padding: 1rem;
+}
+.breadcrumb a:hover {
+  color: #db0000;
+  transition: color .5s;
+}
+h5:last-of-type {
+  margin-top: 3rem;
+  padding-top: .5rem;
+  border-top: 1px solid #000;
+}
+.related {
+  margin-bottom: 1rem;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;  /* for video controller */
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* CONTACT PAGE ==================================================== */
+
+.contact-form {
+  width: 100%;
+  display: inline-block;
+}
+label {
+  display: block;
+}
+.firstname, .lastname, .email, .comments {
+  display: block;
+  margin-bottom: .5rem;
+  width: 100%;
+}
+textarea {
+  height: 10rem;
+  width: 100%;
+}
+.contact-bar {
+  border-top: 5px solid #000;
+  margin: 1rem 0 2rem;
+}
+.button {
+  background-color: #db0000;
+  border: 0;
+  color: #eee;
+  transition: .5s;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  width: 6rem;
+  height: 1.5rem;
+}
+.button:hover {
+  background-color: #000;
+  transition: background-color .5s;
+  cursor: pointer;
+}
+
+
+/* 404 PAGE ======================================================== */
+
+.error-img {
+  width: 100%;
+  margin: 1rem auto 3rem;
+}
+
+
+/* SOURCES PAGE ==================================================== */
+
+.sources img {
+  max-width: 100%;
+}
+.sources {
+  width: 100%;
+  font-size: 3rem;
+  line-height: .5;
+}
+.border {
+  padding-bottom: 1rem;
+}
+.Montserrat {
+  font-family: Montserrat;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.Viper-Nora {
+  font-family: "Viper Nora";
+  font-size: 2rem;
+}
+.story-credit {
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+
+/* MEDIA QUERIES ================================================== */
+
+@media screen and (min-width: 430px) {
+  .contact-form {
+  width: 400px;
+  }
+  .error-img {
+  max-width: 300px;
+  }
+}
+/* END 430 QUERY */
+
+@media screen and (min-width: 500px) {
+  header {
+    width: 95%;
+  }
+  body {
+    background-image: url('assets/images/background.jpg');
+  }
+  .videoWrapper {
+    padding-bottom: 300px;
+  }
+  .videoWrapper iframe {
+    max-width: 560px;
+    max-height: 315px;
+  }
+  .contact {
+    width: 18rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+}
+/* END 500 QUERY */
+
+@media screen and (min-width: 750px) {
+  header {
+    padding-top: 2rem;
+    width: 100%;
+    margin: 0;
+    background-color: #000;
+    box-sizing: border-box;
+  }
+  main {
+    padding-top: 2rem;
+  }
+  .header-img {
+    width: 60%;
+    margin: 1%;
+  }
+  .main-bg {
+    background-image: url('assets/images/edge.png');
+    background-repeat: repeat-x;
+    min-width: 100%;
+  }
+  .story {
+    float: left;
+    width: 48%;
+    margin: 0 1% 1%;
+  }
+  .story:first-of-type {
+    display: block;
+    width: 98%;
+    margin: 0 1% 2%;
+  }
+   .related {
+    float: left;
+    width: 48%;
+    margin: 0 2% 0 0;
+  }
+  nav {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+  nav ul {
+    display: flex;
+  }
+  nav li {
+    flex-grow: 1;
+  }
+  nav div li {
+    display: none;
+  }
+  .nav-small {
+    height: auto;
+  }
+  .header-content {
+    position: relative;
+  }
+  .social {
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 1%;
+    text-align: right;
+    font-size: 1.5rem;
+    color: #555;
+    transition: color .5s;
+  }
+  input {
+    width: 100%;
+    margin-bottom: .3rem;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+    color: #999;
+  }
+  .social .fa-search {
+    font-size: .9rem;
+    margin-right: .3rem;
+    color: #db0000;
+  }
+  .social a:hover {
+    color: #db0000;
+    transition: color .5s;
+  }
+  .header-content {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .footer-content {
+    width: 100%;
+  }
+  main {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .article {
+    margin: 1%;
+  }
+  .sources {
+    float: left;
+    width: 50%;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+  .border {
+    border-top: 1px solid #000;
+  }
+  .description {
+    height: 8.5rem;
+  }
+  nav input {
+    display: none;
+  }
+}
+/* END 750 QUERY */
+
+@media screen and (min-width: 1000px) {
+  main, .header-content {
+    max-width: 1100px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  header {
+    margin-bottom: 0;
+  }
+}
+/* END 1000 QUERY */
+
+@media screen and (min-width: 1300px) {
+  .feature {
+    display: flex;
+  }
+  .image-box {
+    width: 250%;
+  }
+  .description {
+    padding: 1rem;
+  }
+  .feature h2 {
+    font-size: 1.8rem;
+  }
+  .feature p {
+    font-size: 1rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  .image-main {
+    margin-bottom: 0;
+  }
+}
+/* END 1300 QUERY */
+
+@media screen and (min-width: 1580px) {
+  h3 {
+    font-size: 3rem;
+  }
+}
+/* END 1580 QUERY */
+
+
+/* CLEAR FIX ==================================================== */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}

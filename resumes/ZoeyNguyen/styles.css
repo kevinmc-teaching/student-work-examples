@@ -1,0 +1,325 @@
+/* typography ================== */
+body {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 200;
+    line-height: 1.5;
+    color: rgb(100, 99, 100);
+}
+h2 {
+    font-family: Crimson Text, Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    font-size: 25pt;
+    letter-spacing: .5pt;
+    font-weight: normal;
+    color: rgb(98, 78, 207);
+}
+
+h3, h4 {
+    /* text-transform: uppercase; */
+    margin: 0;
+}
+
+/* #exp ul {padding-top: 0;} */
+
+/* main stuffs */
+body {margin: auto 1.5rem;}
+main section {
+    padding-bottom: 3rem;
+    padding-top: 1rem;
+}
+footer {text-align: center; margin-bottom: 1rem;}
+
+/* #edu, #portfolio, #contact {background-color:rgb(246, 250, 253);} */
+
+#contact {text-align: left; margin-top: -2rem;}
+#contact h2 {margin-top: 0;}
+#contact p {margin: 0;}
+
+#portfolio h2 {margin-bottom: 0;}
+#interest {margin-top: 5rem;}
+
+#interest ul {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 1fr;
+}
+
+/* img ======================== */
+.home-pic {
+    max-height: 6rem;
+    margin: 2rem 0;
+}
+.logo {
+    max-width: 250px;
+    /* margin-left: 5rem; */
+    margin: 0 auto;
+    margin-top: -2rem;
+}
+
+/* menu ======================== */
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    /* grid-gap: 2rem; */
+}
+
+header nav {
+    grid-column: 3;
+    margin-top: 1.5rem;
+    margin-right: 1rem;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 1rem 3rem;
+    text-align: right;
+    list-style-type: none;
+}
+
+nav a {
+    color:rgb(98, 78, 207);
+    text-decoration: none;
+}
+
+#contact i {color: rgb(142, 127, 230);}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(142, 127, 230);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 25pt;
+}
+.see-more {text-align: center; margin-top: 2rem;}
+
+.top a {
+    display: inline-block;
+    color: white;
+    background-color: rgb(142, 127, 230);
+    padding: 1rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    text-decoration: none;
+}
+.top {
+    display: block;
+    text-align: center;
+}
+
+/* others ====================== */
+.exp ul {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#skills ul, #interest ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.dot1 {
+    border: solid 3px rgb(142, 127, 230);
+    border-radius: 50%;
+    color: rgb(142, 127, 230);
+    background-color: rgb(142, 127, 230);
+    height: 5pt;
+    width: 5pt;
+    margin-top: 5px;
+}
+.dot2 {
+    border: solid 3px rgb(142, 127, 230);
+    border-radius: 50%;
+    background-color: white;
+    color: white;
+    height: 5pt;
+    width: 5pt;
+    margin-top: 5px;
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: 200px repeat(5,30px);
+}
+
+.spacer {
+    margin: 0;
+    padding: 0;
+    font-size: 2px;
+    letter-spacing: 2rem;
+    background-color: rgb(100, 99, 100);
+}
+
+.sns {
+    text-decoration: none;
+    color:rgb(142, 127, 230);
+}
+
+#interest h2 {margin-bottom: 1rem;}
+
+/* queries =========================================== */
+@media screen and (min-width:500px) {
+    .logo {
+        max-width: 150px;
+        float: right;
+        margin-top: -6rem;
+        margin-left: .75rem;}
+}
+@media screen and (min-width: 600px) {
+    #me {
+        display: grid;
+        grid-template-columns: repeat(9,1fr);
+        column-gap: .5rem;
+    }
+    #me h2 {grid-column: span 9; margin-bottom: .75rem;}
+    #me p {
+        grid-area: 2/1/3/8; 
+        margin-top: 0;
+        padding-right: .5rem;
+    }
+    .logo {
+        grid-area: 2/8/3/10;
+        margin-top: 0;
+        float: none;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width: 640px) {
+    #me {column-gap: 0;}
+    #me p {grid-area: 2/1/3/7;}
+    #me h2 {margin-bottom: 2.25rem;}
+    .logo {
+        margin-top: -2rem;
+        max-width: 170px;
+        grid-area: 2/7/3/10;
+        margin-left: auto;
+    }
+
+    #exp {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* column-gap: 1rem; */
+    }
+    #exp h2 {grid-column: span 2;}
+}
+
+/* ================================================= */
+@media screen and (min-width: 800px) {
+    main {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    header {
+        grid-template-columns: 200px 1fr 2fr;
+    }
+
+    nav ul {
+        grid-template-columns: repeat(6,1fr);
+        grid-gap: 2rem;
+        text-align: center;
+    }
+
+    .home-pic {margin: 2rem;}
+
+    #me {
+        grid-template-columns: repeat(6,1fr);
+        /* grid-gap: 3rem; */
+        column-gap: 3rem;
+    }
+    #me h2 {grid-column: span 4; margin-bottom: .5rem;}
+    #me p {
+        grid-area: 2/1/3/5; 
+        margin-top: 0;
+        padding-right: .5rem;
+    }
+    .logo {
+        grid-area: 1/5/3/7;
+        /* padding-top: 1rem; */
+        /* padding-left: .25rem; */
+        margin-top: 1rem;
+        max-width: 235px;
+    }
+
+    .e-s-i {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-gap: 4rem;
+    }
+    #skills {margin-left: 3rem;}
+    #interest {
+        margin-top: 1.5rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5.8rem;
+    }
+    #interest ul {margin-top: 2.75rem;}
+
+    #exp {grid-template-columns: 2fr 1fr;}
+
+    #portfolio h2 {margin: 0;}
+
+    .gallery {
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+    }
+    .pic-span {grid-row: span 2;}
+}
+
+
+
+/* ===================================================== */
+@media screen and (min-width: 1500px) {
+    main {max-width: 1100px;}
+    nav a {font-size: 14pt;}
+    .home-pic {max-height: 7rem; margin-top: 2.5rem;}
+
+    #me {column-gap: 6rem;}
+    /* #me p {padding-left: 4rem;} */
+    /* #me h2 {margin-bottom: 0;} */
+    #me p {padding-right: 4rem;}
+    .logo {max-width: 300px; padding: 0; margin: -2rem auto;}
+
+    .e-s-i {grid-gap: 10rem;}
+
+    #exp {
+        grid-template-columns: 1fr 1fr;
+        column-gap: 0;
+    }
+    /* #exp :last-child {grid-column: 2} */
+    #exp h2 {grid-column: span 2;}
+
+    .exp-c {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        /* grid-gap: 20rem; */
+    }
+
+    #contact {
+        text-align: left;
+        margin-right: 0;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+
+    .top {text-align: left;}
+}
+
+
+
+/* meh ==================== */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }

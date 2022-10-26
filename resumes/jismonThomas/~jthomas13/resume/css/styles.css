@@ -1,0 +1,375 @@
+/*1. TYPOGRAPHY====================================  */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,700,300);
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+header h1 {
+
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	font-family: 'Raleway', sans-serif;
+	font-weight: normal;
+	margin: 0;
+	text-shadow: rgb(187, 84, 79) 1px 1px,
+    rgb(187, 84, 79) 2px 2px,
+    rgb(187, 84, 79) 3px 3px,
+    rgb(187, 84, 79) 4px 4px,
+    rgb(187, 84, 79) 5px 5px,
+    rgb(187, 84, 79) 6px 6px,
+    rgb(187, 84, 79) 7px 7px,
+    rgb(187, 84, 79) 8px 8px,
+    rgb(187, 84, 79) 9px 9px,
+    rgb(187, 84, 79) 10px 10px,
+    rgb(187, 84, 79) 11px 11px,
+    rgb(187, 84, 79) 12px 12px,
+    rgb(188, 84, 79) 13px 13px,
+    rgb(189, 85, 80) 14px 14px,
+    rgb(190, 85, 80) 15px 15px,
+    rgb(191, 86, 81) 16px 16px,
+    rgb(192, 86, 81) 17px 17px,
+    rgb(194, 87, 82) 18px 18px,
+    rgb(195, 87, 82) 19px 19px,
+    rgb(196, 88, 83) 20px 20px,
+    rgb(197, 88, 83) 21px 21px,
+    rgb(198, 89, 84) 22px 22px,
+    rgb(199, 89, 84) 23px 23px,
+    rgb(201, 90, 85) 24px 24px,
+    rgb(202, 90, 85) 25px 25px,
+    rgb(203, 91, 86) 26px 26px,
+    rgb(204, 91, 86) 27px 27px,
+    rgb(205, 92, 87) 28px 28px,
+    rgb(206, 92, 87) 29px 29px,
+    rgb(208, 93, 88) 30px 30px;	
+}
+
+header h2 {
+
+	text-transform: uppercase;
+	text-align: center;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+header h3 {
+
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	color: #ffffff;
+	font-weight: 300;
+
+}
+
+
+.contact h3, .information h3 {
+
+	padding-left: 8%;
+}
+
+.content h3 {
+	font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    color: #d05d58;
+}
+
+.content h5 {
+	font-size: 1.1rem;
+	color:#2abbc8;
+}
+
+.education_year p {
+
+	display: block;
+    line-height: 4;
+    color: #ffffff;
+    padding: 0 9px;
+    text-align: center;
+}
+
+.information ul, .contact ul {
+
+	list-style: none;
+	color: #ffffff;
+}
+
+.information ul li, .contact ul li{
+
+	line-height: 2;
+}
+
+.information ul li:first-child:before {  
+
+  	font-family: 'FontAwesome';
+    content: '\f02a';
+    margin:0 5px 0 -15px;
+}
+
+.information ul li:nth-child(2):before {  
+
+  	font-family: 'FontAwesome';
+    content: '\f073';
+    margin:0 5px 0 -15px;
+}
+
+.information ul li:nth-child(3):before {  
+
+  	font-family: 'FontAwesome';
+    content: '\f007';
+    margin:0 5px 0 -15px;
+}
+
+.information ul li:last-child:before {  
+
+  	font-family: 'FontAwesome';
+    content: '\f024';
+    margin:0 5px 0 -15px;
+}
+
+
+.contact ul li:first-child:before {
+
+	font-family: 'FontAwesome';
+    content: '\f095';
+    margin:0 5px 0 -15px;
+}
+
+.contact ul li:nth-child(2):before {
+	font-family: 'FontAwesome';
+    content: '\f0e0';
+    margin:0 5px 0 -15px;
+}
+
+.contact ul li:last-child:before {
+	font-family: 'FontAwesome';
+    content: '\f041';
+    margin:0 5px 0 -15px;	
+}
+
+.skills h5 {
+
+	 font-size: 1rem;
+    font-weight: normal;
+    color: #2abbc8;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.qualities li {
+	list-style: none;
+}
+
+.qualities li:before {    
+    font-family: 'FontAwesome';
+    content: '\f0a4';
+    margin:0 5px 0 -15px;
+}
+
+.qualities ul{
+    margin: 0;
+}
+
+.education_details strong {
+	   font-size: 0.76rem;
+}
+
+/*2. LAYOUT BLOCKS=================================  */
+
+body {
+
+	max-width: 87%;
+	margin: 0 auto;
+	padding: 0;
+	background: rgb(137,137,137);
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+	line-height: 2;
+	
+}
+
+header {	
+
+	background: #d05d58;
+}
+
+.wrapper {
+
+	box-shadow:0px 20px 70px 20px #363636;
+	background: #ffffff;
+}
+
+
+.computer {
+
+	color: #ffffff;
+	font-size: 13em;
+}
+
+.content{
+
+	padding: 0 4% 4%;
+}
+
+
+
+.education {
+
+	   margin-bottom: 20px;
+}
+
+.employment {
+
+	border-left: 4px solid #d05d58;
+	padding-left: 18px;
+	margin-bottom: 1.5rem;
+}
+
+.skill {
+	width: 100%;
+}
+
+.bar {
+	width: 100%;
+	background: #cccccc;
+	height: 20px;
+}
+
+footer {
+	width: 100% !important;
+	margin: 0 !important;
+	height: 20px;
+	background: #2cbeab;
+}
+/*4. IMAGES========================================  */
+
+.computer img {
+
+	max-width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+/*5. HELPER CLASSES================================  */
+
+header span {
+
+	    padding-right: .5rem;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.education_year {
+
+	background: #d05d58;
+	
+}
+
+.education_details {
+
+	line-height: 1.5;
+}
+
+.skills {
+	line-height: 2.5;
+}
+
+p.duration {
+	font-size: .9rem;
+}
+
+.software_skills {
+	margin-bottom: 12%;
+}
+
+.percentage {
+	background: #d05d58;
+	height: 20px;
+}
+
+.photoshop_skill {
+	width: 50%;	
+}
+
+.illustrator_skill {
+	width: 30%;	
+}
+
+.wordpress_skill {
+	width: 70%;	
+}
+
+.processwire_skill {
+	width: 60%;	
+}
+
+.foundation_skill {
+	width: 80%;	
+}
+
+.css_skill {
+	width: 75%;	
+}
+
+.html_skill {
+	width: 80%;	
+}
+
+/*6. MEDIA QUERIES=================================  */
+@media screen and (min-width: 800px) {
+
+.education h5, .employment h5{
+	
+	margin: 0;
+}
+
+}
+
+@media screen and (min-width: 1236px) {
+
+.skill {
+	width: 35%;
+	float: left;
+	display: inline-block;
+}
+
+.bar {
+	width: 65%;
+	background: #cccccc;
+	height: 20px;
+	display: inline-block;
+}
+.percentage {
+	background: #d05d58;
+	height: 20px;
+}
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 916px) {
+
+.content h5 {
+	font-size: 1rem;
+}
+
+}
+
+@media screen and (max-width: 390px) {
+
+header h1 {
+	text-shadow: rgb(187, 84, 79) 1px 1px,
+    rgb(187, 84, 79) 2px 2px,
+    rgb(187, 84, 79) 3px 3px,
+    rgb(187, 84, 79) 4px 4px,
+    rgb(187, 84, 79) 5px 5px,
+    rgb(187, 84, 79) 6px 6px,
+    rgb(187, 84, 79) 7px 7px;	
+}
+
+}

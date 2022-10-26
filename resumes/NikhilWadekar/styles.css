@@ -1,0 +1,358 @@
+/* Keyframing Courtesy: https://codepen.io/martinreinke/ */
+@keyframes jump {
+  0% {
+    top: 0;
+  }
+
+  50% {
+    top: 50px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+/* Keyframing Ends */
+/* Clearfix */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.backToTop i::before {
+  font-size: 3rem;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.backToTop {
+  margin-top: 5%;
+  text-align: center;
+  display: block;
+}
+
+/* Clearfix Ends */
+/* ------------- Responsiveness for MOBILE starts ------------- */
+* {
+  font-family: 'Playfair Display', sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 18px;
+  padding: 0;
+  background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+}
+
+a {
+  color: #000;
+  transition: 0.2s;
+}
+
+h1 {
+  height: 12vh;
+  margin: 0;
+  color: #000;
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+li {
+  text-align: center;
+}
+
+section {
+  padding-top: 5%;
+}
+
+section ul li {
+  margin-bottom: 5%;
+}
+
+nav h2 {
+  text-align: center;
+  height: 12vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav a li {
+  height: 5vh;
+  min-height: 65px;
+  width: 97%;
+  margin: 1.5%;
+  padding: 0.5rem;
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.75);
+  background-color: #fff;
+}
+
+.education-institute, .project-name, .strength-name, .skill-name, .achievement-name, .mastertech-feature, .experience-company-name {
+  font-weight: bold;
+}
+
+.experience-company-name {
+  font-size: 1.65rem;
+}
+
+.education-timestamp, .project-timestamp {
+  font-size: 0.75rem;
+}
+
+.down-arrow {
+  font-size: 3rem;
+  display: block;
+}
+
+.welcome-message h2 {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 5%;
+}
+
+.welcome-message h3 {
+  font-size: 3rem;
+}
+
+#one {
+  display: block;
+}
+
+#two {
+  display: none;
+}
+
+.professional-experience-feature {
+  margin: auto;
+  width: 75%;
+  text-align: center;
+}
+
+.down-arrow>a {
+  position: relative;
+  animation: jump 2.5s infinite;
+}
+
+.welcome-message {
+  height: 100vh;
+  text-align: center;
+  min-height: 768px;
+}
+
+.down-arrow>a {
+  text-decoration: none;
+}
+
+.resume-profile-picture>img {
+  border-radius: 50%;
+  margin: auto;
+  display: block;
+}
+
+.resume-section-header {
+  text-align: center;
+  border-bottom: 1px solid #000;
+  padding-bottom: 1%;
+}
+
+.resume-contact li::before {
+  text-align: center;
+}
+
+.resume-contact li {
+  line-height: 4rem;
+}
+
+.resume-contact li i {
+  font-size: 4rem;
+  line-height: 4rem;
+  width: calc(94%/3);
+}
+
+.project-description {
+  display: none;
+}
+
+.fas {
+  display: block;
+}
+
+/* ------------- Responsiveness for MOBILE devices ends ------------- */
+/* ------------- Responsiveness for MEDIUM SIZED DEVICES - STARTS ------------- */
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  main li {
+    height: 7rem;
+  }
+
+  li {
+    text-align: left;
+  }
+
+  .resume-interests li {
+    text-align: center;
+  }
+
+  #contact li {
+    text-align: center;
+    width: calc(94%/3);
+  }
+
+  section {
+    width: 75%;
+    float: right;
+  }
+
+  section ul li {
+    width: calc(96%/2);
+    margin-left: 1%;
+    margin-right: 1%;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+  }
+
+  a:hover {
+    color: #fff;
+    filter: drop-shadow(4px 4px 4px #000);
+  }
+
+  nav a li {
+    height: auto;
+  }
+
+  nav {
+    position: fixed;
+    left: 7.5%;
+    z-index: 1;
+    width: 20%;
+    max-width: 150px;
+  }
+
+  nav a li:hover {
+    color: #fff;
+    background-color: #000;
+  }
+
+  nav a li {
+    transition: 0.2s;
+  }
+
+  nav a li:hover .nav-menu-item-name {
+    display: block;
+    color: #fff;
+  }
+
+  nav a li:hover i {
+    color: #fff;
+  }
+
+  #two {
+    display: block;
+  }
+
+  #one {
+    display: none !important;
+  }
+
+  .backToTop {
+    display: none;
+  }
+
+  .down-arrow {
+    display: none;
+  }
+
+  .resume-section-header {
+    font-size: 2rem;
+  }
+
+  .welcome-message h3 {
+    font-size: 4rem;
+  }
+
+  .welcome-message h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* ------------- Responsiveness for MEDIUM SIZED DEVICES - ENDS ------------- */
+/* ------------- Responsiveness for LARGE SIZED devices - STARTS ------------- */
+@media screen and (min-width: 1025px) {
+  nav {
+    left: 5%;
+  }
+
+  main {
+    margin-right: 15%;
+    max-width: 1350px;
+  }
+
+  .resume-education li {
+    width: calc(96%/2);
+  }
+
+  section ul li {
+    width: calc(94%/3);
+  }
+
+  .resume-section-header {
+    text-align: left;
+  }
+}
+
+/* RESPONSIVENESS FOR LARGE SIZED DEVICES - ENDS */
+/* RESPONSIVENESS FOR EXTRA LARGE SIZED DEVICES - STARTS */
+@media screen and (min-width:1350px) {
+  main {
+    margin-right: 20%;
+    max-width: 100%;
+    float: none;
+  }
+
+  .welcome-message {
+    max-height: 900px;
+  }
+}
+
+/* RESPONSIVENESS FOR EXTRA LARGE SIZED DEVICES - ENDS */

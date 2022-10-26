@@ -1,0 +1,1541 @@
+body
+{
+  text-align: center;
+  position: relative;
+  /* margin-top:-2%; */
+  background-color: white;
+  margin:0px;
+  padding:0px;
+  border: 1px solid black;
+  /* max-width: 1200px;
+margin:auto; */
+
+}
+
+.hide{
+  display: none;
+
+}
+.logo-top{
+  width: 4rem;
+  float: left;
+  margin:7px 0 3px 7px;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+.headericons a:hover{
+color:#52E6FA;
+}
+.footericons a:hover{
+color:#52E6FA;
+}
+footer a h3:hover{
+color:#52E6FA;
+}
+
+
+.body-wrapper{
+  max-width: 1200px;
+margin:auto;
+/* border: 1px solid blue; */
+}
+
+.search{
+/* padding: 20px 0  5px; */
+box-sizing: border-box;
+background-color: rgba(0,0,0,.8);
+border: .5px solid grey;
+color: white;
+
+}
+.mobile-search{
+  float: right;
+  padding: 5px;
+
+}
+.mobile-search input{
+  background-color: rgba(0,0,0,.8);
+  color: white;
+  border: .5px solid grey;
+  padding: 5px;
+}
+.navhome input{
+  padding: 3px;
+}
+
+
+.hamburgernavhome
+{
+  position: sticky;
+  top:0;
+  z-index: 500000000000000000000;
+  margin:0;
+  /* border: 1px solid pink; */
+  background-color: rgba(0,0,0,.9);
+  height: 5rem;
+  box-sizing: border-box;
+  padding: .35rem 0;
+  font-family: 'Raleway',sans-serif,"Timesnewroman";
+}
+.hamburger1,.hamburger2,.hamburger3{
+  width: 40px;
+  height: 3px;
+  background-color:white;
+  margin: 6px 0;
+}
+
+.hamburger
+{
+  background-color: black;
+  padding:0;
+  float: left;
+  /* border: 1px solid blue; */
+}
+
+.hamburger,.hamburgericon
+{
+  color: white;
+  margin-left: 0px;
+}
+
+.hamburgercontent
+{
+  background-color: black;
+  /* display:none; */
+  position: absolute;
+  min-width: 150px;
+  z-index: 200;
+  margin-left: 0;
+  left:0;
+
+  /* border: 1px solid red; */
+}
+
+.hamburgercontent a
+{
+  font-size: 25px;
+  float: none;
+  color: white;
+  padding: .8rem 1rem;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin-left: 0;
+  /* border: 1px solid white; */
+}
+
+/* .hamburger:hover .hamburgercontent
+{
+  display: block;
+  margin-top: .1rem;
+} */
+
+.hamburgercontent a:hover
+{
+  color:grey;
+}
+
+
+
+.fadedheader
+{
+ /* border: 1px solid blue; */
+ margin-top:5rem;
+ width:50%;
+ margin-left:23%;
+ margin-right: 23%;
+ /* height: 12rem; */
+ background-color: rgba(0,0,0, .6);
+ padding: 2%;
+ /* position: absolute; */
+ /* border-radius: 20px; */
+ /* bottom:30%; */
+ /* left: 24%; */
+ /* color:black; */
+ /* font-size: 100%; */
+}
+
+ul
+{
+  list-style-type: none;
+  text-align: center;
+}
+li
+{
+  /* display: inline-block; */
+  float: left;
+  font-size:1.5rem;
+  box-sizing: border-box;
+
+}
+li a
+{
+  color:black;
+  text-decoration: none;
+  display: block;
+
+}
+
+a.ex:hover
+{
+  /* color: white; */
+  /* transform: scale(1.5); */
+  border: 1px solid white;
+  border-radius: 10px;
+  /* font-style: italic; */
+}
+
+div
+{
+  margin:0px;
+  padding: 0px;
+}
+header
+{
+  /* position: relative; */
+  padding:0px;
+  margin:0px;
+}
+.fadedheadertext
+{
+
+  border-radius: 10px;
+  padding: 40px 90px;
+  background-color:  rgba(255 ,255, 255, .7);
+  /* top: 5rem; */
+  /* left:23%; */
+  /* bottom:40%; */
+  /* position: absolute; */
+}
+
+.headerimagefixed{
+  /* position: relative; */
+  background-image: url(images/final/coverphoto.jpg);
+  background-size: cover;
+  background-attachment:fixed;
+  background-position: center;
+  max-width: 1200px;
+  height:500px;
+  margin:auto;
+  overflow:hidden;
+  /* border: 1px solid red; */
+  text-align: center;
+}
+
+.topheading{
+
+  /* text-align: left; */
+
+  margin: 8% auto;
+font-family: 'Anton',sans-serif,"Timesnewroman";
+font-weight: lighter;
+}
+.topheading span{
+    /* max-width: 70%; */
+    /* margin:auto; */
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  padding: 10px;
+  text-align: center;
+  /* bottom: -1.5rem; */
+  /* background-color: white; */
+  /* position: relative; */
+}
+.topheadingstory{
+  max-width: 70%;
+  margin:auto;
+border-bottom: 1px solid black;
+border-top: 1px solid black;
+font-size: 2rem;
+letter-spacing: 1px;
+padding: 10px;
+text-align: center;
+}
+/* h1.story-heading{ */
+  /* width: 80%; */
+  /* margin-top: 5%; */
+  /* border-top: 3px solid black; */
+  /* text-align: center; */
+/* margin-right: auto; */
+/* margin-left: auto; */
+/* } */
+/* h1.story-heading span{ */
+    /* border-top: 2px solid black; */
+      /* border-bottom: 2px solid black; */
+  /* position: relative; */
+  /* top:-1.5rem; */
+  /* background-color: #FFFCEF; */
+  /* padding:0 8px; */
+/* } */
+
+/* .sm img:hover{
+  opacity: 0.5;
+} */
+.sm img {
+  opacity: 1;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+}
+.sm img:hover {
+
+  opacity: 0.8;
+}
+
+
+
+.fullarticle{
+/* border: 1px solid red; */
+max-width: 900px;
+margin:10% 3% ;
+border-bottom: 1px solid grey;
+}
+.share-on{
+  /* color:red; */
+  /* padding:5px;  */
+  font-size: 22px;
+  padding: 0;
+  margin: 0 0 5px 0;
+  text-align: right;
+}
+.share-on a:hover{
+  color: grey;
+}
+.image{
+  float: left;
+  max-width: 100%;
+
+}
+.fullarticle h2{
+  text-align: left;
+  margin: 0 0 15px 0;
+}
+.image-source{
+  padding: 0;
+  margin-top:10px;
+  margin-left: 5px;
+  margin-bottom: 0;
+  font-size: 1rem;
+  font-family: "Questrial",sans-serif,"Timesnewroman";
+  /* font-weight: bold; */
+
+  text-align: right;
+}
+.addons{
+  text-align: right;
+  font-size: 1rem;
+  font-weight: bold;
+  margin:5px;
+}
+.smallicon{
+  font-size: 7px;
+  color: grey;
+  margin: 0 3px;
+}
+.fullarticle h2{
+  text-transform: uppercase;
+  font-family: "Questrial",sans-serif,"Timesnewroman";
+  font-size: 1.5rem;
+  font-weight: Bold;
+}
+.text{
+  /* border: 1px solid red; */
+  letter-spacing: 1.2px;
+line-height: 2.1rem;
+font-size: 1.25rem;
+  font-weight: lighter;
+
+  font-family: 'Questrial',sans-serif,"Timesnewroman";
+  max-width: 90%;
+  text-align: left;
+/* margin:auto; */
+
+}
+.white{
+  /* background-color:red; */
+  max-width: 100%;
+  height: auto;
+  /* margin-top: 10%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  z-index: 450;
+  /* border: 2px solid green; */
+  /* border-radius: 10px; */
+}
+.white2{
+  /* background-color:red; */
+  max-width: 100%;
+  height: auto;
+  /* margin-top: 10%; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  z-index: 450;
+  /* border: 2px solid green; */
+  /* border-radius: 10px; */
+}
+.bigarticle,.article,.article3{
+  /* border: 1px solid red; */
+  background-color: white;
+  width: 90%;
+  margin:4% 5% 10% 5% ;
+  height: auto;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  /* border-radius:20px; */
+}
+.article-text{
+  font-size: 18px;
+  text-align: left;
+}
+
+
+/* .article:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px 0 rgba(0, 206, 190, 0.2), 0 6px 20px 0 rgba(0, 206, 190, 0.19);
+  transition: transform .02s;
+} */
+
+p.trending,.white2-headline{
+  text-align: left;
+  display: block;
+  font-family: 'raleway',sans-serif,"Timesnewroman";
+
+  font-weight: 100;
+color:white;
+font-size: 27px;
+display: block;
+color: black;
+padding: 5px;
+}
+.white2-headline
+
+
+.latest{
+  bottom:20%;
+  left:0;
+  color: green;
+  background-color: blue;
+  position: absolute;
+
+}
+.details span{
+  color: black;
+  font-size: 1.1rem;
+  background-color: inherit;
+  margin-left: 5px;
+  font-family: "Raleway",sans-serif,"Timesnewroman";
+  /* padding-ri: 3px; */
+}
+.fa-user{
+  color:lightblue;
+}
+.details
+{
+  text-align:left;
+  width: 100%;
+margin: 10px 0 5px 0;
+}
+.details-4
+{
+  text-align:left;
+  width: 100%;
+margin: 10px 0 5px 0;
+}
+.details-4 span{
+  color: black;
+  font-size: 1.1rem;
+  background-color: inherit;
+  font-family: "Raleway",sans-serif,"Timesnewroman";
+  margin-left: 5px;
+  margin: 0;
+}
+
+.grey{
+  color:grey!important;
+}
+
+
+
+
+/* h1{
+background:  black;
+border: 1px solid blue;
+} */
+.socialheader
+{
+  background-color:white;
+  height:3rem;
+  /* border: 2px solid red; */
+}
+/* .fa-instagram,.fa-twitter-square,.fa-facebook-f{
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding:  2px 10px;
+} */
+p.headericons{
+
+  padding: .25rem 1rem;
+    margin: 8px 7px 0 0;
+  font-size: 2rem;
+  float: right;
+  margin-right: 5px;
+
+}
+img{
+
+  width: 100%;
+  height: auto;
+  margin:0px;
+  padding:0px;
+  /* position: relative; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* border-radius: 20px; */
+}
+
+.featured
+{
+  width:20%;
+  height:40px;
+  border-bottom: 1px solid red;
+  position: absolute;
+  z-index: 500;
+  bottom:0px;
+  right: 20px
+}
+
+.fixedimage{
+  display: none;
+  /* background-image: url(images/final/backgrounddemo.jpg);
+  background-size: cover;
+  background-attachment:scroll;
+  background-position: center;
+  max-width: 1200px;
+  height:30rem;
+  margin:auto;
+  position: relative;
+  background-color: rgba(50 ,50 ,50, .4);
+  overflow:hidden; */
+  /* padding:0px; */
+  /* margin:0px; */
+  /* margin-bottom: 2% auto; */
+  /* margin-top: -4px; */
+
+}
+
+
+div{
+  margin: 0;
+  padding: 0;
+
+}
+
+.content{
+  width: 100%;
+
+  border: 1px solid black;
+}
+.mens{
+  width: 100%;
+  height: 250px;
+  border: 1px solid green;
+}
+.menstext{
+  float: right;
+}
+
+
+p{
+  margin: 0;
+  padding: 0;
+}
+div{
+  margin:0;
+  padding: 0;
+}
+.navhome{
+  display: none;
+
+}
+
+.nav-wrapper{
+  background-color: black;
+  height: auto;
+  width: 100%;
+}
+
+.footer-extras{
+  /* background-color: red; */
+  width: 100%;
+  float: none;
+
+  background-color: black;
+}
+footer{
+  background-color: black;
+  max-width: 100%;
+}
+.footerwrapper{
+max-width: 1200px;
+height: auto;
+background-color:black;
+margin: auto;
+}
+.footer-extras h3{
+  color: white;
+  width: 50%;
+  float: left;
+  height: auto;
+  /* padding: 2.9%; */
+  text-decoration: none;
+
+font-weight: lighter;
+  font-family: 'Questrial',sans-serif,"Timesnewroman";
+  /* display: inline-block; */
+  /* margin-left: 15%; */
+}
+
+
+.newsletter{
+
+  /* border: 1px solid blue; */
+  width: 100%;
+  color: white;
+  float: none;
+  background-color: black;
+}
+.newsletter h3{
+  font-family: 'Questrial',sans-serif,"Timesnewroman";
+  font-weight: lighter;
+}
+
+
+ .subscribe{
+   width: 40%;
+   margin:auto;
+
+}
+.subscribe input{
+padding: 5px;
+}
+input.subscribe-input{
+  width:100%;
+  height: 30px;
+  display: block;
+   font-size: 14px;
+   /* padding: 6px; */
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input.subscribe-button{
+  margin:2% auto;
+  width:90%;
+  height: 30px;
+  display: block;
+   font-size: 14px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.footersocial{
+background-color: black;
+  /* border: 1px solid red; */
+}
+
+.footericons{
+  margin:0;
+  font-size: 2rem;
+  color: white;
+  padding: 0;
+}
+
+.footertext{
+  margin-top: 10px;
+  background-color: black;
+  color: grey;
+font-size: 15px;
+
+}
+
+
+
+
+/*  this is the css of the form page*/
+.fa-mobile,.fa-thumbtack,.fa-envelope{
+  /* padding-left: -10%; */
+  padding-right: 5%;
+
+/* margin-left:-2%; */
+/* margin-right: 2%; */
+}
+section{
+  /* float: left; */
+  /* border: 2px solid green */
+}
+
+.forms-input input{
+  padding-left: 5px;
+}
+.contact-us{
+width: 100%;
+margin:0 6% 0 0;
+  /* border: 1px solid yellow; */
+margin-top:10%;
+  /* float: left; */
+background-image: url(images/final/seanpollockunsplash.jpg);
+background-size: cover;
+background-position: center;
+
+}
+.contact-form{
+  margin-top: 5%;
+  /* border:1px solid red; */
+  margin:0 auto 10% auto;
+}
+.contact-form-centered{
+/* border: 1px solid blue; */
+width: 80%;
+margin: auto;
+
+}
+.address,.lets-talk,.general-support{
+  /* border: 2px solid pink; */
+text-align: left;
+padding: 4% 0;
+}
+.contact-us-centered{
+  text-align: center;
+  /* border: 2px solid blue; */
+  padding: 12.5% 10%;
+}
+h2.form-heading{
+/* margin-left: 12px; */
+/* border-bottom:1.5px solid black; */
+text-align: center;
+font-family: 'Questrial',sans-serif,"Timesnewroman";
+}
+
+h2.contact-heading{
+  border: 1px solid black;
+
+}
+h2.form-heading span{
+  background-color: white;
+position: relative;
+padding: 1%;
+  bottom: -1.2rem;
+}
+form{
+  max-width: 100%;
+  margin:auto;
+text-align: left;
+/* border: 1px solid red; */
+/* float: left; */
+clear: both;
+}
+.forms-input{
+  max-width: 100%;
+  /* padding: 1%; */
+  /* border: 1px solid blue; */
+}
+.fullname{
+  /* border: 1px solid red; */
+}
+label{
+  display: block;
+  padding:3% 0;
+}
+
+.email,.telephone{
+  width: 100%;
+  /* float: right; */
+/* border: 1px solid green; */
+margin: 0;
+padding: 0;
+line-height: 2rem;
+}
+.full-name
+{
+width: 100%;
+height: 2rem;
+}
+
+.formsinput input{
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: block;
+  padding:1rem 0;
+  border-collapse:collapse;
+}
+.contact-headline{
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+textarea{
+margin:0;
+padding: 0;
+width:100%;
+height: 5rem;
+}
+.forms-input textarea{
+  padding: 5px;
+}
+p.contact-text{
+  color: green;
+  font-size: 20px;
+  padding-top: 7px;
+  font-weight: lighter;
+}
+p.contact-text-grey{
+  color:grey;
+  font-size: 20px;
+  padding-top: 7px;
+  font-weight: lighter;
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+.link{
+  font-size: 20px;
+  text-transform: uppercase;
+float: right;
+}
+.name{
+  font-size: 20px;
+  text-transform: uppercase;
+float: left;
+}
+td a .link:hover{
+color: red;
+}
+td a .name:hover{
+color: red;
+}
+
+.cf:after {
+  clear: both;
+}
+
+/*error404  */
+/*  */
+/*  */
+/*  */
+.error{
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  max-width: 700px;
+height: auto;
+  margin:20% auto;
+  position: relative;
+  font-family: 'Raleway',sans-serif,"Timesnewroman";
+
+}
+.error-heading{
+font-weight: lighter;
+  font-family: 'Press Start 2P',sans-serif,"Timesnewroman";
+  letter-spacing: 2px;
+}
+.error img{
+ max-width: 100%;
+ height: auto;
+}
+.error-text{
+  background-color: rgba(0, 0, 0, .8);
+  color: white;
+  position: absolute;
+  top:30%;
+left:0;
+line-height: 1.5rem;
+letter-spacing: 2px;
+}
+
+.error-button{
+  border: none;
+  color: white;
+  position: absolute;
+left: 33%;
+bottom:5%;
+padding:10px;
+margin:0;
+background-color: green;
+font-weight: lighter;
+    font-family: 'Raleway',sans-serif,"Timesnewroman";
+
+}
+.error-button{
+  position: static;
+
+}
+.error-button:hover{
+  background-color: red;
+}
+
+/* Sources page */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@media screen and (max-width: 699px){
+table{
+  max-width:1200px;
+  margin:auto;
+  /* border: 1px solid black; */
+  border-spacing: 10px;
+}
+
+
+tr{
+  /* border:3px solid red; */
+  /* background-color: red; */
+  margin-left: auto;
+}
+  td{
+    margin: -7% 0 5% 0;
+    /* border: 2px solid green; */
+    display: block;
+  }
+  td a{
+    text-decoration: none;
+    color: black;
+  }
+}
+
+@media screen and (min-width: 700px)
+{
+
+  .fixedimage2{
+    /* background-image: url(images/final/flyinggirl.jpg); */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+display: none;
+    /* height:30rem; */
+    /* background-size: cover; */
+    /* margin-top: -2rem; */
+  }
+  .fixedimage2-cover{
+    /* background-image: url(images/final/flyinggirlcover.jpg); */
+    /* background-attachment: fixed; */
+    /* background-position: center; */
+display: none;
+    /* height:30rem; */
+
+    /* margin-top: -2rem; */
+  }
+  .fixedimage{
+    display: block;
+    background-image: url(images/final/backgrounddemo.jpg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    max-width: 1200px;
+    height:30rem;
+    margin:auto;
+    position: relative;
+    background-color: rgba(50 ,50 ,50, .4);
+    overflow:hidden;
+    /* padding:0px; */
+    /* margin:0px; */
+    /* margin-bottom: 2% auto; */
+    /* margin-top: -4px; */
+
+  }
+  .navhome{
+    max-width: 1200px;
+    margin:auto;
+    font-family: 'Raleway', sans-serif;
+    display: block;
+  background-color: rgba(0,0,0,.9);
+    position: sticky;
+    top:0;
+    padding: 0;
+    z-index: 80000000000000000000;
+  }
+  .navhomewrapper{
+    height: auto;
+    max-width: 100%;
+    background-color: rgba(0,0,0,.9);
+    position: sticky;
+    top: 0;
+    z-index: 555550000000000;
+  }
+
+  .ex{
+    /* margin-left: -12px; */
+  }
+  body{
+    background-color: white;
+  }
+  .hamburgernavhome{
+    display: none;
+  }
+  input{
+    max-width: 100%;
+
+  }
+  nav{
+    /* text-align: center; */
+    max-width: 85%;
+    margin-top:0;
+    display: block;
+    height: 3.5rem;
+  /* background-color: rgba(0,0,0,.9); */
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  ul{
+    /* text-align: center; */
+    margin-top:-10px;
+    /* margin-left: auto; */
+
+  }
+  li{
+
+
+    box-sizing: border-box;
+    margin:12px 0;
+    padding: 0;
+
+    float:left;
+    width: 20%;
+    box-sizing: border-box;
+
+
+    /* background-color: green; */
+  }
+  li a
+  {
+    color:white;
+    text-decoration: none;
+
+  }
+
+  .fadedheader
+ {
+   /* border: 1px solid blue; */
+   margin-top:5rem;
+   width:36%;
+   margin-left:30%;
+   margin-right: 30%;
+   /* height: 12rem; */
+   background-color: rgba(0,0,0, .6);
+   padding: 2%;
+   /* position: absolute; */
+   /* border-radius: 20px; */
+   /* bottom:30%; */
+   /* left: 24%; */
+   /* color:black; */
+   /* font-size: 100%; */
+ }
+
+  .article{
+    background-color: white;
+    float: left;
+    max-width: 23%;
+    margin: 1%;
+    border-radius: 0;
+    /* box-shadow: 0; */
+    z-index: 5000;
+    /* box-shadow: 0 10px 6px -6px #777; */
+    /* border: 1px solid green; */
+    /* padding: 10px; */
+
+    /* border-radius: 20px; */
+  }
+
+  .fixedimage2{
+    background-image: url(images/final/flyinggirl.jpg);
+    background-attachment: fixed;
+    background-position: center;
+display: block;
+    height:30rem;
+    background-size: cover;
+    /* margin-top: -2rem; */
+  }
+  .fixedimage2-cover{
+    display: block;
+    background-image: url(images/final/flyinggirlcover.jpg);
+    background-attachment: fixed;
+    background-position: center;
+
+    height:30rem;
+    background-size: cover;
+    /* margin-top: -2rem; */
+  }
+  .article3{
+    background-color: white;
+    float: left;
+    max-width: 31.3%;
+    margin: 1%;
+    border-radius: 0;
+    /* box-shadow: 0; */
+    z-index: 5000;
+    box-shadow: 0 10px 6px -6px #777;
+    /* border: 1px solid green; */
+    /* padding: 10px; */
+
+    /* border-radius: 20px; */
+  }
+  .sm{
+  padding: 10px;
+  /* background-color: #FFFCEF; */
+  }
+  .white{
+    max-width: 90%;
+    background-color: white;
+    /* background-color:rgba(0 ,0 ,0, .50); */
+
+    height: auto;
+    /* margin-top: 10%; */
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-bottom: -3%; */
+    z-index: 450;
+    /* border: 2px solid black; */
+    /* border-radius: 10px; */
+  }
+  .white2{
+    background-color: white;
+    /* background-color:rgba(0 ,0 ,0, .50); */
+    max-width: 90%;
+    height: auto;
+    margin: auto;
+    z-index: 450;
+    /* border: 1px solid green; */
+    /* border-radius: 10px; */
+  }
+  .white2-headline{
+text-align: left;
+    margin:0;
+    padding: 0;
+    font-size: 20px;
+    margin: 10px auto;
+    font-family: "Raleway",sans-serif,"Timesnewroman";
+  }
+
+  .topheading{
+
+    /* text-align: left; */
+
+    margin: 3% auto;
+font-family: 'Anton',sans-serif,"Timesnewroman";
+font-weight: lighter;
+  }
+  .topheading span,.topheadingstory{
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    /* text-align: left; */
+    /* max-width: 30%; */
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    padding: 10px;
+    text-align: center;
+
+    /* bottom: -1.5rem; */
+    /* background-color: white; */
+    /* position: relative; */
+  }
+  p.trending{
+    /* bottom:20%; */
+    /* margin-left:5px; */
+    /* text-decoration: underline; */
+
+    text-align: left;
+    display: block;
+
+    font-family: 'raleway',sans-serif,"Timesnewroman";
+    /* position: absolute; */
+  /* bottom: 10rem; */
+    background-color: rgba(255,255,255,.5);
+    font-weight: 100;
+
+  /* bottom:20%; */
+  /* margin-left:5px; */
+  /* text-decoration: underline; */
+  color:white;
+  font-size: 27px;
+  display: block;
+  position: absolute;
+top: 4rem;
+padding: 5px;
+  /* background-color: green; */
+}
+  .details
+  {
+    text-align:left;
+    /* border: 1px solid pink; */
+    width: 100%;
+margin: 10px 0 5px 0;
+    /* left:10px; */
+    /* height: 2rem; */
+    /* position: absolute; */
+    /* background-color: red; */
+    /* bottom: 15%; */
+
+  }
+
+  .bigarticle{
+    background-color: white;
+    float: left;
+    max-width: 46%;
+    margin: 1.5% 2%;
+    border-radius: 0;
+    box-shadow: none;
+    /* border: 1px solid red; */
+    position: relative;
+    box-shadow: 0 10px 6px -6px #777;
+    /* border-radius: 20px; */
+  }
+  /* .test{
+  text-align: left;
+}
+.test span{
+margin-left: 10px;
+} */
+
+.fadedheader h1{
+  margin-top: 10%;
+  font-size: 3rem;
+}
+
+.details span{
+  color: black;
+  font-size: 1.1rem;
+  background-color: inherit;
+  margin-left: 0%;
+  font-family: "Raleway",sans-serif,"Timesnewroman";
+  padding-right: 2px;
+}
+.details-4
+{
+  text-align:left;
+  /* border: 1px solid pink; */
+  width: 100%;
+margin: 10px  0;
+  /* left:10px; */
+  /* height: 2rem; */
+  /* position: absolute; */
+  /* background-color: red; */
+  /* bottom: 15%; */
+
+}
+.details-4 span{
+  color: black;
+  font-size: .9rem;
+  background-color: inherit;
+  /* margin:50px auto; */
+  font-family: "Raleway",sans-serif,"Timesnewroman";
+  /* padding-right:; */
+  margin: 0;
+}
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+.footer-extras{
+    /* background-color: red; */
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+
+
+  .footer-extras h2{
+    color: white;
+    width: 50%;
+    float: left;
+    height: auto;
+    padding: 0 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    /* display: inline-block; */
+    /* margin-left: 15%; */
+  }
+
+  .newsletter{
+    /* border: 1px solid blue; */
+    width: 50%;
+    color: white;
+    float: left;
+    background-color: black;
+    box-sizing: border-box;
+  }
+
+
+  .subscribe{
+     width: 60%;
+     margin: auto;
+  }
+  input.subscribe-input{
+    width:100%;
+    height: 30px;
+    display: block;
+     font-size: 14px;
+     /* padding: 6px; */
+      /* border: 1px solid red; */
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+  input.subscribe-button{
+    margin:2% auto;
+    width:90%;
+    height: 30px;
+    display: block;
+     font-size: 14px;
+      /* border: 1px solid red; */
+      border-radius: 5px;
+      box-sizing: border-box;
+  }
+  .footersocial{
+height: auto;
+/* margin-top: 10rem; */
+    /* border: 1px solid red; */
+  }
+  .footericons{
+    height: auto;
+    margin:0;
+    /* margin-top: 2rem; */
+    font-size: 2rem;
+    color: white;
+    padding: 0;
+
+}
+/* form */
+/* form */
+/* form */
+/* form */
+/* form */
+
+
+
+
+.label{
+  font-family: 'Questrial',sans-serif,"Timesnewroman";
+  border-radius: 10px;
+}
+p.source{
+  font-family: 'Questrial',sans-serif,"Timesnewroman";
+}
+section{
+  /* float: left; */
+  /* border: 2px solid green */
+}
+.contact-us{
+width: 44%;
+margin:0 6% 0 0;
+  /* border: 1px solid yellow; */
+  margin-top: 5.5%;
+  float: left;
+  height:auto;
+/* background-image: url(micahunsplash.jpg); */
+
+}
+.contact-form{
+  /* margin-top: 5%; */
+  margin:0 auto 5% auto;
+}
+.contact-form-centered{
+/* border: 1px solid blue; */
+width: 80%;
+margin: auto;
+
+}
+.address,.lets-talk,.general-support{
+  /* border: 2px solid pink; */
+text-align: left;
+padding: 4% 0;
+}
+.contact-us-centered{
+  text-align: center;
+  /* border: 2px solid blue; */
+  padding: 12.5% 10%;
+}
+h2.form-heading{
+/* margin-left: 12px; */
+/* border-bottom:1.5px solid black; */
+text-align: center;
+
+}
+
+h2.contact-heading{
+  border: 1px solid black;
+}
+h2.form-heading span{
+  background-color: white;
+position: relative;
+padding: 1%;
+  bottom: -1.2rem;
+}
+form{
+  width: 43%;
+  margin: 0 0 0 4%;
+text-align: left;
+/* border: 1px solid red; */
+float: left;
+}
+.forms-input{
+  max-width: 100%;
+  /* padding: 1%; */
+  /* border: 1px solid blue; */
+}
+label{
+
+  display: block;
+  padding:2% 0;
+}
+.contact-headline{
+  color: white;
+  font-size: 18px;
+  font-weight: lighter;
+
+}
+.email,.telephone{
+  width: 100%;
+  /* float: right; */
+/* border: 1px solid green; */
+margin: 0;
+padding: 0;
+line-height: 2rem;
+}
+.full-name
+{  width:100%;
+line-height:2rem;
+margin:0;
+padding: 0;
+}
+
+
+.formsinput input{
+  margin-top:1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+  display: block;
+  padding:1rem 0;
+  border-collapse:collapse;
+}
+
+textarea{
+margin:0;
+padding: 0;
+width:100%;
+height: 10rem;
+}
+p.contact-text{
+  color: green;
+  font-size: 20px;
+  padding-top: 7px;
+  font-weight: lighter;
+}
+p.contact-text-grey{
+  color:grey;
+  font-size: 20px;
+  padding-top: 10px;
+  font-weight: lighter;
+}
+/* sources */
+/*  */
+/*  */
+/*  */
+table{
+  max-width: 90%;
+  margin:auto;
+  /* border: 1px solid black; */
+  border-spacing: 30px 10px;
+}
+
+td a .link:hover{
+color: red;
+}
+td a .name:hover{
+color: red;
+}
+.link{
+  font-size:15px;
+  float: right;
+  text-transform: uppercase;
+}
+.name{
+  float: left;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+tr{
+  border:3px solid red;
+  /* background-color: red; */
+
+}
+  td{
+    margin: 3% 0;
+    /* border: 2px solid green; */
+
+  }
+  td a{
+    text-decoration: none;
+    color: black;
+  }
+/*eroor 404  */
+/*  */
+/*  */
+.error{
+  /* background-color: red; */
+  /* border: 1px solid black; */
+  width: 600px;
+height: auto;
+  margin:5% auto 5% auto;
+  position: relative;
+
+}
+.error img{
+ /* opacity: 0.7; */
+}
+.error-text{
+  color: white;
+  position: absolute;
+  top:50%;
+left:0;
+
+}
+
+.error-button{
+  position: absolute;
+left: 37%;
+bottom:5%
+}
+.error-button:hover{
+  background-color: red;
+}
+
+/* }
+
+ @media screen and (min-width:600px){ */
+   .fullarticle{
+   /* border: 1px solid red; */
+   max-width: 900px;
+   margin:7% auto;
+   border-bottom: 1px solid grey;
+   }
+  .text{
+    /* margin-top: 50%; */
+  }
+ }

@@ -1,0 +1,662 @@
+/*
+LBrown: #D5C3AA
+DBrown: #867666
+yellow: #E1B80D
+Light: #EAE2D6*/
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans+Condensed:300,700|Roboto+Condensed:300,400|Rubik');
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+header{
+	background-color:#867666;
+}
+
+body{
+	width: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #867666;
+	box-sizing: border-box;
+
+}
+
+h1 {
+	font-weight: normal;
+	font-size: 5rem;
+	margin: 0;
+	padding: 1%;
+	border-bottom: 3px solid #EAE2D6;
+	color: #E1B80D;
+}
+
+h2 {
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 1%;
+	font-size: 2rem;
+	border-bottom: 3px solid #E1B80D;
+	color: #867666;
+	margin-bottom: 0;
+	margin-top: 10%;
+}
+
+h3 {
+	font-size: 1.2rem;
+	font-weight: normal;
+	background-color: #D5C3AA;
+	color: white;
+	padding-left: 1%;
+	margin-bottom: 1%;
+}
+
+h4{
+	font-weight: normal;
+}
+
+h5{
+	margin:0;
+	padding:0;
+	font-weight: normal;
+}
+
+.wrapper {
+	width: 70%;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+.rightalign {
+	text-align: right;
+}
+
+#edu_exp h3, h4{
+	margin:0;
+	padding:0;
+}
+
+
+#workexp_big {
+	display: none;
+}
+
+.floatleft {
+	float: left;
+}
+
+ul {
+	margin-left: 1.5rem;
+	padding-left: 0;
+}
+
+
+
+/*-------------Name/Contact------------*/
+
+.name_contact{
+	overflow: hidden;
+	padding-bottom: 2%;
+} 
+
+.name_contact ul {
+	margin: 0;
+}
+
+.name_contact li{
+	margin: 0;
+	text-align: center;
+}
+.name_contact img {
+	padding-right: 1%;
+	padding-bottom: 10%;
+}
+
+.contact {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #D5C3AA;
+}
+
+
+/*-------------Skills------------*/
+
+#skills {
+	overflow: hidden;
+}
+
+#skills li {
+	margin-top: 2%;
+}
+
+
+#skills .other ul{
+	margin-left: 3%;
+}
+
+#skills .technical p, #skills .software p{
+	padding:0;
+	margin:0;
+}
+
+.bar {
+	background-color: #D5C3AA;
+}
+
+.bar75 {
+	background-color: #E1B80D;
+	color: #E1B80D;
+	width: 75%;
+	margin:0;
+}
+
+.bar50 {
+	background-color: #E1B80D;
+	color: #E1B80D;
+	width: 50%;
+	margin:0;
+}
+
+.bar25 {
+	background-color: #E1B80D;
+	color: #E1B80D;
+	width: 25%;
+	margin:0;
+}
+
+.bar100 {
+	background-color: #E1B80D;
+	color: #E1B80D;
+	width: 100%;
+	margin:0;
+}
+
+/*-------------Work Experience------------*/
+
+#workexp {
+	line-height: 1.5;;
+
+}
+
+#workexp h4{
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+
+#workexp .langara, #workexp .sfu, #workexp .langara,#workexp .circlepoint,#workexp .tutordoc, #workexp .switch, #workexp .sage, #workexp .jtt{
+	overflow: hidden;
+	margin-bottom: 5%;
+}
+
+#workexp ul {
+	margin-top: 0;
+	padding-top:0;
+}
+
+.education, .experience {
+	background-color: transparent;
+	color: #867666;
+}
+
+.picturebox_sm h3, .picturebox_med h3, .picturebox_lrg h3{
+	background-color: transparent;
+	color: #867666;
+}
+
+/*################-------MOBILE SCREEN--------##################*/
+
+
+@media screen and (max-width: 800px){
+	h1{
+		text-align: center;
+	}
+
+	h2{
+		font-size: 1.5em;
+	}
+	h3{
+		font-size: 1rem;
+	}
+	h4{
+		font-size: 0.9rem;
+		font-weight: normal;
+	}
+	h5{
+		font-size: 0.9rem;
+		margin-top: 2%;
+	}
+	div {
+		font-size: 0.7rem;
+	}
+	li{
+		margin-left: 1rem;
+		display: list-item;
+}
+
+	#skills ul {
+		margin-right: 5%;
+	}
+
+	#skills li{
+		font-size: 0.8rem;
+	}
+
+	.name_contact h1 {
+		font-size: 2.5rem;
+	}
+
+	.contact {
+		overflow: hidden;
+	}
+
+	.contact ul {
+		list-style: none;
+	}
+
+	.contact ul li {
+	  width: 50%;
+	  text-align: center;
+	  float: left;
+	  font-size: 0.8rem;
+	  padding-top: 1%;
+	  padding-bottom: 1%;
+	  margin-top: 0;
+	}
+
+	#workexp_mobile ul{
+		margin-top: 0;
+		font-size: 0.8rem;
+		overflow: hidden;
+
+	}
+
+	#workexp_mobile .tutordoc ul li{
+		width: 40%;
+		float: left;
+		margin-left: 1rem;
+	}
+
+	#workexp_mobile {
+		line-height: 1.5;
+	}
+
+	.picturebox_sm {
+		display: none;
+	}
+	.picturebox_med {
+		display:none;
+	}
+	.picturebox_lrg{
+		display: none;
+	}
+	#workexp {
+		display:none;
+	}
+
+}
+
+/*################-------SMALL SCREEN--------##################*/
+
+@media screen and (min-width: 801px) and (max-width: 1700px){
+
+
+	#skills .technical li{
+		width: 40%;
+		margin-right: 3rem;
+		margin-left: 0;
+		display: list-item;
+	}
+
+	#skills .software li{
+		width: 40%;
+		margin-right: 3rem;
+		margin-left: 0;
+		display: list-item;
+	}
+
+	.name_contact li{
+		font-size: 0.8rem;
+	}
+
+	.picturebox_sm {
+		width: 100%;
+		/*float: left;*/
+		position: relative;
+		font-size: 0.8em;
+	}
+	.picturebox_sm .education {
+		position:absolute;
+		top: 0;
+		left: 0;
+	}
+
+	.picturebox_sm .experience {
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.picturebox_sm img {
+		margin-top: 5%;
+		width: 100%;
+		height: auto;
+	}
+
+	.picturebox_sm .tutordoc, .picturebox_sm .switch, .picturebox_sm .sage, .picturebox_sm .jtt, .picturebox_sm .circlepoint {
+		padding: 2%;
+		padding-left: 4%;
+		width: auto;
+		position: absolute;
+		left: 65%;
+
+	}
+
+	.picturebox_sm .circlepoint {
+		top:16%;
+	}
+
+	.picturebox_sm .tutordoc {
+		top: 28%;
+	}
+
+	.picturebox_sm .switch {
+		top: 46%;
+	}
+
+	.picturebox_sm .sage {
+		top: 57%;
+	}
+
+	.picturebox_sm .jtt {
+		top: 82%;
+	}
+
+	.picturebox_sm .langara, .picturebox_sm .sfu {
+		width: auto;
+		position: absolute;
+		right: 65%;
+	}
+
+	.picturebox_sm .langara {
+		top: 30%;
+	}
+
+	.picturebox_sm .sfu {
+		top: 63%;
+	}
+	
+	.picturebox_med {
+		display:none;
+	}
+
+	.picturebox_lrg{
+		display: none;
+	}
+	#workexp_mobile{
+		display: none;
+	}
+	#education{
+		display: none;
+	}
+	
+}
+
+/*################-------MED SCREEN--------##################*/
+
+@media screen and (min-width: 1701px) and (max-width: 2150px){
+	h2{
+		margin-top:3%;
+	}
+
+#skills .technical li{
+		width: 40%;
+		margin-right: 3rem;
+		margin-left: 0;
+		display: list-item;
+	}
+
+	#skills .software li{
+		width: 40%;
+		margin-right: 3rem;
+		margin-left: 0;
+		display: list-item;
+	}
+	.picturebox_med {
+		width: 100%;
+		position: relative;
+		font-size: 1rem;
+	}
+
+	.picturebox_med img{
+		width: 100%;
+		margin:0;
+	}
+
+	.picturebox_med .education {
+		position: absolute;
+		top: 35%;
+		left: 0;
+		margin-top:0;
+		border:none;
+	}
+
+	.picturebox_med .experience {
+		position: absolute;
+		bottom: 35%;
+		left: 0;
+		margin-top:0;
+		border: none;
+	}
+
+	.picturebox_med .tutordoc, .picturebox_med .switch, .picturebox_med .sage, .picturebox_med .jtt, .picturebox_med .circlepoint{
+		width: 16%;
+		position: absolute;
+		top: 75%;
+
+	}
+
+	.picturebox_med .circlepoint {
+		left: 6%;
+		width: 19%;
+	}
+
+	.picturebox_med .tutordoc {
+		left: 27%;
+	}
+
+	.picturebox_med .switch {
+		left: 41%;
+	}
+
+	.picturebox_med .sage {
+		left: 57%;
+	}
+
+	.picturebox_med .jtt {
+		left: 75%;
+	}
+
+	.picturebox_med .langara, .picturebox_med .sfu {
+		padding: 2%;
+		padding-bottom: 5%;
+		width: auto;
+		position: absolute;
+		top: 9%;
+	}
+
+	.picturebox_med .langara {
+		left: 15%;
+	}
+
+	.picturebox_med .sfu {
+		left: 55%;
+		width: 30%;
+	}
+
+	
+	.picturebox_sm{
+	display: none;}
+	.picturebox_lrg{
+	display:none;}
+	#workexp_mobile{
+		display: none;
+	}
+	#education{
+		display: none;
+	}
+}
+
+
+/*################-------LRG SCREEN--------##################*/
+
+
+@media screen and (min-width: 2151px){
+
+	#skills .technical li{
+		width: 40%;
+		margin-right: 3rem;
+		margin-left: 0;
+		display: list-item;
+	}
+
+	#skills .software li{
+		width: 40%;
+		margin-right: 3rem;
+		margin-left: 0;
+		display: list-item;
+	}
+
+	.picturebox_lrg h2{
+		font-size: 1.3rem;
+	}
+
+	.picturebox_lrg h3{
+		font-size: 1.5rem;
+	}
+	.picturebox_lrg h4{
+		font-size: 1rem;
+		font-weight: bold;
+	}
+	.picturebox_lrg h5{
+		font-size: 1rem;
+		margin-top: 2%;
+		font-weight:bold;
+	}
+
+	.picturebox_lrg div {
+		font-size: 0.7rem;
+	}
+
+	.picturebox_lrg li {
+		font-size: 1rem;
+	}
+
+	.picturebox_lrg ul {
+		margin-top:0;
+		margin-left: 1.5rem;
+	}
+
+	.picturebox_lrg {
+		width: 100%;
+		position: relative;
+	}
+	.picturebox_lrg .education {
+		position: absolute;
+		border: none;
+		top: 40%;
+		left: 0;
+		font-size: 2rem;
+		margin:0;
+	}
+
+	.picturebox_lrg .experience {
+		position: absolute;
+		border: none;
+		bottom: 42%;
+		left: 0;
+		font-size: 2rem;
+		margin:0;
+	}
+
+	.picturebox_lrg img {
+		width: 100%;
+	}
+
+	.picturebox_lrg .circlepoint, .picturebox_lrg .tutordoc, .picturebox_lrg .switch, .picturebox_lrg .sage, .picturebox_lrg .jtt{
+		background-size: cover;
+		border:1px dashed #E1B80D;
+		width: 15%;
+		height: auto;
+		position: absolute;
+		top: 72%;
+		padding:0;
+		margin: 0;
+	}
+
+	.picturebox_lrg .circlepoint {
+		left: 8%;
+		width: 14%;
+	}
+
+	.picturebox_lrg .tutordoc {
+		left: 23%;
+		width: 10%;
+	}
+
+	.picturebox_lrg .switch {
+		left: 36%;
+	}
+
+	.picturebox_lrg .sage {
+		left: 53%;
+	}
+
+	.picturebox_lrg .jtt {
+		left: 73%;
+	}
+
+	.picturebox_lrg .langara, .picturebox_lrg .sfu {
+		width: auto;
+		position: absolute;
+		border: 1px dashed #E1B80D;
+		top: 19%;
+	}
+
+	.picturebox_lrg .langara {
+		left: 10%;
+	}
+
+	.picturebox_lrg .sfu {
+		left: 60%;
+	}
+
+	.picturebox_med {
+		display: none;
+	}
+
+	.picturebox_sm{
+		display: none;
+	}
+
+	#workexp {
+		display: none;
+	}
+	#workexp_mobile{
+		display: none;
+	}
+	#education{
+		display: none;
+	}
+}

@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Coffee Harbour | Contact</title>
+  <link rel="stylesheet" href="style/style.css">
+
+  <!-- FONTS ==========-->
+  <!-- font - open sans -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+  <!-- font - oswald -->
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+
+  <!-- FONT AWESOME ==========-->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- SEARCH INPUT -->
+  <div id="myOverlay" class="overlay">
+    <span class="closebtn" onclick="closeSearch()" title="Close Overlay"><p><i class="fas fa-times"></i></p></span>
+    <div class="overlay-content">
+      <form action="action_page.php">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search float_right"></i></button>
+      </form>
+    </div>
+  </div>
+
+
+  <script>
+  // Open the full screen search box
+  function openSearch() {
+    document.getElementById("myOverlay").style.display = "block";
+  }
+
+  // Close the full screen search box
+  function closeSearch() {
+    document.getElementById("myOverlay").style.display = "none";
+  }
+  </script>
+
+
+
+  <header class="header_contact">
+    <div class="header_wrapper">
+
+      <div class="article_category_contact_sources">
+      </div>
+
+      <h1 class="h1_story">contact us</h1>
+      <h2 class="h2_story">Share with us your feelings about the site and, of course, about coffee!</h2>
+
+    </div>
+  </header>
+  <nav>
+    <ul>
+      <li></li>
+      <li><a href="#">
+        <i class="fas fa-coffee"></i>
+        <span class="disappear_name">COFFEE PLACES</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-book"></i>
+        <span class="disappear_name">BREWING GUIDES</span>
+      </a>
+    </li>
+
+    <li class="logo_nav">
+      <a href="index.html">
+        <img src="images/coffee_harbour_logo_mini.png" alt="coffee harbour logo">
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-comment"></i>
+        <span class="disappear_name">INTERVIEWS</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-envelope-open"></i>
+        <span class="disappear_name">CONTACT</span>
+      </a>
+    </li>
+
+    <li>
+      <a onclick="openSearch()">
+        <i class="fas fa-search"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+
+<section class="section_contact">
+
+  <h1>Just a few words about us</h1>
+  <p>Coffee Harbour is a website focused in show everything about the world of coffee. Our team is passionate for each article we write, each place we discover, each amazing story we heard. Coffee is an amazing drink but with each cup of coffee there is a person holding it, and a great story tobe heard. Feel free to talk to us, express your feelings, or just to say hi!</p>
+
+  <form action="https://formspree.io/felipe.a@msn.com" method="POST" class="contact_form">
+
+
+    <div class="label-input-wrapper cf">
+      <label for="user-name">Name</label>
+      <input type="text" id="user-name" class="user-name" name="name">
+    </div>
+
+    <div class="label-input-wrapper cf">
+      <label for="user-email">E-mail</label>
+      <input type="email" id="user-email" class="user-email" name="email">
+    </div>
+
+    <div class="label-input-wrapper cf">
+      <label for="user-comments">Message</label>
+      <textarea name="comments" id="user-comments" name="comments"></textarea>
+    </div>
+
+    <div class="label-input-wrapper-submit">
+      <input type="submit" value="Send" class="tbn-send">
+    </div>
+    <input type="hidden" name="_next" value="~fbezerradealme00/magazine/thanks.html">
+
+  </form>
+
+</section>
+
+
+
+
+
+  <section class="related_content cf">
+   <!-- <hr> -->
+    <h1>MORE STORIES FOR YOU</h1>
+
+    <article class="article_standard_story cf">
+      <img src="images/article_image01.jpg" alt="Coffee Shop from inside">
+      <h2>MALIBU COFFEE DREAM HOUSE</h2>
+      <div class="article_category">
+        <div class="circle orange"><i class="fas fa-coffee"></i></div>
+        <h3 class="orange_text">COFFEE PLACES</h3>
+      </div>
+    </article>
+
+    <article class="article_standard_story cf">
+      <img src="images/article_image02.jpg" alt="Skilled man serving four coffees at the same time">
+      <h2>ALAN GRAVES - BEST TECHNIQUES TO SERVE COFFEE</h2>
+      <div class="article_category">
+        <div class="circle yellow"><i class="fas fa-comment"></i></div>
+        <h3 class="yellow_text">BREWING GUIDE</h3>
+      </div>
+    </article>
+
+    <article class="article_standard_story cf">
+      <img src="images/article_image03.jpg" alt="Coffee powder in a metal recipient">
+      <h2>5 STEPS TO KEEP THE FLAVOUR</h2>
+      <div class="article_category">
+        <div class="circle blue"><i class="fas fa-book"></i></div>
+        <h3 class="blue_text">BREWING GUIDES</h3>
+      </div>
+    </article>
+
+    <article class="article_standard_story cf">
+      <img src="images/article_image04.jpg" alt="Coffee machine in a large coffee shop">
+      <h2>SKY IS THE LIMIT - AIRSHIP COFFEE POST</h2>
+      <div class="article_category">
+        <div class="circle orange"><i class="fas fa-coffee"></i></div>
+        <h3 class="orange_text">COFFEE PLACES</h3>
+      </div>
+    </article>
+  </section>
+
+
+
+
+
+
+
+
+
+<footer>
+  <ul>
+    <li></li>
+    <li>
+      <a href="#"><i class="fas fa-coffee"></i>
+        <span class="disappear_name">COFFEE PLACES</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#"><i class="fas fa-book"></i>
+        <span class="disappear_name">BREWING GUIDES</span>
+      </a>
+    </li>
+
+    <li class="logo_nav">
+      <a href="index.html">
+        <img src="images/coffee_harbour_logo_mini_dark.png" alt="coffee harbour dark logo">
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-comment"></i>
+        <span class="disappear_name">INTERVIEWS</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+        <i class="fas fa-envelope-open"></i>
+        <span class="disappear_name">CONTACT</span>
+      </a>
+    </li>
+
+    <li>
+      <a href="#">
+      </a>
+    </li>
+  </ul>
+
+  <ul class="social_icons cf">
+    <li><a href="#"><i class="fab fa-facebook-f"></i> FACEBOOK</a></li>
+    <li><a href="#"><i class="fab fa-twitter"></i> TWITTER</a></li>
+    <li><a href="#"><i class="fab fa-pinterest-p"></i> PINTEREST</a></li>
+    <li><a href="#"><i class="fab fa-instagram"></i> INSTAGRAM</a></li>
+  </ul>
+  <p class="copyright">Coffee Harbour© Copyright 2018. All rights reserved.</p>
+
+</footer>
+
+
+
+</body>

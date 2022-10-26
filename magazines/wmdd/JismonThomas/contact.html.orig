@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us | MENS VAGUE | Jismon Thomas</title>
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+  </head>
+  <body>
+	  <nav class="top_menu clearfix">
+	  	<div class="wrapper_12 clearfix">
+		  	<ul class="push_6 column_6" >
+		  		<li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+		  		<li><a href="#">ADVERTISING</a></li>
+		  		<li><a href="#">PRIVACY POLICY</a></li>
+		  		<li><a href="#">COOKIE POLICY</a></li>
+		  	</ul>
+		</div>
+	  </nav>
+
+	  <div class="wrapper_12 clearfix">
+		  <header class="clearfix">
+		  	  <div class="logo column_3">
+	  				<a href="index.html"><img src="images/Logo.png" alt="Mens Vogue Logo"></a>
+	  		  </div>
+		  		<div class="column_9 clearfix">
+	  				<div class="top_socialMediaMenu clearfix">
+	  					<div class="social_icons column_9">
+		  					<ul>
+		  						<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-youtube"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+	  							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+		  					</ul>
+		  				</div>
+		  				<div class="search column_3">
+		  					<i class="fa fa-search"></i>
+		  					<input type="text" placeholder="Search">
+		  				</div>
+	  				</div>
+	  				<div class="bottom_mainMenu clearfix ">
+	  					<ul class="clearfix">
+	  						<li><a href="#">fashion</a></li>
+	  						<li><a href="story.html">designers</a></li>
+	  						<li><a href="#">style</a></li>
+	  						<li><a href="#">fitness</a></li>
+	  						<li><a href="#">videos</a></li>
+	  						<li><a href="#">editions</a></li>
+	  						<li><a href="contact.html">contact</a></li>
+	  					</ul>
+	  				</div>
+		  		</div>
+		  </header>
+
+		  <div class="column_12 clearfix">
+		  	<div class="header_seperation clearfix"></div>
+		  	<div class="breadcrumbs clearfix">
+			  	<ul>
+				    <li><a href="index.html">Home</a></li>
+				    <li>Contact Us</li>
+				</ul>
+		  	</div>
+		  </div>
+
+		  <article class="contact clearfix">
+		  	<div class="column_12 form">
+		  		<h1>Contact Us</h1>
+		  		<form action="//formspree.io/jismonthomas18@gmail.com" method="POST">
+		  			<div class="column_6">
+		  				<div class="column_12">
+		  					<input type="text" name="name" placeholder="Full Name" required>
+		  				</div>
+		  				<div class="column_12">
+		  					<input type="email" placeholder="Email" name="_replyto" required>
+		  				</div>
+		  				<div class="column_12">
+		  					<input type="text" placeholder="Subject" name="subject">
+		  				</div>
+				    	
+					    
+					    
+
+		  			</div>
+		  			<div class="column_6">
+		  				<textarea name="comments" placeholder="Comments"></textarea>
+		  			</div>
+     			 	<div class="column_12">
+     			 		<input type="submit" value="Send">
+     			 	</div>
+				    
+				</form>
+				<div class="column_12 address_map">
+			  		<div class="address column_4">
+			  			<h2>Address</h2>
+			  			<p>MENS VOGUE</p>
+			  			<p>5 W 37th Street</p>
+			  			<p>New York NY-10018</p>
+			  			
+			  		</div>
+		  		</div>
+
+		  	</div>
+
+	  	  </article>
+		</div> <!-- End of wrapper -->
+
+			 <!-- ================================ Footer =========================================-->
+	  <footer class="clearfix">
+			  	<div class="wrapper_12 clearfix">
+			  		<div class="column_12 clearfix">
+			  			<div class="column_4 footer_logo">
+			  				<img src="images/LogoWhite.png" alt="Mens Vogue Logo">
+			  			</div>
+			  			<div class="column_4 quick_links">
+			  				<h4>Quick Links</h4>
+			  				<ul>
+			  					<li><a href="#">fashion</a></li>
+		  						<li><a href="story.html">designers</a></li>
+		  						<li><a href="#">style</a></li>
+		  						<li><a href="#">videos</a></li>
+		  						<li><a href="sources.html">sources</a></li>
+		  						<li><a href="contact.html">contact</a></li>
+			  				</ul>
+			  			</div>
+			  			<div class="column_4 address">
+			  				<h4>Address</h4>
+			  				<ul>
+			  					<li><i class="fa fa-phone"></i>212-391-2004</li>
+			  					<li><i class="fa fa-envelope"></i>info@mensfashionmagazine.com</li>
+			  					<li><i class="fa fa-map-marker"></i>15 W 37th Street, New York NY-10018</li>
+			  				</ul>
+			  			</div>
+			  		</div>
+			  	</div>
+			  	<div class="bottom_footer">
+				  	<div class="wrapper_12 clearfix">
+				  		<p>Copyright <i class="fa fa-copyright"></i> 2015 - Jismon Thomas</p>
+				  	</div>
+			  	</div>
+	  </footer>
+
+  </body>
+</html>

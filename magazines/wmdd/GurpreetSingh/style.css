@@ -1,0 +1,631 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+body {
+    font-family: 'Montserrat',"times new roman", sans-serif;
+    font-weight: 300;
+    margin: 0;
+    padding: 0;
+}
+div.wrapper {
+    width: 100%;
+    margin: 1rem auto;
+    max-width: 1225px;
+    padding:0 2%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px #000000;
+}
+.clear {
+    clear: both;
+}
+nav {
+    width: 100%;
+    box-sizing: border-box;
+}
+header .innerheader {
+    margin-left: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.logo {
+    display: inline;
+    width: 250px;
+    margin: 25px 0;
+    box-sizing: border-box;
+}
+.sourcelogo {
+    margin: 4px 0;
+}
+.menu {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+.search {
+    float: right;
+    box-sizing: border-box;
+}
+.menu li {
+    text-align: center;
+    width: 50%;
+    padding: 20px 22px 15px;
+    float: left;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+    color: #444;
+}
+.menu li a {
+    text-decoration: none;
+    color: #000000;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+article h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    margin-left: 0;
+    color: black;
+    margin-bottom: .8rem;
+    font-weight: 400;
+}
+article h2.upperheader {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    font-weight: 300;
+    color: white;
+}
+.upperheader a {
+    text-decoration: none;
+    color: white;
+}
+p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: white;
+}
+span.author {
+    color: white;
+    font-size: 12px;
+    margin: 10px 0;
+}
+.img,
+.hotelimg,
+.vacationimg,
+.popimage,
+.sourceimg {
+    position: relative;
+    margin-bottom: 1rem;
+}
+/* sourcepage css */
+
+.sourceimg {
+    text-align: center;
+    width: 49%;
+    float: left;
+    margin-right: 1%;
+}
+.sideimg {
+    width: 99%;
+}
+.half {
+    margin-bottom: 0;
+}
+.sourceimg a {
+    text-decoration: none;
+    color: white;
+}
+.srcdesc {
+    margin-top: 2rem;
+}
+.srcdesc p {
+    margin-top: .2rem;
+    color: #000000;
+    font-size: 1.4rem;
+}
+.srcdesc a {
+    color: #000000;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.sourceimg img {
+    display: block;
+}
+.content_container {
+    position: absolute;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+.content {
+    position: absolute;
+    bottom: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px 15px;
+    margin-bottom: 4px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+.latest_container {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.latestimg {
+    padding: 2%;
+}
+.latest_content {
+    height: 230px;
+    position: relative;
+}
+span.readmore {
+    position: absolute;
+    bottom: 2px;
+    right: 2px;
+    color: white;
+}
+span.readmore a {
+    color: white;
+    text-decoration: none;
+}
+/*story page css*/
+
+h1.storyheader {
+    font-size: 2rem;
+    line-height: 1.25;
+    margin: 0;
+    font-weight: 400;
+}
+h2.storyheader2 {
+    font-size: 1.625rem;
+}
+p.storypara {
+    margin-top: .3rem;
+    font-size: 0.9rem;
+    color: black;
+    font-weight: 300;
+    line-height: 1.3;
+}
+span.storyauthor {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/*error page style*/
+
+.maincontainer {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0 2%;
+    box-sizing: border-box;
+}
+.innercontainer {
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+}
+.errorupper {
+    max-width: 100%;
+    position: relative;
+    bottom: 180px;
+    text-align: center;
+    background-color: rgba(255, 244, 240, 0.8);
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+.error404 {
+    font-size: 2rem;
+    text-align: center;
+}
+.errormsg {
+    font-size: 1rem;
+    margin-top: .6rem;
+}
+.innercontainer a {
+    color: black;
+}
+.home a {
+    text-decoration: none;
+}
+span.fa {
+    margin-right: 5px;
+}
+span.fa,
+.msg {
+    font-size: 1rem;
+}
+.home {
+    margin-top: .6rem;
+}
+.search {
+    /*margin-top: 32px;*/
+    
+    margin-left: 15px;
+    margin-right: 20%;
+    position: relative;
+}
+.search input {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 6px 3px;
+    width: 150px;
+}
+.search i {
+    position: absolute;
+    top: 2px;
+    right: 10px;
+}
+/*contact page css*/
+
+.form {
+    padding: 0 4%;
+}
+.form label {
+    display: block;
+    font-size: 2rem;
+    margin-bottom: 6px;
+}
+.form input[type="text"] {
+    width: 20rem;
+    height: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+.form input[type="email"] {
+    width: 20rem;
+    max-width: 100%;
+    height: 2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+.form textarea {
+    display: block;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.form .contactheader {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+.form .contbot {
+    margin: 1rem 0;
+}
+.continfo_container {
+    margin-top: 2rem;
+}
+.continfo_container .continfo {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+}
+.continfo_container .continfo b {
+    display: block;
+    font-weight: normal;
+}
+.form button {
+    display: block;
+    width: auto;
+    height: auto;
+    padding: 0 10px;
+    margin: 10px 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+/*source page css*/
+
+h1.sourceheaderh1 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+h2.sourceheader {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-bottom: .2rem;
+}
+footer {
+    background-color: #000000;
+    padding: 0 2%;
+    box-sizing: border-box;
+    padding-top: .8rem;
+    margin-top: 1.8rem;
+}
+footer span {
+    color: white;
+}
+footer .menu li a {
+    color: white;
+}
+footer span.icons {
+    display: block;
+    margin-bottom: .8rem;
+    font-size: 1.3rem;
+}
+footer .icons .fa {
+    font-size: 1.5rem;
+}
+article.left {
+    background-color: rgba(255, 244, 231, 0.8);
+    box-shadow: 3px 0px 5px #888888;
+    padding: 0 12px;
+    box-sizing: border-box;
+}
+.storycontainer {
+    margin-top: 2rem;
+}
+@media screen and (min-width: 500px) {
+    .logo {
+        display: block;
+    }
+    header .innerheader {
+        float: left;
+    }
+    .img {
+        margin: 0;
+    }
+    .main {
+        float: left;
+        width: 50%;
+    }
+    img {
+        display: block;
+    }
+    .search {
+        margin-top: 32px;
+        margin-right: 15px;
+    }
+    .menu li {
+        width: 25%;
+        padding: 20px 18px 15px;
+    }
+    .first {
+        width: 50%;
+        float: right;
+    }
+    .latest_container {
+        width: 49.5%;
+        margin-right: .5%;
+        float: left;
+        margin-bottom: 8px;
+    }
+    /*header nav ul li{*/
+    /*width:auto;
+	}*/
+    
+    .latest_content {
+        height: 280px;
+    }
+    .hotelimg {
+        margin: 0;
+    }
+    .hotel1 {
+        width: 66.666%;
+        float: left;
+    }
+    .hotel2,
+    .hotel3 {
+        width: 33.333%;
+        float: left;
+    }
+    .hotel4,
+    .hotel5 {
+        width: 50%;
+        float: left;
+    }
+    .vacationimg {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+    }
+    .pop1 {
+        width: 49%;
+        float: left;
+        margin: 0;
+        margin-right: 1%;
+        margin-top: 6px;
+    }
+    .popbig {
+        width: 99%;
+        margin-right: 1%;
+    }
+    .popleft {
+        margin-bottom: 8px;
+    }
+    /*story page css*/
+    
+    h1.storyheader {
+        font-size: 3rem;
+        line-height: 1.25;
+        margin: 0;
+    }
+    h2.storyheader2 {
+        font-size: 2.5rem;
+    }
+    p.storypara {
+        font-size: 1.25rem;
+        color: black;
+        line-height: 1.3;
+    }
+    div.storycontainer {
+        width: 96%;
+        max-width: 1180px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .errorupper {
+        bottom: 300px;
+    }
+    .error404 {
+        font-size: 3rem;
+    }
+    .errormsg {
+        font-size: 1.4rem;
+    }
+    .form {
+        background: rgba(255, 244, 231, 0.8)
+    }
+    span.fa,
+    .msg {
+        font-size: 1.4rem;
+    }
+    footer span.icons {
+        display: inline;
+        float: right;
+    }
+    footer span.copyright {
+        padding-top: 0.8rem;
+    }
+}
+@media screen and (min-width: 770px) {
+    .menu {
+        padding-top: 29px;
+        float: right;
+        clear: none;
+    }
+    .menu li {
+        padding: 14px 5px 15px;
+        width: auto;
+    }
+    .left {
+        width: 63%;
+        padding: 0;
+        margin-left: 2%;
+        margin-right: 2%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .right {
+        width: 33%;
+        float: left;
+    }
+    article.right .popimage {
+        width: 96%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    article.right .popleft {
+        width: 100%;
+    }
+    article.right h2 {
+        margin-top: 0;
+    }
+    .sourceimg {
+        width: 24%;
+    }
+    .bighalf {
+        width: 49%;
+    }
+    .sideimg {
+        width: 50%;
+        margin: 0;
+    }
+    .full {
+        width: 25%;
+        margin: 0;
+    }
+    .half {
+        width: 25%;
+        margin: 0;
+    }
+    /*contactpage*/
+    
+    .form .contleft {
+        width: 70%;
+        float: left;
+        padding: 0 3%;
+        margin-right: 5%;
+        box-sizing: border-box;
+    }
+    .form .continfo_container {
+        width: 25%;
+        float: right;
+        box-sizing: border-box;
+        margin: 12rem 0;
+    }
+    .form {
+        margin: 0 auto;
+        max-width: 800px;
+        box-sizing: border-box;
+    }
+}
+@media screen and (min-width: 870px) {
+    .menu li {
+        padding: 14px 17px 15px;
+    }
+    .img {
+        width: 50%;
+        float: left;
+    }
+    .main {
+        width: 25%;
+    }
+    .first {
+        width: 25%;
+    }
+    .latest_container {
+        width: 24.5%;
+        margin-right: .5%;
+        float: left;
+    }
+    .latestimg {
+        width: 96%;
+    }
+    .latest_content {
+        height: 300px;
+    }
+    .hotel1 {
+        width: 50%;
+    }
+    .hotel2,
+    .hotel3,
+    .hotel4,
+    .hotel5 {
+        width: 25%;
+    }
+    .center {
+        width: 19%;
+        margin-right: 1%;
+        float: left;
+        box-sizing: border-box;
+    }
+    .vac1 {
+        width: 39%;
+        margin: 0;
+        margin-right: 1%;
+    }
+    .vac2 {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 4%;
+        float: none;
+        box-sizing: border-box;
+    }
+    .popleft {
+        width: 50%;
+        float: left;
+        margin: 0;
+    }
+    .popbig {
+        width: 49%;
+        float: left;
+        margin-right: 1%;
+        margin-top: 6px;
+    }
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    
+    
+    display: table;
+    
+}
+.cf:after {
+    clear: both;
+}

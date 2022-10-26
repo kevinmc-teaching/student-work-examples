@@ -1,0 +1,297 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    margin-bottom: 1rem;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #000;
+}
+
+h4 {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.section-skills h3 {
+    margin-bottom: 2.5rem;
+}
+
+.section-skills h4 {
+    text-align: center;
+    margin-bottom: 0.5rem;
+    border: 1px solid black;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing:border-box;
+    border-style: inset;
+}
+
+/* App link title an image: */
+.icon-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.section-work-experience a,
+.section-education a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+/*
+In order to make the clickable area of the image and text
+wrap over its children
+*/
+.flex-container {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+}
+
+.icon-text img {
+    width: 40px;
+    margin-right: 1rem;
+}
+
+.section-work-experience li {
+    padding-left: 5%;
+}
+
+.edu-bonus {
+    font-weight: 700;
+}
+
+.edu-bonus-inner {
+    padding-left: 5%;
+    margin-top: 0.3rem;
+}
+
+.section-education ul {
+    padding-left: 5%;
+    list-style-type: disc;
+    margin-top: 1rem;
+}
+
+.section-education li {
+    margin-top: 1rem;
+}
+
+.section-work-experience p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.company {
+    margin-top: 2rem
+}
+
+/* -============================ */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    margin-top: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.width-limit {
+    margin: auto;
+    max-width: 800px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav {
+    padding: 0;
+    margin: 0 0 1rem 0;
+    background-color: #000;
+}
+
+header nav li {
+    display: inline-block;
+    width: 22%;
+    padding: 0;
+    margin: 1rem 1%;
+    line-height: 2rem;
+    border-style: inset;
+    border: 1px white solid;
+    text-align: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#fff;
+    display: block;
+    background-color: #000;
+}
+
+header nav a:hover {
+    background-color: tomato;
+}
+
+section {
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.date-range {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+}
+
+.section-work-experience ul{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+
+.icon-text {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* ------------------------------------ */
+
+.profile_pic {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 500px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.section-contact li,
+.social  {
+    margin-top: 0.5rem;
+}
+
+.social img {
+    width: 40px;
+}
+
+.menu-large {
+    display:none;
+}
+
+.certification .flex-container {
+    background-color: yellow;
+    margin: auto;
+}
+
+.section-skills img {
+    width : 40px;
+}
+
+.flex-container-cert {
+    padding: 0;
+    margin: 0;
+
+    display: flex;
+}
+
+/* MEDIA QUERIES ============================ */
+@media screen and (min-width:630px) {
+
+    h4 {
+        display: inline;
+    }
+
+    .menu-large {
+        display: block;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+
+    .wrapper {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .section-work-experience h4 {
+        float: left;
+        padding-top: 0;
+        display: inline;
+    }
+
+    .section-skills {
+        text-align: center;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section-skills h4 {
+        margin-bottom: 0.3rem;
+        display: inline-block;
+        width: 49%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .date-range {
+        float: right;
+        padding-top: 0.2rem;
+    }
+
+    } /* End first query */
+
+
+    @media screen and (min-width:900px) {
+
+        .section-skills h4 {
+            width: 32.333%;
+        }
+        }/* End second query */
+
+
+
+        .cf:before,
+        .cf:after {
+            content: " "; /* 1 */
+            display: table; /* 2 */
+        }
+
+        .cf:after {
+            clear: both;
+        }

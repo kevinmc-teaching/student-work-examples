@@ -1,0 +1,281 @@
+body {
+    background-color:  RGB(233, 230, 225);
+    font-family: 'Karla', sans-serif;
+    color: #211D1E;
+    font-size: 1.1rem;
+    font-weight: 400;
+    letter-spacing: -.25px;
+    margin: 2rem 5%;
+}
+
+
+img {
+    max-width: 100%;
+    margin: auto;
+}
+
+/* LINKS ================================= */
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    background: linear-gradient(to top, #f8f8ff 50%, transparent 50%);
+    padding-right: 5px;
+}
+
+
+/* HEADER ================================ */
+
+header {
+    text-align: center;
+}
+
+.photo img {
+    width: 40%;
+    border-radius: 100%;
+}
+
+/* type */
+
+h1 {
+    font-size: 8vh;
+    letter-spacing: -.5rem;
+    margin: 0;
+}
+
+.title p {
+    font-size: 2rem;
+    margin: 0;
+    display: inline;
+    background: linear-gradient(to top, #f8f8ff 50%, transparent 50%);
+    padding: 0 2%;
+}
+
+.title .fas {
+    margin: .5rem 0;
+}
+
+.intro {
+    text-align: left;
+}
+
+
+/* CONTENT ================================= */
+
+/* layout */
+
+.content {
+    max-width: 100%;
+}
+
+.entry {
+    padding: 1rem 0;
+}
+
+/* type */
+
+h3 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    padding: .8rem 0;
+    margin: .8rem 0;
+    border-bottom: 1px solid #2D2D34;
+    text-transform: uppercase;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.4rem;
+    letter-spacing: -.5px;
+}
+
+.content span {
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.job-caption {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.job-date {
+    color: #797778;
+}
+
+/* CONTENT - Experience =========================== */
+
+.experience .job-date {
+    padding-top: 1rem;
+}
+
+/* CONTENT - Skills & Tools ======================== */
+
+.tools .all-entries, 
+.skills .all-entries {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr);
+}
+
+/* CONTENT - Contact =============================== */
+
+.contact ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.contact li {
+    display: grid;
+    grid-template-columns: 25px 1fr;
+    padding: .1rem 0;
+}
+
+.contact i{
+    max-width: 100%;
+}
+
+/* Media Query (Medium) ============================== */
+
+@media screen and (min-width:800px) {
+
+    /* new header layout */
+
+    header {
+        display: grid;
+        grid-template-columns: 180px 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 3%;
+    }
+
+    .photo img{
+        width: 100%;
+    }
+
+    .title {
+        text-align: left;
+        grid-column: span 4;
+    }
+
+    .intro {
+        grid-column: 1/span 5;
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    /* new content layout */
+
+    .education, 
+    .experience, 
+    .skills, 
+    .tools,
+    .languages, 
+    .contact {
+        display: grid; 
+        grid-template-columns: .5fr 1fr;
+        grid-gap: 5%;
+        margin: 2rem 0;
+    }
+
+    .content {
+        margin-top: 3rem;
+        margin-left: 20%;
+    }
+
+    /* paddings */
+
+    h3 {
+        border: none;
+        padding: 0;
+        margin: 0;
+        text-align: right;
+    }
+
+    .entry {
+        padding-top: 0;
+    }
+
+    .languages p{
+        margin: 0;
+    }
+
+}
+
+/* Media Query (Large1a) ============================== */
+
+@media screen and (min-width:1000px) {
+
+    .intro {
+        grid-column: span 4;
+    }
+
+}
+
+/* Media Query (Large1b) ============================== */
+
+@media screen and (min-width:1500px) {
+    
+    /* content layout */
+
+    .education, 
+    .experience, 
+    .skills, 
+    .tools,
+    .languages, 
+    .contact {
+        display: initial;
+        margin: 0;
+    }
+
+    h3 {
+        text-align: left;
+        border-bottom: 1px solid #2D2D34;
+        padding: 0 0 .8rem 0;
+        margin: 0 0 .8rem 0;
+    }
+
+    .content {
+        display: grid;
+        grid-template-columns: 25% 1fr;
+        grid-auto-rows: auto;
+        column-gap: 5%;
+        row-gap: 2rem;
+        max-width: 1200px;
+    }
+
+    .experience {
+        grid-row: span 4;
+    }
+
+    .tools .all-entries, 
+    .skills .all-entries {
+        display: inherit;
+    }
+
+}
+
+/* Media Query (X-Large) ============================== */
+
+@media screen and (min-width:2000px) {
+    
+    /* new layout */
+
+    header {
+        grid-template-columns: 180px 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 3%;
+        max-width: 20%;
+        position: fixed;
+        margin-top: 8%;
+    }    
+
+    .content {
+        margin-left: 30%;
+    }
+
+}

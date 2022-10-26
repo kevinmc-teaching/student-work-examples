@@ -1,0 +1,891 @@
+body{
+  margin: 0;
+  padding: 0;
+  min-height: 200vh;
+  background-color: black;
+  background-image: url('images/flare02.png'),
+  url('images/earth.png'),
+  url('images/flare01.png')
+  ;
+  background-repeat:  no-repeat, no-repeat,  no-repeat;
+  background-position: 30% 6%, top right, -5% -2%;
+}
+
+@font-face
+{
+  font-family: spaceage;
+  src: url('spaceage.ttf');
+}
+
+@font-face
+{
+  font-family: nasalization;
+  src: url('nasalization.ttf');
+}
+
+header{
+  position: relative;
+  height: 330px;
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+main{
+  width: 100%;
+  margin-top: 200px;
+}
+
+.logo{
+  margin-top: 185px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+  height: 130px;
+  width: 100%;
+  color: white;
+  font-family: spaceage;
+  font-size: 45px;
+  text-align: center;
+  text-shadow: 2px 1.5px black;
+}
+
+.menu{
+  float: left;
+  height: 102px;
+  width: 100%;
+  margin-top: 0px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.search{
+  float: right;
+  line-height: 50px;
+  font-family: nasalization;
+  width: 100%;
+  margin-top: 0px;
+  padding-top: .3px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.searchposition{
+  position: relative;
+  left: 30px;
+}
+
+.search a{
+  color: white;
+}
+
+.search a:hover{
+  color: #00FC18;
+}
+
+input[type=search] {
+  width: 80%;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: white;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 1px solid white;
+  line-height: 22px;
+  padding-left: 10px;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.homeicon{
+  color: white;
+  font-size: 16px;
+}
+
+.iconsframe{
+  float: left;
+  border-top: 1px solid white;
+  width: 100%;
+  background-color: red;
+  padding-bottom: 15px;
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  padding-top: 15px;
+  margin-top: 0px;
+  line-height: 10px;
+}
+
+.iconsframe a{
+  font-size: 20px;
+  color: white;
+}
+
+.iconsframe a:hover{
+  color: #00FC18;
+}
+
+nav ul, footer nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li a{
+  text-decoration: none;
+  font-family: nasalization;
+  color: #00FC18;
+  display: block;
+}
+
+header nav li:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+  color: black;
+
+}
+
+.menu nav li{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 50px;
+  margin-top: 0px;
+  display: block;
+}
+
+hr{
+  border: 1px solid #00FC18;
+  margin-bottom: 0px;
+  margin-left: 0;
+  align: left;
+  width: 100%;
+}
+
+
+
+.mainarticle{
+  float: left;
+  width: 98%;
+  margin: 10px 1%;
+}
+
+.mainarticletext{
+  color: white;
+  padding: 1rem;
+  padding-top: .7rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.mainarticletext p{
+  line-height: 1.5;
+  font-family: "Myriad Pro";
+  font-size: 16px;
+  margin-top: 25px;
+}
+
+.mainarticletext a{
+  text-decoration: none;
+  font-family: nasalization;
+  font-size: 15px;
+  color: white;
+  text-shadow: .5px .6px black;
+
+}
+.mainarticletext a:hover{
+  color:  #00FC18;
+}
+
+/*====================================================*/
+
+.articletext{
+  color: white;
+  padding: 1rem;
+  padding-top: .7rem;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.articletext p{
+  line-height: 1.5;
+}
+
+.articletext a{
+  text-decoration: none;
+  font-family: nasalization;
+  font-size: 15px;
+  color: white;
+  text-shadow: .5px .6px black;
+
+}
+.articletext a:hover{
+  color:  #00FC18;
+}
+
+/*====================================================*/
+
+.articlemore{
+  margin-top: 18px;
+  text-align: right;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
+
+.article{
+  float: left;
+  width: 98%;
+  margin: 10px 1%;
+}
+
+.title{
+  float: left;
+  width: 100%;
+  height: 60px;
+}
+
+.pubdate{
+  font-family: nasalization;
+  font-size: 13px;
+  color: white;
+}
+
+h1{
+  clear: both;
+  border-bottom: 2px solid #00FC18;
+  font-family: nasalization;
+  margin-top: 20px;
+  margin-left: 0;
+  font-size: 20px;
+  color: #00FC18;
+  text-align: center;
+}
+
+h1 #news{
+  margin-top: 5px;
+}
+
+h1 span{
+  padding: 0 1rem;
+  position: relative;
+  top: .75rem;
+  background-color: black;
+}
+
+h2{
+  margin-top: 0px;
+  color: white;
+  font-family: "nasalization";
+  font-size: 18px;
+  color: #66b3ff;
+  margin-bottom: 5px;
+}
+
+h3{
+  font-family: "Myriad Pro";
+  font-size: 10px;
+  font-style: italic;
+
+}
+
+footer{
+  height: auto;
+  width: 100%;
+  margin-top: 20px;
+  clear: both;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.about{
+  float: left;
+  width: 98%;
+  margin: 5px 1%;
+  color: white;
+  box-sizing: border-box;
+}
+
+.about h2{
+  font-size: 20px;
+  color: white;
+  margin: 20px 20px;
+  text-align: center;
+}
+
+.about p {
+  margin-left: 20px;
+  margin-right: 20px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.footernav{
+  float: left;
+  width: 98%;
+  margin: 5px 1%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.footernav a{
+  color: white;
+}
+
+.footernav a:hover{
+  color: #00FC18;
+}
+
+.footernav nav{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.footernav ul{
+  margin-bottom: -10px;
+}
+
+.footernav li {
+  line-height: 2;
+}
+
+.contactframe a{
+  color: white;
+}
+
+.contactframe a:hover{
+  color: #00FC18;
+}
+
+.contactframe{
+  float: left;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  text-align: center;
+  font-family: nasalization;
+
+}
+
+.contact{
+  /*margin-top: 15px;*/
+  text-decoration: none;
+  margin-bottom: 10px;
+  margin-left: 0;
+}
+
+
+.footericons{
+  margin-top: 13px;
+}
+
+.footericons a{
+  color: white;
+  font-size: 12px;
+  margin-top: 15px;
+  text-align: center;
+}
+
+/*FORMS====================================*/
+
+.formframe{
+  float: left;
+  width: 96%;
+  margin-left: 2%;
+  margin-right: 2%;
+  color: white;
+}
+
+.formframe h2{
+  text-align: center;
+  font-size: 30px;
+  text-shadow: .5px .6px white;
+}
+
+form{
+  width: 90%;
+  margin: auto;
+  max-width: 600px;
+
+}
+
+label{
+  font-family: nasalization;
+  font-size: 16px;
+  color: #00FC18;
+  padding-bottom: 15px;
+}
+
+input, textarea{
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+textarea{
+  min-height: 10rem;
+}
+
+input[type=text], input[type=email], textarea {
+  margin-top: 7px;
+  height: 20px;
+  color: white;
+  font-size: 15px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.buttonframe{
+  display: flex;
+  justify-content: center;
+}
+
+input[type=submit] {
+  width: 100px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #00FC18;
+}
+
+.formframe h1{
+  font-family: nasalization;
+  color: #00FC18;
+  text-align: center;
+  font-size: 30px;
+  border-bottom: 0px;
+}
+
+/*Thanks page===========================================  */
+
+.thanks{
+  height: 300px;
+  text-align: center;
+  color: #00FC18;
+}
+
+.thanks h1{
+  margin-top: 120px;
+  font-size:40px;
+}
+
+.thanks h2{
+  color: white;
+  font-size: 25px;
+}
+
+/* NotFound Page=============================== */
+.notfound{
+  text-align: center;
+}
+.notfoundimg{
+  width: 98%;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.notfound p{
+  font-family: nasalization;
+  font-size: 20px;
+  color: white;
+}
+
+.notfound a{
+  font-family: nasalization;
+  font-size: 20px;
+  color: white;
+}
+
+.notfound a{
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.notfound a:hover{
+  color: #00FC18;
+}
+
+.search404frame{
+  max-width: 500px;
+  clear: both;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.search404frame a{
+  color: white;
+}
+
+.return404{
+  clear: both;
+}
+
+.search404frame .searchposition404{
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.span404{
+  color: white;
+  font-family: nasalization;
+  font-size: 20px;
+}
+
+/*Story Page ============================================ */
+
+.storyframe{
+  max-width: 670px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.storyframe .pupdate{
+  margin: 0 15px;
+  color: white;
+  text-align:left;
+}
+
+.storymainpic{
+  position: relative;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.storytitle{
+  position: absolute;
+  right: 0rem;
+  left: 0rem;
+  bottom: 0rem;
+  color: white;
+  padding: 1rem;
+  padding-top: .7rem;
+  background: rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.storytitle h1{
+  margin-top: 0px;
+  color: white;
+  font-family: nasalization;
+  text-shadow: .5px .6px #00FC18;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 0px;
+}
+
+.storytitle .pupdate{
+  margin-top: -20px;
+  margin-left: 0;
+  color: white;
+  text-align:center;
+  font-size: 13px;
+}
+
+article h2{
+  color: white;
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+article p{
+  color: white;
+  line-height: 1.5;
+  font-family: "Myriad Pro";
+  margin: 20px 20px;
+  font-size: 18px;
+}
+article hr{
+  border: .5px solid white;
+  margin-bottom: 30px;
+}
+
+.picstory{
+  float: left;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 15px;
+
+}
+
+/* Sources=================== */
+
+table{
+  max-width: 800px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  border-collapse: collapse;
+}
+
+table a, td{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+thead tr{
+  background-color: transparent;
+}
+
+th{
+  margin-top: 0px;
+  color: white;
+  font-family: "nasalization";
+  font-size: 18px;
+  color: #66b3ff;
+  line-height: 50px;
+}
+
+td{
+  width: 33.333%;
+  border: 1px solid #ccc;
+  padding: .75rem;
+}
+
+tr{
+  background: rgba(255, 255, 255, 0.3);
+}
+
+tr:nth-last-of-type(even){
+  background: rgba(0, 0, 0, 0.3);
+}
+
+caption{
+  caption-side: top;
+  padding: 1rem;
+  text-align: center;
+  color: #00FC18;
+  font-size: 25px;
+  font-family: nasalization;
+  line-height: 40px;
+}
+
+@media screen and (min-width: 600px) {
+
+  header{
+    height: 200px;
+    width: 100%;
+  }
+
+  main{
+    width: 100%;
+    margin-top: 250px;
+  }
+
+  .logo{
+    font-size: 50px;
+  }
+
+  .menu nav li{
+    width: 25%;
+
+  }
+  .menu{
+    height: 50px;
+    width: 100%;
+    margin-top: -5px;
+
+  }
+
+  .search{
+    line-height: 50px;
+    width: 100%;
+  }
+
+  input[type=search] {
+    width: 88%;
+  }
+
+  .article{
+    width: 48%;
+  }
+
+h1{
+  text-align: left;
+}
+
+  footer{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .about{
+    width: 48%;
+    height: 240px;
+  }
+
+  .about h2{
+    text-align: left;
+    margin-bottom: -8px;
+  }
+
+  .about p{
+    padding-top: -8px;
+    text-align: left;
+    line-height: 1.4;
+  }
+  .footernav{
+    text-align: center;
+    margin-top: 35px;
+    width: 23%;
+  }
+
+  .contactframe{
+    margin-top: 80px;
+    width: 23%;
+  }
+  .footericons{
+    width: 100%;
+  }
+
+  /* Page Not Found======================== */
+
+  .storytitle h1{
+    font-size: 40px;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  .storytitle .pupdate{
+    text-align:left;
+    font-size: 15px;
+
+  }
+  .picstory{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-left: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+/* Sources=================== */
+
+
+/* Story Page */
+
+
+@media screen and (min-width: 900px) {
+  header, main, footer{
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  header{
+    height: 200px;
+    width: 100%;
+
+
+  }
+  .logo{
+    font-size: 60px;
+    text-align: left;
+  }
+
+  .menu{
+    height: 50px;
+    width: 80%;
+  }
+
+  .search{
+    line-height: 50px;
+    width: 40%;
+    padding-left: 0;
+  }
+
+  input[type=search] {
+    width: 90%;
+  }
+
+  .searchposition{
+    position: relative;
+    left: 15px;
+  }
+
+  .iconsframe{
+    padding-top: 15px;
+    margin-top: -5px;
+    border: none;
+    line-height: 10px;
+    width: 20%;
+    text-align: right;
+    padding-right: 15px;
+  }
+
+  main{
+    margin-top: 200px;
+  }
+
+  .mainarticle{
+    width: 48%;
+  }
+
+  .article{
+    width: 48%;
+
+  }
+
+  footer{
+    height: 230px;
+  }
+
+  .about h2{
+    margin-bottom: 0px;
+  }
+
+  .about p{
+    padding-top: 0px;
+    line-height: 1.5;
+  }
+
+  /* Story Page==================== */
+
+  .storymainpic{
+    width: 100%;
+    margin: 0;
+  }
+
+  article h2{
+    margin-left: 0px;
+  }
+
+  article p{
+    margin: 20px 0px;
+  }
+
+}
+
+/* Clearfix ==================================== */
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/**
+* For IE 6/7 only
+* Include this rule to trigger hasLayout and contain floats.
+*/
+.clearfix {
+  *zoom: 1;
+}

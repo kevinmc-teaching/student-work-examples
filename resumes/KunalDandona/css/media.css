@@ -1,0 +1,70 @@
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+	.bgimg-1{
+		background-attachment: scroll;
+	}
+}
+
+/* Different columns properties will be applied as the resolution will go higher than 640pixels*/
+@media screen and (min-width: 640px) {
+	.column-0 { width:0%; }
+	.column-1 { width: 16.66%; }
+	.column-2 { width: 33.33%; }
+	.column-3 { width: 50%; }
+	.column-4 { width: 66.66%; }
+	.column-5 { width: 83.33%; }
+	.column-6 { width: 100%; }
+
+	.name-parallax span.border {
+		letter-spacing: 10px;
+	}
+
+	.info img{
+		margin-top: 25%;
+	}
+
+	header ul{
+		width: 100%;
+		margin: 5px auto;
+		overflow: hidden;
+		color: #fff;
+		display: inline;
+		float: left;
+		list-style-type: none;
+		padding-left: 20vw;
+		padding-right: 20vw;
+	}
+
+}
+
+
+@media screen and (min-width: 960px) {
+	.timeline h2, .timeline p {
+		text-align: left;
+	}
+
+	.time-intro {
+		width: 70%;
+	}
+
+	.info {
+		padding: 6em;
+		text-align: left;
+	}
+
+	.info h1, .info p {
+		/*text-align: left;*/
+	}
+
+	.button{
+		padding-left: 18%;
+	}
+
+}
+
+@media screen and (max-width: 500px) {
+	.parallax {
+		min-height: 95%;
+	}
+
+}

@@ -1,0 +1,302 @@
+body  {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+
+}
+
+article {
+  margin-right: 2rem;
+  margin-left: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 0;
+}
+
+/* header  {
+  border-bottom: 1px solid black;
+
+} */
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+h1 {
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-weight: 200;
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-weight: lighter;
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: -.5rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+  padding: .3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: .9rem;
+  text-transform: lowercase;
+
+}
+
+
+h3 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-transform: lowercase;
+  border-bottom: 1px solid black;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+  padding-top: 0rem;
+}
+
+h3 span {
+  background-color: white;
+  position: relative;
+
+  top: .8rem;
+  padding-right: .4rem;
+}
+
+h4 {
+  text-align: left;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  margin-top: 0;
+  font-family: 'georgia', 'times new roman', serif;
+  font-size: .9rem;
+}
+
+h5 {
+  text-align: center;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  text-transform: uppercase;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 1rem;
+}
+
+h6 {
+  text-align: center;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-transform: lowercase;
+  border-bottom: 1px solid black;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: .8rem;
+  padding-top: 0rem;
+}
+
+h6 span {
+  position: relative;
+
+  top: .2rem;
+  padding-right: .4rem;
+}
+
+footer {
+  background-color: lightgrey;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+
+/* CLASSES ================ */
+
+.inspo-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.story-section {
+  margin-bottom: 2rem;
+}
+
+.side-column {
+  text-transform: lowercase;
+}
+
+.menu {
+  margin-left: 3rem;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.menu-1 {
+  padding-top: 1rem;
+  padding-bottom: 0;
+  margin-bottom: 2rem;
+}
+
+.menu-1 a:hover {
+  background-color: hsl(3,50%,90%);
+  text-decoration: line-through;
+  text-decoration-color: black;
+}
+
+.menu-social-search a {
+  font-size: 1.2rem;
+}
+
+
+.contact-menu a {
+  text-decoration: underline;
+  color: black;
+  font-family: helvetica;
+  font-size: .8rem;
+}
+
+.contact-menu  li {
+  display: inline-block;
+  padding-left: .8rem;
+}
+
+.contact-menu ul {
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin-top: 2.5rem;
+  font-family: 'myanmar mn', 'didot', 'baskerville', serif;
+  font-size: .8rem;
+}
+
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+.story-section a {
+  text-decoration: none;
+  color: black;
+}
+
+/* .search input {
+    background-color: white;
+    cursor: text;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    border-width: 1px;
+    border-radius: 12px;
+    border-style: inset;
+}
+
+.search input,
+.search textarea,
+.search select,
+.search button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 5px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em;
+    font: 400 11px system-ui;
+} */
+
+.search span {
+  padding-top: .8rem;
+}
+
+
+@media screen and (min-width: 650px) {
+
+.grid-1,
+.grid-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2rem;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  grid-gap: 2rem;
+}
+
+.inspo-section {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+}
+
+article {
+  margin-right: 4rem;
+  margin-left: 4rem;
+}
+
+h4 {
+  line-height: 1.4rem;
+  padding-top: .2rem;
+}
+
+p {
+  line-height: 1.1rem;
+}
+
+
+}
+
+@media screen and (min-width: 1350px) {
+
+  article {
+    margin-right: 17rem;
+    margin-left: 17rem;
+  }
+
+  h4 {
+    line-height: 1.4rem;
+  }
+
+  p {
+    line-height: 1.1rem;
+  }
+
+
+
+}

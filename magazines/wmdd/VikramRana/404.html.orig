@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/ionicons.min.css">
+	<title>Explore Vancity : 404 Page</title>
+</head>
+<body>
+
+	<header class="glitch-header">
+		<div class="menu">
+			<div class="row"> 
+				<nav class="clearfix">
+								
+					<a href="index.html"><img class="logo" src="images/logo.svg" alt="vancity logo"></a>
+					
+					<ul class="main-nav ">
+						<li>
+							<div class="bar bar-header item-input-inset">
+						  		<label class="item-input-wrapper">
+						  		  <i class="icon ion-ios-search placeholder-icon"></i>
+						  		  <input type="search" >
+						  		</label>
+							</div>
+						</li>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="story.html">Article</a></li>
+						<li><a href="404.html">404</a></li>
+						<li><a href="contact.html">Contact</a></li>
+						<li><a href="sources.html">Sources</a></li>	
+					</ul>
+				</nav>
+			</div>
+		</div>
+
+		<div class="main-text-box">
+			<h2>Welcome to the 4th Dimension! Even in this</h2>
+			<h1>The content is not available,</h1>
+			<h2>but you may check out these articles from the mainstream 3rd dimension</h2>
+		</div>
+
+	</header>
+
+	<section class="blog">
+			<h1>Articles</h1>
+			<div class="row">
+				<div class="grid">
+							<div class="grid-sizer"></div>
+							<article>
+								<div class="grid-item">
+									<a href="story.html">
+									<figure>
+										<img src="images/featuredimage.jpg" alt="">
+									</figure></a>
+									<h3>Story of Vancouver's life</h3>
+
+									<div class="read-more">
+										<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+									</div>
+								</div>
+							</article>
+
+							<article>
+								<div class="grid-item">
+									<a href="story.html">
+									<figure>
+										<img src="images/olympictorch.jpg" alt="">
+									</figure></a>
+									<h3>Vancouver Convention Center</h3>
+
+									<div class="read-more">
+										<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+									</div>
+								</div>
+							</article>
+							<article>
+								<div class="grid-item">
+									<a href="story.html">
+									<figure>
+										<img src="images/architecture.jpg" alt="">
+									</figure></a>
+									<h3>Sustainable Architecture</h3>
+
+									<div class="read-more">
+										<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+									</div>
+								</div>
+							</article>
+							<article>
+								<div class="grid-item">
+									<a href="story.html">
+									<figure>
+										<img src="images/gastown.jpg" alt="">
+									</figure></a>
+									<h3>History of Gastown</h3>
+
+									<div class="read-more">
+										<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+									</div>
+								</div>
+							</article>
+							<article>
+								<div class="grid-item">
+									<a href="story.html">
+									<figure>
+										<img src="images/rogersarena.jpg" alt="">
+									</figure></a>
+									<h3>Rogers Arena</h3>
+
+									<div class="read-more">
+										<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+									</div>
+								</div>
+							</article>
+							<article>
+								<div class="grid-item">
+									<a href="story.html">
+									<figure>
+										<img src="images/terryfox.jpg" alt="">
+									</figure></a>
+									<h3>Terry Fox Memorial</h3>
+
+									<div class="read-more">
+										<i class="ion-ios-book"></i><a href="story.html"><span>Read More</span></a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</div>
+				</section>
+
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/2.2.2/isotope.pkgd.min.js"></script>
+		<script type="text/javascript" src="imagesloaded.pkgd.min.js"></script>
+		<script src="script.js"></script>
+	</body>

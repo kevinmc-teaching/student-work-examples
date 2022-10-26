@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Real Food</title>
+	<link rel="stylesheet" href= "css/normalize.css">
+	<link rel="stylesheet" href= "css/styles.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	 <script src="script.js"></script>
+</head>
+<body>
+	<div class="wraper_12" id="top">
+<header class="wraper_12">
+		
+		<div class="box_6">
+			<h1><a href="index.html">.real food</a></h1>
+		</div>
+
+		<div class="box_6" id="menuright">
+		<div id="subtitle">November 2015 | If it is food, it must be true.</div>
+
+		<ul>
+			<li><a href="story.html">article</a></li>
+			<li><a href="404.html">subscribe</a></li>
+			<li><a href="404.html">recipes</a></li>
+			<li><a href="contact.html">contact</a></li>
+			<li><input type="text" value="search" id="search"/></li>
+		</ul>
+		</div>
+	
+</header>
+
+		<div class="clearfix" id="imagetop">
+			<div class="box_12">
+			<img src="images/salad-healthy-diet-spinach.jpg">
+			</div>
+		</div>
+		
+		<div id="title" class="box_3">
+			<h2>Organic food tastes better</h2>
+			<p><i><a href="https://en.wikipedia.org/wiki/Organic_food">Source: Wikipedia</a></i></p>
+		</div>
+
+		
+
+		<div id="txt" class="box_9 floatright">
+			<p>Organic foods are foods produced by organic farming. While the standards differ worldwide, organic farming in general features cultural, biological, and mechanical practices that foster cycling of resources, promote ecological balance, and conserve biodiversity. Synthetic pesticides and chemical fertilizers are not allowed, although certain approved pesticides may be used. In general, organic foods are also not processed using irradiation, industrial solvents, or synthetic food additives.</p>
+
+			<p>Currently, the European Union, the United States, Canada, Mexico, Japan and many other countries require producers to obtain special certification in order to market food as organic within their borders. In the context of these regulations, organic food is food produced in a way that complies with organic standards set by national governments and international organizations. Although the produce of kitchen gardens may be organic, selling food with the organic label is regulated by governmental food safety authorities, such as the US Department of Agriculture (USDA) or European Commission.</p>
+
+			<p>There is insufficient evidence in the medical literature to support claims that organic food is safer or healthier than conventional food. While there may be some differences in the nutrient and anti-nutrient contents of organically and conventionally produced food, the variable nature of food production and handling makes it difficult to generalize results.Claims that organic food tastes better are generally not supported by evidence.</p>
+			
+			<p>For the vast majority of its history, agriculture can be described as having been organic; only during the 20th century was a large supply of new chemicals introduced to the food supply.[9] The organic farming movement arose in the 1940s in response to the industrialization of agriculture.</p>
+			<img src="images/food-salad-healthy-lunch.jpg">
+
+			<p>In 1939, Lord Northbourne coined the term organic farming in his book Look to the Land (1940), out of his conception of "the farm as organism," to describe a holistic, ecologically balanced approach to farming—in contrast to what he called chemical farming, which relied on "imported fertility" and "cannot be self-sufficient nor an organic whole."[11] Early soil scientists also described the differences in soil composition when animal manures were used as "organic", because they contain carbon compounds where superphosphates and haber process nitrogen do not. Their respective use effects humus content of soil.[12][13] This is different from the scientific use of the term "organic" in chemistry, which refers to a class of molecules that contain carbon, especially those involved in the chemistry of life. This class of molecules includes everything likely to be considered edible, and include most pesticides and toxins too, therefore the term "organic" and, especially, the term "inorganic" (sometimes wrongly used as a contrast by the popular press) as they apply to organic chemistry is an equivocation fallacy when applied to farming, the production of food, and to foodstuffs themselves. Properly used in this agricultural science context, "organic" refers to the methods grown and processed, not necessarily the chemical composition of the food.</p>
+
+			<p>Ideas that organic food could be healthier and better for the environment originated in the early days of the organic movement as a result of publications like the 1943 book, The Living Soil.</p>
+
+		</div>
+	
+	<div id="footer" class="box_12">
+		<h4>Follow us:</h4>
+		<ul>
+			<li><i class="fa fa-facebook-official"></i></li>
+			<li><i class="fa fa-pinterest-square"></i></li>
+			<li><i class="fa fa-twitter-square"></i></li>
+			<li><i class="fa fa-instagram"></i>
+		</ul>
+	<div class="floatright"><a href="#top">Back to the top</a></div>
+	</div>
+	</div>
+	</body>
+</html>

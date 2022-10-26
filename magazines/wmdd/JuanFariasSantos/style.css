@@ -1,0 +1,539 @@
+body {
+  margin: 0;
+  padding: 0;
+  /* background-color: black; */
+}
+
+.leftContent {
+  background-image: url(mockup/Images/carbg.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+}
+
+.leftContentStory {
+  background-image: url(mockup/Images/article1.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+}
+
+.leftContentContact {
+  background-image: url(mockup/Images/yellowline.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+}
+
+.leftContentStory h1 {
+  color: black;
+  padding-top: 0.7rem;
+}
+
+.leftContentError {
+  background-image: url(mockup/Images/404.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 10%;
+}
+
+.rightContent {
+  margin: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+}
+
+.footNav a {
+  color: #bfa185;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  display: inline-block;
+  letter-spacing: 2rem;
+}
+
+.footNav a:hover {
+  color: #a67b53;
+}
+
+.footNav {
+  border-bottom: solid 1px #a67b53;
+}
+
+.social a {
+  letter-spacing: 2.5rem;
+  font-size: 1.5rem;
+  color: #bfa185;
+}
+
+.social a:hover {
+  color: #a67b53;
+}
+
+.artText a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Typography ========================= */
+h1,
+.leftContentStory a,
+.leftContentStory a:hover {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  font-size: 1rem;
+  min-height: 500px;
+  margin: 0;
+  padding-top: 1rem;
+  font-weight: 700;
+  color: black;
+}
+
+h1 span {
+  font-weight: 200;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #a67b53;
+  font-weight: 700;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  color: #a67b53;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0rem;
+  font-size: 0.8rem;
+}
+
+h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  font-size: 1.2rem;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  margin-top: 0;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  color: #848484;
+}
+
+p {
+  font-family: "lora", serif;
+  font-weight: 200;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #848484;
+  margin-bottom: 2rem;
+}
+
+.articlesHeader {
+  text-align: center;
+  /* padding-top: 1rem; */
+  margin: 1rem;
+}
+
+.articlesHeader h3 {
+  font-size: 2rem;
+}
+
+.articlesHeader h4 {
+  font-size: 1.5rem;
+}
+
+.articlesHeader p {
+  font-size: 1rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.articleImg {
+  margin: 0;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.article p {
+  margin: 2rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align-last: left;
+}
+
+.errorHeader {
+  text-align: center;
+  height: 100vh;
+  padding-top: 15rem;
+  margin: 1rem;
+}
+
+.errorHeader h3 {
+  font-size: 2rem;
+}
+
+.errorHeader h4 {
+  font-size: 1.5rem;
+}
+
+.errorHeader p {
+  font-size: 1rem;
+  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.errorHeader a {
+  color: #a67b53;
+}
+.errorHeader a:hover {
+  color: #bfa185;
+}
+
+/* HAMBURGUER MENU ================== */
+
+.burguerMenu {
+  list-style: none;
+  background: #bfa185;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+a:hover {
+  color: #a67b53;
+}
+
+.bottomA {
+  font-weight: 100;
+}
+
+.burguerMenu li {
+  margin-top: 1rem;
+}
+
+li.burguerListItem {
+  font-size: 1rem;
+}
+
+.wrapper {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: white;
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  padding: 0rem;
+  padding-bottom: 1rem;
+}
+
+.burguerTrigger {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="burguerTrigger"] {
+  position: relative;
+  top: 0;
+  left: 10px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  color: #111111;
+}
+
+.hidden_nav:before {
+  content: "";
+  position: absolute;
+  top: 1em;
+  width: 2em;
+  height: 0.25em;
+  border-top: 0.7em double #000;
+  border-bottom: 0.25em solid #000;
+  z-index: 3;
+}
+
+.burguerTrigger:checked + label {
+  left: 200px;
+}
+
+.burguerTrigger:checked ~ .wrapper {
+  left: 180px;
+}
+
+.burguerTrigger + label,
+.wrapper {
+  transition: left 0.2s;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Responsive Images =============== */
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ACCESSIBILITY =============================== */
+.social nav ul li span {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap; /* added line */
+}
+
+/* Search Bar =========================== */
+
+.searchBar {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+form.searchBarForm input[type="text"],
+form.searchBarForm input[type="email"] {
+  padding: 3px;
+  padding-right: 0;
+  max-width: 150px;
+  font-size: 12px;
+  border: 1px solid grey;
+  /* float: left; */
+  width: 80%;
+  background: #f1f1f1;
+}
+
+form.searchBarForm button {
+  right: 0;
+  display: inline-block;
+  max-width: 50px;
+  width: 20%;
+  padding: 3px;
+  background: #bfa185;
+  color: white;
+  font-size: 12px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.searchBarForm button:hover {
+  background: #a67b53;
+}
+
+form.searchBarForm::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* CONTACT FORM ===================== */
+
+.formContainer input[type="text"],
+.formContainer input[type="email"],
+.formContainer select,
+.formContainer textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bfa185;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.formContainer textarea {
+  height: 200px;
+}
+
+.formContainer input[type="submit"] {
+  background-color: #bfa185;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formContainer input[type="submit"]:hover {
+  background-color: #a67b53;
+}
+
+.formContainer {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 2rem;
+  font-family: "Poppins";
+  font-size: 1rem;
+  text-align: left;
+}
+
+input[type="submit"] {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+/* TABLES =============================== */
+
+.sources {
+  margin: 2rem;
+}
+
+table {
+  font-family: "Poppins", sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table img {
+  max-height: 150px;
+}
+
+table a {
+  color: black;
+}
+
+td,
+th {
+  border: 1px solid #a67b53;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #bfa185;
+}
+
+/* MEDIA QUERIES ====================================== */
+@media screen and (min-width: 540px) {
+  .rightContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 1rem;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .wrapper {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 0;
+  }
+  .rightColumn {
+    flex-basis: 50%;
+    height: 100vh;
+    overflow: auto;
+  }
+  .leftContent {
+    flex-basis: 50%;
+  }
+
+  .leftContentStory {
+    flex-basis: 50%;
+  }
+
+  .leftContentContact {
+    flex-basis: 50%;
+  }
+
+  .leftContentError {
+    flex-basis: 50%;
+  }
+
+  .burguerMenu {
+    position: absolute;
+    height: 100%;
+  }
+
+  .articlesHeader h3 {
+    font-size: 2.5rem;
+  }
+
+  .articlesHeader h4 {
+    font-size: 2rem;
+  }
+
+  .articlesHeader p {
+    font-size: 1.4rem;
+    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .articleImg {
+    margin: 5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+
+  .article p {
+    margin: 5rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align-last: left;
+  }
+
+  .errorHeader h3 {
+    font-size: 2.5rem;
+  }
+
+  .errorHeader h4 {
+    font-size: 2rem;
+  }
+
+  .errorHeader p {
+    font-size: 1.4rem;
+    margin: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .sources {
+    margin: 4rem;
+  }
+}

@@ -1,0 +1,59 @@
+
+.bodymain {
+	display:flex;
+	flex-flow: column wrap;
+	justify-content: center;
+
+	padding-left: auto;
+	padding-right: auto;
+}
+
+
+.pagetitle p {
+	text-align: left;
+}
+
+form {
+	display: flex;
+	flex-flow: column wrap;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+		max-width: 600px;
+	font-family: "oswald";
+	margin-bottom: 5rem;
+}
+
+input {
+	margin-bottom: 1rem;
+		font-family: "oswald";
+		border-style: none;
+		font-size: 1rem;
+		padding-left: .25rem;
+		letter-spacing: .5px;
+}
+
+textarea {
+	height: 150px;
+	margin-bottom: 1rem;	
+	font-family: "oswald";
+	border-style: none;
+			font-size: 1rem;
+		padding-left: .25rem;
+}
+
+button {
+		font-family: "oswald";
+		border-style: none;
+		width: 30%;
+		height: 50px;
+		color: #333;
+		background-color: #fff;
+				font-size: 1rem;
+				transition: .25s;
+}
+
+button:hover {
+	background-color: #3e6570;
+	color: white;
+}

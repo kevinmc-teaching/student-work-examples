@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css?family=Syncopate:400,700');
+/*============MY STYLES=============*/
+
+
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+h1{
+	font-family: "Syncopate", sans-serif;
+	font-size: 8em;
+	text-align: center;
+	margin-top: 0;
+	padding: 0;
+	text-transform: lowercase;
+	position: relative;
+	max-width: 100%;
+	
+}
+
+h2{
+	font-family: georgia, times, times new roman, serif;
+	font-size: 2.5em;
+	text-transform: lowercase;
+
+}
+h6{
+	font-family: georgia, times, times new roman, serif;
+	margin-top: 1em;
+	text-transform: lowercase;
+	text-align: center;
+	line-height: 1.5;
+	font-size: 1em;
+
+}
+
+p{
+	font-family: georgia, times, times new roman, serif;
+	font-size: 1em;
+	line-height: 1.5;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-family: georgia, times, times new roman, serif;
+}
+
+
+
+li{
+	list-style-type: none;
+	display: inline;
+	
+}
+
+ul{
+	text-align: center;
+}
+
+div{
+	margin-bottom: 2.5em;
+}
+
+/*================CLASSES=================*/
+
+.lorem{
+	margin-top: -1em;
+	padding: -1.5em;
+
+}
+	
+
+.icons{
+	text-align: center;
+
+}
+
+
+
+/*=============MEDIA QUERIES================*/
+@media screen and (max-width: 720px){
+
+	h1{
+		font-size: 4em;
+		padding-bottom: 0.2em;
+		margin: 3%;
+	}
+
+	h2{
+		margin: 3%;
+		font-size: 1em;
+
+	}
+	p{
+		margin: 3%;
+	}
+
+	ul{
+		padding: 0;
+	}
+
+	.lorem{
+		text-align: center;
+		
+	}
+
+}

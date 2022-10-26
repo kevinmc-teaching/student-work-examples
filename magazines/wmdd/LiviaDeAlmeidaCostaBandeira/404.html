@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PetZine | Error Page</title>
+
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+	<header class="cat">
+		<div class="container cf">
+			<div class="menu cf">
+				<a class="push" href="#">
+					<span class="icon-menu"></span>
+					<span class="visually-hidden">Menu</span>
+				</a>
+			</div>
+			<div class="logo cf">
+				<a class="push" href="index.html">
+					<h1 class="visually-hidden">PetZine</h1>
+					<img src="imgs/petzine_logo.png" alt="PetZine Logo">
+				</a>
+			</div>
+			<ul class="socialMedia cf">
+				<li class="push">
+					<a href="#">
+						<span class="icon-instagram"></span>
+						<span class="visually-hidden">Instagram</span>
+					</a>
+				</li>
+				<li class="push">
+					<a href="#"> 
+						<span class="icon-pinterest"></span>
+						<span class="visually-hidden">Pinterest</span>
+					</a>
+				</li>
+				<li class="push">
+					<a href="#">
+						<span class="icon-facebook2"></span>
+						<span class="visually-hidden">Facebook</span>
+					</a>
+				</li>
+				<li>
+					<a class="push" href="#search">
+						<span class="icon-search"></span>
+						<span class="visually-hidden">Search</span>
+					</a>
+				</li>
+			</ul>
+
+			<!-- Search Form -->
+			<div id="search"> 
+				<span class="close">X</span>
+				<form role="search" id="searchform" action="/search" method="get">
+					<input value="" name="q" type="search" placeholder="type to search"/>
+				</form>
+			</div>
+
+			<h2 class="highlight404">404</h2>
+		</div>
+	</header>
+
+	<main>
+		<div class="errorBox cf">
+			<div class="infoError">
+				<div class="textError cf">
+					<h3>OOOPS!</h3>
+					<p>THE PAGE YOU ARE LOOKING FOR CAN'T BE FOUND</p>
+				</div>
+				<a class="push" href="#">
+					<span class="icon-search"></span>
+					<span class="visually-hidden">Search</span>
+				</a>
+			</div>
+		</div>
+
+	</main>	
+	<section>
+		<div id="light-red"></div>
+		<div id="subscribe" class="container cf footerDog">
+			<div class="col_8 redBox">
+				<form class="cf" action="post">
+					<input type="email" name="subscribe" placeholder="EMAIL">
+					<button class="bounceRight">Subscribe</button>
+				</form>
+			</div>
+			<div class="col_2">
+				<p>be part of this animal world.</p>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container cf">
+		<div class="col_4 shortAbout cf">
+			<img src="imgs/footer_logo.png" alt="PetZine Logo">
+			<p>Petzine is an online magazine about pets and its different types and kinds.</p>
+		</div>
+		<div class="col_2 footerMenu cf">
+			<ul>
+				<li class="push"><a href="">Home</a></li>
+				<li class="push"><a href="">About</a></li>
+				<li class="push"><a href="">Contact</a></li>
+				<li class="push"><a href="">Categories</a></li>
+			</ul>
+		</div>
+		<div class="col_3 social cf">
+			<h4>Stay Connected</h4>
+			<ul>
+				<li class="push">
+					<a href="#">
+						<span class="icon-facebook2"></span>
+						<span class="visually-hidden">Facebook</span>
+					</a>
+				</li>
+				<li class="push">
+					<a href="#"> 
+						<span class="icon-pinterest"></span>
+						<span class="visually-hidden">Pinterest</span>
+					</a>
+				</li>
+				<li class="push">
+					<a href="#">
+						<span class="icon-instagram"></span>
+						<span class="visually-hidden">Instagram</span>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<div id="copyrights" class="col_10">
+			<p>copyright © 2017</p>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.0.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

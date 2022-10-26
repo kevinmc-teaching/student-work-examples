@@ -1,0 +1,181 @@
+.story_grid75{
+	width:100%;
+	
+}
+
+.story_grid25{
+	width:100%;
+	}
+
+
+
+.story_grid75 h1{
+    text-align: left;
+    font-size: 3rem;
+    color: rgb(30, 36, 44);
+    padding-left: 3rem;
+    font-family: ambroise-std,'serif';
+}
+figure {
+    margin-bottom: 0;
+}
+.figurecaption p{ margin: 0;
+    width: 100%;
+    letter-spacing: 1px;
+    font-weight: bold;
+       font-family: helvetica,sans-serif;
+       text-align: left;
+       
+}
+
+.figurecaption .author{
+
+	font-size: .6rem;
+}
+.text-wrapper{
+    padding-left: 2.5rem;
+}
+p.description {
+    font-family: "Austin News Text Roman",Georgia,Times,serif;
+   
+    font-size: 1.2rem;
+    line-height: 1.5;
+    max-width: 600px;
+}
+
+.subcaption {
+    padding-left: 14%;
+}
+p.author_detail {
+   text-align: left;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-family: "Austin News Text Roman",Georgia,Times,serif;
+}
+
+p.date {
+    text-align: left;
+       margin: 0;
+    color: #464242;
+    letter-spacing: -0.2px;
+}
+span.author_name {
+    color: #29abe2;
+    font-weight: bold;
+}
+span.student {
+    font-size: 10px;
+   
+}
+.story_heading {
+  
+        max-width: 227px;
+}
+span.v {
+    font-size: 3rem;
+    float: left;
+   }
+span.ttext {
+    position: relative;
+       top: -22px;
+    font-size: 0.9rem;
+    left: 2rem;
+}
+.jodhpur h1 {
+    font-size: 1.5rem;
+}
+
+.storysidebar1 h2 {
+    margin: 0;
+    color: rgb(41, 171, 226);
+    text-align: left;
+    border-bottom: 2px solid #29abe2;
+         background-color: #e3e4d6;
+}
+.counter {
+    width: 20%;
+    float: left;
+    font-size: 5rem;
+    padding-top: 2rem;
+    color: #29abe2;
+    font-weight: bold;
+}
+.sidetext {
+    float: right;
+    width: 75%;
+}
+.sidetext p {
+	    text-align: left;
+    margin-bottom: 0;
+    font-weight: bold;
+}
+p.sidedate {
+    text-align: left;
+    margin-top: 0;
+    color: rgba(30, 36, 44, 0.41);
+    font-size: 0.6rem;
+}
+.storysidebar {
+        padding-top: 1rem;
+       background-color: rgba(210, 220, 219, 0.63);
+    border-bottom: 1px solid rgba(113, 106, 106, 0.57);
+    padding-bottom: 1rem;
+  
+
+}
+p.side-content {
+    font-family: "Austin News Text Roman",Georgia,Times,serif;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 700px)  {
+    .figurecaption p{
+        padding-left: 7rem;
+    }
+.myclass{
+    margin-top: -12rem;
+}
+	.tajmahel {
+    
+    padding-bottom: 2rem;
+}
+.story_heading {
+    text-align: left;
+    padding-left: 7rem;
+    line-height: 1;
+    }
+.story_grid75{
+	width:65%;
+	float:left;
+}
+.story_grid25{
+	width:35%;
+	
+		float:right;
+}
+.story_grid25inner {
+    position: fixed;
+        margin-right: 10px;
+}
+.storysidebar {
+  max-width: 300px;
+}
+
+}
+
+
+@media screen and (min-width: 1100px)  {
+.story_grid75{
+    width:75%;
+    float:left;
+}
+.story_grid25{
+    width:25%;
+    
+        float:right;
+}
+
+    }

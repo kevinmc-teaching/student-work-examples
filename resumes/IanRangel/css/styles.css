@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,700|Titillium+Web:300,400,600,700');
+
+body {
+	width: 95%;
+	max-width: 1200px;
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	padding: 0;
+}
+
+img {
+  max-width: 100%;
+  margin-top: 20px;
+  height: auto;
+}
+
+
+ul.menu {
+	font-family: titillium web;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10pt;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+
+h1 {
+	font-family: oswald;
+	color: rgb(26, 30, 40);
+	height: 800px;
+	text-align: left;
+	line-height: .9;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 75pt;
+	margin-bottom: 1px;
+	margin-top: 20px;
+	margin-left:1px;
+	padding-top: 0;
+}
+
+h1 span {
+	text-align: left;
+	font-family: oswald;
+	font-weight: 300;
+	font-size: 35pt;
+	line-height: .9;
+	position: absolute;
+	margin-top: 0;
+}
+
+header nav {
+	color: rgb(26, 30, 40);
+	border: 1px solid black;
+}
+
+a:link {
+    text-decoration: none;
+    color: rgb(26, 30, 40);
+}
+
+
+h2 {
+	font-family: titillium web;
+	font-weight: 600;
+	text-transform: uppercase;
+    margin-top: 10px;
+	padding-top: .25em;
+}
+
+p {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 11px;
+	margin-top: .25em;
+	text-align: left;
+	margin-right: 5px;
+}
+
+h3 {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 11px;
+	margin-top: .25em;
+	text-align: left;
+	margin-right: 5px;
+}
+
+dt, dd {
+	margin-left: 0;
+}
+
+
+
+.work-title-name {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 10pt;
+	line-height: 1;
+}
+
+.work-company-name {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 9pt;
+}
+
+.work-year-number {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 9pt;
+}
+
+.work-description {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-size: 8pt;
+	font-weight: 400;
+}
+
+.education-title-name {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 10pt;
+	line-height: 1;
+}
+
+.education-company-name {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 9pt;
+}
+
+.education-year-number {
+	font-family: titillium web;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 9pt;
+	line-height: 1.5;
+}
+
+
+
+
+
+
+.work-title, .work-year, .education-title, .education-year {
+	display: none;
+}
+
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; 
+    display: table; 
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearboth {
+	clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+/* QUERY*/
+
+@media screen and (max-width: 800px){
+
+body {
+	margin: 5%;
+}
+
+img {
+	max-width: 100%;
+  	height: auto;
+}
+ 
+header nav ul {
+  font-size: 1em;
+  line-height: 2em;
+}
+ 
+h2 {
+  font-size: 1.8em;
+  line-height: 1.5em;
+  color: rgb(26, 30, 40);
+  text-align: left;
+  font-weight: normal;
+  font-weight: 600;
+}
+
+h1 {
+	position: absolute;
+	font-size: 9em;
+	bottom: .2em;
+	color: rgba(255, 255, 255, .5);
+}
+
+section h3 {
+  position: relative;
+  bottom: .3em;
+  font-weight: 600;
+  margin-bottom: 1px;
+}
+
+p {
+	text-align: left;
+	line-height: 1.5;
+	margin-top: 1px;
+}
+ 
+section {
+ position: relative;
+}
+
+dt, dd {
+	margin-left: 0;
+}
+ 
+nav ul li.grid_2 {
+  width: 50%;
+  margin-bottom: 1em;
+  font-size: 2em;
+  color: rgb(26, 30, 40);
+  text-align: center;
+  float: left;
+}
+ 
+header nav ul {
+background: white;
+}

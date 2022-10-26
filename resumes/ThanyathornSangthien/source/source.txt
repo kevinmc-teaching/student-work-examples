@@ -1,0 +1,6 @@
+
+sOURCE:
+
+Software logo: www.adobe.com, www.autodesk.com, www.foundry.com, www.sidefx.com
+
+normalize.css: github.com/necolas/normalize.css

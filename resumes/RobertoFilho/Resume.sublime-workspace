@@ -1,0 +1,626 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"l",
+				"link\tTag"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"boder",
+				"border"
+			],
+			[
+				"b",
+				"bottom"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"lih",
+				"lightgrey"
+			],
+			[
+				"border-",
+				"border-bottom"
+			],
+			[
+				"grid",
+				"grid_4"
+			],
+			[
+				"d",
+				"div\tTag"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"p",
+				"png"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"inli",
+				"inline"
+			],
+			[
+				"text-de",
+				"text-decoration-style"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"mrgin",
+				"margin-bottom"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"bo",
+				"border-color"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"text-d",
+				"text-decoration"
+			],
+			[
+				"with",
+				"max-width"
+			],
+			[
+				"cle",
+				"clearfix"
+			],
+			[
+				"clea",
+				"clearfix"
+			],
+			[
+				"cl",
+				"clearfix"
+			],
+			[
+				"clear",
+				"clearboth"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"ch",
+				"charAt"
+			],
+			[
+				"co",
+				"countBs"
+			],
+			[
+				"is",
+				"isEven"
+			],
+			[
+				"the",
+				"theNumber"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"KT",
+				"KT66"
+			],
+			[
+				"dec",
+				"text-decoration-line"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"al",
+				"vertical-align"
+			],
+			[
+				"te",
+				"text-decoration-line"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"pad",
+				"padding-right"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"ori",
+				"text-orientation"
+			],
+			[
+				"ar",
+				"article\tTag"
+			],
+			[
+				"u",
+				"ul\tTag"
+			],
+			[
+				"h",
+				"h1\tTag"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 3156,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 2591,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/css"
+	],
+	"file_history":
+	[
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/apagar.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/css/apagar.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/css/normalize.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/css/fluid_grid.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/css/style2.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/p5-zip/empty-example copy/sketch.js",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/p5-zip/empty-example copy/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Resume/css/style.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/fluidgrid/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/fluidgrid/mystyles.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/fluidgrid/fluid_grid.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/finished-layout/css/style.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/finished-layout/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/css/test.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/test.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/css/test.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Oct 4th/guitarmania2/css/fluid_grid.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/guitarmania/css/fluid_grid.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/guitarmania/finished-layout/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/guitarmania/finished-layout/css/style.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/guitarmania/finished-layout/css/fluid_grid.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 27/guitarmania/finished-layout/css/main.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/Wed, sep 28/notes.js",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/Execises chapter 3/beanCounting.js",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/Execises chapter 3/recursion.js",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/Execises chapter 3/functionMin.js",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4820 - JavaScript/chapter3-ex1.js",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/pages/kt66.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/pages/6V6.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/pages/el84.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/pages/el34.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/pages/6L6.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/pages/el34.txt",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/screenshots/tubeworld2014-10.png",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/screenshots/tubeworld2014-9.png",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/images/6L6.jpg",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/finished-version/styles.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/tubeworld-2014/styles.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/index.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/css/styles.css",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/Screenshot.png",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/pages/standard.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/pages/special.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/pages/junior.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/pages/goldtop.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/pages/custom.html",
+		"/Users/robertocanada/Google Drive/Langara/WMDD - Term 1/4815 - HTML CSS/Sep 20/GibsonHTMLExercise/Instructions.txt",
+		"/Users/robertocanada/Google Drive/Langara/Langara/WMDD4815/Sep 20/GibsonHTMLExercise/index.html",
+		"/Users/robertocanada/Google Drive/Langara/Langara/WMDD4815/Sep 20/GibsonHTMLExercise/css/styles.css",
+		"/Users/robertocanada/Documents/Canadá/Langara/Langara/WMDD4815/Sep 20/GibsonHTMLExercise/index.html",
+		"/Users/robertocanada/Documents/Canadá/Langara/Langara/WMDD4815/Sep 20/GibsonHTMLExercise/Instructions.txt",
+		"/Volumes/Roberto64GB/Langara/4820/chapter3-ex1.js",
+		"/Users/robertocanada/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/robertocanada/Documents/Canadá/Langara/Langara/WMDD4815/Sep 20/tubeworld-2014/html5-basicTemplate.html",
+		"/Users/robertocanada/Documents/Canadá/Langara/Langara/WMDD4815/Sep 20/floatsandclears/LayoutExercise-Beefheart/assets/css/styles.css",
+		"/Users/robertocanada/Documents/Canadá/Langara/Langara/WMDD4815/Sep 20/floatsandclears/LayoutExercise-Beefheart/obscure-musician.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"p id=\"bold\"",
+			"header",
+			"back",
+			"border",
+			"container",
+			"</div",
+			"<div",
+			"position",
+			"conte",
+			"wr",
+			"big",
+			"contacticons",
+			"bordinha",
+			"li",
+			"education",
+			"<p></p>",
+			"justified",
+			";\n",
+			"<div",
+			"</div",
+			"<div",
+			"<div>",
+			"footer",
+			"headerline",
+			"header",
+			"footerline",
+			"headerline",
+			"border",
+			"\"><",
+			"ul",
+			"++){\n",
+			"gree",
+			"style=\"vertical-align:middle\" ",
+			"text-a",
+			"img",
+			"<p>",
+			"</p>",
+			"<p>",
+			"height",
+			"Phone",
+			"phone",
+			"Phone",
+			" alt=\"Address\"",
+			"grid_3",
+			";\n",
+			"<li>",
+			"</li>",
+			"ul",
+			";\n",
+			"</a>",
+			"ul,",
+			"ul",
+			"li",
+			"ul",
+			"roboto",
+			";\n",
+			"original",
+			"51px",
+			"}",
+			"back",
+			"br",
+			"h3",
+			"bottom",
+			"top",
+			"div",
+			"'",
+			"typeIn",
+			"Things",
+			"<p>￼</p>",
+			"<p></p>\n",
+			"<p></p>",
+			"pages/",
+			"<p></p>",
+			">\n",
+			"pages/",
+			"pages",
+			"3",
+			"white",
+			"lightgray",
+			"<p></p>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1843,
+								1843
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1063.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2591,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2525,
+								2525
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.541497777197,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Resume.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 156.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

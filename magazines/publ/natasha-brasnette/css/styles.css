@@ -1,0 +1,730 @@
+/* Typography================================= */
+
+body {
+font-family: "Open Sans Condensed";
+line-height: 1.8rem;
+
+}
+
+h1 {
+  font-family: "Megrim";
+  font-size: 4rem;
+  text-align: center;
+  line-height: 4rem;
+}
+
+h2 {
+  font-family: "Amatic SC";
+  font-size: 2.75rem;
+  text-align: center;
+  margin-bottom: 40px;
+  margin-top: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.featured h2, .latest h2, .popular h2, .four-oh-four-all h2, .sources h2, .contact h2 {
+  border-bottom: 1px solid black;
+}
+
+h2 span {
+  position: relative;
+  top: .8rem;
+  background-color: white;
+  padding: 10px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid black;
+
+}
+
+ .latest-content h3 {
+  margin-top: 40px;
+}
+
+.featured h3 {
+  margin-top: 0;
+}
+
+.popular-content {
+  position: relative;
+  margin-top: 40px;
+}
+
+
+.featured-content-canada a, .featured-content-santorini a{
+  text-decoration: none;
+}
+
+.featured p, .latest p, .popular p {
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+.popular h3 {
+  font-weight: 400;
+}
+
+.popular h3 {
+
+  background-color: rgba(0,0,0,.5);
+  color: white;
+  position: absolute;
+  right:0;
+  left: 0;
+  top:1.5rem;
+  margin:0;
+  padding-left: 10px;
+}
+
+.latest a, .popular a {
+  text-decoration: none;
+  color: black;
+}
+
+h3, .featured p, .latest p, .popular p, .newsletter, .story, .four-oh-four h3, .four-oh-four h4 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.story p {
+  font-size: 1.15rem;
+}
+
+/*Featured image hover========================= */
+
+.featured-content-canada{
+  background-image:url(../images/quebec-city.jpg);
+  height:500px;
+  position:relative;
+  background-size:cover;
+  margin-bottom: 20px;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+}
+
+.featured-content-santorini {
+  background-image:url(../images/santorini.jpg);
+  height:500px;
+  position:relative;
+  background-size:cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+
+}
+
+.featured-content-background{
+  background-color:rgba(0,0,0,.3);
+  color:white;
+  position:absolute;
+  left:0;
+  top:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:100%;
+  height:100%;
+  z-index: 1;
+  /*animate*/
+  transition:all .5s ease-in;
+}
+
+.featured h3 {
+  color: white;
+  position: relative;
+
+  width:100%;
+  height:100%;
+  z-index: 2;
+  font-size: 3rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.featured p{
+  color: white;
+  position: relative;
+
+  bottom: 13rem;
+  z-index: 2;
+  font-size: 1.5rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* hover effect*/
+.featured-content-canada:hover .featured-content-background{
+  background-color:rgba(0,0,0,0);
+  }
+
+  .featured-content-canada:hover .featured-content-background h3{
+
+    text-shadow: 1px 1px 6px rgba(0,0,0,.8)
+    }
+
+    .featured-content-canada:hover .featured-content-background p{
+
+      text-shadow: 1px 1px 6px rgba(0,0,0,.8)
+      }
+
+
+      .featured-content-santorini:hover .featured-content-background{
+        background-color:rgba(0,0,0,0);
+        }
+
+        .featured-content-santorini:hover .featured-content-background h3{
+
+          text-shadow: 1px 1px 6px rgba(0,0,0,.5)
+          }
+
+          .featured-content-santorini:hover .featured-content-background p{
+
+            text-shadow: 1px 1px 6px rgba(0,0,0,.5)
+            }
+
+
+  /* STORY======================================= */
+
+.story-background {
+  background-image: url(../images/quebec-city.jpg);
+  height: 500px;
+  position:relative;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.quote {
+  color: white;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  display: block;
+  background-image: url(../images/jasper.jpg);
+  height: 500px;
+  position:relative;
+  background-size:cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.story-background h2{
+  font-size: 4rem;
+  position: relative;
+  top: 9rem;
+
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0,0,0,.5);
+}
+
+.story-background h3 {
+  position: relative;
+  top: 10rem;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 6px rgba(0,0,0,.5);
+}
+
+.bylines {
+  margin-top: 20px;
+}
+
+.byline {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+
+.byline span {
+  font-weight: 700;
+}
+
+/* 404========================================= */
+
+.four-oh-four {
+  background-image: url(../images/lost.jpg);
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.four-oh-four-all h2 {
+  font-size: 4rem;
+  margin-bottom: 60px;
+}
+
+
+
+.four-oh-four h3 {
+  color: white;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  margin: 10px;
+  text-shadow: 1px 1px 2px rgba(0,0,0,.8);
+}
+
+.four-oh-four h4 {
+  color: white;
+  font-weight: 400;
+  border-bottom: none;
+  position: relative;
+text-shadow: 1px 1px 2px rgba(0,0,0,1);
+font-weight: 700;
+  font-size: 1.35rem;
+  margin-top: 30px;
+}
+
+
+.four-oh-four a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.search-four {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.search-four input{
+  text-align: center;
+  padding: 10px 60px;
+}
+
+/* Sources====================================== */
+
+.sources a {
+  text-decoration: none;
+}
+
+.sources h3 {
+  color: black;
+}
+
+.sources h2 {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+/* Contact======================================= */
+
+.contact input, textarea {
+  font-size: 1.25rem;
+  line-height: 2.25rem;
+  margin: 10px;
+  width: 80%;
+  padding-left: .25rem;
+  border: 1px solid #ccc;
+}
+
+
+
+textarea {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #ccc;
+  color: #666;
+  padding-left: .25rem;
+}
+
+.contact-form-submit {
+  text-align: center;
+}
+
+.contact h2 {
+  margin-bottom: 70px;
+}
+
+.submit {
+  font-size: 1.5rem;
+
+  background-color: black;
+  color: white;
+  border:none;
+  padding: 10px 100px;
+  margin-top: 15px;
+}
+
+.contact-form-submit {
+  background-color: #eee;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+
+/* Menus and Links============================== */
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  text-align: center;
+  background-color: black;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+
+  display: block;
+  line-height: 2rem;
+  font-size: 1.25rem;
+  padding: 3px;
+}
+
+.menu-icons {
+  background-color: black;
+  padding-left: 10px;
+  text-align: right;
+}
+
+.menu-icons nav li {
+  display: inline-block;
+  text-align: right;
+  padding: 6px;
+}
+
+.menu-icons nav a {
+  font-size: 1rem;
+}
+
+.menu-icons nav a:hover {
+  color: slategrey;
+  transition: color .35s;
+}
+
+ .menu nav a:hover {
+  background-color: slategrey;
+  transition: background-color .35s;
+
+}
+
+.menu-footer nav a:hover {
+  background-color: slategrey;
+  transition: background-color .35s;
+}
+
+.newsletter {
+  text-align: center;
+  border: 1px solid black;
+  padding-bottom: 40px;
+
+}
+.newsletter form {
+  margin-bottom: 20px;
+}
+
+.newsletter input {
+  text-align: center;
+  padding: 10px 80px;
+}
+
+
+.newsletter a{
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  padding: 5px 20px;
+  font-size: 1.25rem;
+}
+
+
+.search {
+  overflow: hidden;
+  position: relative;
+}
+.searchbar {
+  position: absolute;
+
+  top: 50px;
+}
+
+.search-on .search {
+  overflow: visible;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  text-align: center;
+  margin: 0;
+}
+
+.search-on .searchbar {
+  position: relative;
+  top: 1px;
+  transition: top .75s;
+}
+
+.search input {
+  padding: 10px 60px;
+  text-align: center;
+}
+
+.search-toggle {
+  background-color: transparent;
+  border: none;
+}
+
+.fa-search {
+color: white;
+margin: 0;
+}
+
+.fa-search:hover {
+  color: slategrey;
+}
+
+/* Media Query 700px========================================= */
+
+@media screen and (min-width: 700px) {
+
+  .menu nav ul {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+  }
+  .menu nav a{
+    padding:10px 20px;
+  }
+.latest {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+}
+
+.latest h2 {
+  grid-column: span 2;
+}
+
+.popular {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+}
+
+.popular h2 {
+  grid-column: span 2;
+}
+.four-oh-four {
+  background-attachment: fixed;
+}
+}
+
+/* Media Query 800px======================================== */
+
+@media screen and (min-width: 800px) {
+.story {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+
+.story-background h2 {
+  font-size: 5rem;
+  top: 10rem;
+}
+
+.story-background h3 {
+  font-size: 1.75rem;
+  top: 11rem;
+}
+
+.sources {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-gap: 1rem;
+}
+
+.sources h2 {
+  grid-column: span 2;
+}
+.contact-form-submit {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 700px;
+}
+}
+
+
+/* Media Query 1200========================================== */
+
+@media screen and  (min-width: 1200px) {
+  .latest {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .latest h2 {
+    grid-column: span 3;
+  }
+
+  .popular {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  }
+
+  .popular h2 {
+    grid-column: span 4;
+  }
+
+.latest-content h3{
+  margin-top: 0;
+}
+
+.popular-content {
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.popular-content h3 {
+  font-size: 1.35rem;
+}
+
+.newsletter {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.menu-footer nav a:hover {
+  background-color: black;
+  color: slategrey;
+}
+
+.menu-footer nav a {
+  padding: 0;
+  display: inline;
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  color: white;
+  margin-top: 40px;
+}
+
+footer h2 {
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.menu-footer {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+footer nav a {
+  font-size: 1.1rem;
+  line-height: 1.2rem;
+}
+
+.contact-menu {
+  grid-column: 2;
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  grid-column: span 2;
+}
+
+.story-background h2 {
+  font-size: 6rem;
+}
+
+.sources {
+  grid-template-columns: repeat(3,1fr);
+
+}
+
+.sources h2 {
+  grid-column: span 3;
+}
+
+.sources-text {
+  grid-column: span 3;
+}
+
+
+
+}
+
+/* Media Query 1600px==================================== */
+
+@media screen and (min-width:1600px) {
+.latest, .popular, .newsletter, .sources, .contact, .four-oh-four-all{
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1300px;
+}
+
+  h1 {
+    font-size: 6rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  .featured h3 {
+    font-size: 4rem;
+  }
+
+
+
+}
+
+
+/* Accessibility===================================== */
+
+.visually-hidden { /* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility */
+    position: absolute !important;
+    height: 1px; width: 1px;
+    overflow: hidden;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}

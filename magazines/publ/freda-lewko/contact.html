@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact - Music Injection</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="//normalize-css.googlecode.com/svn/trunk/normalize.css" />
+  <script src="https://use.fontawesome.com/3797efd651.js"></script>
+  <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon-96x96.png">
+</head>
+<body>
+
+  <header>
+    <div class="header-content">
+    <div class="header-img">
+    <img src="assets/images/logo-white.jpg" alt="Music Injection" class="logo">
+    </div>
+    <div class="social">
+      <input type="search" value="search"><br>
+      <a href="https://facebook.com/MusicInjectionAustralia" target="_blank"><span class="fa fa-facebook-square"></span></a>
+      <a href="http://twitter.com/Music_Injection" target="_blank"><span class="fa fa-twitter-square"></span></a>
+      <a href="http://instagram.com/musicinjectionaus" target="_blank"><span class="fa fa-instagram"></span></a>
+    </div>
+
+<div class="nav-small">
+  <nav>
+  <ul>
+    <div class="toggle"><li><span class="fa fa-bars"></span></li></div>
+    <li><a href="index.html">HOME</a></li>
+    <li><a href="#">INTERVIEWS</a></li>
+    <li><a href="#">NEWS</a></li>
+    <li><a href="#">REVIEWS</a></li>
+    <li><a href="#">MAGAZINE</a></li>
+    <li><a href="#">ABOUT</a></li>
+    <li>CONTACT</li>
+    <input type="search" value="" placeholder="search">
+  </ul>
+</nav>
+</div>
+</div>
+</header>
+
+  <div class="main-bg">
+
+    <main>
+
+<article class="article cf">
+  <span class="breadcrumb"><a href="index.html">HOME</a> » CONTACT</span>
+  <div class="contact-bar"><span class="contact">CON<span class="kern1">T</span>ACT US</span></div>
+
+  <div class="contact-form">
+      <form method="post" action="http://formspree.io/fredalewko@yahoo.ca">
+
+        <label for="firstname">FIRST NAME</label>
+        <input type = "text" class="firstname" id="firstname" name="firstname">
+
+        <label for="firstname">LAST NAME</label>
+        <input type = "text" class="lastname" id="lastname" name="lastname">
+
+         <label for="email">EMAIL</label>
+         <input type="email" class="email" id="email" name="_replyto">
+
+         <label for="comments">COMMENTS</label>
+         <textarea id="comments" class="comments" name="comments"></textarea>
+
+         <input type="submit" class="button" value="SEND">
+      </form>
+
+    <h5></h5>
+    <h5><span class="red">PRESS AND MEDIA INQUIRIES</span><br><br>
+      Jen Rees (Editor in Chief)<br>jenrees@musicinjection.com.au</h5>
+
+  </div>
+
+</article>
+
+<div class="footer-content">
+<div class="nav-small">
+  <nav>
+    <ul>
+      <div class="toggle"><li><span class="fa fa-bars"></span></li></div>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="#">INTERVIEWS</a></li>
+      <li><a href="#">NEWS</a></li>
+      <li><a href="#">REVIEWS</a></li>
+      <li><a href="#">MAGAZINE</a></li>
+      <li><a href="#">ABOUT</a></li>
+      <li>CONTACT</li>
+      <input type="search" value="" placeholder="search">
+    </ul>
+</nav>
+</div>
+</div>
+
+<footer>
+  <a href="https://facebook.com/MusicInjectionAustralia" target="_blank"><span class="fa fa-facebook-square"></span></a>
+  <a href="http://twitter.com/Music_Injection" target="_blank"><span class="fa fa-twitter-square"></span></a>
+  <a href="http://instagram.com/musicinjectionaus" target="_blank"><span class="fa fa-instagram"></span></a>
+  <h6>© 2017 Music Injection Australia</h6>
+</footer>
+
+</main>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $(".toggle").click(function(){
+    $(".nav-small").toggleClass("clicked");
+  });
+});
+</script>
+
+<script>
+$(document).ready(function(){
+  if($(window).width() > 750 ) {
+   $('header img').attr('src','assets/images/logo-white.jpg');
+}
+if($(window).width() < 750 ) {
+   $('header img').attr('src','assets/images/logo-black.png');
+}
+  $(".nav-small").tap(function(){
+    $(this).toggleClass("tapped");
+  });
+});
+</script>
+
+<script>
+$(window).resize(function() {
+  if($(window).width() > 750 ) {
+   $('header img').attr('src','assets/images/logo-white.jpg');
+}
+if($(window).width() < 750 ) {
+   $('header img').attr('src','assets/images/logo-black.png');
+}
+});
+</script>
+</body>
+</html>

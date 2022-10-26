@@ -1,0 +1,485 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+    <title>CheemArtciles LIVE - Fashion Magazine - Trendsetter - Beauty - Lifestyle - Culture - Women - Men</title>
+    <link rel="icon" type="image/png" href="images/logo/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/logo/favicon-16x16.png" sizes="16x16" />
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/animate.css" rel="stylesheet" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body id="body" class="overlay-close">
+    <div id="featured-trick" class="featured-trick"></div>
+    <div class="search-overlay animated" id="search-overlay">
+        <div class="container search-close-container">
+            <span class="search-close"><i class="fa fa-times-circle" id="close-search" onclick="closesearch();" aria-hidden="true"></i></span>
+
+        </div>
+
+        <div class="search-box">
+
+            <input type="text" placeholder="Type and hit enter" /><i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </div>
+    <div id="mob_menu" class="mobile-menu-full animated">
+    </div>
+    <!-- playsinline -->
+    <video autoplay playsinline muted loop poster="images/bg/video-background.jpg" id="bgvid">
+        <source src="video/video-bg9.mp4" type="video/mp4">
+        <source src="video/video-bg9.mp4" type="video/webm">
+    </video>
+    <div class="header_and_social clearfix">
+        <header id="header">
+            <div class="header-container animated slideInDown clearfix">
+                <div class="container">
+                    <div class="logo-container">
+                        <img src="images/logo/initial_logo.png" class="logo-image" alt="CheemArticles Logo" />
+                    </div>
+                    <nav id="full-menu" class="menu clearfix">
+                        <ul id="main-menu" class="ul-main-menu">
+                            <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i><span class="home">Home</span></a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#" class="show-submenu" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">Categories</a>
+                                <ul id="submenu" class="submenu animated" onmouseover="showsubmenu();" onmouseout="hidesubmenu();">
+                                    <li><a href="#featured-trick" onclick="close_mob_menu();">Featured</a></li>
+                                    <li><a href="#latest" onclick="close_mob_menu();">Latest</a></li>
+                                    <li><a href="#popularteasers" onclick="close_mob_menu();">Popular</a></li>
+                                    <li><a href="#trending" onclick="close_mob_menu();">Trending</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <li id="mobile-menu" class="mobile_menu"><i class="fa fa-bars" id="open-mob-menu" aria-hidden="true"></i></li>
+                            <li><i class="fa fa-search" id="open-search" onclick="opensearch()" aria-hidden="true"></i></li>
+                        </ul>
+                    </nav>
+
+
+                </div>
+            </div>
+        </header>
+        <div class="social-top container">
+            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <section id="featured" class="feature-container clearfix">
+        <div class="top-teasers animated slideInUp">
+            <div class="container clearfix">
+                <h2 class="section-title">Featured</h2>
+                <div class="teasercollection clearfix">
+                    <div class="teaser-container big animated">
+                        <img src="images/articles/SplitShire-766_1.jpg" alt="7 amazing and Famous tattoo artists of all time" />
+                        <div class="overlay">
+                            <div class="description description-bottom">
+                                <span class="badge bg-purple">Fashion</span>
+                                <span class="badge bg-blue">Tips</span>
+                                <h2 class="title"><a href="story.html">7 amazing and Famous tattoo artists of all time</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Honey</span>
+                                    <span class="date">20-Sep-2016</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teaser-container small iphone_5 animated">
+                        <img src="images/articles/photo-1472849455515-2d2781643413_1.jpg" alt="Step by step instructions to style your vacation looks" />
+                        <div class="overlay">
+                            <div class="description description-bottom">
+                                <span class="badge bg-green">Lifestyle</span>
+                                <h2 class="title"><a href="story.html">Step by step instructions to style your vacation looks</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Alex</span>
+                                    <span class="date">29-Sep-2016</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teaser-container small animated">
+                        <img src="images/articles/photo-1454679371063-8b15f1b98f1b_1.jpg" alt="Men on trend: The development of the bearded gentleman" />
+                        <div class="overlay">
+                            <div class="description description-bottom flow-right">
+                                <span class="badge bg-purple">Fashion</span>
+                                <span class="badge bg-red">Men</span>
+                                <h2 class="title"><a href="story.html">The development of the bearded gentleman</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Shakti</span>
+                                    <span class="date">11-Sep-2016</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="teaser-container small animated">
+                        <img src="images/articles/feet-1840619_640.jpg" alt="The main 3 sets of shoes you require on your next excursion" />
+                        <div class="overlay">
+                            <div class="description description-bottom flow-right">
+                                <span class="badge bg-purple">Fashion</span>
+                                <span class="badge bg-blue">Tips</span>
+                                <h2 class="title"><a href="story.html">The main 3 sets of shoes you require</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Honey</span>
+                                    <span class="date">26-Sep-2016</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="load-more fadeineffect"><span class="loadmore">Load more</span></div>
+            </div>
+        </div>
+    </section>
+    <div class="parallax">
+        <section id="latest" class="myparallax__latest">
+            <div class="container clearfix">
+                <h2 id="hello" class="section-title fadeineffect">Latest</h2>
+                <div class="teasercollection">
+                    <div class="full-width-teaser fadeineffect teaser animated clearfix">
+                        <div class="full-width-teaser-image">
+                            <img src="images/articles/photo-1468431461963-8a05e49c97c1.jpg" alt="Winter street trip dressing: Our Style Panel offers tips for voyaging" />
+                        </div>
+                        <div class="full-width-teaser-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-orange">Travel</span>
+                            <h2 class="title"><a href="story.html">Winter street trip dressing: Our Style Panel offers tips for voyaging</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Honey</span>
+                                <span class="date">25-Nov-2016</span>
+                            </span>
+
+                        </div>
+                        <p>
+                            Whether you incline toward a comfortable match of sweetheart pants, a light dress, or an adaptable outfit that can be worn from day to night, our Style Panel demonstrates to us how they pack for a snazzy winter street trip.
+                                <a href="story.html"><span class="read-more">Read All</span></a>
+                        </p>
+                    </div>
+                    <div class="full-width-teaser teaser fadeineffect animated clearfix">
+                        <div class="full-width-teaser-image">
+                            <img src="images/articles/photo-1471015060382-6cbd8b4e34d0.jpg" alt="20 glasses to combine with night wear since it's thoroughly cool." />
+                        </div>
+                        <div class="full-width-teaser-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">20 glasses to combine with night wear since it's thoroughly cool.</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Alex</span>
+                                <span class="date">21-Nov-2016</span>
+                            </span>
+                        </div>
+                        <p>
+                            Getting spruced up for an occasion when you wear glasses can be a genuine battle. On the off chance that contacts aren't a choice, a glitz getup and glasses can feel befuddled. I've regularly endeavored to go exposed however after a drink (or two) and a turn on the move floor, my eyes begin to throb.
+                                <a href="story.html"><span class="read-more">Read All</span></a>
+                        </p>
+                    </div>
+                    <div class="full-width-teaser teaser fadeineffect animated clearfix">
+                        <div class="full-width-teaser-image">
+                            <img src="images/articles/photo-1466734565930-ebce5d79c052.jpg" alt="Magnificence Fix: How to shroud tan lines while wearing a strapless dress" />
+                        </div>
+                        <div class="full-width-teaser-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">Magnificence Fix: How to shroud tan lines while wearing a strapless dress</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Alex</span>
+                                <span class="date">20-Nov-2016</span>
+                            </span>
+                        </div>
+                        <p>
+                            Here and there even the best magnificence goals go amiss. A consummately twisted lash can be demolished by an as well firm mascara or the well being of a bicycle protective cap can prompt to something entirely than level hair. Be that as it may, there's the same number of fixes out there as there are excellent items!
+                                <a href="story.html"><span class="read-more">Read All</span></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="load-more fadeineffect fix-margin-top"><span class="loadmore">Load more</span></div>
+            </div>
+            <div class="section-end"></div>
+        </section>
+        <section id="popularteasers" class="myparallax__popularteasers">
+            <div class="container clearfix">
+                <h2 class="section-title fadeineffect">Popular</h2>
+                <div class="teasercollection clearfix">
+                    <div class="teaser-container-under fadeineffect">
+                        <img src="images/articles/photo-1472417583565-62e7bdeda490.jpg" alt="8 watches you should have for your complete formal look" />
+                        <div class="teaser-under-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">8 watches you should have for your complete formal look</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Shakti</span>
+                                <span class="date">27-Nov-2016</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <div class="teaser-container-under fadeineffect">
+                        <img src="images/articles/photo-1456885284447-7dd4bb8720bf.jpg" alt="The most effective style to wear denim shorts: 5 Style Panel tips" />
+                        <div class="teaser-under-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">The most effective style to wear denim shorts: 5 Style Panel tips</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Honey</span>
+                                <span class="date">10-Sep-2016</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <div class="teaser-container-under fadeineffect">
+                        <img src="images/articles/photo-1467632499275-7a693a761056.jpg" alt="Method to style sizzling swimwear: 10 Style Panel tips from desginers" />
+                        <div class="teaser-under-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">Method to style sizzling swimwear: 10 Style Panel tips from desginers</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Alex</span>
+                                <span class="date">18-Sep-2016</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <div class="teaser-container-under fadeineffect">
+                        <img src="images/articles/photo-1445912842705-7ee858b234c9.jpg" alt="10 things you need to consider before getting any tattoo on your body" />
+                        <div class="teaser-under-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">10 things you need to consider before getting any tattoo on your body</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Shakti</span>
+                                <span class="date">20-Nov-2016</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <div class="teaser-container-under fadeineffect">
+                        <img src="images/articles/man-1786511_960_720.jpg" alt="The 10 greatest men's prepping trends this year, from men buns to beards" />
+                        <div class="teaser-under-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">The 10 greatest men's prepping trends this year, from men buns to beards</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Honey</span>
+                                <span class="date">1-Sep-2016</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                    <div class="teaser-container-under fadeineffect">
+                        <img src="images/articles/man-1150058_960_720.jpg" alt="Black for winters: 5 Style Panel tips for wearing one of this magnificence" />
+                        <div class="teaser-under-description">
+                            <span class="badge bg-purple">Fashion</span>
+                            <span class="badge bg-blue">Tips</span>
+                            <h2 class="title"><a href="story.html">Black for winters: 5 Style Panel tips for wearing one of this magnificence</a></h2>
+                            <span class="date-detail">
+                                <span class="by">By</span>
+                                <span class="author">Honey</span>
+                                <span class="date">29-Sep-2016</span>
+                            </span>
+
+                        </div>
+
+                    </div>
+                </div>
+                <div class="load-more fadeineffect fix-margin-top"><span class="loadmore">Load more</span></div>
+            </div>
+            <div class="section-end"></div>
+        </section>
+        <section id="trending" class="myparallax__trending">
+            <div class="container clearfix">
+                <div class="trending-left">
+                    <h2 id="h1" class="section-title fadeineffect">Trending</h2>
+                    <div class="teasercollection">
+                        <div class="full-width-teaser fadeineffect teaser animated clearfix">
+                            <div class="full-width-teaser-image">
+                                <img src="images/articles/bikini-918550_640.jpg" alt="How I quit stressing over my swimming outfit body and figured out how to love" />
+                            </div>
+                            <div class="full-width-teaser-description">
+                                <span class="badge bg-purple">Fashion</span>
+                                <span class="badge bg-green">Story</span>
+                                <h2 class="title"><a href="story.html">How I quit stressing over my swimming outfit body and figured out how to love</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Eliza</span>
+                                    <span class="date">29-Nov-2016</span>
+                                </span>
+
+                            </div>
+                        </div>
+                        <div class="full-width-teaser teaser fadeineffect animated clearfix">
+                            <div class="full-width-teaser-image">
+                                <img src="images/articles/man-597179_1280.jpg" alt="Jesse Pinkman: 15 Reasons that why You must Start smoking right away" />
+                            </div>
+                            <div class="full-width-teaser-description">
+                                <span class="badge bg-green">Lifestyle</span>
+                                <span class="badge bg-blue">Tips</span>
+                                <h2 class="title"><a href="story.html">Jesse Pinkman: 15 Reasons that why You must Start smoking right away</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Honey</span>
+                                    <span class="date">17-Sep-2016</span>
+                                </span>
+                            </div>
+
+                        </div>
+                        <div class="full-width-teaser teaser fadeineffect animated clearfix">
+                            <div class="full-width-teaser-image">
+                                <img src="images/articles/girl-1848454_1280.jpg" alt="Ways to coordinate your lipstick and redden to steal the party" />
+                            </div>
+                            <div class="full-width-teaser-description">
+                                <span class="badge bg-purple">Fashion</span>
+                                <span class="badge bg-blue">Tips</span>
+                                <h2 class="title"><a href="story.html">Ways to coordinate your lipstick and redden to steal the party</a></h2>
+                                <span class="date-detail">
+                                    <span class="by">By</span>
+                                    <span class="author">Eliza</span>
+                                    <span class="date">11-Nov-2016</span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="load-more fadeineffect fix-margin-top"><span class="loadmore">Load more</span></div>
+                </div>
+                <div class="trending-right">
+                    <h2 class="section-title fadeineffect">Models</h2>
+                    <div class="teasercollection">
+                        <div class="model-container fadeineffect">
+                            <div class="model-image">
+                                <img src="images/model/model-6.jpg" alt="Ramjot Manjhu" />
+                            </div>
+                            <div class="model-name">Ramjot Manjhu</div>
+                        </div>
+
+                        <div class="model-container fadeineffect">
+                            <div class="model-image">
+                                <img src="images/model/model-5.jpg" alt="Shakti Singh Cheema" />
+                            </div>
+                            <div class="model-name">Shakti Singh Cheema</div>
+                        </div>
+
+                        <div class="model-container fadeineffect">
+                            <div class="model-image">
+                                <img src="images/model/model-1.jpg" alt="Sonakshi Sinha" />
+                            </div>
+                            <div class="model-name">Sonakshi Sinha</div>
+                        </div>
+
+                    </div>
+                    <div class="load-more fadeineffect fix-margin-top-less"><span class="loadmore" id="model">Load more</span></div>
+                </div>
+            </div>
+            <div class="section-end"></div>
+        </section>
+        <div id="footer" class="myparallax__footer footer">
+            <div class="container clearfix">
+                <div class="footer_1">
+                    <h1 class="fadeineffect">Instagram Gallery</h1>
+                    <div class="instagram-gallery clearfix">
+                        <img src="images/instagram/1.jpg" class="fadeineffect" alt="Instagram Picture Amelia" />
+                        <img src="images/instagram/2.jpg" class="fadeineffect" alt="Instagram Picture Lucas" />
+                        <img src="images/instagram/3.jpg" class="fadeineffect" alt="Instagram Picture Adele" />
+                        <img src="images/instagram/4.jpg" class="fadeineffect" alt="Instagram Picture Flora" />
+                        <img src="images/instagram/5.jpg" class="fadeineffect" alt="Instagram Picture Ivy" />
+                        <img src="images/instagram/6.jpg" class="fadeineffect" alt="Instagram Picture Noah" />
+                        <img src="images/instagram/7.jpg" class="fadeineffect" alt="Instagram Picture Heather" />
+                        <img src="images/instagram/8.jpg" class="fadeineffect" alt="Instagram Picture Liam" />
+                    </div>
+                </div>
+                <div class="footer_2">
+                    <h1 class="fadeineffect">You may Like</h1>
+                    <ul>
+                        <li class="fadeineffect"><a href="story.html">the motivation behind dafso's most recent fine-adornments</a></li>
+                        <li class="fadeineffect"><a href="story.html">20 party dresses which you can wear with style in winter</a></li>
+                        <li class="fadeineffect"><a href="story.html">7 new chanel fragrances to gift your fashion-loving friends</a></li>
+                        <li class="fadeineffect"><a href="story.html">eliza's latest hair colors is our favourite to date</a></li>
+                        <li class="fadeineffect"><a href="story.html">really genuine purposes behind not heading off to the gym</a></li>
+                        <li class="fadeineffect"><a href="story.html">guide to keep up your twists while working out</a></li>
+                        <li class="fadeineffect"><a href="story.html">this is what it was like to tour with cheema in the '20s</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-container clearfix">
+
+                <div class="container clearfix">
+                    <div class="subscribe clearfix fadeineffect">
+                        <input class="subscribe_email" type="text" placeholder="Email" />
+                        <div class="subscribe_button">Subscribe</div>
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Who we are?</a></li>
+                            <li><a href="#">Our Authors</a></li>
+                            <li><a href="#">Models</a></li>
+                            <li><a href="story.html">Story</a></li>
+                            <li><a href="404.html">Error</a></li>
+                            <li><a href="sources.html">Sources</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <ul>
+
+                            <li><a href="#featured-trick">Featured</a></li>
+                            <li><a href="#latest">Latest</a></li>
+                            <li><a href="#popularteasers">Popular</a></li>
+                            <li><a href="#trending">Trending</a></li>
+                            <li><a href="#">Fashion</a></li>
+                            <li><a href="#">Men</a></li>
+                            <li><a href="#">Women</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="footer_3 fadeineffect">
+                        <img class="logo" src="images/logo/initial_logo.png" alt="CheemArticles Logo" />
+                        <p class="about_brief">
+                            CheemArticles LIVE is polished to bring the world of fashion to common people.
+                          With authors and people who travel to, and live in, the style capitals of the world,
+                          we're out there on the front lines of fashion.
+                        </p>
+                    </div>
+                    <div class="footer_3 social-bottom-container fadeineffect">
+                        <h1>Stay Connected</h1>
+                        <div class="social-top social-bottom">
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <div class="container">
+                        <p>&copy; 2016 Website designed and developed by <a href="http://shaktisinghcheema.in" target="_blank">Shakti Singh Cheema</a></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/my.js"></script>
+    <script src="js/viewportchecker.js"></script>
+</body>
+</html>

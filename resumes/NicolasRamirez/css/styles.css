@@ -1,0 +1,306 @@
+
+/* TRYPOGRAPHY============================ */
+h1{
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+}
+
+h2,
+h3,
+h4,
+p,
+li{
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+    margin: 0;
+    padding: 10px;
+    color: rgb(210, 54, 62);
+    display: block;
+}
+
+h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+    margin: 0;
+    padding-top: 20px;
+}
+
+p{
+    font-weight: 300;
+    font-size: 1rem;
+    line-height: 1.3rem; 
+}
+
+li{
+    font-size: 1rem;
+}
+
+.profile-text, 
+.hello-there{
+    /* max-width: 400px; */
+    margin: 0 auto;
+    padding: 10px 30px;
+    color:white;
+}
+
+
+a{
+    text-decoration: none;
+    font-family: "raleway", Arial, Helvetica, sans-serif;
+    margin: 0 2px;
+    color: white;
+    font-weight: 300;
+}
+
+.menu-list{
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.top-menu :hover{
+    display: block;
+    background-color:  rgb(210, 54, 62);
+    height: 100%;
+    width: 100%;
+}
+
+nav ul {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: rgb(53, 52, 52);
+    padding: 10px;
+    grid-gap: 2px;
+
+}
+
+.branding{
+    font-weight: 900;
+    font-size: 10rem;
+    line-height: 8rem;
+    margin: 0 auto;
+    text-align: center;
+    color: white; 
+    background-color: rgb(33, 27, 27);
+    padding-top: 15px;
+}
+
+.industrial-designer-tag{
+    font-weight: 300;
+    text-align: center;
+    margin: 0em;
+    color: white;
+    background-color: rgb(33, 27, 27);
+    
+}
+span.ni{
+    letter-spacing: 28px;
+}
+
+
+body, .profile{
+    margin: 0;
+}
+
+.header-picture{
+    margin: 0;
+}
+
+
+.profile{
+    background-color: rgb(53, 52, 52);
+    margin: 0;
+}
+ 
+.education-1{
+    /* max-width: 400px; */
+    margin: 20px auto;
+    display: block;
+    border-bottom: solid 2px rgb(53, 52, 52) ;
+    border-left: solid 4px rgb(53, 52, 52);
+    padding-left: 10px;
+    }
+.time,
+.degree,
+.description{
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.workperiod,
+.position,
+.company{
+    margin: 0;
+    line-height: 1.5rem;
+}
+
+.experience-2{
+    /* max-width: 400px; */
+    margin: 20px auto;
+    border-bottom: solid 2px rgb(53, 52, 52) ;
+    border-left: solid 4px rgb(53, 52, 52);
+    padding-left: 10px;
+}
+
+.skill-set{
+    background-color:  rgb(53, 52, 52);
+    padding: 15px 0;
+}
+.tools, .languages{
+    color: white;
+    margin-bottom: 0;
+}
+
+.bar{
+    display: block;
+    background-color: white;
+    max-height: 10px;
+    /* max-width: 400px; */
+    border-radius: 5px;
+    
+}
+.progress-illustrator{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+.progress-photoshop{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+.progress-3dmax{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+.progress-vray{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 50%;
+    border-radius: 5px;
+}
+.progress-office{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+.progress-spanish{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+.progress-english{
+    display: block;
+    background-color:rgb(210, 54, 62);
+    height: 10px;
+    width: 70%;
+    border-radius: 5px;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns: 1fr;
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.contact{
+    width: 500px;
+    height: auto;
+    margin: 0 auto;
+}
+.info{
+    margin-top: 0;
+    margin-bottom: 2px;
+}
+
+.contact-info{
+    margin-bottom:25px;
+    margin-top: 0;
+}
+
+.tool-skills, 
+.work-experience, 
+.contact-information,
+.language-skills,
+.education,
+.profile-section{
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* MEDIA QUERIES========================== */
+
+@media screen and (min-width: 600px){
+.tool-skills, 
+.work-experience, 
+.contact-information,
+.language-skills,
+.education,
+.profile-section{
+    min-width: 600px;
+    margin: 0 auto;
+}
+
+.header-picture{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.brand-name{
+    background-color: rgb(33, 27, 27);
+}
+} /* end of 600 querie */
+
+
+@media screen and (min-width: 800px){
+.tool-skills, 
+.work-experience, 
+.contact-information,
+.language-skills,
+.education,
+.profile-section{
+    min-width: 800px;
+    margin: 0 auto;
+}
+}
+
+@media screen and (min-width: 1200px){
+    body{
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+}
+
+/* RESPONSIVE IMAGES====================== */
+
+.home-picture{
+    background-color: rgb(33, 27, 27);
+    margin: 0;
+}
+
+
+img{
+    max-width: 100%;
+    max-height: auto;
+}
