@@ -1,0 +1,33 @@
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* display: flex;
+  gap: 3px;
+  flex-flow: row wrap; */
+}
+
+ul a {
+  text-decoration: none;
+  color: white;
+  background-color: #000;
+  display: block;
+  padding: 4px;
+  /* text-align: center; */
+}
+ul li {
+  margin: 2px;
+}
+ul a:hover {
+  background-color: deeppink;
+}
+
+
+ul.magazines li {
+  display: flex;
+}
+ul.magazines li a:first-of-type {
+  color: blue;
+}
