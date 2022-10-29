@@ -1,0 +1,8 @@
+This file's name is in the gitignore file.
+So git ignores it.
+
+Notice that it is grey in this VSC theme. 
+
+You can set a global gitignore file. 
+
+git config --global core.excludesfile [path to file]
